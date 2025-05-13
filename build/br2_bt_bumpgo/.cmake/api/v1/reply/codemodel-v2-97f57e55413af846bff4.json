@@ -1,0 +1,200 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						10
+					]
+				},
+				{
+					"build" : "tests",
+					"childIndexes" : 
+					[
+						2
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tests",
+					"targetIndexes" : 
+					[
+						5,
+						7
+					]
+				},
+				{
+					"build" : "gtest",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "/opt/ros/foxy/src/gtest_vendor",
+					"targetIndexes" : 
+					[
+						8,
+						9
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "br2_bt_bumpgo",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "gtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "br2_back_bt_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-br2_back_bt_node-80d64b2493b61ef8401f.json",
+					"name" : "br2_back_bt_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "br2_bt_bumpgo_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-br2_bt_bumpgo_uninstall-d1601ba2998ad8cd1366.json",
+					"name" : "br2_bt_bumpgo_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "br2_forward_bt_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-br2_forward_bt_node-05ec906dd285dad3196f.json",
+					"name" : "br2_forward_bt_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "br2_is_obstacle_bt_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-br2_is_obstacle_bt_node-a7fdd4836a14630df36f.json",
+					"name" : "br2_is_obstacle_bt_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "br2_turn_bt_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-br2_turn_bt_node-3927431b1b3752d5ece6.json",
+					"name" : "br2_turn_bt_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "bt_action_test::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-bt_action_test-f23adaaa6ad19a9dc9d6.json",
+					"name" : "bt_action_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bt_bumpgo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bt_bumpgo-862cc9c76eb8cc293033.json",
+					"name" : "bt_bumpgo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "bt_forward::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-bt_forward-d7c4961759f4a5f1ddfa.json",
+					"name" : "bt_forward",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gtest::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest-3cefb90e908ef31f83c6.json",
+					"name" : "gtest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gtest_main::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_main-836f8eb83fd1622737fc.json",
+					"name" : "gtest_main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-da70a945149ac61c1c8f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/joanne/bookros2_ws/build/br2_bt_bumpgo",
+		"source" : "/home/joanne/bookros2_ws/src/book_ros2/br2_bt_bumpgo"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

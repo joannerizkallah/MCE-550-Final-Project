@@ -1,0 +1,98 @@
+[0.069s] Invoking command in '/home/joanne/bookros2_ws/build/br2_tf2_detector': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector -DCMAKE_INSTALL_PREFIX=/home/joanne/bookros2_ws/install/br2_tf2_detector
+[0.198s] -- The C compiler identification is GNU 9.4.0
+[0.300s] -- The CXX compiler identification is GNU 9.4.0
+[0.310s] -- Check for working C compiler: /usr/bin/cc
+[0.456s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.458s] -- Detecting C compiler ABI info
+[0.582s] -- Detecting C compiler ABI info - done
+[0.612s] -- Detecting C compile features
+[0.612s] -- Detecting C compile features - done
+[0.618s] -- Check for working CXX compiler: /usr/bin/c++
+[0.765s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.767s] -- Detecting CXX compiler ABI info
+[0.915s] -- Detecting CXX compiler ABI info - done
+[0.942s] -- Detecting CXX compile features
+[0.943s] -- Detecting CXX compile features - done
+[0.947s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.997s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.997s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.448s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.561s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.578s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.766s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.832s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.013s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.139s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.142s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.144s] -- Looking for pthread.h
+[2.283s] -- Looking for pthread.h - found
+[2.284s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.423s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.424s] -- Looking for pthread_create in pthreads
+[2.530s] -- Looking for pthread_create in pthreads - not found
+[2.531s] -- Looking for pthread_create in pthread
+[2.673s] -- Looking for pthread_create in pthread - found
+[2.675s] -- Found Threads: TRUE  
+[3.108s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[4.225s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[4.510s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[4.797s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[4.972s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.977s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.978s] -- Configured cppcheck include dirs: /home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/include
+[4.978s] -- Configured cppcheck exclude dirs and/or files: 
+[4.983s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.983s] -- Configured cpplint exclude dirs and/or files: 
+[4.985s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.987s] -- Added test 'lint_cmake' to check CMake code style
+[4.989s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[4.993s] -- Added test 'uncrustify' to check C / C++ code style
+[4.995s] -- Configured uncrustify additional arguments: 
+[4.996s] -- Added test 'xmllint' to check XML markup files
+[5.004s] -- Configuring done
+[5.086s] -- Generating done
+[5.121s] -- Build files have been written to: /home/joanne/bookros2_ws/build/br2_tf2_detector
+[5.144s] Invoked command in '/home/joanne/bookros2_ws/build/br2_tf2_detector' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector -DCMAKE_INSTALL_PREFIX=/home/joanne/bookros2_ws/install/br2_tf2_detector
+[5.145s] Invoking command in '/home/joanne/bookros2_ws/build/br2_tf2_detector': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/joanne/bookros2_ws/build/br2_tf2_detector -- -j8 -l8
+[15.800s] [35m[1mScanning dependencies of target br2_tf2_detector[0m
+[15.800s] [ 12%] [32mBuilding CXX object CMakeFiles/br2_tf2_detector.dir/src/br2_tf2_detector/ObstacleDetectorNode.cpp.o[0m
+[15.991s] [ 25%] [32mBuilding CXX object CMakeFiles/br2_tf2_detector.dir/src/br2_tf2_detector/ObstacleDetectorImprovedNode.cpp.o[0m
+[27.609s] [ 37%] [32mBuilding CXX object CMakeFiles/br2_tf2_detector.dir/src/br2_tf2_detector/ObstacleMonitorNode.cpp.o[0m
+[33.141s] [ 50%] [32m[1mLinking CXX shared library libbr2_tf2_detector.so[0m
+[34.061s] [ 50%] Built target br2_tf2_detector
+[34.074s] [35m[1mScanning dependencies of target detector[0m
+[34.130s] [ 62%] [32mBuilding CXX object CMakeFiles/detector.dir/src/detector_main.cpp.o[0m
+[38.418s] [ 75%] [32m[1mLinking CXX executable detector[0m
+[38.858s] [ 75%] Built target detector
+[38.877s] [35m[1mScanning dependencies of target detector_improved[0m
+[38.964s] [ 87%] [32mBuilding CXX object CMakeFiles/detector_improved.dir/src/detector_improved_main.cpp.o[0m
+[43.681s] [100%] [32m[1mLinking CXX executable detector_improved[0m
+[44.036s] [100%] Built target detector_improved
+[44.064s] Invoked command in '/home/joanne/bookros2_ws/build/br2_tf2_detector' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/joanne/bookros2_ws/build/br2_tf2_detector -- -j8 -l8
+[44.066s] Invoking command in '/home/joanne/bookros2_ws/build/br2_tf2_detector': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/joanne/bookros2_ws/build/br2_tf2_detector
+[50.979s] -- Install configuration: ""
+[50.984s] -- Installing: /home/joanne/bookros2_ws/install/br2_tf2_detector/lib/libbr2_tf2_detector.so
+[50.985s] -- Set runtime path of "/home/joanne/bookros2_ws/install/br2_tf2_detector/lib/libbr2_tf2_detector.so" to ""
+[50.985s] -- Installing: /home/joanne/bookros2_ws/install/br2_tf2_detector/lib/br2_tf2_detector/detector
+[50.985s] -- Set runtime path of "/home/joanne/bookros2_ws/install/br2_tf2_detector/lib/br2_tf2_detector/detector" to ""
+[50.985s] -- Installing: /home/joanne/bookros2_ws/install/br2_tf2_detector/lib/br2_tf2_detector/detector_improved
+[50.985s] -- Set runtime path of "/home/joanne/bookros2_ws/install/br2_tf2_detector/lib/br2_tf2_detector/detector_improved" to ""
+[50.985s] -- Installing: /home/joanne/bookros2_ws/install/br2_tf2_detector/share/br2_tf2_detector/launch
+[50.985s] -- Installing: /home/joanne/bookros2_ws/install/br2_tf2_detector/share/br2_tf2_detector/launch/detector_basic.launch.py
+[50.986s] -- Installing: /home/joanne/bookros2_ws/install/br2_tf2_detector/share/br2_tf2_detector/launch/detector_improved.launch.py
+[50.986s] -- Installing: /home/joanne/bookros2_ws/install/br2_tf2_detector/share/ament_index/resource_index/package_run_dependencies/br2_tf2_detector
+[50.986s] -- Installing: /home/joanne/bookros2_ws/install/br2_tf2_detector/share/ament_index/resource_index/parent_prefix_path/br2_tf2_detector
+[50.986s] -- Installing: /home/joanne/bookros2_ws/install/br2_tf2_detector/share/br2_tf2_detector/environment/ament_prefix_path.sh
+[50.986s] -- Installing: /home/joanne/bookros2_ws/install/br2_tf2_detector/share/br2_tf2_detector/environment/ament_prefix_path.dsv
+[50.986s] -- Installing: /home/joanne/bookros2_ws/install/br2_tf2_detector/share/br2_tf2_detector/environment/path.sh
+[50.987s] -- Installing: /home/joanne/bookros2_ws/install/br2_tf2_detector/share/br2_tf2_detector/environment/path.dsv
+[50.987s] -- Installing: /home/joanne/bookros2_ws/install/br2_tf2_detector/share/br2_tf2_detector/local_setup.bash
+[50.987s] -- Installing: /home/joanne/bookros2_ws/install/br2_tf2_detector/share/br2_tf2_detector/local_setup.sh
+[50.987s] -- Installing: /home/joanne/bookros2_ws/install/br2_tf2_detector/share/br2_tf2_detector/local_setup.zsh
+[50.987s] -- Installing: /home/joanne/bookros2_ws/install/br2_tf2_detector/share/br2_tf2_detector/local_setup.dsv
+[50.987s] -- Installing: /home/joanne/bookros2_ws/install/br2_tf2_detector/share/br2_tf2_detector/package.dsv
+[50.987s] -- Installing: /home/joanne/bookros2_ws/install/br2_tf2_detector/share/ament_index/resource_index/packages/br2_tf2_detector
+[50.988s] -- Installing: /home/joanne/bookros2_ws/install/br2_tf2_detector/share/br2_tf2_detector/cmake/br2_tf2_detectorConfig.cmake
+[50.988s] -- Installing: /home/joanne/bookros2_ws/install/br2_tf2_detector/share/br2_tf2_detector/cmake/br2_tf2_detectorConfig-version.cmake
+[50.988s] -- Installing: /home/joanne/bookros2_ws/install/br2_tf2_detector/share/br2_tf2_detector/package.xml
+[50.998s] Invoked command in '/home/joanne/bookros2_ws/build/br2_tf2_detector' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/joanne/bookros2_ws/build/br2_tf2_detector

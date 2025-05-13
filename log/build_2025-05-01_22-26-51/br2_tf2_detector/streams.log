@@ -1,0 +1,99 @@
+[0.119s] Invoking command in '/home/joanne/bookros2_ws/build/br2_tf2_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joanne/bookros2_ws/install/ros2controlcli:/home/joanne/bookros2_ws/install/launch_pal:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/joanne/bookros2_ws/build/br2_tf2_detector -- -j8 -l8
+[0.470s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.803s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.331s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.413s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.701s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.727s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.481s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.865s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.894s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.792s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[7.014s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[7.474s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[7.973s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[8.564s] -- Added test 'copyright' to check source files copyright and LICENSE
+[8.570s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.571s] -- Configured cppcheck include dirs: /home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/include
+[8.572s] -- Configured cppcheck exclude dirs and/or files: 
+[8.579s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[8.582s] -- Configured cpplint exclude dirs and/or files: 
+[8.585s] -- Added test 'flake8' to check Python code syntax and style conventions
+[8.587s] -- Added test 'lint_cmake' to check CMake code style
+[8.591s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[8.598s] -- Added test 'uncrustify' to check C / C++ code style
+[8.599s] -- Configured uncrustify additional arguments: 
+[8.603s] -- Added test 'xmllint' to check XML markup files
+[8.629s] -- Configuring done
+[8.829s] -- Generating done
+[8.901s] -- Build files have been written to: /home/joanne/bookros2_ws/build/br2_tf2_detector
+[9.138s] [35m[1mScanning dependencies of target br2_tf2_detector[0m
+[9.318s] [ 11%] [32mBuilding CXX object CMakeFiles/br2_tf2_detector.dir/src/br2_tf2_detector/Said.cpp.o[0m
+[22.335s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/Said.cpp:[m[K In constructor ‘[01m[Kbr2_tf2_detector::Said::Said()[m[K’:
+[22.336s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/Said.cpp:37:49:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Krclcpp::Publisher<visualization_msgs::msg::Marker_<std::allocator<void> > >::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<visualization_msgs::msg::Marker_<std::allocator<void> > > >[m[K’} and ‘[01m[Kstd::shared_ptr<rclcpp::Node>[m[K’)
+[22.337s]    37 |   marker_pub_ = rclcpp::Node::make_shared("said"[01;31m[K)[m[K;
+[22.337s]       |                                                 [01;31m[K^[m[K
+[22.338s] In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+[22.338s]                  from [01m[K/usr/include/c++/9/thread:39[m[K,
+[22.338s]                  from [01m[K/opt/ros/foxy/include/tf2/time.h:37[m[K,
+[22.338s]                  from [01m[K/opt/ros/foxy/include/tf2/transform_datatypes.h:38[m[K,
+[22.338s]                  from [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/Said.cpp:15[m[K:
+[22.339s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:309:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Tp>&) [with _Tp = rclcpp::Publisher<visualization_msgs::msg::Marker_<std::allocator<void> > >][m[K’
+[22.339s]   309 |       shared_ptr& [01;36m[Koperator[m[K=(const shared_ptr&) noexcept = default;
+[22.339s]       |                   [01;36m[K^~~~~~~~[m[K
+[22.339s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:309:29:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<rclcpp::Node>[m[K’ to ‘[01m[Kconst std::shared_ptr<rclcpp::Publisher<visualization_msgs::msg::Marker_<std::allocator<void> > > >&[m[K’
+[22.340s]   309 |       shared_ptr& operator=([01;36m[Kconst shared_ptr&[m[K) noexcept = default;
+[22.340s]       |                             [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[22.342s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:313:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Yp>&) [with _Yp = _Yp; _Tp = rclcpp::Publisher<visualization_msgs::msg::Marker_<std::allocator<void> > >][m[K’
+[22.344s]   313 |  [01;36m[Koperator[m[K=(const shared_ptr<_Yp>& __r) noexcept
+[22.345s]       |  [01;36m[K^~~~~~~~[m[K
+[22.354s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:313:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[22.355s] /usr/include/c++/9/bits/shared_ptr.h: In substitution of ‘[01m[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = const std::shared_ptr<rclcpp::Node>&; _Tp = rclcpp::Publisher<visualization_msgs::msg::Marker_<std::allocator<void> > >][m[K’:
+[22.355s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:313:2:[m[K   required by substitution of ‘[01m[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Publisher<visualization_msgs::msg::Marker_<std::allocator<void> > > >::_Assignable<const std::shared_ptr<_Tp>&> std::shared_ptr<rclcpp::Publisher<visualization_msgs::msg::Marker_<std::allocator<void> > > >::operator=<_Yp>(const std::shared_ptr<_Tp>&) [with _Yp = rclcpp::Node][m[K’
+[22.355s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/Said.cpp:37:49:[m[K   required from here
+[22.355s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:111:8:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Publisher<visualization_msgs::msg::Marker_<std::allocator<void> > > >&>[m[K’
+[22.356s]   111 |  using [01;31m[K_Assignable[m[K = typename enable_if<
+[22.356s]       |        [01;31m[K^~~~~~~~~~~[m[K
+[22.356s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:324:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::auto_ptr<_Up> > std::shared_ptr<_Tp>::operator=(std::auto_ptr<_Up>&&) [with _Yp = _Yp; _Tp = rclcpp::Publisher<visualization_msgs::msg::Marker_<std::allocator<void> > >][m[K’
+[22.358s]   324 |  [01;36m[Koperator[m[K=(auto_ptr<_Yp>&& __r)
+[22.359s]       |  [01;36m[K^~~~~~~~[m[K
+[22.360s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:324:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[22.365s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/Said.cpp:37:49:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<rclcpp::Node>[m[K’ is not derived from ‘[01m[Kstd::auto_ptr<_Up>[m[K’
+[22.366s]    37 |   marker_pub_ = rclcpp::Node::make_shared("said"[01;36m[K)[m[K;
+[22.366s]       |                                                 [01;36m[K^[m[K
+[22.376s] In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+[22.377s]                  from [01m[K/usr/include/c++/9/thread:39[m[K,
+[22.379s]                  from [01m[K/opt/ros/foxy/include/tf2/time.h:37[m[K,
+[22.380s]                  from [01m[K/opt/ros/foxy/include/tf2/transform_datatypes.h:38[m[K,
+[22.381s]                  from [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/Said.cpp:15[m[K:
+[22.382s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:333:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Tp>&&) [with _Tp = rclcpp::Publisher<visualization_msgs::msg::Marker_<std::allocator<void> > >][m[K’
+[22.382s]   333 |       [01;36m[Koperator[m[K=(shared_ptr&& __r) noexcept
+[22.383s]       |       [01;36m[K^~~~~~~~[m[K
+[22.383s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:333:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<rclcpp::Node>[m[K’ to ‘[01m[Kstd::shared_ptr<rclcpp::Publisher<visualization_msgs::msg::Marker_<std::allocator<void> > > >&&[m[K’
+[22.383s]   333 |       operator=([01;36m[Kshared_ptr&& __r[m[K) noexcept
+[22.383s]       |                 [01;36m[K~~~~~~~~~~~~~^~~[m[K
+[22.383s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:341:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::shared_ptr<_Yp> > std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Yp>&&) [with _Yp = _Yp; _Tp = rclcpp::Publisher<visualization_msgs::msg::Marker_<std::allocator<void> > >][m[K’
+[22.384s]   341 |  [01;36m[Koperator[m[K=(shared_ptr<_Yp>&& __r) noexcept
+[22.384s]       |  [01;36m[K^~~~~~~~[m[K
+[22.384s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:341:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[22.384s] /usr/include/c++/9/bits/shared_ptr.h: In substitution of ‘[01m[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = std::shared_ptr<rclcpp::Node>; _Tp = rclcpp::Publisher<visualization_msgs::msg::Marker_<std::allocator<void> > >][m[K’:
+[22.384s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:341:2:[m[K   required by substitution of ‘[01m[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Publisher<visualization_msgs::msg::Marker_<std::allocator<void> > > >::_Assignable<std::shared_ptr<_Tp> > std::shared_ptr<rclcpp::Publisher<visualization_msgs::msg::Marker_<std::allocator<void> > > >::operator=<_Yp>(std::shared_ptr<_Tp>&&) [with _Yp = rclcpp::Node][m[K’
+[22.385s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/Said.cpp:37:49:[m[K   required from here
+[22.390s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:111:8:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Publisher<visualization_msgs::msg::Marker_<std::allocator<void> > > >&>[m[K’
+[22.391s]   111 |  using [01;31m[K_Assignable[m[K = typename enable_if<
+[22.391s]       |        [01;31m[K^~~~~~~~~~~[m[K
+[22.392s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:349:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Yp, class _Del> std::shared_ptr<_Tp>::_Assignable<std::unique_ptr<_Up, _Ep> > std::shared_ptr<_Tp>::operator=(std::unique_ptr<_Up, _Ep>&&) [with _Yp = _Yp; _Del = _Del; _Tp = rclcpp::Publisher<visualization_msgs::msg::Marker_<std::allocator<void> > >][m[K’
+[22.395s]   349 |  [01;36m[Koperator[m[K=(unique_ptr<_Yp, _Del>&& __r)
+[22.397s]       |  [01;36m[K^~~~~~~~[m[K
+[22.399s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:349:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[22.404s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/Said.cpp:37:49:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<rclcpp::Node>[m[K’ is not derived from ‘[01m[Kstd::unique_ptr<_Tp, _Dp>[m[K’
+[22.411s]    37 |   marker_pub_ = rclcpp::Node::make_shared("said"[01;36m[K)[m[K;
+[22.413s]       |                                                 [01;36m[K^[m[K
+[22.444s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/Said.cpp:[m[K In member function ‘[01m[Kvoid br2_tf2_detector::Said::control_cycle()[m[K’:
+[22.444s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/Said.cpp:47:9:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP[m[K’ was not declared in this scope
+[22.445s]    47 |         [01;31m[KRCLCPP[m[K.INFO(get_logger(), "HI TESTINGG");
+[22.445s]       |         [01;31m[K^~~~~~[m[K
+[26.857s] make[2]: *** [CMakeFiles/br2_tf2_detector.dir/build.make:102: CMakeFiles/br2_tf2_detector.dir/src/br2_tf2_detector/Said.cpp.o] Error 1
+[26.861s] make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/br2_tf2_detector.dir/all] Error 2
+[26.862s] make: *** [Makefile:141: all] Error 2
+[26.881s] Invoked command in '/home/joanne/bookros2_ws/build/br2_tf2_detector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joanne/bookros2_ws/install/ros2controlcli:/home/joanne/bookros2_ws/install/launch_pal:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/joanne/bookros2_ws/build/br2_tf2_detector -- -j8 -l8

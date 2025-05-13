@@ -1,0 +1,111 @@
+[0.086s] Invoking command in '/home/joanne/bookros2_ws/build/imu_sensor_broadcaster': AMENT_PREFIX_PATH=/home/joanne/bookros2_ws/install/controller_manager:/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joanne/bookros2_ws/install/controller_manager:/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/joanne/bookros2_ws/install/controller_manager/lib:/home/joanne/bookros2_ws/install/controller_interface/lib:/home/joanne/bookros2_ws/install/hardware_interface/lib:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joanne/bookros2_ws/install/controller_manager/lib/python3.8/site-packages:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/joanne/bookros2_ws/src/ThirdParty/ros2_controllers/imu_sensor_broadcaster -DCMAKE_INSTALL_PREFIX=/home/joanne/bookros2_ws/install/imu_sensor_broadcaster
+[0.281s] -- The C compiler identification is GNU 9.4.0
+[0.496s] -- The CXX compiler identification is GNU 9.4.0
+[0.506s] -- Check for working C compiler: /usr/bin/cc
+[0.689s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.693s] -- Detecting C compiler ABI info
+[0.863s] -- Detecting C compiler ABI info - done
+[0.895s] -- Detecting C compile features
+[0.896s] -- Detecting C compile features - done
+[0.902s] -- Check for working CXX compiler: /usr/bin/c++
+[1.182s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.182s] -- Detecting CXX compiler ABI info
+[1.379s] -- Detecting CXX compiler ABI info - done
+[1.420s] -- Detecting CXX compile features
+[1.421s] -- Detecting CXX compile features - done
+[1.428s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.490s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.492s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.059s] -- Found controller_interface: 0.7.1 (/home/joanne/bookros2_ws/install/controller_interface/share/controller_interface/cmake)
+[2.139s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.157s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.344s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.412s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.604s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.055s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[4.060s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.062s] -- Looking for pthread.h
+[4.194s] -- Looking for pthread.h - found
+[4.194s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.310s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.311s] -- Looking for pthread_create in pthreads
+[4.399s] -- Looking for pthread_create in pthreads - not found
+[4.407s] -- Looking for pthread_create in pthread
+[4.513s] -- Looking for pthread_create in pthread - found
+[4.515s] -- Found Threads: TRUE  
+[5.231s] -- Found realtime_tools: 2.2.0 (/opt/ros/foxy/share/realtime_tools/cmake)
+[5.509s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[5.512s] -- Found ament_cmake_gmock: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gmock/cmake)
+[5.512s] -- Found controller_manager: 0.7.1 (/home/joanne/bookros2_ws/install/controller_manager/share/controller_manager/cmake)
+[5.714s] -- Found ros2_control_test_assets: 0.7.1 (/home/joanne/bookros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[5.890s] -- Found gmock sources under '/opt/ros/foxy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[5.900s] -- Found ament_cmake_gtest: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[5.905s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[6.714s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.719s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.721s] -- Configured cppcheck include dirs: /home/joanne/bookros2_ws/src/ThirdParty/ros2_controllers/imu_sensor_broadcaster/include
+[6.721s] -- Configured cppcheck exclude dirs and/or files: 
+[6.724s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[6.724s] -- Configured cpplint exclude dirs and/or files: 
+[6.727s] -- Added test 'lint_cmake' to check CMake code style
+[6.730s] -- Added test 'uncrustify' to check C / C++ code style
+[6.730s] -- Configured uncrustify additional arguments: 
+[6.731s] -- Added test 'xmllint' to check XML markup files
+[6.746s] -- Configuring done
+[6.973s] -- Generating done
+[7.083s] -- Build files have been written to: /home/joanne/bookros2_ws/build/imu_sensor_broadcaster
+[7.114s] Invoked command in '/home/joanne/bookros2_ws/build/imu_sensor_broadcaster' returned '0': AMENT_PREFIX_PATH=/home/joanne/bookros2_ws/install/controller_manager:/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joanne/bookros2_ws/install/controller_manager:/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/joanne/bookros2_ws/install/controller_manager/lib:/home/joanne/bookros2_ws/install/controller_interface/lib:/home/joanne/bookros2_ws/install/hardware_interface/lib:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joanne/bookros2_ws/install/controller_manager/lib/python3.8/site-packages:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/joanne/bookros2_ws/src/ThirdParty/ros2_controllers/imu_sensor_broadcaster -DCMAKE_INSTALL_PREFIX=/home/joanne/bookros2_ws/install/imu_sensor_broadcaster
+[7.116s] Invoking command in '/home/joanne/bookros2_ws/build/imu_sensor_broadcaster': AMENT_PREFIX_PATH=/home/joanne/bookros2_ws/install/controller_manager:/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joanne/bookros2_ws/install/controller_manager:/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/joanne/bookros2_ws/install/controller_manager/lib:/home/joanne/bookros2_ws/install/controller_interface/lib:/home/joanne/bookros2_ws/install/hardware_interface/lib:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joanne/bookros2_ws/install/controller_manager/lib/python3.8/site-packages:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/joanne/bookros2_ws/build/imu_sensor_broadcaster -- -j8 -l8
+[7.361s] [35m[1mScanning dependencies of target gmock[0m
+[7.361s] [  9%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/foxy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[14.128s] [ 18%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[17.934s] [ 27%] [32m[1mLinking CXX static library libgmock.a[0m
+[18.054s] [ 27%] Built target gmock
+[18.073s] [35m[1mScanning dependencies of target gmock_main[0m
+[18.113s] [ 36%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[20.107s] [ 45%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[20.170s] [ 45%] Built target gmock_main
+[20.198s] [35m[1mScanning dependencies of target imu_sensor_broadcaster[0m
+[20.297s] [ 54%] [32mBuilding CXX object CMakeFiles/imu_sensor_broadcaster.dir/src/imu_sensor_broadcaster.cpp.o[0m
+[27.581s] [ 63%] [32m[1mLinking CXX shared library libimu_sensor_broadcaster.so[0m
+[28.078s] [ 63%] Built target imu_sensor_broadcaster
+[28.103s] [35m[1mScanning dependencies of target test_load_imu_sensor_broadcaster[0m
+[28.262s] [ 72%] [32mBuilding CXX object CMakeFiles/test_load_imu_sensor_broadcaster.dir/test/test_load_imu_sensor_broadcaster.cpp.o[0m
+[35.637s] [ 81%] [32m[1mLinking CXX executable test_load_imu_sensor_broadcaster[0m
+[37.885s] [ 81%] Built target test_load_imu_sensor_broadcaster
+[37.910s] [35m[1mScanning dependencies of target test_imu_sensor_broadcaster[0m
+[38.017s] [ 90%] [32mBuilding CXX object CMakeFiles/test_imu_sensor_broadcaster.dir/test/test_imu_sensor_broadcaster.cpp.o[0m
+[52.580s] [100%] [32m[1mLinking CXX executable test_imu_sensor_broadcaster[0m
+[54.031s] [100%] Built target test_imu_sensor_broadcaster
+[54.053s] Invoked command in '/home/joanne/bookros2_ws/build/imu_sensor_broadcaster' returned '0': AMENT_PREFIX_PATH=/home/joanne/bookros2_ws/install/controller_manager:/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joanne/bookros2_ws/install/controller_manager:/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/joanne/bookros2_ws/install/controller_manager/lib:/home/joanne/bookros2_ws/install/controller_interface/lib:/home/joanne/bookros2_ws/install/hardware_interface/lib:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joanne/bookros2_ws/install/controller_manager/lib/python3.8/site-packages:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/joanne/bookros2_ws/build/imu_sensor_broadcaster -- -j8 -l8
+[54.060s] Invoking command in '/home/joanne/bookros2_ws/build/imu_sensor_broadcaster': AMENT_PREFIX_PATH=/home/joanne/bookros2_ws/install/controller_manager:/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joanne/bookros2_ws/install/controller_manager:/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/joanne/bookros2_ws/install/controller_manager/lib:/home/joanne/bookros2_ws/install/controller_interface/lib:/home/joanne/bookros2_ws/install/hardware_interface/lib:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joanne/bookros2_ws/install/controller_manager/lib/python3.8/site-packages:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/joanne/bookros2_ws/build/imu_sensor_broadcaster
+[59.605s] -- Install configuration: ""
+[59.605s] -- Installing: /home/joanne/bookros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/imu_sensor_broadcaster.xml
+[59.605s] -- Installing: /home/joanne/bookros2_ws/install/imu_sensor_broadcaster/lib/libimu_sensor_broadcaster.so
+[59.606s] -- Set runtime path of "/home/joanne/bookros2_ws/install/imu_sensor_broadcaster/lib/libimu_sensor_broadcaster.so" to ""
+[59.606s] -- Installing: /home/joanne/bookros2_ws/install/imu_sensor_broadcaster/include
+[59.609s] -- Installing: /home/joanne/bookros2_ws/install/imu_sensor_broadcaster/include/imu_sensor_broadcaster
+[59.610s] -- Installing: /home/joanne/bookros2_ws/install/imu_sensor_broadcaster/include/imu_sensor_broadcaster/visibility_control.h
+[59.610s] -- Installing: /home/joanne/bookros2_ws/install/imu_sensor_broadcaster/include/imu_sensor_broadcaster/imu_sensor_broadcaster.hpp
+[59.610s] -- Installing: /home/joanne/bookros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/environment/library_path.sh
+[59.610s] -- Installing: /home/joanne/bookros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/environment/library_path.dsv
+[59.611s] -- Installing: /home/joanne/bookros2_ws/install/imu_sensor_broadcaster/share/ament_index/resource_index/package_run_dependencies/imu_sensor_broadcaster
+[59.611s] -- Installing: /home/joanne/bookros2_ws/install/imu_sensor_broadcaster/share/ament_index/resource_index/parent_prefix_path/imu_sensor_broadcaster
+[59.611s] -- Installing: /home/joanne/bookros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/environment/ament_prefix_path.sh
+[59.611s] -- Installing: /home/joanne/bookros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/environment/ament_prefix_path.dsv
+[59.611s] -- Installing: /home/joanne/bookros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/environment/path.sh
+[59.611s] -- Installing: /home/joanne/bookros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/environment/path.dsv
+[59.612s] -- Installing: /home/joanne/bookros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/local_setup.bash
+[59.617s] -- Installing: /home/joanne/bookros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/local_setup.sh
+[59.617s] -- Installing: /home/joanne/bookros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/local_setup.zsh
+[59.617s] -- Installing: /home/joanne/bookros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/local_setup.dsv
+[59.617s] -- Installing: /home/joanne/bookros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/package.dsv
+[59.617s] -- Installing: /home/joanne/bookros2_ws/install/imu_sensor_broadcaster/share/ament_index/resource_index/packages/imu_sensor_broadcaster
+[59.618s] -- Installing: /home/joanne/bookros2_ws/install/imu_sensor_broadcaster/share/ament_index/resource_index/controller_interface__pluginlib__plugin/imu_sensor_broadcaster
+[59.618s] -- Installing: /home/joanne/bookros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/cmake/ament_cmake_export_include_directories-extras.cmake
+[59.618s] -- Installing: /home/joanne/bookros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/cmake/ament_cmake_export_libraries-extras.cmake
+[59.618s] -- Installing: /home/joanne/bookros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/cmake/ament_cmake_export_dependencies-extras.cmake
+[59.618s] -- Installing: /home/joanne/bookros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/cmake/imu_sensor_broadcasterConfig.cmake
+[59.618s] -- Installing: /home/joanne/bookros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/cmake/imu_sensor_broadcasterConfig-version.cmake
+[59.619s] -- Installing: /home/joanne/bookros2_ws/install/imu_sensor_broadcaster/share/imu_sensor_broadcaster/package.xml
+[59.624s] Invoked command in '/home/joanne/bookros2_ws/build/imu_sensor_broadcaster' returned '0': AMENT_PREFIX_PATH=/home/joanne/bookros2_ws/install/controller_manager:/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joanne/bookros2_ws/install/controller_manager:/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/joanne/bookros2_ws/install/controller_manager/lib:/home/joanne/bookros2_ws/install/controller_interface/lib:/home/joanne/bookros2_ws/install/hardware_interface/lib:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joanne/bookros2_ws/install/controller_manager/lib/python3.8/site-packages:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/joanne/bookros2_ws/build/imu_sensor_broadcaster

@@ -1,0 +1,9 @@
+[35m[1mScanning dependencies of target bumpgo[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/bumpgo.dir/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp.o[0m
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp:[m[K In member function ‘[01m[Krclcpp::Duration br2_fsm_bumpgo_cpp::BumpGoNode::calculate_time()[m[K’:
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp:167:39:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Kfloat[m[K’ to non-scalar type ‘[01m[Krclcpp::Duration[m[K’ requested
+  167 |   rclcpp::Duration turn_time = [01;31m[K(angle)/SPEED_ANGULAR[m[K;
+      |                                [01;31m[K~~~~~~~^~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/bumpgo.dir/build.make:63: CMakeFiles/bumpgo.dir/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/bumpgo.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

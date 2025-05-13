@@ -1,0 +1,1 @@
+/home/joanne/bookros2_ws/build/urdf_test/ament_cmake_environment_hooks/pythonpath.sh

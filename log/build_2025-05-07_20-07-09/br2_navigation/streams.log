@@ -1,0 +1,25 @@
+[0.073s] Invoking command in '/home/joanne/bookros2_ws/build/br2_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joanne/bookros2_ws/install/ros2controlcli:/home/joanne/bookros2_ws/install/launch_pal:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/joanne/bookros2_ws/build/br2_navigation -- -j8 -l8
+[0.233s] -- Found ament_cmake_auto: 0.9.12 (/opt/ros/foxy/share/ament_cmake_auto/cmake)
+[0.357s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.010s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.115s] CMake Error at CMakeLists.txt:6 (find_package):
+[1.115s]   By not providing "Findnav2_smac_planner.cmake" in CMAKE_MODULE_PATH this
+[1.115s]   project has asked CMake to find a package configuration file provided by
+[1.115s]   "nav2_smac_planner", but CMake did not find one.
+[1.116s] 
+[1.116s]   Could not find a package configuration file provided by "nav2_smac_planner"
+[1.116s]   with any of the following names:
+[1.116s] 
+[1.116s]     nav2_smac_plannerConfig.cmake
+[1.116s]     nav2_smac_planner-config.cmake
+[1.116s] 
+[1.117s]   Add the installation prefix of "nav2_smac_planner" to CMAKE_PREFIX_PATH or
+[1.117s]   set "nav2_smac_planner_DIR" to a directory containing one of the above
+[1.117s]   files.  If "nav2_smac_planner" provides a separate development package or
+[1.117s]   SDK, be sure it has been installed.
+[1.117s] 
+[1.117s] 
+[1.117s] -- Configuring incomplete, errors occurred!
+[1.118s] See also "/home/joanne/bookros2_ws/build/br2_navigation/CMakeFiles/CMakeOutput.log".
+[1.118s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[1.129s] Invoked command in '/home/joanne/bookros2_ws/build/br2_navigation' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joanne/bookros2_ws/install/ros2controlcli:/home/joanne/bookros2_ws/install/launch_pal:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/joanne/bookros2_ws/build/br2_navigation -- -j8 -l8

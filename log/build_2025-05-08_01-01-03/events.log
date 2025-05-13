@@ -1,0 +1,332 @@
+[0.000000] (-) TimerEvent: {}
+[0.000934] (-) JobUnselected: {'identifier': 'br2_basics'}
+[0.001023] (-) JobUnselected: {'identifier': 'br2_bt_bumpgo'}
+[0.001074] (-) JobUnselected: {'identifier': 'br2_bt_patrolling'}
+[0.001122] (-) JobUnselected: {'identifier': 'br2_fsm_bumpgo_cpp'}
+[0.001166] (-) JobUnselected: {'identifier': 'br2_fsm_bumpgo_py'}
+[0.001211] (-) JobUnselected: {'identifier': 'br2_navigation'}
+[0.001256] (-) JobUnselected: {'identifier': 'br2_tf2_detector'}
+[0.001299] (-) JobUnselected: {'identifier': 'br2_tiago'}
+[0.001343] (-) JobUnselected: {'identifier': 'br2_tracking_msgs'}
+[0.001385] (-) JobUnselected: {'identifier': 'br2_vff_avoidance'}
+[0.001428] (-) JobUnselected: {'identifier': 'controller_interface'}
+[0.001471] (-) JobUnselected: {'identifier': 'controller_manager'}
+[0.001513] (-) JobUnselected: {'identifier': 'controller_manager_msgs'}
+[0.001556] (-) JobUnselected: {'identifier': 'diff_drive_controller'}
+[0.001598] (-) JobUnselected: {'identifier': 'effort_controllers'}
+[0.001641] (-) JobUnselected: {'identifier': 'force_torque_sensor_broadcaster'}
+[0.001684] (-) JobUnselected: {'identifier': 'forward_command_controller'}
+[0.001726] (-) JobUnselected: {'identifier': 'gazebo_ros2_control'}
+[0.001769] (-) JobUnselected: {'identifier': 'gazebo_ros2_control_demos'}
+[0.001820] (-) JobUnselected: {'identifier': 'gripper_controllers'}
+[0.001862] (-) JobUnselected: {'identifier': 'groot'}
+[0.001905] (-) JobUnselected: {'identifier': 'hardware_interface'}
+[0.001948] (-) JobUnselected: {'identifier': 'hey5_description'}
+[0.001991] (-) JobUnselected: {'identifier': 'imu_sensor_broadcaster'}
+[0.002033] (-) JobUnselected: {'identifier': 'joint_state_broadcaster'}
+[0.002075] (-) JobUnselected: {'identifier': 'joint_state_controller'}
+[0.002118] (-) JobUnselected: {'identifier': 'joint_trajectory_controller'}
+[0.002178] (-) JobUnselected: {'identifier': 'launch_pal'}
+[0.002220] (-) JobUnselected: {'identifier': 'pal_gazebo_worlds'}
+[0.002268] (-) JobUnselected: {'identifier': 'pal_gripper'}
+[0.002319] (-) JobUnselected: {'identifier': 'pal_gripper_controller_configuration'}
+[0.002365] (-) JobUnselected: {'identifier': 'pal_gripper_description'}
+[0.002411] (-) JobUnselected: {'identifier': 'pmb2_2dnav'}
+[0.002459] (-) JobUnselected: {'identifier': 'pmb2_bringup'}
+[0.003448] (-) JobUnselected: {'identifier': 'pmb2_controller_configuration'}
+[0.005387] (-) JobUnselected: {'identifier': 'pmb2_description'}
+[0.006288] (-) JobUnselected: {'identifier': 'pmb2_maps'}
+[0.006911] (-) JobUnselected: {'identifier': 'pmb2_navigation'}
+[0.007520] (-) JobUnselected: {'identifier': 'pmb2_robot'}
+[0.008486] (-) JobUnselected: {'identifier': 'position_controllers'}
+[0.009150] (-) JobUnselected: {'identifier': 'ros2_control'}
+[0.009480] (-) JobUnselected: {'identifier': 'ros2_control_test_assets'}
+[0.009751] (-) JobUnselected: {'identifier': 'ros2_controllers'}
+[0.009959] (-) JobUnselected: {'identifier': 'ros2controlcli'}
+[0.010078] (-) JobUnselected: {'identifier': 'tiago_2dnav_gazebo'}
+[0.010134] (-) JobUnselected: {'identifier': 'tiago_bringup'}
+[0.010295] (-) JobUnselected: {'identifier': 'tiago_controller_configuration'}
+[0.010590] (-) JobUnselected: {'identifier': 'tiago_description'}
+[0.010736] (-) JobUnselected: {'identifier': 'tiago_description_calibration'}
+[0.010891] (-) JobUnselected: {'identifier': 'tiago_gazebo'}
+[0.010976] (-) JobUnselected: {'identifier': 'tiago_robot'}
+[0.011059] (-) JobUnselected: {'identifier': 'tiago_simulation'}
+[0.011142] (-) JobUnselected: {'identifier': 'transmission_interface'}
+[0.011295] (-) JobUnselected: {'identifier': 'twist_mux'}
+[0.011379] (-) JobUnselected: {'identifier': 'urdf_test'}
+[0.011471] (-) JobUnselected: {'identifier': 'velocity_controllers'}
+[0.011575] (br2_tracking) JobQueued: {'identifier': 'br2_tracking', 'dependencies': OrderedDict([('br2_tracking_msgs', '/home/joanne/bookros2_ws/install/br2_tracking_msgs')])}
+[0.011771] (br2_tracking) JobStarted: {'identifier': 'br2_tracking'}
+[0.099287] (-) TimerEvent: {}
+[0.129973] (br2_tracking) JobProgress: {'identifier': 'br2_tracking', 'progress': 'cmake'}
+[0.133794] (br2_tracking) JobProgress: {'identifier': 'br2_tracking', 'progress': 'build'}
+[0.135739] (br2_tracking) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/joanne/bookros2_ws/build/br2_tracking', '--', '-j8', '-l8'], 'cwd': '/home/joanne/bookros2_ws/build/br2_tracking', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'joanne'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '1964'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/joanne/bookros2_ws/install/br2_tracking_msgs/lib:/home/joanne/bookros2_ws/install/velocity_controllers/lib:/home/joanne/bookros2_ws/install/position_controllers/lib:/home/joanne/bookros2_ws/install/joint_trajectory_controller/lib:/home/joanne/bookros2_ws/install/joint_state_controller/lib:/home/joanne/bookros2_ws/install/joint_state_broadcaster/lib:/home/joanne/bookros2_ws/install/imu_sensor_broadcaster/lib:/home/joanne/bookros2_ws/install/gripper_controllers/lib:/home/joanne/bookros2_ws/install/gazebo_ros2_control/lib:/home/joanne/bookros2_ws/install/effort_controllers/lib:/home/joanne/bookros2_ws/install/forward_command_controller/lib:/home/joanne/bookros2_ws/install/force_torque_sensor_broadcaster/lib:/home/joanne/bookros2_ws/install/diff_drive_controller/lib:/home/joanne/bookros2_ws/install/controller_manager/lib:/home/joanne/bookros2_ws/install/controller_interface/lib:/home/joanne/bookros2_ws/install/hardware_interface/lib:/home/joanne/bookros2_ws/install/groot/lib:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib:/home/joanne/bookros2_ws/install/br2_vff_avoidance/lib:/home/joanne/bookros2_ws/install/br2_tracking/lib:/home/joanne/bookros2_ws/install/br2_tf2_detector/lib:/home/joanne/bookros2_ws/install/br2_bt_patrolling/lib:/home/joanne/bookros2_ws/install/br2_bt_bumpgo/lib:/home/joanne/nav2_ws/install/smac_planner/lib:/home/joanne/nav2_ws/install/nav2_controller/lib:/home/joanne/nav2_ws/install/dwb_plugins/lib:/home/joanne/nav2_ws/install/dwb_critics/lib:/home/joanne/nav2_ws/install/dwb_core/lib:/home/joanne/nav2_ws/install/nav_2d_utils/lib:/home/joanne/nav2_ws/install/dwb_msgs/lib:/home/joanne/nav2_ws/install/nav_2d_msgs/lib:/home/joanne/nav2_ws/install/nav2_waypoint_follower/lib:/home/joanne/nav2_ws/install/nav2_regulated_pure_pursuit_controller/lib:/home/joanne/nav2_ws/install/nav2_recoveries/lib:/home/joanne/nav2_ws/install/nav2_planner/lib:/home/joanne/nav2_ws/install/nav2_navfn_planner/lib:/home/joanne/nav2_ws/install/costmap_queue/lib:/home/joanne/nav2_ws/install/nav2_costmap_2d/lib:/home/joanne/nav2_ws/install/nav2_voxel_grid/lib:/home/joanne/nav2_ws/install/nav2_rviz_plugins/lib:/home/joanne/nav2_ws/install/nav2_map_server/lib:/home/joanne/nav2_ws/install/nav2_lifecycle_manager/lib:/home/joanne/nav2_ws/install/nav2_bt_navigator/lib:/home/joanne/nav2_ws/install/nav2_behavior_tree/lib:/home/joanne/nav2_ws/install/nav2_amcl/lib:/home/joanne/nav2_ws/install/nav2_util/lib:/home/joanne/nav2_ws/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/joanne'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1703'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/joanne/bookros2_ws/install:/home/joanne/nav2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'joanne'), ('JOURNAL_STREAM', '8:54365'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'joanne'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/joanne-ThinkPad-E15:@/tmp/.ICE-unix/2068,unix/joanne-ThinkPad-E15:/tmp/.ICE-unix/2068'), ('INVOCATION_ID', '6d2542c0f60b401e8a6db5047dfcbf93'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/eed235c3_1bfc_43f3_b0ac_11cbc7685039'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.82'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/joanne/bookros2_ws/install/gazebo_ros2_control_demos:/home/joanne/bookros2_ws/install/ros2_controllers:/home/joanne/bookros2_ws/install/velocity_controllers:/home/joanne/bookros2_ws/install/urdf_test:/home/joanne/bookros2_ws/install/tiago_simulation:/home/joanne/bookros2_ws/install/tiago_robot:/home/joanne/bookros2_ws/install/tiago_2dnav_gazebo:/home/joanne/bookros2_ws/install/tiago_gazebo:/home/joanne/bookros2_ws/install/tiago_bringup:/home/joanne/bookros2_ws/install/pmb2_robot:/home/joanne/bookros2_ws/install/pmb2_bringup:/home/joanne/bookros2_ws/install/twist_mux:/home/joanne/bookros2_ws/install/transmission_interface:/home/joanne/bookros2_ws/install/tiago_description:/home/joanne/bookros2_ws/install/tiago_description_calibration:/home/joanne/bookros2_ws/install/tiago_controller_configuration:/home/joanne/bookros2_ws/install/ros2_control:/home/joanne/bookros2_ws/install/ros2controlcli:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/pal_gripper:/home/joanne/bookros2_ws/install/pal_gripper_controller_configuration:/home/joanne/bookros2_ws/install/position_controllers:/home/joanne/bookros2_ws/install/pmb2_navigation:/home/joanne/bookros2_ws/install/pmb2_2dnav:/home/joanne/bookros2_ws/install/pmb2_maps:/home/joanne/bookros2_ws/install/pmb2_description:/home/joanne/bookros2_ws/install/pmb2_controller_configuration:/home/joanne/bookros2_ws/install/pal_gripper_description:/home/joanne/bookros2_ws/install/pal_gazebo_worlds:/home/joanne/bookros2_ws/install/launch_pal:/home/joanne/bookros2_ws/install/joint_trajectory_controller:/home/joanne/bookros2_ws/install/joint_state_controller:/home/joanne/bookros2_ws/install/joint_state_broadcaster:/home/joanne/bookros2_ws/install/imu_sensor_broadcaster:/home/joanne/bookros2_ws/install/hey5_description:/home/joanne/bookros2_ws/install/gripper_controllers:/home/joanne/bookros2_ws/install/gazebo_ros2_control:/home/joanne/bookros2_ws/install/effort_controllers:/home/joanne/bookros2_ws/install/forward_command_controller:/home/joanne/bookros2_ws/install/force_torque_sensor_broadcaster:/home/joanne/bookros2_ws/install/diff_drive_controller:/home/joanne/bookros2_ws/install/controller_manager:/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/groot:/home/joanne/bookros2_ws/install/controller_manager_msgs:/home/joanne/bookros2_ws/install/br2_vff_avoidance:/home/joanne/bookros2_ws/install/br2_tracking:/home/joanne/bookros2_ws/install/br2_tracking_msgs:/home/joanne/bookros2_ws/install/br2_tiago:/home/joanne/bookros2_ws/install/br2_tf2_detector:/home/joanne/bookros2_ws/install/br2_navigation:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_py:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_cpp:/home/joanne/bookros2_ws/install/br2_bt_patrolling:/home/joanne/bookros2_ws/install/br2_bt_bumpgo:/home/joanne/bookros2_ws/install/br2_basics:/home/joanne/nav2_ws/install/nav2_system_tests:/home/joanne/nav2_ws/install/nav2_bringup:/home/joanne/nav2_ws/install/navigation2:/home/joanne/nav2_ws/install/smac_planner:/home/joanne/nav2_ws/install/nav2_dwb_controller:/home/joanne/nav2_ws/install/nav2_controller:/home/joanne/nav2_ws/install/dwb_plugins:/home/joanne/nav2_ws/install/dwb_critics:/home/joanne/nav2_ws/install/dwb_core:/home/joanne/nav2_ws/install/nav_2d_utils:/home/joanne/nav2_ws/install/dwb_msgs:/home/joanne/nav2_ws/install/nav_2d_msgs:/home/joanne/nav2_ws/install/nav2_waypoint_follower:/home/joanne/nav2_ws/install/nav2_regulated_pure_pursuit_controller:/home/joanne/nav2_ws/install/nav2_recoveries:/home/joanne/nav2_ws/install/nav2_planner:/home/joanne/nav2_ws/install/nav2_navfn_planner:/home/joanne/nav2_ws/install/nav2_core:/home/joanne/nav2_ws/install/costmap_queue:/home/joanne/nav2_ws/install/nav2_costmap_2d:/home/joanne/nav2_ws/install/nav2_voxel_grid:/home/joanne/nav2_ws/install/nav2_rviz_plugins:/home/joanne/nav2_ws/install/nav2_map_server:/home/joanne/nav2_ws/install/nav2_lifecycle_manager:/home/joanne/nav2_ws/install/nav2_bt_navigator:/home/joanne/nav2_ws/install/nav2_behavior_tree:/home/joanne/nav2_ws/install/nav2_amcl:/home/joanne/nav2_ws/install/nav2_util:/home/joanne/nav2_ws/install/nav2_msgs:/home/joanne/nav2_ws/install/nav2_gazebo_spawner:/home/joanne/nav2_ws/install/nav2_common:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/joanne/bookros2_ws/build/br2_tracking'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/joanne/bookros2_ws/install/br2_tracking_msgs/lib/python3.8/site-packages:/home/joanne/bookros2_ws/install/urdf_test/lib/python3.8/site-packages:/home/joanne/bookros2_ws/install/tiago_description/lib/python3.8/site-packages:/home/joanne/bookros2_ws/build/ros2controlcli:/home/joanne/bookros2_ws/install/ros2controlcli/lib/python3.8/site-packages:/home/joanne/bookros2_ws/install/pmb2_description/lib/python3.8/site-packages:/home/joanne/bookros2_ws/build/launch_pal:/home/joanne/bookros2_ws/install/launch_pal/lib/python3.8/site-packages:/home/joanne/bookros2_ws/install/controller_manager/lib/python3.8/site-packages:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:/home/joanne/bookros2_ws/build/br2_fsm_bumpgo_py:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_py/lib/python3.8/site-packages:/home/joanne/nav2_ws/install/dwb_msgs/lib/python3.8/site-packages:/home/joanne/nav2_ws/install/nav_2d_msgs/lib/python3.8/site-packages:/home/joanne/nav2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/joanne/nav2_ws/build/nav2_gazebo_spawner:/home/joanne/nav2_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/home/joanne/nav2_ws/install/nav2_common/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/joanne/bookros2_ws/install/br2_tracking_msgs:/home/joanne/bookros2_ws/install/gazebo_ros2_control_demos:/home/joanne/bookros2_ws/install/ros2_controllers:/home/joanne/bookros2_ws/install/velocity_controllers:/home/joanne/bookros2_ws/install/urdf_test:/home/joanne/bookros2_ws/install/tiago_simulation:/home/joanne/bookros2_ws/install/tiago_robot:/home/joanne/bookros2_ws/install/tiago_2dnav_gazebo:/home/joanne/bookros2_ws/install/tiago_gazebo:/home/joanne/bookros2_ws/install/tiago_bringup:/home/joanne/bookros2_ws/install/pmb2_robot:/home/joanne/bookros2_ws/install/pmb2_bringup:/home/joanne/bookros2_ws/install/twist_mux:/home/joanne/bookros2_ws/install/transmission_interface:/home/joanne/bookros2_ws/install/tiago_description:/home/joanne/bookros2_ws/install/tiago_description_calibration:/home/joanne/bookros2_ws/install/tiago_controller_configuration:/home/joanne/bookros2_ws/install/ros2_control:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/pal_gripper:/home/joanne/bookros2_ws/install/pal_gripper_controller_configuration:/home/joanne/bookros2_ws/install/position_controllers:/home/joanne/bookros2_ws/install/pmb2_navigation:/home/joanne/bookros2_ws/install/pmb2_2dnav:/home/joanne/bookros2_ws/install/pmb2_maps:/home/joanne/bookros2_ws/install/pmb2_description:/home/joanne/bookros2_ws/install/pmb2_controller_configuration:/home/joanne/bookros2_ws/install/pal_gripper_description:/home/joanne/bookros2_ws/install/pal_gazebo_worlds:/home/joanne/bookros2_ws/install/joint_trajectory_controller:/home/joanne/bookros2_ws/install/joint_state_controller:/home/joanne/bookros2_ws/install/joint_state_broadcaster:/home/joanne/bookros2_ws/install/imu_sensor_broadcaster:/home/joanne/bookros2_ws/install/hey5_description:/home/joanne/bookros2_ws/install/gripper_controllers:/home/joanne/bookros2_ws/install/gazebo_ros2_control:/home/joanne/bookros2_ws/install/effort_controllers:/home/joanne/bookros2_ws/install/forward_command_controller:/home/joanne/bookros2_ws/install/force_torque_sensor_broadcaster:/home/joanne/bookros2_ws/install/diff_drive_controller:/home/joanne/bookros2_ws/install/controller_manager:/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/groot:/home/joanne/bookros2_ws/install/controller_manager_msgs:/home/joanne/bookros2_ws/install/br2_vff_avoidance:/home/joanne/bookros2_ws/install/br2_tracking:/home/joanne/bookros2_ws/install/br2_tiago:/home/joanne/bookros2_ws/install/br2_tf2_detector:/home/joanne/bookros2_ws/install/br2_navigation:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_cpp:/home/joanne/bookros2_ws/install/br2_bt_patrolling:/home/joanne/bookros2_ws/install/br2_bt_bumpgo:/home/joanne/bookros2_ws/install/br2_basics:/home/joanne/nav2_ws/install/nav2_system_tests:/home/joanne/nav2_ws/install/nav2_bringup:/home/joanne/nav2_ws/install/navigation2:/home/joanne/nav2_ws/install/smac_planner:/home/joanne/nav2_ws/install/nav2_dwb_controller:/home/joanne/nav2_ws/install/nav2_controller:/home/joanne/nav2_ws/install/dwb_plugins:/home/joanne/nav2_ws/install/dwb_critics:/home/joanne/nav2_ws/install/dwb_core:/home/joanne/nav2_ws/install/nav_2d_utils:/home/joanne/nav2_ws/install/dwb_msgs:/home/joanne/nav2_ws/install/nav_2d_msgs:/home/joanne/nav2_ws/install/nav2_waypoint_follower:/home/joanne/nav2_ws/install/nav2_regulated_pure_pursuit_controller:/home/joanne/nav2_ws/install/nav2_recoveries:/home/joanne/nav2_ws/install/nav2_planner:/home/joanne/nav2_ws/install/nav2_navfn_planner:/home/joanne/nav2_ws/install/nav2_core:/home/joanne/nav2_ws/install/costmap_queue:/home/joanne/nav2_ws/install/nav2_costmap_2d:/home/joanne/nav2_ws/install/nav2_voxel_grid:/home/joanne/nav2_ws/install/nav2_rviz_plugins:/home/joanne/nav2_ws/install/nav2_map_server:/home/joanne/nav2_ws/install/nav2_lifecycle_manager:/home/joanne/nav2_ws/install/nav2_bt_navigator:/home/joanne/nav2_ws/install/nav2_behavior_tree:/home/joanne/nav2_ws/install/nav2_amcl:/home/joanne/nav2_ws/install/nav2_util:/home/joanne/nav2_ws/install/nav2_msgs:/home/joanne/nav2_ws/install/nav2_common:/home/joanne/bookros2_ws/install/ros2controlcli:/home/joanne/bookros2_ws/install/launch_pal:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_py:/home/joanne/nav2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy')]), 'shell': False}
+[0.199581] (-) TimerEvent: {}
+[0.301132] (-) TimerEvent: {}
+[0.401753] (-) TimerEvent: {}
+[0.424723] (br2_tracking) StdoutLine: {'line': b'-- Found pcl_conversions: 2.2.1 (/opt/ros/foxy/share/pcl_conversions/cmake)\n'}
+[0.505076] (-) TimerEvent: {}
+[0.587717] (br2_tracking) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.605250] (-) TimerEvent: {}
+[0.706153] (-) TimerEvent: {}
+[0.807520] (-) TimerEvent: {}
+[0.908307] (-) TimerEvent: {}
+[1.010194] (-) TimerEvent: {}
+[1.111049] (-) TimerEvent: {}
+[1.211826] (-) TimerEvent: {}
+[1.312561] (-) TimerEvent: {}
+[1.414176] (-) TimerEvent: {}
+[1.515548] (-) TimerEvent: {}
+[1.586267] (br2_tracking) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.616144] (-) TimerEvent: {}
+[1.717999] (-) TimerEvent: {}
+[1.820556] (-) TimerEvent: {}
+[1.900564] (br2_tracking) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.920757] (-) TimerEvent: {}
+[1.921576] (br2_tracking) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[2.020874] (-) TimerEvent: {}
+[2.121380] (-) TimerEvent: {}
+[2.222773] (-) TimerEvent: {}
+[2.324356] (-) TimerEvent: {}
+[2.425060] (-) TimerEvent: {}
+[2.527104] (-) TimerEvent: {}
+[2.617282] (br2_tracking) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.627840] (-) TimerEvent: {}
+[2.729181] (-) TimerEvent: {}
+[2.830737] (-) TimerEvent: {}
+[2.931355] (-) TimerEvent: {}
+[3.032716] (-) TimerEvent: {}
+[3.133768] (-) TimerEvent: {}
+[3.234609] (-) TimerEvent: {}
+[3.336660] (-) TimerEvent: {}
+[3.437123] (-) TimerEvent: {}
+[3.537532] (-) TimerEvent: {}
+[3.646017] (-) TimerEvent: {}
+[3.749292] (-) TimerEvent: {}
+[3.849762] (-) TimerEvent: {}
+[3.950372] (-) TimerEvent: {}
+[4.052017] (-) TimerEvent: {}
+[4.153668] (-) TimerEvent: {}
+[4.255285] (-) TimerEvent: {}
+[4.356329] (-) TimerEvent: {}
+[4.424001] (br2_tracking) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[4.456412] (-) TimerEvent: {}
+[4.461311] (br2_tracking) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.556944] (-) TimerEvent: {}
+[4.657473] (-) TimerEvent: {}
+[4.758162] (-) TimerEvent: {}
+[4.859485] (-) TimerEvent: {}
+[4.960756] (-) TimerEvent: {}
+[5.061994] (-) TimerEvent: {}
+[5.162382] (-) TimerEvent: {}
+[5.263097] (-) TimerEvent: {}
+[5.299278] (br2_tracking) StdoutLine: {'line': b'-- Found pcl_ros: 2.2.1 (/opt/ros/foxy/share/pcl_ros/cmake)\n'}
+[5.363242] (-) TimerEvent: {}
+[5.464063] (-) TimerEvent: {}
+[5.565607] (-) TimerEvent: {}
+[5.666508] (-) TimerEvent: {}
+[5.768109] (-) TimerEvent: {}
+[5.869803] (-) TimerEvent: {}
+[5.929005] (br2_tracking) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)\n'}
+[5.970131] (-) TimerEvent: {}
+[5.974903] (br2_tracking) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.3.7") \n'}
+[6.070583] (-) TimerEvent: {}
+[6.171998] (-) TimerEvent: {}
+[6.272485] (-) TimerEvent: {}
+[6.374190] (-) TimerEvent: {}
+[6.475721] (-) TimerEvent: {}
+[6.576935] (-) TimerEvent: {}
+[6.678099] (-) TimerEvent: {}
+[6.779274] (-) TimerEvent: {}
+[6.879982] (-) TimerEvent: {}
+[6.981420] (-) TimerEvent: {}
+[7.082151] (-) TimerEvent: {}
+[7.183661] (-) TimerEvent: {}
+[7.284106] (-) TimerEvent: {}
+[7.384710] (-) TimerEvent: {}
+[7.486954] (-) TimerEvent: {}
+[7.590917] (-) TimerEvent: {}
+[7.692389] (-) TimerEvent: {}
+[7.793137] (-) TimerEvent: {}
+[7.894120] (-) TimerEvent: {}
+[7.995693] (-) TimerEvent: {}
+[8.055760] (br2_tracking) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[8.098179] (-) TimerEvent: {}
+[8.200064] (-) TimerEvent: {}
+[8.212587] (br2_tracking) StdoutLine: {'line': b'--   Found eigen3, version 3.3.7\n'}
+[8.300303] (-) TimerEvent: {}
+[8.401788] (-) TimerEvent: {}
+[8.503640] (-) TimerEvent: {}
+[8.524209] (br2_tracking) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[8.525814] (br2_tracking) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)\n'}
+[8.603976] (-) TimerEvent: {}
+[8.705134] (-) TimerEvent: {}
+[8.806340] (-) TimerEvent: {}
+[8.907676] (-) TimerEvent: {}
+[9.011281] (-) TimerEvent: {}
+[9.111785] (-) TimerEvent: {}
+[9.212780] (-) TimerEvent: {}
+[9.256940] (br2_tracking) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[9.312962] (-) TimerEvent: {}
+[9.392614] (br2_tracking) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[9.413366] (-) TimerEvent: {}
+[9.515076] (-) TimerEvent: {}
+[9.616598] (-) TimerEvent: {}
+[9.706749] (br2_tracking) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[9.716738] (-) TimerEvent: {}
+[9.817537] (-) TimerEvent: {}
+[9.919415] (-) TimerEvent: {}
+[9.952607] (br2_tracking) StdoutLine: {'line': b'-- The imported target "vtkParseOGLExt" references the file\n'}
+[9.952990] (br2_tracking) StdoutLine: {'line': b'   "/usr/bin/vtkParseOGLExt-7.1"\n'}
+[9.953179] (br2_tracking) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[9.953375] (br2_tracking) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[9.953534] (br2_tracking) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[9.953693] (br2_tracking) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[9.953890] (br2_tracking) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[9.954049] (br2_tracking) StdoutLine: {'line': b'but not all the files it references.\n'}
+[9.954208] (br2_tracking) StdoutLine: {'line': b'\n'}
+[9.956847] (br2_tracking) StdoutLine: {'line': b'-- The imported target "vtkRenderingPythonTkWidgets" references the file\n'}
+[9.957136] (br2_tracking) StdoutLine: {'line': b'   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"\n'}
+[9.957286] (br2_tracking) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[9.957396] (br2_tracking) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[9.957517] (br2_tracking) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[9.957695] (br2_tracking) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[9.957870] (br2_tracking) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[9.958037] (br2_tracking) StdoutLine: {'line': b'but not all the files it references.\n'}
+[9.958167] (br2_tracking) StdoutLine: {'line': b'\n'}
+[9.958774] (br2_tracking) StdoutLine: {'line': b'-- The imported target "vtk" references the file\n'}
+[9.958994] (br2_tracking) StdoutLine: {'line': b'   "/usr/bin/vtk"\n'}
+[9.959251] (br2_tracking) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[9.959540] (br2_tracking) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[9.959821] (br2_tracking) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[9.959996] (br2_tracking) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[9.960151] (br2_tracking) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[9.960536] (br2_tracking) StdoutLine: {'line': b'but not all the files it references.\n'}
+[9.960954] (br2_tracking) StdoutLine: {'line': b'\n'}
+[9.961340] (br2_tracking) StdoutLine: {'line': b'-- The imported target "pvtk" references the file\n'}
+[9.963575] (br2_tracking) StdoutLine: {'line': b'   "/usr/bin/pvtk"\n'}
+[9.967558] (br2_tracking) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[9.969126] (br2_tracking) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[9.970334] (br2_tracking) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[9.971712] (br2_tracking) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[9.972869] (br2_tracking) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[9.973109] (br2_tracking) StdoutLine: {'line': b'but not all the files it references.\n'}
+[9.973425] (br2_tracking) StdoutLine: {'line': b'\n'}
+[10.019745] (-) TimerEvent: {}
+[10.098612] (br2_tracking) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[10.120083] (-) TimerEvent: {}
+[10.221847] (-) TimerEvent: {}
+[10.228964] (br2_tracking) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.23\n'}
+[10.321878] (-) TimerEvent: {}
+[10.422646] (-) TimerEvent: {}
+[10.502225] (br2_tracking) StdoutLine: {'line': b'-- Found USB_10: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[10.522792] (-) TimerEvent: {}
+[10.623713] (-) TimerEvent: {}
+[10.725437] (-) TimerEvent: {}
+[10.826550] (-) TimerEvent: {}
+[10.928252] (-) TimerEvent: {}
+[10.949158] (br2_tracking) StdoutLine: {'line': b'-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)\n'}
+[11.028517] (-) TimerEvent: {}
+[11.129136] (-) TimerEvent: {}
+[11.229704] (-) TimerEvent: {}
+[11.330989] (-) TimerEvent: {}
+[11.381429] (br2_tracking) StdoutLine: {'line': b'-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)\n'}
+[11.431392] (-) TimerEvent: {}
+[11.467297] (br2_tracking) StdoutLine: {'line': b'-- Found libusb-1.0: /usr/include  \n'}
+[11.517769] (br2_tracking) StdoutLine: {'line': b'-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)\n'}
+[11.531933] (-) TimerEvent: {}
+[11.547524] (br2_tracking) StdoutLine: {'line': b'-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)\n'}
+[11.632464] (-) TimerEvent: {}
+[11.734474] (-) TimerEvent: {}
+[11.769003] (br2_tracking) StdoutLine: {'line': b'-- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  \n'}
+[11.770224] (br2_tracking) StdoutLine: {'line': b'-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)\n'}
+[11.813649] (br2_tracking) StdoutLine: {'line': b'-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)\n'}
+[11.834685] (-) TimerEvent: {}
+[11.875772] (br2_tracking) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[11.886591] (br2_tracking) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[11.896119] (br2_tracking) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[11.908074] (br2_tracking) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[11.927958] (br2_tracking) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[11.934861] (-) TimerEvent: {}
+[11.940652] (br2_tracking) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[11.943089] (br2_tracking) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.10  \n'}
+[11.946884] (br2_tracking) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.10  \n'}
+[11.950997] (br2_tracking) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[11.967096] (br2_tracking) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[11.972848] (br2_tracking) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[11.977094] (br2_tracking) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[11.982665] (br2_tracking) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[11.987754] (br2_tracking) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[11.992385] (br2_tracking) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[11.996724] (br2_tracking) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[12.012332] (br2_tracking) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[12.020183] (br2_tracking) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[12.026820] (br2_tracking) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[12.035528] (-) TimerEvent: {}
+[12.043672] (br2_tracking) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[12.049894] (br2_tracking) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  \n'}
+[12.067770] (br2_tracking) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  \n'}
+[12.086603] (br2_tracking) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[12.100299] (br2_tracking) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[12.136132] (-) TimerEvent: {}
+[12.237925] (-) TimerEvent: {}
+[12.338901] (-) TimerEvent: {}
+[12.441014] (-) TimerEvent: {}
+[12.541614] (-) TimerEvent: {}
+[12.544902] (br2_tracking) StderrLine: {'line': b'CMake Warning (dev) at CMakeLists.txt:9 (find_package):\n'}
+[12.545959] (br2_tracking) StderrLine: {'line': b'  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.\n'}
+[12.546170] (br2_tracking) StderrLine: {'line': b'  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy\n'}
+[12.546381] (br2_tracking) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[12.546549] (br2_tracking) StderrLine: {'line': b'\n'}
+[12.546716] (br2_tracking) StderrLine: {'line': b'  CMake variable PCL_ROOT is set to:\n'}
+[12.546880] (br2_tracking) StderrLine: {'line': b'\n'}
+[12.547057] (br2_tracking) StderrLine: {'line': b'    /usr\n'}
+[12.547260] (br2_tracking) StderrLine: {'line': b'\n'}
+[12.547451] (br2_tracking) StderrLine: {'line': b'  For compatibility, CMake is ignoring the variable.\n'}
+[12.547628] (br2_tracking) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[12.547794] (br2_tracking) StderrLine: {'line': b'\n'}
+[12.582020] (br2_tracking) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 2.4.3 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)\n'}
+[12.642005] (-) TimerEvent: {}
+[12.735823] (br2_tracking) StdoutLine: {'line': b'-- Found br2_tracking_msgs: 0.0.0 (/home/joanne/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/cmake)\n'}
+[12.742331] (-) TimerEvent: {}
+[12.843972] (-) TimerEvent: {}
+[12.844302] (br2_tracking) StdoutLine: {'line': b'-- Found vision_msgs: 2.0.0 (/opt/ros/foxy/share/vision_msgs/cmake)\n'}
+[12.944156] (-) TimerEvent: {}
+[13.044742] (-) TimerEvent: {}
+[13.145535] (-) TimerEvent: {}
+[13.246644] (-) TimerEvent: {}
+[13.348065] (-) TimerEvent: {}
+[13.426414] (br2_tracking) StdoutLine: {'line': b'-- Found control_msgs: 2.5.1 (/opt/ros/foxy/share/control_msgs/cmake)\n'}
+[13.448195] (-) TimerEvent: {}
+[13.548801] (-) TimerEvent: {}
+[13.649500] (-) TimerEvent: {}
+[13.750015] (-) TimerEvent: {}
+[13.850903] (-) TimerEvent: {}
+[13.952078] (-) TimerEvent: {}
+[14.053439] (-) TimerEvent: {}
+[14.154139] (-) TimerEvent: {}
+[14.255759] (-) TimerEvent: {}
+[14.356744] (-) TimerEvent: {}
+[14.457501] (-) TimerEvent: {}
+[14.558309] (-) TimerEvent: {}
+[14.659918] (-) TimerEvent: {}
+[14.761084] (-) TimerEvent: {}
+[14.815004] (br2_tracking) StdoutLine: {'line': b'-- Found image_transport: 2.4.0 (/opt/ros/foxy/share/image_transport/cmake)\n'}
+[14.861138] (-) TimerEvent: {}
+[14.961936] (-) TimerEvent: {}
+[14.976507] (br2_tracking) StdoutLine: {'line': b'-- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)\n'}
+[15.061997] (-) TimerEvent: {}
+[15.121069] (br2_tracking) StderrLine: {'line': b'CMake Error at CMakeLists.txt:53 (target_link_libraries):\n'}
+[15.121602] (br2_tracking) StderrLine: {'line': b'  Cannot specify link libraries for target "object_detector" which is not\n'}
+[15.121847] (br2_tracking) StderrLine: {'line': b'  built by this project.\n'}
+[15.122090] (br2_tracking) StderrLine: {'line': b'\n'}
+[15.122386] (br2_tracking) StderrLine: {'line': b'\n'}
+[15.129796] (br2_tracking) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[15.130423] (br2_tracking) StdoutLine: {'line': b'See also "/home/joanne/bookros2_ws/build/br2_tracking/CMakeFiles/CMakeOutput.log".\n'}
+[15.130681] (br2_tracking) StdoutLine: {'line': b'See also "/home/joanne/bookros2_ws/build/br2_tracking/CMakeFiles/CMakeError.log".\n'}
+[15.162127] (-) TimerEvent: {}
+[15.207197] (br2_tracking) StderrLine: {'line': b'make: *** [Makefile:456: cmake_check_build_system] Error 1\n'}
+[15.214288] (br2_tracking) CommandEnded: {'returncode': 2}
+[15.262819] (-) TimerEvent: {}
+[15.325771] (br2_tracking) JobEnded: {'identifier': 'br2_tracking', 'rc': 2}
+[15.345509] (-) EventReactorShutdown: {}

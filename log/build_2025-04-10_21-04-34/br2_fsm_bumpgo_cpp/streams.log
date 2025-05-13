@@ -1,0 +1,18 @@
+[0.016s] Invoking command in '/home/joanne/bookros2_ws/build/br2_fsm_bumpgo_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joanne/bookros2_ws/install/ros2controlcli:/home/joanne/bookros2_ws/install/launch_pal:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/joanne/bookros2_ws/build/br2_fsm_bumpgo_cpp -- -j8 -l8
+[0.108s] [35m[1mScanning dependencies of target bumpgo[0m
+[0.144s] [ 66%] [32mBuilding CXX object CMakeFiles/bumpgo.dir/src/bumpgo_main.cpp.o[0m
+[0.144s] [ 66%] [32mBuilding CXX object CMakeFiles/bumpgo.dir/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp.o[0m
+[1.510s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp:144:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kint br2_fsm_bumpgo_cpp::BumpGoNode::check_forward_2_back()[m[K’
+[1.510s]   144 | [01;31m[KBumpGoNode[m[K::check_forward_2_back()
+[1.510s]       | [01;31m[K^~~~~~~~~~[m[K
+[1.510s] In file included from [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp:16[m[K:
+[1.510s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/include/br2_fsm_bumpgo_cpp/BumpGoNode.hpp:45:8:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kbool br2_fsm_bumpgo_cpp::BumpGoNode::check_forward_2_back()[m[K’
+[1.510s]    45 |   bool [01;36m[Kcheck_forward_2_back[m[K();
+[1.510s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[1.510s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/include/br2_fsm_bumpgo_cpp/BumpGoNode.hpp:28:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass br2_fsm_bumpgo_cpp::BumpGoNode[m[K’ defined here
+[1.510s]    28 | class [01;36m[KBumpGoNode[m[K : public rclcpp::Node
+[1.510s]       |       [01;36m[K^~~~~~~~~~[m[K
+[2.920s] make[2]: *** [CMakeFiles/bumpgo.dir/build.make:63: CMakeFiles/bumpgo.dir/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp.o] Error 1
+[2.920s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/bumpgo.dir/all] Error 2
+[2.920s] make: *** [Makefile:141: all] Error 2
+[2.923s] Invoked command in '/home/joanne/bookros2_ws/build/br2_fsm_bumpgo_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joanne/bookros2_ws/install/ros2controlcli:/home/joanne/bookros2_ws/install/launch_pal:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/joanne/bookros2_ws/build/br2_fsm_bumpgo_cpp -- -j8 -l8

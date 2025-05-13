@@ -1,0 +1,25 @@
+[0.119s] Invoking command in '/home/joanne/bookros2_ws/build/br2_bt_bumpgo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joanne/bookros2_ws/install/ros2controlcli:/home/joanne/bookros2_ws/install/launch_pal:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/joanne/bookros2_ws/build/br2_bt_bumpgo -- -j8 -l8
+[0.543s] [ 11%] Built target br2_forward_bt_node
+[0.740s] [ 22%] Built target gtest_main
+[0.915s] [ 33%] Built target gtest
+[1.110s] [ 44%] Built target bt_forward
+[1.377s] [ 55%] Built target bt_action_test
+[1.490s] [35m[1mScanning dependencies of target br2_is_obstacle_bt_node[0m
+[1.699s] [ 61%] [32mBuilding CXX object CMakeFiles/br2_is_obstacle_bt_node.dir/src/br2_bt_bumpgo/IsObstacle.cpp.o[0m
+[12.314s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_bt_bumpgo/src/br2_bt_bumpgo/IsObstacle.cpp:[m[K In member function ‘[01m[Kvirtual BT::NodeStatus br2_bt_bumpgo::IsObstacle::tick()[m[K’:
+[12.315s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_bt_bumpgo/src/br2_bt_bumpgo/IsObstacle.cpp:62:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kindex_left[m[K’ was not declared in this scope
+[12.315s]    62 |   [01;31m[Kindex_left[m[K = last_scan_->ranges.size()/2 - 0.262 / last_scan_->angle_increment;
+[12.315s]       |   [01;31m[K^~~~~~~~~~[m[K
+[12.330s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_bt_bumpgo/src/br2_bt_bumpgo/IsObstacle.cpp:63:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kindex_right[m[K’ was not declared in this scope
+[12.330s]    63 |   [01;31m[Kindex_right[m[K = last_scan_->ranges.size()/2 + 0.262 / last_scan_->angle_increment;
+[12.331s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[12.342s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_bt_bumpgo/src/br2_bt_bumpgo/IsObstacle.cpp:65:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+[12.344s]    65 |   for([01;31m[Ki[m[K=index_left; i<last_scan_->ranges.size()/2; i++){
+[12.345s]       |       [01;31m[K^[m[K
+[12.354s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_bt_bumpgo/src/br2_bt_bumpgo/IsObstacle.cpp:74:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+[12.355s]    74 |   for([01;31m[Ki[m[K=last_scan_->ranges.size()/2; i<=index_right; i++){
+[12.355s]       |       [01;31m[K^[m[K
+[22.080s] make[2]: *** [CMakeFiles/br2_is_obstacle_bt_node.dir/build.make:63: CMakeFiles/br2_is_obstacle_bt_node.dir/src/br2_bt_bumpgo/IsObstacle.cpp.o] Error 1
+[22.080s] make[1]: *** [CMakeFiles/Makefile2:237: CMakeFiles/br2_is_obstacle_bt_node.dir/all] Error 2
+[22.106s] make: *** [Makefile:141: all] Error 2
+[22.109s] Invoked command in '/home/joanne/bookros2_ws/build/br2_bt_bumpgo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joanne/bookros2_ws/install/ros2controlcli:/home/joanne/bookros2_ws/install/launch_pal:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/joanne/bookros2_ws/build/br2_bt_bumpgo -- -j8 -l8

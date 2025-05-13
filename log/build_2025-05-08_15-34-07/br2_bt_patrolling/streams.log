@@ -1,0 +1,87 @@
+[0.120s] Invoking command in '/home/joanne/bookros2_ws/build/br2_bt_patrolling': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joanne/bookros2_ws/install/ros2controlcli:/home/joanne/bookros2_ws/install/launch_pal:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_py:/home/joanne/nav2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake /home/joanne/bookros2_ws/src/book_ros2/br2_bt_patrolling -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/joanne/bookros2_ws/install/br2_bt_patrolling
+[0.285s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.491s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.644s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.732s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.018s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.037s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.851s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.190s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.217s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.024s] -- Found rclcpp_lifecycle: 2.4.3 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)
+[4.216s] -- Found rclcpp_action: 2.4.3 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[4.710s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[4.915s] -- Found nav2_msgs: 0.4.7 (/opt/ros/foxy/share/nav2_msgs/cmake)
+[6.414s] -- Found ament_index_cpp: 1.1.0 (/opt/ros/foxy/share/ament_index_cpp/cmake)
+[6.430s] -- ZeroMQ found.
+[6.626s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[6.983s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[7.046s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.050s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.051s] -- Configured cppcheck include dirs: /home/joanne/bookros2_ws/src/book_ros2/br2_bt_patrolling/include
+[7.051s] -- Configured cppcheck exclude dirs and/or files: 
+[7.055s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.059s] -- Configured cpplint exclude dirs and/or files: 
+[7.062s] -- Added test 'flake8' to check Python code syntax and style conventions
+[7.066s] -- Added test 'lint_cmake' to check CMake code style
+[7.068s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[7.072s] -- Added test 'uncrustify' to check C / C++ code style
+[7.072s] -- Configured uncrustify additional arguments: 
+[7.073s] -- Added test 'xmllint' to check XML markup files
+[7.103s] -- Configuring done
+[7.417s] -- Generating done
+[7.582s] -- Build files have been written to: /home/joanne/bookros2_ws/build/br2_bt_patrolling
+[7.660s] Invoked command in '/home/joanne/bookros2_ws/build/br2_bt_patrolling' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joanne/bookros2_ws/install/ros2controlcli:/home/joanne/bookros2_ws/install/launch_pal:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_py:/home/joanne/nav2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake /home/joanne/bookros2_ws/src/book_ros2/br2_bt_patrolling -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/joanne/bookros2_ws/install/br2_bt_patrolling
+[7.666s] Invoking command in '/home/joanne/bookros2_ws/build/br2_bt_patrolling': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joanne/bookros2_ws/install/ros2controlcli:/home/joanne/bookros2_ws/install/launch_pal:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_py:/home/joanne/nav2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/joanne/bookros2_ws/build/br2_bt_patrolling -- -j8 -l8
+[8.088s] [ 10%] Built target br2_recharge_bt_node
+[8.251s] [ 20%] Built target gtest
+[8.403s] [ 30%] Built target gtest_main
+[8.632s] [ 40%] Built target br2_patrol_bt_node
+[8.868s] [ 50%] Built target br2_track_objects_bt_node
+[9.082s] [ 60%] Built target br2_get_waypoint_bt_node
+[9.302s] [ 70%] Built target bt_action_test
+[9.569s] [ 80%] Built target br2_move_bt_node
+[9.695s] [35m[1mScanning dependencies of target patrolling_main[0m
+[9.858s] [ 85%] [32mBuilding CXX object CMakeFiles/patrolling_main.dir/src/patrolling_main.cpp.o[0m
+[24.768s] [ 90%] [32m[1mLinking CXX executable patrolling_main[0m
+[26.120s] [ 90%] Built target patrolling_main
+[26.314s] [100%] Built target br2_battery_checker_bt_node
+[26.397s] Invoked command in '/home/joanne/bookros2_ws/build/br2_bt_patrolling' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joanne/bookros2_ws/install/ros2controlcli:/home/joanne/bookros2_ws/install/launch_pal:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_py:/home/joanne/nav2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --build /home/joanne/bookros2_ws/build/br2_bt_patrolling -- -j8 -l8
+[26.468s] Invoking command in '/home/joanne/bookros2_ws/build/br2_bt_patrolling': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joanne/bookros2_ws/install/ros2controlcli:/home/joanne/bookros2_ws/install/launch_pal:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_py:/home/joanne/nav2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --install /home/joanne/bookros2_ws/build/br2_bt_patrolling
+[26.537s] -- Install configuration: "Debug"
+[26.538s] -- Execute custom install script
+[26.541s] -- Up-to-date symlink: /home/joanne/bookros2_ws/install/br2_bt_patrolling/lib/libbr2_recharge_bt_node.so
+[26.542s] -- Up-to-date symlink: /home/joanne/bookros2_ws/install/br2_bt_patrolling/lib/libbr2_patrol_bt_node.so
+[26.542s] -- Up-to-date symlink: /home/joanne/bookros2_ws/install/br2_bt_patrolling/lib/libbr2_move_bt_node.so
+[26.542s] -- Up-to-date symlink: /home/joanne/bookros2_ws/install/br2_bt_patrolling/lib/libbr2_get_waypoint_bt_node.so
+[26.543s] -- Up-to-date symlink: /home/joanne/bookros2_ws/install/br2_bt_patrolling/lib/libbr2_battery_checker_bt_node.so
+[26.543s] -- Up-to-date symlink: /home/joanne/bookros2_ws/install/br2_bt_patrolling/lib/libbr2_track_objects_bt_node.so
+[26.544s] -- Up-to-date symlink: /home/joanne/bookros2_ws/install/br2_bt_patrolling/lib/br2_bt_patrolling/patrolling_main
+[26.547s] -- Up-to-date symlink: /home/joanne/bookros2_ws/install/br2_bt_patrolling/include//br2_bt_patrolling/BatteryChecker.hpp
+[26.547s] -- Up-to-date symlink: /home/joanne/bookros2_ws/install/br2_bt_patrolling/include//br2_bt_patrolling/GetWaypoint.hpp
+[26.548s] -- Up-to-date symlink: /home/joanne/bookros2_ws/install/br2_bt_patrolling/include//br2_bt_patrolling/Move.hpp
+[26.548s] -- Up-to-date symlink: /home/joanne/bookros2_ws/install/br2_bt_patrolling/include//br2_bt_patrolling/Patrol.hpp
+[26.549s] -- Up-to-date symlink: /home/joanne/bookros2_ws/install/br2_bt_patrolling/include//br2_bt_patrolling/Recharge.hpp
+[26.550s] -- Up-to-date symlink: /home/joanne/bookros2_ws/install/br2_bt_patrolling/include//br2_bt_patrolling/TrackObjects.hpp
+[26.550s] -- Up-to-date symlink: /home/joanne/bookros2_ws/install/br2_bt_patrolling/include//br2_bt_patrolling/ctrl_support/BTActionNode.hpp
+[26.551s] -- Up-to-date symlink: /home/joanne/bookros2_ws/install/br2_bt_patrolling/include//br2_bt_patrolling/ctrl_support/BTLifecycleCtrlNode.hpp
+[26.552s] -- Up-to-date symlink: /home/joanne/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/behavior_tree_xml/patrolling.xml
+[26.552s] -- Up-to-date symlink: /home/joanne/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/launch/patrolling.launch.py
+[26.553s] -- Up-to-date symlink: /home/joanne/bookros2_ws/install/br2_bt_patrolling/share/ament_index/resource_index/package_run_dependencies/br2_bt_patrolling
+[26.554s] -- Up-to-date symlink: /home/joanne/bookros2_ws/install/br2_bt_patrolling/share/ament_index/resource_index/parent_prefix_path/br2_bt_patrolling
+[26.554s] -- Up-to-date symlink: /home/joanne/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/environment/ament_prefix_path.sh
+[26.555s] -- Up-to-date symlink: /home/joanne/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/environment/ament_prefix_path.dsv
+[26.558s] -- Up-to-date symlink: /home/joanne/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/environment/path.sh
+[26.564s] -- Up-to-date symlink: /home/joanne/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/environment/path.dsv
+[26.566s] -- Up-to-date symlink: /home/joanne/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/local_setup.bash
+[26.570s] -- Up-to-date symlink: /home/joanne/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/local_setup.sh
+[26.572s] -- Up-to-date symlink: /home/joanne/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/local_setup.zsh
+[26.577s] -- Up-to-date symlink: /home/joanne/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/local_setup.dsv
+[26.578s] -- Symlinking: /home/joanne/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/package.dsv
+[26.645s] -- Up-to-date symlink: /home/joanne/bookros2_ws/install/br2_bt_patrolling/share/ament_index/resource_index/packages/br2_bt_patrolling
+[26.651s] -- Up-to-date symlink: /home/joanne/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/cmake/ament_cmake_export_include_directories-extras.cmake
+[26.652s] -- Up-to-date symlink: /home/joanne/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/cmake/ament_cmake_export_dependencies-extras.cmake
+[26.652s] -- Up-to-date symlink: /home/joanne/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/cmake/br2_bt_patrollingConfig.cmake
+[26.653s] -- Up-to-date symlink: /home/joanne/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/cmake/br2_bt_patrollingConfig-version.cmake
+[26.655s] -- Up-to-date symlink: /home/joanne/bookros2_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/package.xml
+[26.665s] Invoked command in '/home/joanne/bookros2_ws/build/br2_bt_patrolling' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joanne/bookros2_ws/install/ros2controlcli:/home/joanne/bookros2_ws/install/launch_pal:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_py:/home/joanne/nav2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy /usr/bin/cmake --install /home/joanne/bookros2_ws/build/br2_bt_patrolling

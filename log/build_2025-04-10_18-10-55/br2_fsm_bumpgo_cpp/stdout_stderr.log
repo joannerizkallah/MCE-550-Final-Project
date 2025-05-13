@@ -1,0 +1,19 @@
+[35m[1mScanning dependencies of target bumpgo[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/bumpgo.dir/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp.o[0m
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp:[m[K In member function ‘[01m[Kbool br2_fsm_bumpgo_cpp::BumpGoNode::check_turn_2_forward()[m[K’:
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp:152:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kcalculate_time[m[K’ was not declared in this scope; did you mean ‘[01m[Kcalculate_speed[m[K’?
+  152 |   return (now() - state_ts_) > [01;31m[Kcalculate_time[m[K();
+      |                                [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                                [32m[Kcalculate_speed[m[K
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp:[m[K At global scope:
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp:157:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kfloat br2_fsm_bumpgo_cpp::BumpGoNode::calculate_time()[m[K’
+  157 | [01;31m[KBumpGoNode[m[K::calculate_time()
+      | [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp:157:1:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kfloat br2_fsm_bumpgo_cpp::BumpGoNode::calculate_time()[m[K’
+In file included from [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp:16[m[K:
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/include/br2_fsm_bumpgo_cpp/BumpGoNode.hpp:28:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass br2_fsm_bumpgo_cpp::BumpGoNode[m[K’ defined here
+   28 | class [01;36m[KBumpGoNode[m[K : public rclcpp::Node
+      |       [01;36m[K^~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/bumpgo.dir/build.make:63: CMakeFiles/bumpgo.dir/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/bumpgo.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

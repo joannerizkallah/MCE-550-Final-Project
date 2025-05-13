@@ -1,0 +1,29 @@
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp:[m[K In member function ‘[01m[Kbool br2_fsm_bumpgo_cpp::BumpGoNode::check_turn_2_forward()[m[K’:
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp:152:30:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator>[m[K’ (operand types are ‘[01m[Krclcpp::Duration[m[K’ and ‘[01m[Kfloat[m[K’)
+  152 |   return [32m[K(now() - state_ts_)[m[K [01;31m[K>[m[K [34m[Kcalculate_time()[m[K;
+      |          [32m[K~~~~~~~~~~~~~~~~~~~[m[K [01;31m[K^[m[K [34m[K~~~~~~~~~~~~~~~~[m[K
+      |                 [32m[K|[m[K                            [34m[K|[m[K
+      |                 [32m[Krclcpp::Duration[m[K             [34m[Kfloat[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:34[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/include/br2_fsm_bumpgo_cpp/BumpGoNode.hpp:21[m[K,
+                 from [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp:16[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/duration.hpp:93:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool rclcpp::Duration::operator>(const rclcpp::Duration&) const[m[K’
+   93 |   [01;36m[Koperator[m[K>(const rclcpp::Duration & rhs) const;
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/duration.hpp:93:38:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kfloat[m[K’ to ‘[01m[Kconst rclcpp::Duration&[m[K’
+   93 |   operator>([01;36m[Kconst rclcpp::Duration & rhs[m[K) const;
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+make[2]: *** [CMakeFiles/bumpgo.dir/build.make:63: CMakeFiles/bumpgo.dir/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/bumpgo.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

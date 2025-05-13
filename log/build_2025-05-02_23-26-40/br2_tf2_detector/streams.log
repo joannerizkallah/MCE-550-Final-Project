@@ -1,0 +1,100 @@
+[0.121s] Invoking command in '/home/joanne/bookros2_ws/build/br2_tf2_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joanne/bookros2_ws/install/ros2controlcli:/home/joanne/bookros2_ws/install/launch_pal:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/joanne/bookros2_ws/build/br2_tf2_detector -- -j8 -l8
+[0.676s] [35m[1mScanning dependencies of target br2_tf2_detector[0m
+[0.876s] [ 11%] [32mBuilding CXX object CMakeFiles/br2_tf2_detector.dir/src/br2_tf2_detector/ObstacleDetectorNode.cpp.o[0m
+[10.924s] In file included from [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/ObstacleDetectorNode.cpp:17[m[K:
+[10.925s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/include/br2_tf2_detector/ObstacleDetectorNode.hpp:41:36:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::unique_ptr<tf2_ros::Buffer> br2_tf2_detector::ObstacleDetectorNode::tf_buffer_[m[K’
+[10.926s]    41 |   std::unique_ptr<tf2_ros::Buffer> [01;31m[Ktf_buffer_[m[K;
+[10.927s]       |                                    [01;31m[K^~~~~~~~~~[m[K
+[10.927s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/include/br2_tf2_detector/ObstacleDetectorNode.hpp:36:19:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Ktf2::BufferCore br2_tf2_detector::ObstacleDetectorNode::tf_buffer_[m[K’
+[10.927s]    36 |   tf2::BufferCore [01;36m[Ktf_buffer_[m[K;
+[10.928s]       |                   [01;36m[K^~~~~~~~~~[m[K
+[10.928s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/include/br2_tf2_detector/ObstacleDetectorNode.hpp:42:28:[m[K [01;31m[Kerror: [m[K‘[01m[KTransformListener[m[K’ is not a member of ‘[01m[Ktf2_ros[m[K’
+[10.928s]    42 |   std::shared_ptr<tf2_ros::[01;31m[KTransformListener[m[K> tf_listener_;
+[10.928s]       |                            [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[10.929s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/include/br2_tf2_detector/ObstacleDetectorNode.hpp:42:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[10.929s]    42 |   std::shared_ptr<tf2_ros::TransformListener[01;31m[K>[m[K tf_listener_;
+[10.929s]       |                                             [01;31m[K^[m[K
+[10.999s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/ObstacleDetectorNode.cpp:[m[K In constructor ‘[01m[Kbr2_tf2_detector::ObstacleDetectorNode::ObstacleDetectorNode()[m[K’:
+[11.000s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/ObstacleDetectorNode.cpp:37:67:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Ktf2::BufferCore[m[K’ and ‘[01m[Kstd::_MakeUniq<tf2_ros::Buffer>::__single_object[m[K’ {aka ‘[01m[Kstd::unique_ptr<tf2_ros::Buffer>[m[K’})
+[11.000s]    37 |   tf_buffer_ = std::make_unique<tf2_ros::Buffer>(this->get_clock()[01;31m[K)[m[K;
+[11.001s]       |                                                                   [01;31m[K^[m[K
+[11.001s] In file included from [01m[K/opt/ros/foxy/include/tf2_ros/buffer.h:43[m[K,
+[11.001s]                  from [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/include/br2_tf2_detector/ObstacleDetectorNode.hpp:21[m[K,
+[11.002s]                  from [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/ObstacleDetectorNode.cpp:17[m[K:
+[11.005s] [01m[K/opt/ros/foxy/include/tf2/buffer_core.h:92:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktf2::BufferCore& tf2::BufferCore::operator=(const tf2::BufferCore&)[m[K’ <deleted>
+[11.006s]    92 | class [01;36m[KBufferCore[m[K : public BufferCoreInterface
+[11.006s]       |       [01;36m[K^~~~~~~~~~[m[K
+[11.006s] [01m[K/opt/ros/foxy/include/tf2/buffer_core.h:92:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::_MakeUniq<tf2_ros::Buffer>::__single_object[m[K’ {aka ‘[01m[Kstd::unique_ptr<tf2_ros::Buffer>[m[K’} to ‘[01m[Kconst tf2::BufferCore&[m[K’
+[11.007s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/ObstacleDetectorNode.cpp:38:44:[m[K [01;31m[Kerror: [m[K‘[01m[KTransformListener[m[K’ is not a member of ‘[01m[Ktf2_ros[m[K’
+[11.007s]    38 |   tf_listener_ = std::make_shared<tf2_ros::[01;31m[KTransformListener[m[K>(*tf_buffer_);
+[11.007s]       |                                            [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[11.007s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/ObstacleDetectorNode.cpp:38:63:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator*[m[K’ (operand type is ‘[01m[Ktf2::BufferCore[m[K’)
+[11.008s]    38 |   tf_listener_ = std::make_shared<tf2_ros::TransformListener>([01;31m[K*tf_buffer_[m[K);
+[11.008s]       |                                                               [01;31m[K^~~~~~~~~~~[m[K
+[11.009s] In file included from [01m[K/opt/ros/foxy/include/tf2/LinearMath/Matrix3x3.h:19[m[K,
+[11.009s]                  from [01m[K/opt/ros/foxy/include/tf2/LinearMath/Transform.h:21[m[K,
+[11.009s]                  from [01m[K/opt/ros/foxy/include/tf2/buffer_core.h:35[m[K,
+[11.010s]                  from [01m[K/opt/ros/foxy/include/tf2_ros/buffer.h:43[m[K,
+[11.010s]                  from [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/include/br2_tf2_detector/ObstacleDetectorNode.hpp:21[m[K,
+[11.010s]                  from [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/ObstacleDetectorNode.cpp:17[m[K:
+[11.010s] [01m[K/opt/ros/foxy/include/tf2/LinearMath/Vector3.h:364:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktf2::Vector3 tf2::operator*(const tf2::Vector3&, const tf2::Vector3&)[m[K’
+[11.010s]   364 | [01;36m[Koperator[m[K*(const Vector3& v1, const Vector3& v2)
+[11.011s]       | [01;36m[K^~~~~~~~[m[K
+[11.012s] [01m[K/opt/ros/foxy/include/tf2/LinearMath/Vector3.h:364:1:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[11.013s] [01m[K/opt/ros/foxy/include/tf2/LinearMath/Vector3.h:384:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktf2::Vector3 tf2::operator*(const tf2::Vector3&, const tf2Scalar&)[m[K’
+[11.014s]   384 | [01;36m[Koperator[m[K*(const Vector3& v, const tf2Scalar& s)
+[11.015s]       | [01;36m[K^~~~~~~~[m[K
+[11.017s] [01m[K/opt/ros/foxy/include/tf2/LinearMath/Vector3.h:384:1:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[11.017s] [01m[K/opt/ros/foxy/include/tf2/LinearMath/Vector3.h:391:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktf2::Vector3 tf2::operator*(const tf2Scalar&, const tf2::Vector3&)[m[K’
+[11.018s]   391 | [01;36m[Koperator[m[K*(const tf2Scalar& s, const Vector3& v)
+[11.018s]       | [01;36m[K^~~~~~~~[m[K
+[11.018s] [01m[K/opt/ros/foxy/include/tf2/LinearMath/Vector3.h:391:1:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[11.018s] In file included from [01m[K/opt/ros/foxy/include/tf2/LinearMath/Matrix3x3.h:20[m[K,
+[11.018s]                  from [01m[K/opt/ros/foxy/include/tf2/LinearMath/Transform.h:21[m[K,
+[11.019s]                  from [01m[K/opt/ros/foxy/include/tf2/buffer_core.h:35[m[K,
+[11.019s]                  from [01m[K/opt/ros/foxy/include/tf2_ros/buffer.h:43[m[K,
+[11.019s]                  from [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/include/br2_tf2_detector/ObstacleDetectorNode.hpp:21[m[K,
+[11.019s]                  from [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/ObstacleDetectorNode.cpp:17[m[K:
+[11.019s] [01m[K/opt/ros/foxy/include/tf2/LinearMath/Quaternion.h:368:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktf2::Quaternion tf2::operator*(const tf2::Quaternion&, const tf2::Quaternion&)[m[K’
+[11.020s]   368 | [01;36m[Koperator[m[K*(const Quaternion& q1, const Quaternion& q2) {
+[11.020s]       | [01;36m[K^~~~~~~~[m[K
+[11.020s] [01m[K/opt/ros/foxy/include/tf2/LinearMath/Quaternion.h:368:1:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[11.021s] [01m[K/opt/ros/foxy/include/tf2/LinearMath/Quaternion.h:376:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktf2::Quaternion tf2::operator*(const tf2::Quaternion&, const tf2::Vector3&)[m[K’
+[11.021s]   376 | [01;36m[Koperator[m[K*(const Quaternion& q, const Vector3& w)
+[11.021s]       | [01;36m[K^~~~~~~~[m[K
+[11.021s] [01m[K/opt/ros/foxy/include/tf2/LinearMath/Quaternion.h:376:1:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[11.021s] [01m[K/opt/ros/foxy/include/tf2/LinearMath/Quaternion.h:385:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktf2::Quaternion tf2::operator*(const tf2::Vector3&, const tf2::Quaternion&)[m[K’
+[11.022s]   385 | [01;36m[Koperator[m[K*(const Vector3& w, const Quaternion& q)
+[11.022s]       | [01;36m[K^~~~~~~~[m[K
+[11.022s] [01m[K/opt/ros/foxy/include/tf2/LinearMath/Quaternion.h:385:1:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[11.022s] In file included from [01m[K/opt/ros/foxy/include/tf2/LinearMath/Transform.h:21[m[K,
+[11.022s]                  from [01m[K/opt/ros/foxy/include/tf2/buffer_core.h:35[m[K,
+[11.023s]                  from [01m[K/opt/ros/foxy/include/tf2_ros/buffer.h:43[m[K,
+[11.023s]                  from [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/include/br2_tf2_detector/ObstacleDetectorNode.hpp:21[m[K,
+[11.023s]                  from [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/ObstacleDetectorNode.cpp:17[m[K:
+[11.023s] [01m[K/opt/ros/foxy/include/tf2/LinearMath/Matrix3x3.h:611:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktf2::Vector3 tf2::operator*(const tf2::Matrix3x3&, const tf2::Vector3&)[m[K’
+[11.023s]   611 | [01;36m[Koperator[m[K*(const Matrix3x3& m, const Vector3& v)
+[11.023s]       | [01;36m[K^~~~~~~~[m[K
+[11.024s] [01m[K/opt/ros/foxy/include/tf2/LinearMath/Matrix3x3.h:611:1:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[11.024s] [01m[K/opt/ros/foxy/include/tf2/LinearMath/Matrix3x3.h:618:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktf2::Vector3 tf2::operator*(const tf2::Vector3&, const tf2::Matrix3x3&)[m[K’
+[11.024s]   618 | [01;36m[Koperator[m[K*(const Vector3& v, const Matrix3x3& m)
+[11.024s]       | [01;36m[K^~~~~~~~[m[K
+[11.025s] [01m[K/opt/ros/foxy/include/tf2/LinearMath/Matrix3x3.h:618:1:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[11.025s] [01m[K/opt/ros/foxy/include/tf2/LinearMath/Matrix3x3.h:624:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktf2::Matrix3x3 tf2::operator*(const tf2::Matrix3x3&, const tf2::Matrix3x3&)[m[K’
+[11.026s]   624 | [01;36m[Koperator[m[K*(const Matrix3x3& m1, const Matrix3x3& m2)
+[11.026s]       | [01;36m[K^~~~~~~~[m[K
+[11.026s] [01m[K/opt/ros/foxy/include/tf2/LinearMath/Matrix3x3.h:624:1:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[11.057s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/ObstacleDetectorNode.cpp:[m[K In member function ‘[01m[Kvoid br2_tf2_detector::ObstacleDetectorNode::scan_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr)[m[K’:
+[11.058s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/ObstacleDetectorNode.cpp:59:52:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+[11.059s]    59 |     for(int idx = 0; idx<sizeof(reference_frames); [01;31m[Ki[m[K++){
+[11.060s]       |                                                    [01;31m[K^[m[K
+[11.076s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/ObstacleDetectorNode.cpp:61:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kreference2obstacle[m[K’ was not declared in this scope
+[11.077s]    61 |         [01;31m[Kreference2obstacle[m[K = tf_buffer_.lookupTransform(
+[11.078s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[11.099s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/ObstacleDetectorNode.cpp:69:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kreference2obstacle[m[K’ was not declared in this scope
+[11.100s]    69 |       double x = [01;31m[Kreference2obstacle[m[K.transform.translation.x;
+[11.100s]       |                  [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[20.414s] make[2]: *** [CMakeFiles/br2_tf2_detector.dir/build.make:63: CMakeFiles/br2_tf2_detector.dir/src/br2_tf2_detector/ObstacleDetectorNode.cpp.o] Error 1
+[20.415s] make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/br2_tf2_detector.dir/all] Error 2
+[20.417s] make: *** [Makefile:141: all] Error 2
+[20.432s] Invoked command in '/home/joanne/bookros2_ws/build/br2_tf2_detector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joanne/bookros2_ws/install/ros2controlcli:/home/joanne/bookros2_ws/install/launch_pal:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/joanne/bookros2_ws/build/br2_tf2_detector -- -j8 -l8

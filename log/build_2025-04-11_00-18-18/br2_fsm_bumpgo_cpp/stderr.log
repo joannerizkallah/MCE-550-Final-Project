@@ -1,0 +1,11 @@
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp:[m[K In member function ‘[01m[Kvoid br2_fsm_bumpgo_cpp::BumpGoNode::control_cycle()[m[K’:
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp:138:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kturn_direction_[m[K’ was not declared in this scope
+  138 |       out_vel.angular.z = [01;31m[Kturn_direction_[m[K;
+      |                           [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp:[m[K In member function ‘[01m[Kvoid br2_fsm_bumpgo_cpp::BumpGoNode::go_state(int)[m[K’:
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp:162:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kturn_direction_[m[K’ was not declared in this scope
+  162 |     [01;31m[Kturn_direction_[m[K = forward_2_turn_left();  // pick direction ONCE
+      |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/bumpgo.dir/build.make:63: CMakeFiles/bumpgo.dir/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/bumpgo.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

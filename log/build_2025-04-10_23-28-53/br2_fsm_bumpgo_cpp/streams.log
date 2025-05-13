@@ -1,0 +1,56 @@
+[0.092s] Invoking command in '/home/joanne/bookros2_ws/build/br2_fsm_bumpgo_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joanne/bookros2_ws/install/ros2controlcli:/home/joanne/bookros2_ws/install/launch_pal:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/joanne/bookros2_ws/build/br2_fsm_bumpgo_cpp -- -j8 -l8
+[0.371s] [35m[1mScanning dependencies of target bumpgo[0m
+[0.488s] [ 33%] [32mBuilding CXX object CMakeFiles/bumpgo.dir/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp.o[0m
+[2.318s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp:[m[K In member function ‘[01m[Kbool br2_fsm_bumpgo_cpp::BumpGoNode::check_turnleftright_2_forward()[m[K’:
+[2.318s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp:258:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kturn_time[m[K’ was not declared in this scope
+[2.318s]   258 |   return (now() - state_ts_) > rclcpp::Duration{[01;31m[Kturn_time[m[K};
+[2.319s]       |                                                 [01;31m[K^~~~~~~~~[m[K
+[2.319s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp:258:58:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Duration::Duration(<brace-enclosed initializer list>)[m[K’
+[2.319s]   258 |   return (now() - state_ts_) > rclcpp::Duration{turn_time[01;31m[K}[m[K;
+[2.319s]       |                                                          [01;31m[K^[m[K
+[2.319s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:20[m[K,
+[2.319s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+[2.319s]                  from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:34[m[K,
+[2.319s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[2.319s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[2.319s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[2.319s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[2.319s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[2.319s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[2.319s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[2.319s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[2.319s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.319s]                  from [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/include/br2_fsm_bumpgo_cpp/BumpGoNode.hpp:21[m[K,
+[2.319s]                  from [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp:16[m[K:
+[2.320s] [01m[K/opt/ros/foxy/include/rclcpp/duration.hpp:64:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Duration::Duration(const rclcpp::Duration&)[m[K’
+[2.320s]    64 |   [01;36m[KDuration[m[K(const Duration & rhs);
+[2.320s]       |   [01;36m[K^~~~~~~~[m[K
+[2.320s] [01m[K/opt/ros/foxy/include/rclcpp/duration.hpp:64:3:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[2.320s] [01m[K/opt/ros/foxy/include/rclcpp/duration.hpp:62:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Duration::Duration(const rcl_duration_t&)[m[K’
+[2.320s]    62 |   explicit [01;36m[KDuration[m[K(const rcl_duration_t & duration);
+[2.320s]       |            [01;36m[K^~~~~~~~[m[K
+[2.320s] [01m[K/opt/ros/foxy/include/rclcpp/duration.hpp:62:12:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[2.320s] [01m[K/opt/ros/foxy/include/rclcpp/duration.hpp:56:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Duration::Duration(const Duration&)[m[K’
+[2.320s]    56 |   [01;36m[KDuration[m[K(const builtin_interfaces::msg::Duration & duration_msg);  // NOLINT(runtime/explicit)
+[2.320s]       |   [01;36m[K^~~~~~~~[m[K
+[2.320s] [01m[K/opt/ros/foxy/include/rclcpp/duration.hpp:56:3:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[2.320s] [01m[K/opt/ros/foxy/include/rclcpp/duration.hpp:51:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Rep, class Period> rclcpp::Duration::Duration(const std::chrono::duration<_Rep1, _Period1>&)[m[K’
+[2.320s]    51 |   [01;36m[KDuration[m[K(const std::chrono::duration<Rep, Period> & duration)  // NOLINT(runtime/explicit)
+[2.320s]       |   [01;36m[K^~~~~~~~[m[K
+[2.320s] [01m[K/opt/ros/foxy/include/rclcpp/duration.hpp:51:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.320s] [01m[K/opt/ros/foxy/include/rclcpp/duration.hpp:45:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Duration::Duration(std::chrono::nanoseconds)[m[K’
+[2.321s]    45 |   explicit [01;36m[KDuration[m[K(std::chrono::nanoseconds nanoseconds);
+[2.321s]       |            [01;36m[K^~~~~~~~[m[K
+[2.321s] [01m[K/opt/ros/foxy/include/rclcpp/duration.hpp:45:12:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[2.321s] [01m[K/opt/ros/foxy/include/rclcpp/duration.hpp:42:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Duration::Duration(rcl_duration_value_t)[m[K’
+[2.321s]    42 |   explicit [01;36m[KDuration[m[K(rcl_duration_value_t nanoseconds);
+[2.321s]       |            [01;36m[K^~~~~~~~[m[K
+[2.321s] [01m[K/opt/ros/foxy/include/rclcpp/duration.hpp:42:12:[m[K [01;36m[Knote: [m[K  conversion of argument 1 would be ill-formed:
+[2.321s] [01m[K/opt/ros/foxy/include/rclcpp/duration.hpp:39:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Duration::Duration(int32_t, uint32_t)[m[K’
+[2.321s]    39 |   [01;36m[KDuration[m[K(int32_t seconds, uint32_t nanoseconds);
+[2.321s]       |   [01;36m[K^~~~~~~~[m[K
+[2.321s] [01m[K/opt/ros/foxy/include/rclcpp/duration.hpp:39:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[3.632s] make[2]: *** [CMakeFiles/bumpgo.dir/build.make:63: CMakeFiles/bumpgo.dir/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp.o] Error 1
+[3.632s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/bumpgo.dir/all] Error 2
+[3.632s] make: *** [Makefile:141: all] Error 2
+[3.635s] Invoked command in '/home/joanne/bookros2_ws/build/br2_fsm_bumpgo_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joanne/bookros2_ws/install/ros2controlcli:/home/joanne/bookros2_ws/install/launch_pal:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/joanne/bookros2_ws/build/br2_fsm_bumpgo_cpp -- -j8 -l8

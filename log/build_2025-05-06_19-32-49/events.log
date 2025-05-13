@@ -1,0 +1,545 @@
+[0.000000] (-) TimerEvent: {}
+[0.003630] (-) JobUnselected: {'identifier': 'br2_basics'}
+[0.004294] (-) JobUnselected: {'identifier': 'br2_bt_patrolling'}
+[0.004674] (-) JobUnselected: {'identifier': 'br2_fsm_bumpgo_cpp'}
+[0.004816] (-) JobUnselected: {'identifier': 'br2_fsm_bumpgo_py'}
+[0.004881] (-) JobUnselected: {'identifier': 'br2_navigation'}
+[0.004949] (-) JobUnselected: {'identifier': 'br2_tf2_detector'}
+[0.005013] (-) JobUnselected: {'identifier': 'br2_tiago'}
+[0.005070] (-) JobUnselected: {'identifier': 'br2_tracking'}
+[0.005139] (-) JobUnselected: {'identifier': 'br2_tracking_msgs'}
+[0.005213] (-) JobUnselected: {'identifier': 'br2_vff_avoidance'}
+[0.005275] (-) JobUnselected: {'identifier': 'controller_interface'}
+[0.005352] (-) JobUnselected: {'identifier': 'controller_manager'}
+[0.005411] (-) JobUnselected: {'identifier': 'controller_manager_msgs'}
+[0.005467] (-) JobUnselected: {'identifier': 'diff_drive_controller'}
+[0.005526] (-) JobUnselected: {'identifier': 'effort_controllers'}
+[0.005587] (-) JobUnselected: {'identifier': 'force_torque_sensor_broadcaster'}
+[0.005645] (-) JobUnselected: {'identifier': 'forward_command_controller'}
+[0.005698] (-) JobUnselected: {'identifier': 'gazebo_ros2_control'}
+[0.005748] (-) JobUnselected: {'identifier': 'gazebo_ros2_control_demos'}
+[0.005818] (-) JobUnselected: {'identifier': 'gripper_controllers'}
+[0.005883] (-) JobUnselected: {'identifier': 'groot'}
+[0.005976] (-) JobUnselected: {'identifier': 'hardware_interface'}
+[0.006088] (-) JobUnselected: {'identifier': 'hey5_description'}
+[0.006153] (-) JobUnselected: {'identifier': 'imu_sensor_broadcaster'}
+[0.006218] (-) JobUnselected: {'identifier': 'joint_state_broadcaster'}
+[0.006274] (-) JobUnselected: {'identifier': 'joint_state_controller'}
+[0.006337] (-) JobUnselected: {'identifier': 'joint_trajectory_controller'}
+[0.006391] (-) JobUnselected: {'identifier': 'launch_pal'}
+[0.006460] (-) JobUnselected: {'identifier': 'pal_gazebo_worlds'}
+[0.006524] (-) JobUnselected: {'identifier': 'pal_gripper'}
+[0.006618] (-) JobUnselected: {'identifier': 'pal_gripper_controller_configuration'}
+[0.006678] (-) JobUnselected: {'identifier': 'pal_gripper_description'}
+[0.006746] (-) JobUnselected: {'identifier': 'pmb2_2dnav'}
+[0.006818] (-) JobUnselected: {'identifier': 'pmb2_bringup'}
+[0.006898] (-) JobUnselected: {'identifier': 'pmb2_controller_configuration'}
+[0.006976] (-) JobUnselected: {'identifier': 'pmb2_description'}
+[0.007047] (-) JobUnselected: {'identifier': 'pmb2_maps'}
+[0.007116] (-) JobUnselected: {'identifier': 'pmb2_navigation'}
+[0.007347] (-) JobUnselected: {'identifier': 'pmb2_robot'}
+[0.007432] (-) JobUnselected: {'identifier': 'position_controllers'}
+[0.007515] (-) JobUnselected: {'identifier': 'ros2_control'}
+[0.007582] (-) JobUnselected: {'identifier': 'ros2_control_test_assets'}
+[0.007655] (-) JobUnselected: {'identifier': 'ros2_controllers'}
+[0.007734] (-) JobUnselected: {'identifier': 'ros2controlcli'}
+[0.007822] (-) JobUnselected: {'identifier': 'tiago_2dnav_gazebo'}
+[0.007892] (-) JobUnselected: {'identifier': 'tiago_bringup'}
+[0.007974] (-) JobUnselected: {'identifier': 'tiago_controller_configuration'}
+[0.008068] (-) JobUnselected: {'identifier': 'tiago_description'}
+[0.008129] (-) JobUnselected: {'identifier': 'tiago_description_calibration'}
+[0.008200] (-) JobUnselected: {'identifier': 'tiago_gazebo'}
+[0.008270] (-) JobUnselected: {'identifier': 'tiago_robot'}
+[0.008325] (-) JobUnselected: {'identifier': 'tiago_simulation'}
+[0.008387] (-) JobUnselected: {'identifier': 'transmission_interface'}
+[0.008453] (-) JobUnselected: {'identifier': 'twist_mux'}
+[0.008520] (-) JobUnselected: {'identifier': 'urdf_test'}
+[0.008588] (-) JobUnselected: {'identifier': 'velocity_controllers'}
+[0.008694] (br2_bt_bumpgo) JobQueued: {'identifier': 'br2_bt_bumpgo', 'dependencies': OrderedDict()}
+[0.012878] (br2_bt_bumpgo) JobStarted: {'identifier': 'br2_bt_bumpgo'}
+[0.094852] (-) TimerEvent: {}
+[0.124942] (br2_bt_bumpgo) JobProgress: {'identifier': 'br2_bt_bumpgo', 'progress': 'cmake'}
+[0.125347] (br2_bt_bumpgo) JobProgress: {'identifier': 'br2_bt_bumpgo', 'progress': 'build'}
+[0.125501] (br2_bt_bumpgo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/joanne/bookros2_ws/build/br2_bt_bumpgo', '--', '-j8', '-l8'], 'cwd': '/home/joanne/bookros2_ws/build/br2_bt_bumpgo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'joanne'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '1997'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/joanne/bookros2_ws/install/velocity_controllers/lib:/home/joanne/bookros2_ws/install/position_controllers/lib:/home/joanne/bookros2_ws/install/joint_trajectory_controller/lib:/home/joanne/bookros2_ws/install/joint_state_controller/lib:/home/joanne/bookros2_ws/install/joint_state_broadcaster/lib:/home/joanne/bookros2_ws/install/imu_sensor_broadcaster/lib:/home/joanne/bookros2_ws/install/gripper_controllers/lib:/home/joanne/bookros2_ws/install/gazebo_ros2_control/lib:/home/joanne/bookros2_ws/install/effort_controllers/lib:/home/joanne/bookros2_ws/install/forward_command_controller/lib:/home/joanne/bookros2_ws/install/force_torque_sensor_broadcaster/lib:/home/joanne/bookros2_ws/install/diff_drive_controller/lib:/home/joanne/bookros2_ws/install/controller_manager/lib:/home/joanne/bookros2_ws/install/controller_interface/lib:/home/joanne/bookros2_ws/install/hardware_interface/lib:/home/joanne/bookros2_ws/install/groot/lib:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib:/home/joanne/bookros2_ws/install/br2_vff_avoidance/lib:/home/joanne/bookros2_ws/install/br2_tracking/lib:/home/joanne/bookros2_ws/install/br2_tracking_msgs/lib:/home/joanne/bookros2_ws/install/br2_tf2_detector/lib:/home/joanne/bookros2_ws/install/br2_bt_patrolling/lib:/home/joanne/bookros2_ws/install/br2_bt_bumpgo/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/joanne'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1736'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7cddda34b0a6ee38a73f15e06819c603'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/joanne/bookros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'joanne'), ('JOURNAL_STREAM', '8:49015'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'joanne'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/joanne-ThinkPad-E15:@/tmp/.ICE-unix/2101,unix/joanne-ThinkPad-E15:/tmp/.ICE-unix/2101'), ('INVOCATION_ID', '8e581dbfcca4450bbc91433ac5045054'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1a8c7a2e_a9a3_4f6e_b51a_eec944e869dc'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/joanne/bookros2_ws/install/gazebo_ros2_control_demos:/home/joanne/bookros2_ws/install/ros2_controllers:/home/joanne/bookros2_ws/install/velocity_controllers:/home/joanne/bookros2_ws/install/urdf_test:/home/joanne/bookros2_ws/install/tiago_simulation:/home/joanne/bookros2_ws/install/tiago_robot:/home/joanne/bookros2_ws/install/tiago_2dnav_gazebo:/home/joanne/bookros2_ws/install/tiago_gazebo:/home/joanne/bookros2_ws/install/tiago_bringup:/home/joanne/bookros2_ws/install/pmb2_robot:/home/joanne/bookros2_ws/install/pmb2_bringup:/home/joanne/bookros2_ws/install/twist_mux:/home/joanne/bookros2_ws/install/transmission_interface:/home/joanne/bookros2_ws/install/tiago_description:/home/joanne/bookros2_ws/install/tiago_description_calibration:/home/joanne/bookros2_ws/install/tiago_controller_configuration:/home/joanne/bookros2_ws/install/ros2_control:/home/joanne/bookros2_ws/install/ros2controlcli:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/pal_gripper:/home/joanne/bookros2_ws/install/pal_gripper_controller_configuration:/home/joanne/bookros2_ws/install/position_controllers:/home/joanne/bookros2_ws/install/pmb2_navigation:/home/joanne/bookros2_ws/install/pmb2_2dnav:/home/joanne/bookros2_ws/install/pmb2_maps:/home/joanne/bookros2_ws/install/pmb2_description:/home/joanne/bookros2_ws/install/pmb2_controller_configuration:/home/joanne/bookros2_ws/install/pal_gripper_description:/home/joanne/bookros2_ws/install/pal_gazebo_worlds:/home/joanne/bookros2_ws/install/launch_pal:/home/joanne/bookros2_ws/install/joint_trajectory_controller:/home/joanne/bookros2_ws/install/joint_state_controller:/home/joanne/bookros2_ws/install/joint_state_broadcaster:/home/joanne/bookros2_ws/install/imu_sensor_broadcaster:/home/joanne/bookros2_ws/install/hey5_description:/home/joanne/bookros2_ws/install/gripper_controllers:/home/joanne/bookros2_ws/install/gazebo_ros2_control:/home/joanne/bookros2_ws/install/effort_controllers:/home/joanne/bookros2_ws/install/forward_command_controller:/home/joanne/bookros2_ws/install/force_torque_sensor_broadcaster:/home/joanne/bookros2_ws/install/diff_drive_controller:/home/joanne/bookros2_ws/install/controller_manager:/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/groot:/home/joanne/bookros2_ws/install/controller_manager_msgs:/home/joanne/bookros2_ws/install/br2_vff_avoidance:/home/joanne/bookros2_ws/install/br2_tracking:/home/joanne/bookros2_ws/install/br2_tracking_msgs:/home/joanne/bookros2_ws/install/br2_tiago:/home/joanne/bookros2_ws/install/br2_tf2_detector:/home/joanne/bookros2_ws/install/br2_navigation:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_py:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_cpp:/home/joanne/bookros2_ws/install/br2_bt_patrolling:/home/joanne/bookros2_ws/install/br2_bt_bumpgo:/home/joanne/bookros2_ws/install/br2_basics:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/joanne/bookros2_ws/build/br2_bt_bumpgo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7cddda34b0a6ee38a73f15e06819c603'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/joanne/bookros2_ws/install/urdf_test/lib/python3.8/site-packages:/home/joanne/bookros2_ws/install/tiago_description/lib/python3.8/site-packages:/home/joanne/bookros2_ws/build/ros2controlcli:/home/joanne/bookros2_ws/install/ros2controlcli/lib/python3.8/site-packages:/home/joanne/bookros2_ws/install/pmb2_description/lib/python3.8/site-packages:/home/joanne/bookros2_ws/build/launch_pal:/home/joanne/bookros2_ws/install/launch_pal/lib/python3.8/site-packages:/home/joanne/bookros2_ws/install/controller_manager/lib/python3.8/site-packages:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:/home/joanne/bookros2_ws/install/br2_tracking_msgs/lib/python3.8/site-packages:/home/joanne/bookros2_ws/build/br2_fsm_bumpgo_py:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_py/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/joanne/bookros2_ws/install/gazebo_ros2_control_demos:/home/joanne/bookros2_ws/install/ros2_controllers:/home/joanne/bookros2_ws/install/velocity_controllers:/home/joanne/bookros2_ws/install/urdf_test:/home/joanne/bookros2_ws/install/tiago_simulation:/home/joanne/bookros2_ws/install/tiago_robot:/home/joanne/bookros2_ws/install/tiago_2dnav_gazebo:/home/joanne/bookros2_ws/install/tiago_gazebo:/home/joanne/bookros2_ws/install/tiago_bringup:/home/joanne/bookros2_ws/install/pmb2_robot:/home/joanne/bookros2_ws/install/pmb2_bringup:/home/joanne/bookros2_ws/install/twist_mux:/home/joanne/bookros2_ws/install/transmission_interface:/home/joanne/bookros2_ws/install/tiago_description:/home/joanne/bookros2_ws/install/tiago_description_calibration:/home/joanne/bookros2_ws/install/tiago_controller_configuration:/home/joanne/bookros2_ws/install/ros2_control:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/pal_gripper:/home/joanne/bookros2_ws/install/pal_gripper_controller_configuration:/home/joanne/bookros2_ws/install/position_controllers:/home/joanne/bookros2_ws/install/pmb2_navigation:/home/joanne/bookros2_ws/install/pmb2_2dnav:/home/joanne/bookros2_ws/install/pmb2_maps:/home/joanne/bookros2_ws/install/pmb2_description:/home/joanne/bookros2_ws/install/pmb2_controller_configuration:/home/joanne/bookros2_ws/install/pal_gripper_description:/home/joanne/bookros2_ws/install/pal_gazebo_worlds:/home/joanne/bookros2_ws/install/joint_trajectory_controller:/home/joanne/bookros2_ws/install/joint_state_controller:/home/joanne/bookros2_ws/install/joint_state_broadcaster:/home/joanne/bookros2_ws/install/imu_sensor_broadcaster:/home/joanne/bookros2_ws/install/hey5_description:/home/joanne/bookros2_ws/install/gripper_controllers:/home/joanne/bookros2_ws/install/gazebo_ros2_control:/home/joanne/bookros2_ws/install/effort_controllers:/home/joanne/bookros2_ws/install/forward_command_controller:/home/joanne/bookros2_ws/install/force_torque_sensor_broadcaster:/home/joanne/bookros2_ws/install/diff_drive_controller:/home/joanne/bookros2_ws/install/controller_manager:/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/groot:/home/joanne/bookros2_ws/install/controller_manager_msgs:/home/joanne/bookros2_ws/install/br2_vff_avoidance:/home/joanne/bookros2_ws/install/br2_tracking:/home/joanne/bookros2_ws/install/br2_tracking_msgs:/home/joanne/bookros2_ws/install/br2_tiago:/home/joanne/bookros2_ws/install/br2_tf2_detector:/home/joanne/bookros2_ws/install/br2_navigation:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_cpp:/home/joanne/bookros2_ws/install/br2_bt_patrolling:/home/joanne/bookros2_ws/install/br2_bt_bumpgo:/home/joanne/bookros2_ws/install/br2_basics:/home/joanne/bookros2_ws/install/ros2controlcli:/home/joanne/bookros2_ws/install/launch_pal:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy')]), 'shell': False}
+[0.195385] (-) TimerEvent: {}
+[0.300589] (-) TimerEvent: {}
+[0.404203] (-) TimerEvent: {}
+[0.505761] (-) TimerEvent: {}
+[0.608925] (-) TimerEvent: {}
+[0.689739] (br2_bt_bumpgo) StdoutLine: {'line': b'[ 11%] Built target br2_forward_bt_node\n'}
+[0.711835] (-) TimerEvent: {}
+[0.813961] (-) TimerEvent: {}
+[0.844692] (br2_bt_bumpgo) StdoutLine: {'line': b'[ 22%] Built target gtest_main\n'}
+[0.914356] (-) TimerEvent: {}
+[1.016471] (br2_bt_bumpgo) StdoutLine: {'line': b'[ 33%] Built target gtest\n'}
+[1.017188] (-) TimerEvent: {}
+[1.118873] (-) TimerEvent: {}
+[1.220198] (-) TimerEvent: {}
+[1.273966] (br2_bt_bumpgo) StdoutLine: {'line': b'[ 44%] Built target bt_forward\n'}
+[1.321425] (-) TimerEvent: {}
+[1.424164] (-) TimerEvent: {}
+[1.489179] (br2_bt_bumpgo) StdoutLine: {'line': b'[ 55%] Built target bt_action_test\n'}
+[1.524635] (-) TimerEvent: {}
+[1.600997] (br2_bt_bumpgo) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target br2_is_obstacle_bt_node\x1b[0m\n'}
+[1.624945] (-) TimerEvent: {}
+[1.726770] (-) TimerEvent: {}
+[1.819309] (br2_bt_bumpgo) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/br2_is_obstacle_bt_node.dir/src/br2_bt_bumpgo/IsObstacle.cpp.o\x1b[0m\n'}
+[1.826920] (-) TimerEvent: {}
+[1.927437] (-) TimerEvent: {}
+[2.028753] (-) TimerEvent: {}
+[2.132468] (-) TimerEvent: {}
+[2.233614] (-) TimerEvent: {}
+[2.335818] (-) TimerEvent: {}
+[2.437811] (-) TimerEvent: {}
+[2.539458] (-) TimerEvent: {}
+[2.640686] (-) TimerEvent: {}
+[2.742966] (-) TimerEvent: {}
+[2.844968] (-) TimerEvent: {}
+[2.946787] (-) TimerEvent: {}
+[3.048688] (-) TimerEvent: {}
+[3.149739] (-) TimerEvent: {}
+[3.250765] (-) TimerEvent: {}
+[3.352786] (-) TimerEvent: {}
+[3.454476] (-) TimerEvent: {}
+[3.556291] (-) TimerEvent: {}
+[3.657599] (-) TimerEvent: {}
+[3.759481] (-) TimerEvent: {}
+[3.861082] (-) TimerEvent: {}
+[3.962629] (-) TimerEvent: {}
+[4.063642] (-) TimerEvent: {}
+[4.164560] (-) TimerEvent: {}
+[4.266143] (-) TimerEvent: {}
+[4.367449] (-) TimerEvent: {}
+[4.469059] (-) TimerEvent: {}
+[4.571615] (-) TimerEvent: {}
+[4.672971] (-) TimerEvent: {}
+[4.773937] (-) TimerEvent: {}
+[4.874481] (-) TimerEvent: {}
+[4.975561] (-) TimerEvent: {}
+[5.076649] (-) TimerEvent: {}
+[5.178187] (-) TimerEvent: {}
+[5.279536] (-) TimerEvent: {}
+[5.380524] (-) TimerEvent: {}
+[5.482644] (-) TimerEvent: {}
+[5.584774] (-) TimerEvent: {}
+[5.686811] (-) TimerEvent: {}
+[5.788601] (-) TimerEvent: {}
+[5.889785] (-) TimerEvent: {}
+[5.990916] (-) TimerEvent: {}
+[6.091930] (-) TimerEvent: {}
+[6.193161] (-) TimerEvent: {}
+[6.294055] (-) TimerEvent: {}
+[6.395357] (-) TimerEvent: {}
+[6.496706] (-) TimerEvent: {}
+[6.598882] (-) TimerEvent: {}
+[6.700968] (-) TimerEvent: {}
+[6.801853] (-) TimerEvent: {}
+[6.903144] (-) TimerEvent: {}
+[7.005168] (-) TimerEvent: {}
+[7.106817] (-) TimerEvent: {}
+[7.208070] (-) TimerEvent: {}
+[7.309254] (-) TimerEvent: {}
+[7.411203] (-) TimerEvent: {}
+[7.512349] (-) TimerEvent: {}
+[7.613397] (-) TimerEvent: {}
+[7.714653] (-) TimerEvent: {}
+[7.816684] (-) TimerEvent: {}
+[7.918770] (-) TimerEvent: {}
+[8.020693] (-) TimerEvent: {}
+[8.122954] (-) TimerEvent: {}
+[8.224159] (-) TimerEvent: {}
+[8.325111] (-) TimerEvent: {}
+[8.426315] (-) TimerEvent: {}
+[8.527419] (-) TimerEvent: {}
+[8.628370] (-) TimerEvent: {}
+[8.729554] (-) TimerEvent: {}
+[8.830970] (-) TimerEvent: {}
+[8.931719] (-) TimerEvent: {}
+[9.033103] (-) TimerEvent: {}
+[9.134504] (-) TimerEvent: {}
+[9.235661] (-) TimerEvent: {}
+[9.336842] (-) TimerEvent: {}
+[9.438250] (-) TimerEvent: {}
+[9.539836] (-) TimerEvent: {}
+[9.640855] (-) TimerEvent: {}
+[9.742236] (-) TimerEvent: {}
+[9.843905] (-) TimerEvent: {}
+[9.946061] (-) TimerEvent: {}
+[10.048601] (-) TimerEvent: {}
+[10.150516] (-) TimerEvent: {}
+[10.251490] (-) TimerEvent: {}
+[10.352746] (-) TimerEvent: {}
+[10.454641] (-) TimerEvent: {}
+[10.555717] (-) TimerEvent: {}
+[10.657458] (-) TimerEvent: {}
+[10.758403] (-) TimerEvent: {}
+[10.860729] (-) TimerEvent: {}
+[10.962602] (-) TimerEvent: {}
+[11.063982] (-) TimerEvent: {}
+[11.165737] (-) TimerEvent: {}
+[11.267233] (-) TimerEvent: {}
+[11.369010] (-) TimerEvent: {}
+[11.470233] (-) TimerEvent: {}
+[11.571391] (-) TimerEvent: {}
+[11.673339] (-) TimerEvent: {}
+[11.774441] (-) TimerEvent: {}
+[11.875688] (-) TimerEvent: {}
+[11.977178] (-) TimerEvent: {}
+[12.078827] (-) TimerEvent: {}
+[12.180746] (-) TimerEvent: {}
+[12.282010] (-) TimerEvent: {}
+[12.383247] (-) TimerEvent: {}
+[12.484541] (-) TimerEvent: {}
+[12.586836] (-) TimerEvent: {}
+[12.688529] (-) TimerEvent: {}
+[12.789737] (-) TimerEvent: {}
+[12.890835] (-) TimerEvent: {}
+[12.993061] (-) TimerEvent: {}
+[13.094745] (-) TimerEvent: {}
+[13.195864] (-) TimerEvent: {}
+[13.297636] (-) TimerEvent: {}
+[13.398757] (-) TimerEvent: {}
+[13.500639] (-) TimerEvent: {}
+[13.601931] (-) TimerEvent: {}
+[13.704061] (-) TimerEvent: {}
+[13.806131] (-) TimerEvent: {}
+[13.907881] (-) TimerEvent: {}
+[14.008990] (-) TimerEvent: {}
+[14.110806] (-) TimerEvent: {}
+[14.212579] (-) TimerEvent: {}
+[14.313449] (-) TimerEvent: {}
+[14.414692] (-) TimerEvent: {}
+[14.515929] (-) TimerEvent: {}
+[14.616774] (-) TimerEvent: {}
+[14.717393] (-) TimerEvent: {}
+[14.819160] (-) TimerEvent: {}
+[14.920606] (-) TimerEvent: {}
+[15.021727] (-) TimerEvent: {}
+[15.122831] (-) TimerEvent: {}
+[15.223912] (-) TimerEvent: {}
+[15.325625] (-) TimerEvent: {}
+[15.426681] (-) TimerEvent: {}
+[15.528060] (-) TimerEvent: {}
+[15.630126] (-) TimerEvent: {}
+[15.732013] (-) TimerEvent: {}
+[15.832803] (-) TimerEvent: {}
+[15.934079] (-) TimerEvent: {}
+[16.035601] (-) TimerEvent: {}
+[16.136722] (-) TimerEvent: {}
+[16.238051] (-) TimerEvent: {}
+[16.339461] (-) TimerEvent: {}
+[16.440626] (-) TimerEvent: {}
+[16.542282] (-) TimerEvent: {}
+[16.643689] (-) TimerEvent: {}
+[16.744730] (-) TimerEvent: {}
+[16.845655] (-) TimerEvent: {}
+[16.946679] (-) TimerEvent: {}
+[17.047609] (-) TimerEvent: {}
+[17.148712] (-) TimerEvent: {}
+[17.250171] (-) TimerEvent: {}
+[17.351423] (-) TimerEvent: {}
+[17.453062] (-) TimerEvent: {}
+[17.554260] (-) TimerEvent: {}
+[17.655908] (-) TimerEvent: {}
+[17.758531] (-) TimerEvent: {}
+[17.859686] (-) TimerEvent: {}
+[17.962074] (-) TimerEvent: {}
+[18.063507] (-) TimerEvent: {}
+[18.164725] (-) TimerEvent: {}
+[18.265987] (-) TimerEvent: {}
+[18.367749] (-) TimerEvent: {}
+[18.469201] (-) TimerEvent: {}
+[18.570227] (-) TimerEvent: {}
+[18.671369] (-) TimerEvent: {}
+[18.772157] (-) TimerEvent: {}
+[18.873445] (-) TimerEvent: {}
+[18.975092] (-) TimerEvent: {}
+[19.076453] (-) TimerEvent: {}
+[19.177715] (-) TimerEvent: {}
+[19.280316] (-) TimerEvent: {}
+[19.381878] (-) TimerEvent: {}
+[19.483570] (-) TimerEvent: {}
+[19.584484] (-) TimerEvent: {}
+[19.686704] (-) TimerEvent: {}
+[19.788667] (-) TimerEvent: {}
+[19.891184] (-) TimerEvent: {}
+[19.992083] (-) TimerEvent: {}
+[20.099015] (-) TimerEvent: {}
+[20.200921] (-) TimerEvent: {}
+[20.301918] (-) TimerEvent: {}
+[20.403261] (-) TimerEvent: {}
+[20.505177] (-) TimerEvent: {}
+[20.606051] (-) TimerEvent: {}
+[20.707027] (-) TimerEvent: {}
+[20.808652] (-) TimerEvent: {}
+[20.909012] (-) TimerEvent: {}
+[21.009923] (-) TimerEvent: {}
+[21.110978] (-) TimerEvent: {}
+[21.212658] (-) TimerEvent: {}
+[21.314164] (-) TimerEvent: {}
+[21.415137] (-) TimerEvent: {}
+[21.515806] (-) TimerEvent: {}
+[21.616801] (-) TimerEvent: {}
+[21.718317] (-) TimerEvent: {}
+[21.819643] (-) TimerEvent: {}
+[21.921799] (-) TimerEvent: {}
+[22.023804] (-) TimerEvent: {}
+[22.124695] (-) TimerEvent: {}
+[22.226163] (-) TimerEvent: {}
+[22.327259] (-) TimerEvent: {}
+[22.429427] (-) TimerEvent: {}
+[22.531723] (-) TimerEvent: {}
+[22.634001] (-) TimerEvent: {}
+[22.736125] (-) TimerEvent: {}
+[22.837060] (-) TimerEvent: {}
+[22.937672] (-) TimerEvent: {}
+[23.039078] (-) TimerEvent: {}
+[23.140283] (-) TimerEvent: {}
+[23.242703] (-) TimerEvent: {}
+[23.343508] (-) TimerEvent: {}
+[23.444797] (-) TimerEvent: {}
+[23.546190] (-) TimerEvent: {}
+[23.648208] (-) TimerEvent: {}
+[23.749545] (-) TimerEvent: {}
+[23.850719] (-) TimerEvent: {}
+[23.952342] (-) TimerEvent: {}
+[24.054488] (-) TimerEvent: {}
+[24.155859] (-) TimerEvent: {}
+[24.256902] (-) TimerEvent: {}
+[24.358521] (-) TimerEvent: {}
+[24.460193] (-) TimerEvent: {}
+[24.561998] (-) TimerEvent: {}
+[24.663767] (-) TimerEvent: {}
+[24.765089] (-) TimerEvent: {}
+[24.866914] (-) TimerEvent: {}
+[24.968050] (-) TimerEvent: {}
+[25.069922] (-) TimerEvent: {}
+[25.171236] (-) TimerEvent: {}
+[25.272789] (-) TimerEvent: {}
+[25.373985] (-) TimerEvent: {}
+[25.475982] (-) TimerEvent: {}
+[25.577985] (-) TimerEvent: {}
+[25.679203] (-) TimerEvent: {}
+[25.780890] (-) TimerEvent: {}
+[25.883413] (-) TimerEvent: {}
+[25.985114] (-) TimerEvent: {}
+[26.086967] (-) TimerEvent: {}
+[26.188021] (-) TimerEvent: {}
+[26.289167] (-) TimerEvent: {}
+[26.391258] (-) TimerEvent: {}
+[26.493232] (-) TimerEvent: {}
+[26.595241] (-) TimerEvent: {}
+[26.696925] (-) TimerEvent: {}
+[26.798054] (-) TimerEvent: {}
+[26.899151] (-) TimerEvent: {}
+[27.000174] (-) TimerEvent: {}
+[27.101152] (-) TimerEvent: {}
+[27.202041] (-) TimerEvent: {}
+[27.303003] (-) TimerEvent: {}
+[27.404403] (-) TimerEvent: {}
+[27.506714] (-) TimerEvent: {}
+[27.608764] (-) TimerEvent: {}
+[27.710096] (-) TimerEvent: {}
+[27.812013] (-) TimerEvent: {}
+[27.912893] (-) TimerEvent: {}
+[28.014791] (-) TimerEvent: {}
+[28.116164] (-) TimerEvent: {}
+[28.217825] (-) TimerEvent: {}
+[28.319092] (-) TimerEvent: {}
+[28.420928] (-) TimerEvent: {}
+[28.522186] (-) TimerEvent: {}
+[28.623358] (-) TimerEvent: {}
+[28.724441] (-) TimerEvent: {}
+[28.825528] (-) TimerEvent: {}
+[28.927262] (-) TimerEvent: {}
+[29.028522] (-) TimerEvent: {}
+[29.129820] (-) TimerEvent: {}
+[29.232295] (-) TimerEvent: {}
+[29.334420] (-) TimerEvent: {}
+[29.435824] (-) TimerEvent: {}
+[29.537611] (-) TimerEvent: {}
+[29.638613] (-) TimerEvent: {}
+[29.739089] (-) TimerEvent: {}
+[29.840307] (-) TimerEvent: {}
+[29.941802] (-) TimerEvent: {}
+[30.043039] (-) TimerEvent: {}
+[30.144217] (-) TimerEvent: {}
+[30.246962] (-) TimerEvent: {}
+[30.349192] (-) TimerEvent: {}
+[30.450273] (-) TimerEvent: {}
+[30.551732] (-) TimerEvent: {}
+[30.653231] (-) TimerEvent: {}
+[30.754395] (-) TimerEvent: {}
+[30.857221] (-) TimerEvent: {}
+[30.959121] (-) TimerEvent: {}
+[31.060542] (-) TimerEvent: {}
+[31.161779] (-) TimerEvent: {}
+[31.263116] (-) TimerEvent: {}
+[31.364312] (-) TimerEvent: {}
+[31.466401] (-) TimerEvent: {}
+[31.568039] (-) TimerEvent: {}
+[31.669714] (-) TimerEvent: {}
+[31.771571] (-) TimerEvent: {}
+[31.872913] (-) TimerEvent: {}
+[31.974754] (-) TimerEvent: {}
+[32.075763] (-) TimerEvent: {}
+[32.176650] (-) TimerEvent: {}
+[32.278012] (-) TimerEvent: {}
+[32.380014] (-) TimerEvent: {}
+[32.481073] (-) TimerEvent: {}
+[32.582213] (-) TimerEvent: {}
+[32.686083] (-) TimerEvent: {}
+[32.788150] (-) TimerEvent: {}
+[32.890046] (-) TimerEvent: {}
+[32.991005] (-) TimerEvent: {}
+[33.092023] (-) TimerEvent: {}
+[33.193114] (-) TimerEvent: {}
+[33.295220] (-) TimerEvent: {}
+[33.397108] (-) TimerEvent: {}
+[33.499095] (-) TimerEvent: {}
+[33.600202] (-) TimerEvent: {}
+[33.703190] (-) TimerEvent: {}
+[33.807067] (-) TimerEvent: {}
+[33.908687] (-) TimerEvent: {}
+[34.009811] (-) TimerEvent: {}
+[34.111580] (-) TimerEvent: {}
+[34.212805] (-) TimerEvent: {}
+[34.313952] (-) TimerEvent: {}
+[34.416154] (-) TimerEvent: {}
+[34.517902] (-) TimerEvent: {}
+[34.619301] (-) TimerEvent: {}
+[34.720143] (-) TimerEvent: {}
+[34.821383] (-) TimerEvent: {}
+[34.923088] (-) TimerEvent: {}
+[35.025353] (-) TimerEvent: {}
+[35.128205] (-) TimerEvent: {}
+[35.229759] (-) TimerEvent: {}
+[35.332023] (-) TimerEvent: {}
+[35.433405] (-) TimerEvent: {}
+[35.534585] (-) TimerEvent: {}
+[35.635583] (-) TimerEvent: {}
+[35.736356] (-) TimerEvent: {}
+[35.838441] (-) TimerEvent: {}
+[35.939579] (-) TimerEvent: {}
+[36.040597] (-) TimerEvent: {}
+[36.142184] (-) TimerEvent: {}
+[36.243948] (-) TimerEvent: {}
+[36.345374] (-) TimerEvent: {}
+[36.446791] (-) TimerEvent: {}
+[36.548025] (-) TimerEvent: {}
+[36.649031] (-) TimerEvent: {}
+[36.749988] (-) TimerEvent: {}
+[36.851360] (-) TimerEvent: {}
+[36.952764] (-) TimerEvent: {}
+[37.053852] (-) TimerEvent: {}
+[37.156248] (-) TimerEvent: {}
+[37.257500] (-) TimerEvent: {}
+[37.358468] (-) TimerEvent: {}
+[37.459698] (-) TimerEvent: {}
+[37.560856] (-) TimerEvent: {}
+[37.663164] (-) TimerEvent: {}
+[37.764806] (-) TimerEvent: {}
+[37.866701] (-) TimerEvent: {}
+[37.967979] (-) TimerEvent: {}
+[38.069164] (-) TimerEvent: {}
+[38.170711] (-) TimerEvent: {}
+[38.272593] (-) TimerEvent: {}
+[38.374290] (-) TimerEvent: {}
+[38.475641] (-) TimerEvent: {}
+[38.577795] (-) TimerEvent: {}
+[38.679339] (-) TimerEvent: {}
+[38.780801] (-) TimerEvent: {}
+[38.882761] (-) TimerEvent: {}
+[38.985604] (-) TimerEvent: {}
+[39.086694] (-) TimerEvent: {}
+[39.188190] (-) TimerEvent: {}
+[39.289235] (-) TimerEvent: {}
+[39.391073] (-) TimerEvent: {}
+[39.492435] (-) TimerEvent: {}
+[39.596347] (-) TimerEvent: {}
+[39.698334] (-) TimerEvent: {}
+[39.799476] (-) TimerEvent: {}
+[39.901337] (-) TimerEvent: {}
+[40.008346] (-) TimerEvent: {}
+[40.110485] (-) TimerEvent: {}
+[40.211927] (-) TimerEvent: {}
+[40.313451] (-) TimerEvent: {}
+[40.368420] (br2_bt_bumpgo) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libbr2_is_obstacle_bt_node.so\x1b[0m\n'}
+[40.413627] (-) TimerEvent: {}
+[40.514867] (-) TimerEvent: {}
+[40.617197] (-) TimerEvent: {}
+[40.719429] (-) TimerEvent: {}
+[40.821285] (-) TimerEvent: {}
+[40.924671] (-) TimerEvent: {}
+[41.028166] (-) TimerEvent: {}
+[41.133922] (-) TimerEvent: {}
+[41.238835] (-) TimerEvent: {}
+[41.340394] (-) TimerEvent: {}
+[41.442133] (-) TimerEvent: {}
+[41.543395] (-) TimerEvent: {}
+[41.644491] (-) TimerEvent: {}
+[41.745960] (-) TimerEvent: {}
+[41.848901] (-) TimerEvent: {}
+[41.950050] (-) TimerEvent: {}
+[42.054893] (-) TimerEvent: {}
+[42.156096] (-) TimerEvent: {}
+[42.257462] (-) TimerEvent: {}
+[42.359792] (-) TimerEvent: {}
+[42.461099] (-) TimerEvent: {}
+[42.565159] (-) TimerEvent: {}
+[42.667131] (-) TimerEvent: {}
+[42.701390] (br2_bt_bumpgo) StdoutLine: {'line': b'[ 66%] Built target br2_is_obstacle_bt_node\n'}
+[42.767254] (-) TimerEvent: {}
+[42.868266] (-) TimerEvent: {}
+[42.894316] (br2_bt_bumpgo) StdoutLine: {'line': b'[ 77%] Built target br2_back_bt_node\n'}
+[42.968542] (-) TimerEvent: {}
+[43.071344] (-) TimerEvent: {}
+[43.101400] (br2_bt_bumpgo) StdoutLine: {'line': b'[ 88%] Built target bt_bumpgo\n'}
+[43.173394] (-) TimerEvent: {}
+[43.276173] (-) TimerEvent: {}
+[43.363766] (br2_bt_bumpgo) StdoutLine: {'line': b'[100%] Built target br2_turn_bt_node\n'}
+[43.376457] (-) TimerEvent: {}
+[43.487285] (br2_bt_bumpgo) CommandEnded: {'returncode': 0}
+[43.490485] (-) TimerEvent: {}
+[43.502039] (br2_bt_bumpgo) JobProgress: {'identifier': 'br2_bt_bumpgo', 'progress': 'install'}
+[43.596161] (-) TimerEvent: {}
+[43.606425] (br2_bt_bumpgo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/joanne/bookros2_ws/build/br2_bt_bumpgo'], 'cwd': '/home/joanne/bookros2_ws/build/br2_bt_bumpgo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'joanne'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '1997'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/joanne/bookros2_ws/install/velocity_controllers/lib:/home/joanne/bookros2_ws/install/position_controllers/lib:/home/joanne/bookros2_ws/install/joint_trajectory_controller/lib:/home/joanne/bookros2_ws/install/joint_state_controller/lib:/home/joanne/bookros2_ws/install/joint_state_broadcaster/lib:/home/joanne/bookros2_ws/install/imu_sensor_broadcaster/lib:/home/joanne/bookros2_ws/install/gripper_controllers/lib:/home/joanne/bookros2_ws/install/gazebo_ros2_control/lib:/home/joanne/bookros2_ws/install/effort_controllers/lib:/home/joanne/bookros2_ws/install/forward_command_controller/lib:/home/joanne/bookros2_ws/install/force_torque_sensor_broadcaster/lib:/home/joanne/bookros2_ws/install/diff_drive_controller/lib:/home/joanne/bookros2_ws/install/controller_manager/lib:/home/joanne/bookros2_ws/install/controller_interface/lib:/home/joanne/bookros2_ws/install/hardware_interface/lib:/home/joanne/bookros2_ws/install/groot/lib:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib:/home/joanne/bookros2_ws/install/br2_vff_avoidance/lib:/home/joanne/bookros2_ws/install/br2_tracking/lib:/home/joanne/bookros2_ws/install/br2_tracking_msgs/lib:/home/joanne/bookros2_ws/install/br2_tf2_detector/lib:/home/joanne/bookros2_ws/install/br2_bt_patrolling/lib:/home/joanne/bookros2_ws/install/br2_bt_bumpgo/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/joanne'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1736'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7cddda34b0a6ee38a73f15e06819c603'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/joanne/bookros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'joanne'), ('JOURNAL_STREAM', '8:49015'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'joanne'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/joanne-ThinkPad-E15:@/tmp/.ICE-unix/2101,unix/joanne-ThinkPad-E15:/tmp/.ICE-unix/2101'), ('INVOCATION_ID', '8e581dbfcca4450bbc91433ac5045054'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1a8c7a2e_a9a3_4f6e_b51a_eec944e869dc'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/joanne/bookros2_ws/install/gazebo_ros2_control_demos:/home/joanne/bookros2_ws/install/ros2_controllers:/home/joanne/bookros2_ws/install/velocity_controllers:/home/joanne/bookros2_ws/install/urdf_test:/home/joanne/bookros2_ws/install/tiago_simulation:/home/joanne/bookros2_ws/install/tiago_robot:/home/joanne/bookros2_ws/install/tiago_2dnav_gazebo:/home/joanne/bookros2_ws/install/tiago_gazebo:/home/joanne/bookros2_ws/install/tiago_bringup:/home/joanne/bookros2_ws/install/pmb2_robot:/home/joanne/bookros2_ws/install/pmb2_bringup:/home/joanne/bookros2_ws/install/twist_mux:/home/joanne/bookros2_ws/install/transmission_interface:/home/joanne/bookros2_ws/install/tiago_description:/home/joanne/bookros2_ws/install/tiago_description_calibration:/home/joanne/bookros2_ws/install/tiago_controller_configuration:/home/joanne/bookros2_ws/install/ros2_control:/home/joanne/bookros2_ws/install/ros2controlcli:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/pal_gripper:/home/joanne/bookros2_ws/install/pal_gripper_controller_configuration:/home/joanne/bookros2_ws/install/position_controllers:/home/joanne/bookros2_ws/install/pmb2_navigation:/home/joanne/bookros2_ws/install/pmb2_2dnav:/home/joanne/bookros2_ws/install/pmb2_maps:/home/joanne/bookros2_ws/install/pmb2_description:/home/joanne/bookros2_ws/install/pmb2_controller_configuration:/home/joanne/bookros2_ws/install/pal_gripper_description:/home/joanne/bookros2_ws/install/pal_gazebo_worlds:/home/joanne/bookros2_ws/install/launch_pal:/home/joanne/bookros2_ws/install/joint_trajectory_controller:/home/joanne/bookros2_ws/install/joint_state_controller:/home/joanne/bookros2_ws/install/joint_state_broadcaster:/home/joanne/bookros2_ws/install/imu_sensor_broadcaster:/home/joanne/bookros2_ws/install/hey5_description:/home/joanne/bookros2_ws/install/gripper_controllers:/home/joanne/bookros2_ws/install/gazebo_ros2_control:/home/joanne/bookros2_ws/install/effort_controllers:/home/joanne/bookros2_ws/install/forward_command_controller:/home/joanne/bookros2_ws/install/force_torque_sensor_broadcaster:/home/joanne/bookros2_ws/install/diff_drive_controller:/home/joanne/bookros2_ws/install/controller_manager:/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/groot:/home/joanne/bookros2_ws/install/controller_manager_msgs:/home/joanne/bookros2_ws/install/br2_vff_avoidance:/home/joanne/bookros2_ws/install/br2_tracking:/home/joanne/bookros2_ws/install/br2_tracking_msgs:/home/joanne/bookros2_ws/install/br2_tiago:/home/joanne/bookros2_ws/install/br2_tf2_detector:/home/joanne/bookros2_ws/install/br2_navigation:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_py:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_cpp:/home/joanne/bookros2_ws/install/br2_bt_patrolling:/home/joanne/bookros2_ws/install/br2_bt_bumpgo:/home/joanne/bookros2_ws/install/br2_basics:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/joanne/bookros2_ws/build/br2_bt_bumpgo'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=7cddda34b0a6ee38a73f15e06819c603'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/joanne/bookros2_ws/install/urdf_test/lib/python3.8/site-packages:/home/joanne/bookros2_ws/install/tiago_description/lib/python3.8/site-packages:/home/joanne/bookros2_ws/build/ros2controlcli:/home/joanne/bookros2_ws/install/ros2controlcli/lib/python3.8/site-packages:/home/joanne/bookros2_ws/install/pmb2_description/lib/python3.8/site-packages:/home/joanne/bookros2_ws/build/launch_pal:/home/joanne/bookros2_ws/install/launch_pal/lib/python3.8/site-packages:/home/joanne/bookros2_ws/install/controller_manager/lib/python3.8/site-packages:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:/home/joanne/bookros2_ws/install/br2_tracking_msgs/lib/python3.8/site-packages:/home/joanne/bookros2_ws/build/br2_fsm_bumpgo_py:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_py/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/joanne/bookros2_ws/install/gazebo_ros2_control_demos:/home/joanne/bookros2_ws/install/ros2_controllers:/home/joanne/bookros2_ws/install/velocity_controllers:/home/joanne/bookros2_ws/install/urdf_test:/home/joanne/bookros2_ws/install/tiago_simulation:/home/joanne/bookros2_ws/install/tiago_robot:/home/joanne/bookros2_ws/install/tiago_2dnav_gazebo:/home/joanne/bookros2_ws/install/tiago_gazebo:/home/joanne/bookros2_ws/install/tiago_bringup:/home/joanne/bookros2_ws/install/pmb2_robot:/home/joanne/bookros2_ws/install/pmb2_bringup:/home/joanne/bookros2_ws/install/twist_mux:/home/joanne/bookros2_ws/install/transmission_interface:/home/joanne/bookros2_ws/install/tiago_description:/home/joanne/bookros2_ws/install/tiago_description_calibration:/home/joanne/bookros2_ws/install/tiago_controller_configuration:/home/joanne/bookros2_ws/install/ros2_control:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/pal_gripper:/home/joanne/bookros2_ws/install/pal_gripper_controller_configuration:/home/joanne/bookros2_ws/install/position_controllers:/home/joanne/bookros2_ws/install/pmb2_navigation:/home/joanne/bookros2_ws/install/pmb2_2dnav:/home/joanne/bookros2_ws/install/pmb2_maps:/home/joanne/bookros2_ws/install/pmb2_description:/home/joanne/bookros2_ws/install/pmb2_controller_configuration:/home/joanne/bookros2_ws/install/pal_gripper_description:/home/joanne/bookros2_ws/install/pal_gazebo_worlds:/home/joanne/bookros2_ws/install/joint_trajectory_controller:/home/joanne/bookros2_ws/install/joint_state_controller:/home/joanne/bookros2_ws/install/joint_state_broadcaster:/home/joanne/bookros2_ws/install/imu_sensor_broadcaster:/home/joanne/bookros2_ws/install/hey5_description:/home/joanne/bookros2_ws/install/gripper_controllers:/home/joanne/bookros2_ws/install/gazebo_ros2_control:/home/joanne/bookros2_ws/install/effort_controllers:/home/joanne/bookros2_ws/install/forward_command_controller:/home/joanne/bookros2_ws/install/force_torque_sensor_broadcaster:/home/joanne/bookros2_ws/install/diff_drive_controller:/home/joanne/bookros2_ws/install/controller_manager:/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/groot:/home/joanne/bookros2_ws/install/controller_manager_msgs:/home/joanne/bookros2_ws/install/br2_vff_avoidance:/home/joanne/bookros2_ws/install/br2_tracking:/home/joanne/bookros2_ws/install/br2_tracking_msgs:/home/joanne/bookros2_ws/install/br2_tiago:/home/joanne/bookros2_ws/install/br2_tf2_detector:/home/joanne/bookros2_ws/install/br2_navigation:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_cpp:/home/joanne/bookros2_ws/install/br2_bt_patrolling:/home/joanne/bookros2_ws/install/br2_bt_bumpgo:/home/joanne/bookros2_ws/install/br2_basics:/home/joanne/bookros2_ws/install/ros2controlcli:/home/joanne/bookros2_ws/install/launch_pal:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy')]), 'shell': False}
+[43.691928] (br2_bt_bumpgo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[43.696805] (-) TimerEvent: {}
+[43.702073] (br2_bt_bumpgo) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[43.707490] (br2_bt_bumpgo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/joanne/bookros2_ws/install/br2_bt_bumpgo/lib/libbr2_forward_bt_node.so\n'}
+[43.709568] (br2_bt_bumpgo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/joanne/bookros2_ws/install/br2_bt_bumpgo/lib/libbr2_back_bt_node.so\n'}
+[43.710383] (br2_bt_bumpgo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/joanne/bookros2_ws/install/br2_bt_bumpgo/lib/libbr2_turn_bt_node.so\n'}
+[43.711757] (br2_bt_bumpgo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/joanne/bookros2_ws/install/br2_bt_bumpgo/lib/libbr2_is_obstacle_bt_node.so\n'}
+[43.712434] (br2_bt_bumpgo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/joanne/bookros2_ws/install/br2_bt_bumpgo/lib/br2_bt_bumpgo/bt_bumpgo\n'}
+[43.724067] (br2_bt_bumpgo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/joanne/bookros2_ws/install/br2_bt_bumpgo/include//br2_bt_bumpgo/Back.hpp\n'}
+[43.725558] (br2_bt_bumpgo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/joanne/bookros2_ws/install/br2_bt_bumpgo/include//br2_bt_bumpgo/Forward.hpp\n'}
+[43.725977] (br2_bt_bumpgo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/joanne/bookros2_ws/install/br2_bt_bumpgo/include//br2_bt_bumpgo/IsObstacle.hpp\n'}
+[43.733713] (br2_bt_bumpgo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/joanne/bookros2_ws/install/br2_bt_bumpgo/include//br2_bt_bumpgo/Turn.hpp\n'}
+[43.734345] (br2_bt_bumpgo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/joanne/bookros2_ws/install/br2_bt_bumpgo/share/br2_bt_bumpgo/behavior_tree_xml/bumpgo.xml\n'}
+[43.734700] (br2_bt_bumpgo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/joanne/bookros2_ws/install/br2_bt_bumpgo/share/br2_bt_bumpgo/behavior_tree_xml/custom_bt_0.xml\n'}
+[43.734983] (br2_bt_bumpgo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/joanne/bookros2_ws/install/br2_bt_bumpgo/share/br2_bt_bumpgo/behavior_tree_xml/custom_bt_without_charging.xml\n'}
+[43.735215] (br2_bt_bumpgo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/joanne/bookros2_ws/install/br2_bt_bumpgo/lib/br2_bt_bumpgo/bt_forward\n'}
+[43.735380] (br2_bt_bumpgo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/joanne/bookros2_ws/install/br2_bt_bumpgo/share/ament_index/resource_index/package_run_dependencies/br2_bt_bumpgo\n'}
+[43.742932] (br2_bt_bumpgo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/joanne/bookros2_ws/install/br2_bt_bumpgo/share/ament_index/resource_index/parent_prefix_path/br2_bt_bumpgo\n'}
+[43.744030] (br2_bt_bumpgo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/joanne/bookros2_ws/install/br2_bt_bumpgo/share/br2_bt_bumpgo/environment/ament_prefix_path.sh\n'}
+[43.748840] (br2_bt_bumpgo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/joanne/bookros2_ws/install/br2_bt_bumpgo/share/br2_bt_bumpgo/environment/ament_prefix_path.dsv\n'}
+[43.751742] (br2_bt_bumpgo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/joanne/bookros2_ws/install/br2_bt_bumpgo/share/br2_bt_bumpgo/environment/path.sh\n'}
+[43.752899] (br2_bt_bumpgo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/joanne/bookros2_ws/install/br2_bt_bumpgo/share/br2_bt_bumpgo/environment/path.dsv\n'}
+[43.753967] (br2_bt_bumpgo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/joanne/bookros2_ws/install/br2_bt_bumpgo/share/br2_bt_bumpgo/local_setup.bash\n'}
+[43.755120] (br2_bt_bumpgo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/joanne/bookros2_ws/install/br2_bt_bumpgo/share/br2_bt_bumpgo/local_setup.sh\n'}
+[43.758133] (br2_bt_bumpgo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/joanne/bookros2_ws/install/br2_bt_bumpgo/share/br2_bt_bumpgo/local_setup.zsh\n'}
+[43.758985] (br2_bt_bumpgo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/joanne/bookros2_ws/install/br2_bt_bumpgo/share/br2_bt_bumpgo/local_setup.dsv\n'}
+[43.767274] (br2_bt_bumpgo) StdoutLine: {'line': b'-- Symlinking: /home/joanne/bookros2_ws/install/br2_bt_bumpgo/share/br2_bt_bumpgo/package.dsv\n'}
+[43.796882] (-) TimerEvent: {}
+[43.837951] (br2_bt_bumpgo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/joanne/bookros2_ws/install/br2_bt_bumpgo/share/ament_index/resource_index/packages/br2_bt_bumpgo\n'}
+[43.838474] (br2_bt_bumpgo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/joanne/bookros2_ws/install/br2_bt_bumpgo/share/br2_bt_bumpgo/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[43.839769] (br2_bt_bumpgo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/joanne/bookros2_ws/install/br2_bt_bumpgo/share/br2_bt_bumpgo/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[43.841989] (br2_bt_bumpgo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/joanne/bookros2_ws/install/br2_bt_bumpgo/share/br2_bt_bumpgo/cmake/br2_bt_bumpgoConfig.cmake\n'}
+[43.843895] (br2_bt_bumpgo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/joanne/bookros2_ws/install/br2_bt_bumpgo/share/br2_bt_bumpgo/cmake/br2_bt_bumpgoConfig-version.cmake\n'}
+[43.844934] (br2_bt_bumpgo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/joanne/bookros2_ws/install/br2_bt_bumpgo/share/br2_bt_bumpgo/package.xml\n'}
+[43.875423] (br2_bt_bumpgo) CommandEnded: {'returncode': 0}
+[43.907417] (-) TimerEvent: {}
+[44.009102] (-) TimerEvent: {}
+[44.058928] (br2_bt_bumpgo) JobEnded: {'identifier': 'br2_bt_bumpgo', 'rc': 0}
+[44.068570] (-) EventReactorShutdown: {}

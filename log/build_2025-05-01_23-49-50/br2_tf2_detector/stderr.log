@@ -1,0 +1,20 @@
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/Said.cpp:[m[K In constructor ‘[01m[Kbr2_tf2_detector::Said::Said()[m[K’:
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/Said.cpp:36:3:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[Kbr2_tf2_detector::Said[m[K’ does not have any field named ‘[01m[Kfirst_transform[m[K’
+   36 |   [01;31m[Kfirst_transform[m[K(true)
+      |   [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/Said.cpp:[m[K In member function ‘[01m[Kvoid br2_tf2_detector::Said::control_cycle()[m[K’:
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/Said.cpp:64:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kfirst_transform_[m[K’ was not declared in this scope
+   64 | if ([01;31m[Kfirst_transform_[m[K) {
+      |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/Said.cpp:65:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kprev_transform_[m[K’ was not declared in this scope
+   65 |   [01;31m[Kprev_transform_[m[K = current_tf;
+      |   [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/Said.cpp:72:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kprev_transform_[m[K’ was not declared in this scope
+   72 | tf2::Transform movement = [01;31m[Kprev_transform_[m[K.inverse() * current_tf;
+      |                           [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/Said.cpp:127:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker_pub_[m[K’ was not declared in this scope
+  127 | [01;31m[Kmarker_pub_[m[K->publish(movement_arrow);
+      | [01;31m[K^~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/br2_tf2_detector.dir/build.make:102: CMakeFiles/br2_tf2_detector.dir/src/br2_tf2_detector/Said.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/br2_tf2_detector.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

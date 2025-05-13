@@ -1,0 +1,18 @@
+[35m[1mScanning dependencies of target br2_tf2_detector[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/br2_tf2_detector.dir/src/br2_tf2_detector/ObstacleDetectorNode.cpp.o[0m
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/ObstacleDetectorNode.cpp:[m[K In member function ‘[01m[Kvoid br2_tf2_detector::ObstacleDetectorNode::scan_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr)[m[K’:
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/ObstacleDetectorNode.cpp:66:43:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Ktf2::BufferCore[m[K’
+   66 |       bool can_transform_odom = tf_buffer_[01;31m[K->[m[KcanTransform(
+      |                                           [01;31m[K^~[m[K
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/ObstacleDetectorNode.cpp:69:43:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Ktf2::BufferCore[m[K’
+   69 |       bool can_transform_base = tf_buffer_[01;31m[K->[m[KcanTransform(
+      |                                           [01;31m[K^~[m[K
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/ObstacleDetectorNode.cpp:79:19:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Ktf2::BufferCore[m[K’
+   79 |         tf_buffer_[01;31m[K->[m[KlookupTransform("odom", laser_frame, tf2::TimePointZero);
+      |                   [01;31m[K^~[m[K
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/ObstacleDetectorNode.cpp:82:19:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Ktf2::BufferCore[m[K’
+   82 |         tf_buffer_[01;31m[K->[m[KlookupTransform("base_footprint", laser_frame, tf2::TimePointZero);
+      |                   [01;31m[K^~[m[K
+make[2]: *** [CMakeFiles/br2_tf2_detector.dir/build.make:63: CMakeFiles/br2_tf2_detector.dir/src/br2_tf2_detector/ObstacleDetectorNode.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/br2_tf2_detector.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,163 @@
+[0.018s] Invoking command in '/home/joanne/bookros2_ws/build/controller_manager': AMENT_PREFIX_PATH=/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/joanne/bookros2_ws/install/controller_interface/lib:/home/joanne/bookros2_ws/install/hardware_interface/lib:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joanne/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/joanne/bookros2_ws/src/ThirdParty/ros2_control/controller_manager -DCMAKE_INSTALL_PREFIX=/home/joanne/bookros2_ws/install/controller_manager
+[0.083s] -- The C compiler identification is GNU 9.4.0
+[0.150s] -- The CXX compiler identification is GNU 9.4.0
+[0.155s] -- Check for working C compiler: /usr/bin/cc
+[0.233s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.234s] -- Detecting C compiler ABI info
+[0.312s] -- Detecting C compiler ABI info - done
+[0.328s] -- Detecting C compile features
+[0.328s] -- Detecting C compile features - done
+[0.331s] -- Check for working CXX compiler: /usr/bin/c++
+[0.424s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.426s] -- Detecting CXX compiler ABI info
+[0.517s] -- Detecting CXX compiler ABI info - done
+[0.533s] -- Detecting CXX compile features
+[0.534s] -- Detecting CXX compile features - done
+[0.536s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.567s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.567s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.846s] -- Found ament_index_cpp: 1.1.0 (/opt/ros/foxy/share/ament_index_cpp/cmake)
+[0.852s] -- Found controller_interface: 0.7.1 (/home/joanne/bookros2_ws/install/controller_interface/share/controller_interface/cmake)
+[0.923s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.937s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.061s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.113s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.211s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.030s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.032s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.033s] -- Looking for pthread.h
+[2.124s] -- Looking for pthread.h - found
+[2.124s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.224s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.224s] -- Looking for pthread_create in pthreads
+[2.303s] -- Looking for pthread_create in pthreads - not found
+[2.303s] -- Looking for pthread_create in pthread
+[2.396s] -- Looking for pthread_create in pthread - found
+[2.397s] -- Found Threads: TRUE  
+[2.786s] -- Found controller_manager_msgs: 0.7.1 (/home/joanne/bookros2_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake)
+[2.916s] -- Found ament_cmake_gmock: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gmock/cmake)
+[2.918s] -- Found ament_cmake_gtest: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[2.920s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.031s] -- Found gmock sources under '/opt/ros/foxy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[3.036s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.081s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.084s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.085s] -- Configured cppcheck include dirs: /home/joanne/bookros2_ws/src/ThirdParty/ros2_control/controller_manager/include
+[3.086s] -- Configured cppcheck exclude dirs and/or files: 
+[3.088s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.088s] -- Configured cpplint exclude dirs and/or files: 
+[3.088s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.089s] -- Added test 'lint_cmake' to check CMake code style
+[3.090s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[3.092s] -- Added test 'uncrustify' to check C / C++ code style
+[3.092s] -- Configured uncrustify additional arguments: 
+[3.093s] -- Added test 'xmllint' to check XML markup files
+[3.099s] -- Configuring done
+[3.299s] -- Generating done
+[3.361s] -- Build files have been written to: /home/joanne/bookros2_ws/build/controller_manager
+[3.374s] Invoked command in '/home/joanne/bookros2_ws/build/controller_manager' returned '0': AMENT_PREFIX_PATH=/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/joanne/bookros2_ws/install/controller_interface/lib:/home/joanne/bookros2_ws/install/hardware_interface/lib:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joanne/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/joanne/bookros2_ws/src/ThirdParty/ros2_control/controller_manager -DCMAKE_INSTALL_PREFIX=/home/joanne/bookros2_ws/install/controller_manager
+[3.378s] Invoking command in '/home/joanne/bookros2_ws/build/controller_manager': AMENT_PREFIX_PATH=/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/joanne/bookros2_ws/install/controller_interface/lib:/home/joanne/bookros2_ws/install/hardware_interface/lib:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joanne/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/joanne/bookros2_ws/build/controller_manager -- -j8 -l8
+[3.429s] [35m[1mScanning dependencies of target controller_manager[0m
+[3.493s] [  4%] [32mBuilding CXX object CMakeFiles/controller_manager.dir/src/controller_manager.cpp.o[0m
+[15.271s] [  8%] [32m[1mLinking CXX shared library libcontroller_manager.so[0m
+[16.188s] [  8%] Built target controller_manager
+[16.200s] [35m[1mScanning dependencies of target gmock_main[0m
+[16.222s] [ 12%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[17.365s] [ 16%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[17.396s] [ 16%] Built target gmock_main
+[17.407s] [35m[1mScanning dependencies of target test_controller_failed_init[0m
+[17.454s] [ 20%] [32mBuilding CXX object CMakeFiles/test_controller_failed_init.dir/test/test_controller_failed_init/test_controller_failed_init.cpp.o[0m
+[20.603s] [ 24%] [32m[1mLinking CXX shared library libtest_controller_failed_init.so[0m
+[20.752s] [ 24%] Built target test_controller_failed_init
+[20.765s] [35m[1mScanning dependencies of target test_controller_with_interfaces[0m
+[20.769s] [35m[1mScanning dependencies of target test_controller[0m
+[20.769s] [35m[1mScanning dependencies of target ros2_control_node[0m
+[20.825s] [ 28%] [32mBuilding CXX object CMakeFiles/test_controller_with_interfaces.dir/test/test_controller_with_interfaces/test_controller_with_interfaces.cpp.o[0m
+[20.862s] [ 32%] [32mBuilding CXX object CMakeFiles/test_controller.dir/test/test_controller/test_controller.cpp.o[0m
+[20.866s] [ 36%] [32mBuilding CXX object CMakeFiles/ros2_control_node.dir/src/ros2_control_node.cpp.o[0m
+[28.947s] [ 40%] [32m[1mLinking CXX shared library libtest_controller_with_interfaces.so[0m
+[29.325s] [ 40%] Built target test_controller_with_interfaces
+[29.992s] [ 44%] [32m[1mLinking CXX shared library libtest_controller.so[0m
+[30.057s] [ 48%] [32m[1mLinking CXX executable ros2_control_node[0m
+[30.267s] [ 48%] Built target test_controller
+[30.665s] [ 48%] Built target ros2_control_node
+[30.678s] [35m[1mScanning dependencies of target gmock[0m
+[30.706s] [ 52%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/foxy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[34.457s] [ 56%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[36.272s] [ 60%] [32m[1mLinking CXX static library libgmock.a[0m
+[36.330s] [ 60%] Built target gmock
+[36.340s] [35m[1mScanning dependencies of target test_release_interfaces[0m
+[36.393s] [ 64%] [32mBuilding CXX object CMakeFiles/test_release_interfaces.dir/test/test_release_interfaces.cpp.o[0m
+[40.600s] [ 68%] [32m[1mLinking CXX executable test_release_interfaces[0m
+[41.196s] [ 68%] Built target test_release_interfaces
+[41.207s] [35m[1mScanning dependencies of target test_spawner_unspawner[0m
+[41.207s] [35m[1mScanning dependencies of target test_load_controller[0m
+[41.207s] [35m[1mScanning dependencies of target test_controller_manager_srvs[0m
+[41.271s] [ 72%] [32mBuilding CXX object CMakeFiles/test_spawner_unspawner.dir/test/test_spawner_unspawner.cpp.o[0m
+[41.273s] [ 76%] [32mBuilding CXX object CMakeFiles/test_controller_manager_srvs.dir/test/test_controller_manager_srvs.cpp.o[0m
+[41.273s] [ 80%] [32mBuilding CXX object CMakeFiles/test_load_controller.dir/test/test_load_controller.cpp.o[0m
+[48.722s] [ 84%] [32m[1mLinking CXX executable test_spawner_unspawner[0m
+[49.376s] [ 88%] [32m[1mLinking CXX executable test_load_controller[0m
+[49.801s] [ 88%] Built target test_spawner_unspawner
+[49.818s] [35m[1mScanning dependencies of target test_controller_manager[0m
+[49.943s] [ 92%] [32mBuilding CXX object CMakeFiles/test_controller_manager.dir/test/test_controller_manager.cpp.o[0m
+[50.501s] [ 92%] Built target test_load_controller
+[60.368s] [ 96%] [32m[1mLinking CXX executable test_controller_manager[0m
+[60.897s] [100%] [32m[1mLinking CXX executable test_controller_manager_srvs[0m
+[62.495s] [100%] Built target test_controller_manager
+[63.161s] [100%] Built target test_controller_manager_srvs
+[63.175s] Invoked command in '/home/joanne/bookros2_ws/build/controller_manager' returned '0': AMENT_PREFIX_PATH=/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/joanne/bookros2_ws/install/controller_interface/lib:/home/joanne/bookros2_ws/install/hardware_interface/lib:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joanne/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/joanne/bookros2_ws/build/controller_manager -- -j8 -l8
+[63.176s] Invoking command in '/home/joanne/bookros2_ws/build/controller_manager': AMENT_PREFIX_PATH=/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/joanne/bookros2_ws/install/controller_interface/lib:/home/joanne/bookros2_ws/install/hardware_interface/lib:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joanne/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/joanne/bookros2_ws/build/controller_manager
+[63.189s] -- Install configuration: ""
+[63.189s] -- Installing: /home/joanne/bookros2_ws/install/controller_manager/lib/libcontroller_manager.so
+[63.195s] -- Set runtime path of "/home/joanne/bookros2_ws/install/controller_manager/lib/libcontroller_manager.so" to ""
+[63.195s] -- Installing: /home/joanne/bookros2_ws/install/controller_manager/lib/controller_manager/ros2_control_node
+[63.196s] -- Set runtime path of "/home/joanne/bookros2_ws/install/controller_manager/lib/controller_manager/ros2_control_node" to ""
+[63.196s] -- Installing: /home/joanne/bookros2_ws/install/controller_manager/include
+[63.196s] -- Installing: /home/joanne/bookros2_ws/install/controller_manager/include/controller_manager
+[63.196s] -- Installing: /home/joanne/bookros2_ws/install/controller_manager/include/controller_manager/controller_spec.hpp
+[63.197s] -- Installing: /home/joanne/bookros2_ws/install/controller_manager/include/controller_manager/visibility_control.h
+[63.197s] -- Installing: /home/joanne/bookros2_ws/install/controller_manager/include/controller_manager/controller_manager.hpp
+[63.197s] -- Installing: /home/joanne/bookros2_ws/install/controller_manager/lib/controller_manager/spawner.py
+[63.197s] -- Installing: /home/joanne/bookros2_ws/install/controller_manager/lib/controller_manager/unspawner.py
+[63.198s] -- Installing: /home/joanne/bookros2_ws/install/controller_manager/share/controller_manager/test/test_controller/test_controller.xml
+[63.198s] -- Installing: /home/joanne/bookros2_ws/install/controller_manager/lib/libtest_controller.so
+[63.198s] -- Set runtime path of "/home/joanne/bookros2_ws/install/controller_manager/lib/libtest_controller.so" to ""
+[63.199s] -- Installing: /home/joanne/bookros2_ws/install/controller_manager/share/controller_manager/test/test_controller_failed_init/test_controller_failed_init.xml
+[63.199s] -- Installing: /home/joanne/bookros2_ws/install/controller_manager/lib/libtest_controller_failed_init.so
+[63.200s] -- Set runtime path of "/home/joanne/bookros2_ws/install/controller_manager/lib/libtest_controller_failed_init.so" to ""
+[63.200s] -- Installing: /home/joanne/bookros2_ws/install/controller_manager/share/controller_manager/test/test_controller_with_interfaces/test_controller_with_interfaces.xml
+[63.200s] -- Installing: /home/joanne/bookros2_ws/install/controller_manager/lib/libtest_controller_with_interfaces.so
+[63.201s] -- Set runtime path of "/home/joanne/bookros2_ws/install/controller_manager/lib/libtest_controller_with_interfaces.so" to ""
+[63.201s] -- Installing: /home/joanne/bookros2_ws/install/controller_manager/share/controller_manager/environment/pythonpath.sh
+[63.201s] -- Installing: /home/joanne/bookros2_ws/install/controller_manager/share/controller_manager/environment/pythonpath.dsv
+[63.201s] -- Installing: /home/joanne/bookros2_ws/install/controller_manager/lib/python3.8/site-packages/controller_manager
+[63.201s] -- Installing: /home/joanne/bookros2_ws/install/controller_manager/lib/python3.8/site-packages/controller_manager/__init__.py
+[63.202s] -- Installing: /home/joanne/bookros2_ws/install/controller_manager/lib/python3.8/site-packages/controller_manager/launch_utils.py
+[63.202s] -- Installing: /home/joanne/bookros2_ws/install/controller_manager/lib/python3.8/site-packages/controller_manager/controller_manager_services.py
+[63.250s] Listing '/home/joanne/bookros2_ws/install/controller_manager/lib/python3.8/site-packages/controller_manager'...
+[63.250s] Compiling '/home/joanne/bookros2_ws/install/controller_manager/lib/python3.8/site-packages/controller_manager/__init__.py'...
+[63.250s] Compiling '/home/joanne/bookros2_ws/install/controller_manager/lib/python3.8/site-packages/controller_manager/controller_manager_services.py'...
+[63.250s] Compiling '/home/joanne/bookros2_ws/install/controller_manager/lib/python3.8/site-packages/controller_manager/launch_utils.py'...
+[63.256s] -- Installing: /home/joanne/bookros2_ws/install/controller_manager/share/controller_manager/environment/library_path.sh
+[63.256s] -- Installing: /home/joanne/bookros2_ws/install/controller_manager/share/controller_manager/environment/library_path.dsv
+[63.257s] -- Installing: /home/joanne/bookros2_ws/install/controller_manager/share/ament_index/resource_index/package_run_dependencies/controller_manager
+[63.257s] -- Installing: /home/joanne/bookros2_ws/install/controller_manager/share/ament_index/resource_index/parent_prefix_path/controller_manager
+[63.257s] -- Installing: /home/joanne/bookros2_ws/install/controller_manager/share/controller_manager/environment/ament_prefix_path.sh
+[63.257s] -- Installing: /home/joanne/bookros2_ws/install/controller_manager/share/controller_manager/environment/ament_prefix_path.dsv
+[63.257s] -- Installing: /home/joanne/bookros2_ws/install/controller_manager/share/controller_manager/environment/path.sh
+[63.257s] -- Installing: /home/joanne/bookros2_ws/install/controller_manager/share/controller_manager/environment/path.dsv
+[63.258s] -- Installing: /home/joanne/bookros2_ws/install/controller_manager/share/controller_manager/local_setup.bash
+[63.258s] -- Installing: /home/joanne/bookros2_ws/install/controller_manager/share/controller_manager/local_setup.sh
+[63.258s] -- Installing: /home/joanne/bookros2_ws/install/controller_manager/share/controller_manager/local_setup.zsh
+[63.258s] -- Installing: /home/joanne/bookros2_ws/install/controller_manager/share/controller_manager/local_setup.dsv
+[63.258s] -- Installing: /home/joanne/bookros2_ws/install/controller_manager/share/controller_manager/package.dsv
+[63.258s] -- Installing: /home/joanne/bookros2_ws/install/controller_manager/share/ament_index/resource_index/packages/controller_manager
+[63.258s] -- Installing: /home/joanne/bookros2_ws/install/controller_manager/share/ament_index/resource_index/controller_interface__pluginlib__plugin/controller_manager
+[63.258s] -- Installing: /home/joanne/bookros2_ws/install/controller_manager/share/controller_manager/cmake/ament_cmake_export_libraries-extras.cmake
+[63.258s] -- Installing: /home/joanne/bookros2_ws/install/controller_manager/share/controller_manager/cmake/ament_cmake_export_include_directories-extras.cmake
+[63.259s] -- Installing: /home/joanne/bookros2_ws/install/controller_manager/share/controller_manager/cmake/ament_cmake_export_dependencies-extras.cmake
+[63.259s] -- Installing: /home/joanne/bookros2_ws/install/controller_manager/share/controller_manager/cmake/controller_managerConfig.cmake
+[63.259s] -- Installing: /home/joanne/bookros2_ws/install/controller_manager/share/controller_manager/cmake/controller_managerConfig-version.cmake
+[63.259s] -- Installing: /home/joanne/bookros2_ws/install/controller_manager/share/controller_manager/package.xml
+[63.262s] Invoked command in '/home/joanne/bookros2_ws/build/controller_manager' returned '0': AMENT_PREFIX_PATH=/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/joanne/bookros2_ws/install/controller_interface/lib:/home/joanne/bookros2_ws/install/hardware_interface/lib:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joanne/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/joanne/bookros2_ws/build/controller_manager

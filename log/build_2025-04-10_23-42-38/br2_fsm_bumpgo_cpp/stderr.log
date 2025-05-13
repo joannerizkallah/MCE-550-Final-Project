@@ -1,0 +1,47 @@
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/include/br2_fsm_bumpgo_cpp/BumpGoNode.hpp:21[m[K,
+                 from [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp:16[m[K:
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp:[m[K In member function ‘[01m[Kvoid br2_fsm_bumpgo_cpp::BumpGoNode::control_cycle()[m[K’:
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp:144:25:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KNode[m[K’ in ‘[01m[K(br2_fsm_bumpgo_cpp::BumpGoNode*)this[m[K’, which is of pointer type ‘[01m[Kbr2_fsm_bumpgo_cpp::BumpGoNode*[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+  144 |       RCLCPP_INFO((this.[01;31m[KNode[m[K)->get_logger(), "turning!!! %d", out_vel.angular.z);
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp:144:25:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KNode[m[K’ in ‘[01m[K(br2_fsm_bumpgo_cpp::BumpGoNode*)this[m[K’, which is of pointer type ‘[01m[Kbr2_fsm_bumpgo_cpp::BumpGoNode*[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp:144:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  144 |       [01;31m[KRCLCPP_INFO[m[K((this.Node)->get_logger(), "turning!!! %d", out_vel.angular.z);
+      |       [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp:144:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  144 |       [01;31m[KRCLCPP_INFO[m[K((this.Node)->get_logger(), "turning!!! %d", out_vel.angular.z);
+      |       [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp:144:7:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  144 |       [01;31m[KRCLCPP_INFO[m[K((this.Node)->get_logger(), "turning!!! %d", out_vel.angular.z);
+      |       [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/include/br2_fsm_bumpgo_cpp/BumpGoNode.hpp:21[m[K,
+                 from [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp:16[m[K:
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp:144:25:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KNode[m[K’ in ‘[01m[K(br2_fsm_bumpgo_cpp::BumpGoNode*)this[m[K’, which is of pointer type ‘[01m[Kbr2_fsm_bumpgo_cpp::BumpGoNode*[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+  144 |       RCLCPP_INFO((this.[01;31m[KNode[m[K)->get_logger(), "turning!!! %d", out_vel.angular.z);
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp:144:25:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KNode[m[K’ in ‘[01m[K(br2_fsm_bumpgo_cpp::BumpGoNode*)this[m[K’, which is of pointer type ‘[01m[Kbr2_fsm_bumpgo_cpp::BumpGoNode*[m[K’ (maybe you meant to use ‘[01m[K->[m[K’ ?)
+  144 |       RCLCPP_INFO((this.[01;31m[KNode[m[K)->get_logger(), "turning!!! %d", out_vel.angular.z);
+      |                         [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/bumpgo.dir/build.make:63: CMakeFiles/bumpgo.dir/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/bumpgo.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

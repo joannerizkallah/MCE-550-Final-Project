@@ -1,0 +1,10 @@
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_bt_bumpgo/src/br2_bt_bumpgo/IsObstacle.cpp:[m[K In member function ‘[01m[Kvirtual BT::NodeStatus br2_bt_bumpgo::IsObstacle::tick()[m[K’:
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_bt_bumpgo/src/br2_bt_bumpgo/IsObstacle.cpp:62:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kindex_left[m[K’ was not declared in this scope
+   62 |   [01;31m[Kindex_left[m[K = last_scan_->ranges.size()/2 - 0.262 / last_scan_->angle_increment;
+      |   [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_bt_bumpgo/src/br2_bt_bumpgo/IsObstacle.cpp:63:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kindex_right[m[K’ was not declared in this scope
+   63 |   [01;31m[Kindex_right[m[K = last_scan_->ranges.size()/2 + 0.262 / last_scan_->angle_increment;
+      |   [01;31m[K^~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/br2_is_obstacle_bt_node.dir/build.make:63: CMakeFiles/br2_is_obstacle_bt_node.dir/src/br2_bt_bumpgo/IsObstacle.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:237: CMakeFiles/br2_is_obstacle_bt_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

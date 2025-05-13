@@ -1,0 +1,1250 @@
+[0.000000] (-) TimerEvent: {}
+[0.000491] (-) JobUnselected: {'identifier': 'br2_basics'}
+[0.001273] (-) JobUnselected: {'identifier': 'br2_bt_bumpgo'}
+[0.001606] (-) JobUnselected: {'identifier': 'br2_bt_patrolling'}
+[0.001754] (-) JobUnselected: {'identifier': 'br2_fsm_bumpgo_cpp'}
+[0.001815] (-) JobUnselected: {'identifier': 'br2_fsm_bumpgo_py'}
+[0.001877] (-) JobUnselected: {'identifier': 'br2_navigation'}
+[0.002843] (-) JobUnselected: {'identifier': 'br2_tf2_detector'}
+[0.003438] (-) JobUnselected: {'identifier': 'br2_tiago'}
+[0.003980] (-) JobUnselected: {'identifier': 'br2_tracking_msgs'}
+[0.004471] (-) JobUnselected: {'identifier': 'br2_vff_avoidance'}
+[0.004699] (-) JobUnselected: {'identifier': 'controller_interface'}
+[0.004847] (-) JobUnselected: {'identifier': 'controller_manager'}
+[0.005054] (-) JobUnselected: {'identifier': 'controller_manager_msgs'}
+[0.005272] (-) JobUnselected: {'identifier': 'diff_drive_controller'}
+[0.007914] (-) JobUnselected: {'identifier': 'effort_controllers'}
+[0.009644] (-) JobUnselected: {'identifier': 'force_torque_sensor_broadcaster'}
+[0.010217] (-) JobUnselected: {'identifier': 'forward_command_controller'}
+[0.010364] (-) JobUnselected: {'identifier': 'gazebo_ros2_control'}
+[0.010533] (-) JobUnselected: {'identifier': 'gazebo_ros2_control_demos'}
+[0.010634] (-) JobUnselected: {'identifier': 'gripper_controllers'}
+[0.010696] (-) JobUnselected: {'identifier': 'groot'}
+[0.010755] (-) JobUnselected: {'identifier': 'hardware_interface'}
+[0.010808] (-) JobUnselected: {'identifier': 'hey5_description'}
+[0.010909] (-) JobUnselected: {'identifier': 'imu_sensor_broadcaster'}
+[0.011861] (-) JobUnselected: {'identifier': 'joint_state_broadcaster'}
+[0.012003] (-) JobUnselected: {'identifier': 'joint_state_controller'}
+[0.012039] (-) JobUnselected: {'identifier': 'joint_trajectory_controller'}
+[0.012069] (-) JobUnselected: {'identifier': 'launch_pal'}
+[0.012152] (-) JobUnselected: {'identifier': 'pal_gazebo_worlds'}
+[0.012245] (-) JobUnselected: {'identifier': 'pal_gripper'}
+[0.012304] (-) JobUnselected: {'identifier': 'pal_gripper_controller_configuration'}
+[0.012355] (-) JobUnselected: {'identifier': 'pal_gripper_description'}
+[0.012401] (-) JobUnselected: {'identifier': 'pmb2_2dnav'}
+[0.012476] (-) JobUnselected: {'identifier': 'pmb2_bringup'}
+[0.012554] (-) JobUnselected: {'identifier': 'pmb2_controller_configuration'}
+[0.012605] (-) JobUnselected: {'identifier': 'pmb2_description'}
+[0.013054] (-) JobUnselected: {'identifier': 'pmb2_maps'}
+[0.013100] (-) JobUnselected: {'identifier': 'pmb2_navigation'}
+[0.013132] (-) JobUnselected: {'identifier': 'pmb2_robot'}
+[0.013161] (-) JobUnselected: {'identifier': 'position_controllers'}
+[0.013189] (-) JobUnselected: {'identifier': 'ros2_control'}
+[0.013216] (-) JobUnselected: {'identifier': 'ros2_control_test_assets'}
+[0.013243] (-) JobUnselected: {'identifier': 'ros2_controllers'}
+[0.013271] (-) JobUnselected: {'identifier': 'ros2controlcli'}
+[0.013299] (-) JobUnselected: {'identifier': 'tiago_2dnav_gazebo'}
+[0.013327] (-) JobUnselected: {'identifier': 'tiago_bringup'}
+[0.013354] (-) JobUnselected: {'identifier': 'tiago_controller_configuration'}
+[0.013925] (-) JobUnselected: {'identifier': 'tiago_description'}
+[0.014088] (-) JobUnselected: {'identifier': 'tiago_description_calibration'}
+[0.014167] (-) JobUnselected: {'identifier': 'tiago_gazebo'}
+[0.014226] (-) JobUnselected: {'identifier': 'tiago_robot'}
+[0.014289] (-) JobUnselected: {'identifier': 'tiago_simulation'}
+[0.014339] (-) JobUnselected: {'identifier': 'transmission_interface'}
+[0.014394] (-) JobUnselected: {'identifier': 'twist_mux'}
+[0.014454] (-) JobUnselected: {'identifier': 'urdf_test'}
+[0.014514] (-) JobUnselected: {'identifier': 'velocity_controllers'}
+[0.014625] (br2_tracking) JobQueued: {'identifier': 'br2_tracking', 'dependencies': OrderedDict([('br2_tracking_msgs', '/home/joanne/bookros2_ws/install/br2_tracking_msgs')])}
+[0.014796] (br2_tracking) JobStarted: {'identifier': 'br2_tracking'}
+[0.097155] (br2_tracking) JobProgress: {'identifier': 'br2_tracking', 'progress': 'cmake'}
+[0.097349] (br2_tracking) JobProgress: {'identifier': 'br2_tracking', 'progress': 'build'}
+[0.099652] (br2_tracking) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/joanne/bookros2_ws/build/br2_tracking', '--', '-j8', '-l8'], 'cwd': '/home/joanne/bookros2_ws/build/br2_tracking', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'joanne'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '1964'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/joanne/bookros2_ws/install/br2_tracking_msgs/lib:/home/joanne/bookros2_ws/install/velocity_controllers/lib:/home/joanne/bookros2_ws/install/position_controllers/lib:/home/joanne/bookros2_ws/install/joint_trajectory_controller/lib:/home/joanne/bookros2_ws/install/joint_state_controller/lib:/home/joanne/bookros2_ws/install/joint_state_broadcaster/lib:/home/joanne/bookros2_ws/install/imu_sensor_broadcaster/lib:/home/joanne/bookros2_ws/install/gripper_controllers/lib:/home/joanne/bookros2_ws/install/gazebo_ros2_control/lib:/home/joanne/bookros2_ws/install/effort_controllers/lib:/home/joanne/bookros2_ws/install/forward_command_controller/lib:/home/joanne/bookros2_ws/install/force_torque_sensor_broadcaster/lib:/home/joanne/bookros2_ws/install/diff_drive_controller/lib:/home/joanne/bookros2_ws/install/controller_manager/lib:/home/joanne/bookros2_ws/install/controller_interface/lib:/home/joanne/bookros2_ws/install/hardware_interface/lib:/home/joanne/bookros2_ws/install/groot/lib:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib:/home/joanne/bookros2_ws/install/br2_vff_avoidance/lib:/home/joanne/bookros2_ws/install/br2_tracking/lib:/home/joanne/bookros2_ws/install/br2_tf2_detector/lib:/home/joanne/bookros2_ws/install/br2_bt_patrolling/lib:/home/joanne/bookros2_ws/install/br2_bt_bumpgo/lib:/home/joanne/nav2_ws/install/smac_planner/lib:/home/joanne/nav2_ws/install/nav2_controller/lib:/home/joanne/nav2_ws/install/dwb_plugins/lib:/home/joanne/nav2_ws/install/dwb_critics/lib:/home/joanne/nav2_ws/install/dwb_core/lib:/home/joanne/nav2_ws/install/nav_2d_utils/lib:/home/joanne/nav2_ws/install/dwb_msgs/lib:/home/joanne/nav2_ws/install/nav_2d_msgs/lib:/home/joanne/nav2_ws/install/nav2_waypoint_follower/lib:/home/joanne/nav2_ws/install/nav2_regulated_pure_pursuit_controller/lib:/home/joanne/nav2_ws/install/nav2_recoveries/lib:/home/joanne/nav2_ws/install/nav2_planner/lib:/home/joanne/nav2_ws/install/nav2_navfn_planner/lib:/home/joanne/nav2_ws/install/costmap_queue/lib:/home/joanne/nav2_ws/install/nav2_costmap_2d/lib:/home/joanne/nav2_ws/install/nav2_voxel_grid/lib:/home/joanne/nav2_ws/install/nav2_rviz_plugins/lib:/home/joanne/nav2_ws/install/nav2_map_server/lib:/home/joanne/nav2_ws/install/nav2_lifecycle_manager/lib:/home/joanne/nav2_ws/install/nav2_bt_navigator/lib:/home/joanne/nav2_ws/install/nav2_behavior_tree/lib:/home/joanne/nav2_ws/install/nav2_amcl/lib:/home/joanne/nav2_ws/install/nav2_util/lib:/home/joanne/nav2_ws/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/joanne'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1703'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/joanne/bookros2_ws/install:/home/joanne/nav2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'joanne'), ('JOURNAL_STREAM', '8:54365'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'joanne'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/joanne-ThinkPad-E15:@/tmp/.ICE-unix/2068,unix/joanne-ThinkPad-E15:/tmp/.ICE-unix/2068'), ('INVOCATION_ID', '6d2542c0f60b401e8a6db5047dfcbf93'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/eed235c3_1bfc_43f3_b0ac_11cbc7685039'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.82'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/joanne/bookros2_ws/install/gazebo_ros2_control_demos:/home/joanne/bookros2_ws/install/ros2_controllers:/home/joanne/bookros2_ws/install/velocity_controllers:/home/joanne/bookros2_ws/install/urdf_test:/home/joanne/bookros2_ws/install/tiago_simulation:/home/joanne/bookros2_ws/install/tiago_robot:/home/joanne/bookros2_ws/install/tiago_2dnav_gazebo:/home/joanne/bookros2_ws/install/tiago_gazebo:/home/joanne/bookros2_ws/install/tiago_bringup:/home/joanne/bookros2_ws/install/pmb2_robot:/home/joanne/bookros2_ws/install/pmb2_bringup:/home/joanne/bookros2_ws/install/twist_mux:/home/joanne/bookros2_ws/install/transmission_interface:/home/joanne/bookros2_ws/install/tiago_description:/home/joanne/bookros2_ws/install/tiago_description_calibration:/home/joanne/bookros2_ws/install/tiago_controller_configuration:/home/joanne/bookros2_ws/install/ros2_control:/home/joanne/bookros2_ws/install/ros2controlcli:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/pal_gripper:/home/joanne/bookros2_ws/install/pal_gripper_controller_configuration:/home/joanne/bookros2_ws/install/position_controllers:/home/joanne/bookros2_ws/install/pmb2_navigation:/home/joanne/bookros2_ws/install/pmb2_2dnav:/home/joanne/bookros2_ws/install/pmb2_maps:/home/joanne/bookros2_ws/install/pmb2_description:/home/joanne/bookros2_ws/install/pmb2_controller_configuration:/home/joanne/bookros2_ws/install/pal_gripper_description:/home/joanne/bookros2_ws/install/pal_gazebo_worlds:/home/joanne/bookros2_ws/install/launch_pal:/home/joanne/bookros2_ws/install/joint_trajectory_controller:/home/joanne/bookros2_ws/install/joint_state_controller:/home/joanne/bookros2_ws/install/joint_state_broadcaster:/home/joanne/bookros2_ws/install/imu_sensor_broadcaster:/home/joanne/bookros2_ws/install/hey5_description:/home/joanne/bookros2_ws/install/gripper_controllers:/home/joanne/bookros2_ws/install/gazebo_ros2_control:/home/joanne/bookros2_ws/install/effort_controllers:/home/joanne/bookros2_ws/install/forward_command_controller:/home/joanne/bookros2_ws/install/force_torque_sensor_broadcaster:/home/joanne/bookros2_ws/install/diff_drive_controller:/home/joanne/bookros2_ws/install/controller_manager:/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/groot:/home/joanne/bookros2_ws/install/controller_manager_msgs:/home/joanne/bookros2_ws/install/br2_vff_avoidance:/home/joanne/bookros2_ws/install/br2_tracking:/home/joanne/bookros2_ws/install/br2_tracking_msgs:/home/joanne/bookros2_ws/install/br2_tiago:/home/joanne/bookros2_ws/install/br2_tf2_detector:/home/joanne/bookros2_ws/install/br2_navigation:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_py:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_cpp:/home/joanne/bookros2_ws/install/br2_bt_patrolling:/home/joanne/bookros2_ws/install/br2_bt_bumpgo:/home/joanne/bookros2_ws/install/br2_basics:/home/joanne/nav2_ws/install/nav2_system_tests:/home/joanne/nav2_ws/install/nav2_bringup:/home/joanne/nav2_ws/install/navigation2:/home/joanne/nav2_ws/install/smac_planner:/home/joanne/nav2_ws/install/nav2_dwb_controller:/home/joanne/nav2_ws/install/nav2_controller:/home/joanne/nav2_ws/install/dwb_plugins:/home/joanne/nav2_ws/install/dwb_critics:/home/joanne/nav2_ws/install/dwb_core:/home/joanne/nav2_ws/install/nav_2d_utils:/home/joanne/nav2_ws/install/dwb_msgs:/home/joanne/nav2_ws/install/nav_2d_msgs:/home/joanne/nav2_ws/install/nav2_waypoint_follower:/home/joanne/nav2_ws/install/nav2_regulated_pure_pursuit_controller:/home/joanne/nav2_ws/install/nav2_recoveries:/home/joanne/nav2_ws/install/nav2_planner:/home/joanne/nav2_ws/install/nav2_navfn_planner:/home/joanne/nav2_ws/install/nav2_core:/home/joanne/nav2_ws/install/costmap_queue:/home/joanne/nav2_ws/install/nav2_costmap_2d:/home/joanne/nav2_ws/install/nav2_voxel_grid:/home/joanne/nav2_ws/install/nav2_rviz_plugins:/home/joanne/nav2_ws/install/nav2_map_server:/home/joanne/nav2_ws/install/nav2_lifecycle_manager:/home/joanne/nav2_ws/install/nav2_bt_navigator:/home/joanne/nav2_ws/install/nav2_behavior_tree:/home/joanne/nav2_ws/install/nav2_amcl:/home/joanne/nav2_ws/install/nav2_util:/home/joanne/nav2_ws/install/nav2_msgs:/home/joanne/nav2_ws/install/nav2_gazebo_spawner:/home/joanne/nav2_ws/install/nav2_common:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/joanne/bookros2_ws/build/br2_tracking'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/joanne/bookros2_ws/install/br2_tracking_msgs/lib/python3.8/site-packages:/home/joanne/bookros2_ws/install/urdf_test/lib/python3.8/site-packages:/home/joanne/bookros2_ws/install/tiago_description/lib/python3.8/site-packages:/home/joanne/bookros2_ws/build/ros2controlcli:/home/joanne/bookros2_ws/install/ros2controlcli/lib/python3.8/site-packages:/home/joanne/bookros2_ws/install/pmb2_description/lib/python3.8/site-packages:/home/joanne/bookros2_ws/build/launch_pal:/home/joanne/bookros2_ws/install/launch_pal/lib/python3.8/site-packages:/home/joanne/bookros2_ws/install/controller_manager/lib/python3.8/site-packages:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:/home/joanne/bookros2_ws/build/br2_fsm_bumpgo_py:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_py/lib/python3.8/site-packages:/home/joanne/nav2_ws/install/dwb_msgs/lib/python3.8/site-packages:/home/joanne/nav2_ws/install/nav_2d_msgs/lib/python3.8/site-packages:/home/joanne/nav2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/joanne/nav2_ws/build/nav2_gazebo_spawner:/home/joanne/nav2_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/home/joanne/nav2_ws/install/nav2_common/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/joanne/bookros2_ws/install/br2_tracking_msgs:/home/joanne/bookros2_ws/install/gazebo_ros2_control_demos:/home/joanne/bookros2_ws/install/ros2_controllers:/home/joanne/bookros2_ws/install/velocity_controllers:/home/joanne/bookros2_ws/install/urdf_test:/home/joanne/bookros2_ws/install/tiago_simulation:/home/joanne/bookros2_ws/install/tiago_robot:/home/joanne/bookros2_ws/install/tiago_2dnav_gazebo:/home/joanne/bookros2_ws/install/tiago_gazebo:/home/joanne/bookros2_ws/install/tiago_bringup:/home/joanne/bookros2_ws/install/pmb2_robot:/home/joanne/bookros2_ws/install/pmb2_bringup:/home/joanne/bookros2_ws/install/twist_mux:/home/joanne/bookros2_ws/install/transmission_interface:/home/joanne/bookros2_ws/install/tiago_description:/home/joanne/bookros2_ws/install/tiago_description_calibration:/home/joanne/bookros2_ws/install/tiago_controller_configuration:/home/joanne/bookros2_ws/install/ros2_control:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/pal_gripper:/home/joanne/bookros2_ws/install/pal_gripper_controller_configuration:/home/joanne/bookros2_ws/install/position_controllers:/home/joanne/bookros2_ws/install/pmb2_navigation:/home/joanne/bookros2_ws/install/pmb2_2dnav:/home/joanne/bookros2_ws/install/pmb2_maps:/home/joanne/bookros2_ws/install/pmb2_description:/home/joanne/bookros2_ws/install/pmb2_controller_configuration:/home/joanne/bookros2_ws/install/pal_gripper_description:/home/joanne/bookros2_ws/install/pal_gazebo_worlds:/home/joanne/bookros2_ws/install/joint_trajectory_controller:/home/joanne/bookros2_ws/install/joint_state_controller:/home/joanne/bookros2_ws/install/joint_state_broadcaster:/home/joanne/bookros2_ws/install/imu_sensor_broadcaster:/home/joanne/bookros2_ws/install/hey5_description:/home/joanne/bookros2_ws/install/gripper_controllers:/home/joanne/bookros2_ws/install/gazebo_ros2_control:/home/joanne/bookros2_ws/install/effort_controllers:/home/joanne/bookros2_ws/install/forward_command_controller:/home/joanne/bookros2_ws/install/force_torque_sensor_broadcaster:/home/joanne/bookros2_ws/install/diff_drive_controller:/home/joanne/bookros2_ws/install/controller_manager:/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/groot:/home/joanne/bookros2_ws/install/controller_manager_msgs:/home/joanne/bookros2_ws/install/br2_vff_avoidance:/home/joanne/bookros2_ws/install/br2_tracking:/home/joanne/bookros2_ws/install/br2_tiago:/home/joanne/bookros2_ws/install/br2_tf2_detector:/home/joanne/bookros2_ws/install/br2_navigation:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_cpp:/home/joanne/bookros2_ws/install/br2_bt_patrolling:/home/joanne/bookros2_ws/install/br2_bt_bumpgo:/home/joanne/bookros2_ws/install/br2_basics:/home/joanne/nav2_ws/install/nav2_system_tests:/home/joanne/nav2_ws/install/nav2_bringup:/home/joanne/nav2_ws/install/navigation2:/home/joanne/nav2_ws/install/smac_planner:/home/joanne/nav2_ws/install/nav2_dwb_controller:/home/joanne/nav2_ws/install/nav2_controller:/home/joanne/nav2_ws/install/dwb_plugins:/home/joanne/nav2_ws/install/dwb_critics:/home/joanne/nav2_ws/install/dwb_core:/home/joanne/nav2_ws/install/nav_2d_utils:/home/joanne/nav2_ws/install/dwb_msgs:/home/joanne/nav2_ws/install/nav_2d_msgs:/home/joanne/nav2_ws/install/nav2_waypoint_follower:/home/joanne/nav2_ws/install/nav2_regulated_pure_pursuit_controller:/home/joanne/nav2_ws/install/nav2_recoveries:/home/joanne/nav2_ws/install/nav2_planner:/home/joanne/nav2_ws/install/nav2_navfn_planner:/home/joanne/nav2_ws/install/nav2_core:/home/joanne/nav2_ws/install/costmap_queue:/home/joanne/nav2_ws/install/nav2_costmap_2d:/home/joanne/nav2_ws/install/nav2_voxel_grid:/home/joanne/nav2_ws/install/nav2_rviz_plugins:/home/joanne/nav2_ws/install/nav2_map_server:/home/joanne/nav2_ws/install/nav2_lifecycle_manager:/home/joanne/nav2_ws/install/nav2_bt_navigator:/home/joanne/nav2_ws/install/nav2_behavior_tree:/home/joanne/nav2_ws/install/nav2_amcl:/home/joanne/nav2_ws/install/nav2_util:/home/joanne/nav2_ws/install/nav2_msgs:/home/joanne/nav2_ws/install/nav2_common:/home/joanne/bookros2_ws/install/ros2controlcli:/home/joanne/bookros2_ws/install/launch_pal:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_py:/home/joanne/nav2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy')]), 'shell': False}
+[0.101569] (-) TimerEvent: {}
+[0.202285] (-) TimerEvent: {}
+[0.276792] (br2_tracking) StdoutLine: {'line': b'-- Found pcl_conversions: 2.2.1 (/opt/ros/foxy/share/pcl_conversions/cmake)\n'}
+[0.302760] (-) TimerEvent: {}
+[0.404495] (-) TimerEvent: {}
+[0.447517] (br2_tracking) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.505138] (-) TimerEvent: {}
+[0.606552] (-) TimerEvent: {}
+[0.708551] (-) TimerEvent: {}
+[0.809859] (-) TimerEvent: {}
+[0.911011] (-) TimerEvent: {}
+[1.011442] (-) TimerEvent: {}
+[1.112089] (-) TimerEvent: {}
+[1.213324] (-) TimerEvent: {}
+[1.314678] (-) TimerEvent: {}
+[1.390356] (br2_tracking) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.414875] (-) TimerEvent: {}
+[1.515314] (-) TimerEvent: {}
+[1.586228] (br2_tracking) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.604093] (br2_tracking) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.615515] (-) TimerEvent: {}
+[1.719112] (-) TimerEvent: {}
+[1.819707] (-) TimerEvent: {}
+[1.920099] (-) TimerEvent: {}
+[2.020971] (-) TimerEvent: {}
+[2.123355] (-) TimerEvent: {}
+[2.175133] (br2_tracking) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.223395] (-) TimerEvent: {}
+[2.323950] (-) TimerEvent: {}
+[2.424843] (-) TimerEvent: {}
+[2.526470] (-) TimerEvent: {}
+[2.627242] (-) TimerEvent: {}
+[2.728887] (-) TimerEvent: {}
+[2.830680] (-) TimerEvent: {}
+[2.932091] (-) TimerEvent: {}
+[3.033747] (-) TimerEvent: {}
+[3.135107] (-) TimerEvent: {}
+[3.235622] (-) TimerEvent: {}
+[3.336299] (-) TimerEvent: {}
+[3.437175] (-) TimerEvent: {}
+[3.538569] (-) TimerEvent: {}
+[3.639412] (-) TimerEvent: {}
+[3.650749] (br2_tracking) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[3.668200] (br2_tracking) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.739574] (-) TimerEvent: {}
+[3.840396] (-) TimerEvent: {}
+[3.941069] (-) TimerEvent: {}
+[4.042224] (-) TimerEvent: {}
+[4.144162] (-) TimerEvent: {}
+[4.245914] (-) TimerEvent: {}
+[4.312176] (br2_tracking) StdoutLine: {'line': b'-- Found pcl_ros: 2.2.1 (/opt/ros/foxy/share/pcl_ros/cmake)\n'}
+[4.345999] (-) TimerEvent: {}
+[4.447115] (-) TimerEvent: {}
+[4.548543] (-) TimerEvent: {}
+[4.643616] (br2_tracking) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)\n'}
+[4.648632] (-) TimerEvent: {}
+[4.749301] (-) TimerEvent: {}
+[4.850222] (-) TimerEvent: {}
+[4.951417] (-) TimerEvent: {}
+[5.051879] (-) TimerEvent: {}
+[5.153653] (-) TimerEvent: {}
+[5.254771] (-) TimerEvent: {}
+[5.355959] (-) TimerEvent: {}
+[5.456650] (-) TimerEvent: {}
+[5.557748] (-) TimerEvent: {}
+[5.659577] (-) TimerEvent: {}
+[5.760964] (-) TimerEvent: {}
+[5.862320] (-) TimerEvent: {}
+[5.963997] (-) TimerEvent: {}
+[6.065616] (-) TimerEvent: {}
+[6.167600] (-) TimerEvent: {}
+[6.269458] (-) TimerEvent: {}
+[6.370352] (-) TimerEvent: {}
+[6.401577] (br2_tracking) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)\n'}
+[6.470476] (-) TimerEvent: {}
+[6.571241] (-) TimerEvent: {}
+[6.672991] (-) TimerEvent: {}
+[6.754257] (br2_tracking) StdoutLine: {'line': b'-- The imported target "vtkParseOGLExt" references the file\n'}
+[6.755377] (br2_tracking) StdoutLine: {'line': b'   "/usr/bin/vtkParseOGLExt-7.1"\n'}
+[6.756039] (br2_tracking) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[6.756303] (br2_tracking) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[6.756522] (br2_tracking) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[6.756721] (br2_tracking) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[6.756930] (br2_tracking) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[6.757185] (br2_tracking) StdoutLine: {'line': b'but not all the files it references.\n'}
+[6.759932] (br2_tracking) StdoutLine: {'line': b'\n'}
+[6.760231] (br2_tracking) StdoutLine: {'line': b'-- The imported target "vtkRenderingPythonTkWidgets" references the file\n'}
+[6.760874] (br2_tracking) StdoutLine: {'line': b'   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"\n'}
+[6.761074] (br2_tracking) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[6.761263] (br2_tracking) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[6.761449] (br2_tracking) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[6.761647] (br2_tracking) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[6.761829] (br2_tracking) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[6.762010] (br2_tracking) StdoutLine: {'line': b'but not all the files it references.\n'}
+[6.762228] (br2_tracking) StdoutLine: {'line': b'\n'}
+[6.762442] (br2_tracking) StdoutLine: {'line': b'-- The imported target "vtk" references the file\n'}
+[6.762626] (br2_tracking) StdoutLine: {'line': b'   "/usr/bin/vtk"\n'}
+[6.762810] (br2_tracking) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[6.764106] (br2_tracking) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[6.765523] (br2_tracking) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[6.765836] (br2_tracking) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[6.766287] (br2_tracking) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[6.766533] (br2_tracking) StdoutLine: {'line': b'but not all the files it references.\n'}
+[6.767238] (br2_tracking) StdoutLine: {'line': b'\n'}
+[6.773983] (-) TimerEvent: {}
+[6.775520] (br2_tracking) StdoutLine: {'line': b'-- The imported target "pvtk" references the file\n'}
+[6.778968] (br2_tracking) StdoutLine: {'line': b'   "/usr/bin/pvtk"\n'}
+[6.780387] (br2_tracking) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[6.781761] (br2_tracking) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[6.784737] (br2_tracking) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[6.788114] (br2_tracking) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[6.788648] (br2_tracking) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"\n'}
+[6.788905] (br2_tracking) StdoutLine: {'line': b'but not all the files it references.\n'}
+[6.789111] (br2_tracking) StdoutLine: {'line': b'\n'}
+[6.847222] (br2_tracking) StdoutLine: {'line': b'-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)\n'}
+[6.878232] (br2_tracking) StdoutLine: {'line': b'-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)\n'}
+[6.878791] (-) TimerEvent: {}
+[6.975715] (br2_tracking) StdoutLine: {'line': b'-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)\n'}
+[6.978952] (-) TimerEvent: {}
+[7.012881] (br2_tracking) StdoutLine: {'line': b'-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)\n'}
+[7.070982] (br2_tracking) StdoutLine: {'line': b'-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)\n'}
+[7.079498] (-) TimerEvent: {}
+[7.109009] (br2_tracking) StdoutLine: {'line': b'-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)\n'}
+[7.179932] (-) TimerEvent: {}
+[7.282762] (-) TimerEvent: {}
+[7.384810] (-) TimerEvent: {}
+[7.485770] (-) TimerEvent: {}
+[7.589330] (-) TimerEvent: {}
+[7.681359] (br2_tracking) StderrLine: {'line': b'CMake Warning (dev) at CMakeLists.txt:9 (find_package):\n'}
+[7.682046] (br2_tracking) StderrLine: {'line': b'  Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.\n'}
+[7.682421] (br2_tracking) StderrLine: {'line': b'  Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy\n'}
+[7.682713] (br2_tracking) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[7.683025] (br2_tracking) StderrLine: {'line': b'\n'}
+[7.683329] (br2_tracking) StderrLine: {'line': b'  CMake variable PCL_ROOT is set to:\n'}
+[7.683661] (br2_tracking) StderrLine: {'line': b'\n'}
+[7.683974] (br2_tracking) StderrLine: {'line': b'    /usr\n'}
+[7.684224] (br2_tracking) StderrLine: {'line': b'\n'}
+[7.684440] (br2_tracking) StderrLine: {'line': b'  For compatibility, CMake is ignoring the variable.\n'}
+[7.684641] (br2_tracking) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[7.684989] (br2_tracking) StderrLine: {'line': b'\n'}
+[7.690006] (-) TimerEvent: {}
+[7.714692] (br2_tracking) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 2.4.3 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)\n'}
+[7.790312] (-) TimerEvent: {}
+[7.836605] (br2_tracking) StdoutLine: {'line': b'-- Found br2_tracking_msgs: 0.0.0 (/home/joanne/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/cmake)\n'}
+[7.890407] (-) TimerEvent: {}
+[7.914797] (br2_tracking) StdoutLine: {'line': b'-- Found vision_msgs: 2.0.0 (/opt/ros/foxy/share/vision_msgs/cmake)\n'}
+[7.990873] (-) TimerEvent: {}
+[8.093258] (-) TimerEvent: {}
+[8.195238] (-) TimerEvent: {}
+[8.296506] (-) TimerEvent: {}
+[8.397633] (-) TimerEvent: {}
+[8.498503] (-) TimerEvent: {}
+[8.509146] (br2_tracking) StdoutLine: {'line': b'-- Found control_msgs: 2.5.1 (/opt/ros/foxy/share/control_msgs/cmake)\n'}
+[8.598510] (-) TimerEvent: {}
+[8.699376] (-) TimerEvent: {}
+[8.804922] (-) TimerEvent: {}
+[8.905595] (-) TimerEvent: {}
+[9.006455] (-) TimerEvent: {}
+[9.108741] (-) TimerEvent: {}
+[9.209388] (-) TimerEvent: {}
+[9.310294] (-) TimerEvent: {}
+[9.413331] (-) TimerEvent: {}
+[9.515104] (-) TimerEvent: {}
+[9.617153] (-) TimerEvent: {}
+[9.720160] (-) TimerEvent: {}
+[9.786953] (br2_tracking) StdoutLine: {'line': b'-- Found image_transport: 2.4.0 (/opt/ros/foxy/share/image_transport/cmake)\n'}
+[9.820203] (-) TimerEvent: {}
+[9.920680] (-) TimerEvent: {}
+[9.932333] (br2_tracking) StdoutLine: {'line': b'-- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)\n'}
+[10.021124] (-) TimerEvent: {}
+[10.122713] (-) TimerEvent: {}
+[10.223114] (-) TimerEvent: {}
+[10.323895] (-) TimerEvent: {}
+[10.425716] (-) TimerEvent: {}
+[10.527377] (-) TimerEvent: {}
+[10.627853] (-) TimerEvent: {}
+[10.728848] (-) TimerEvent: {}
+[10.832330] (-) TimerEvent: {}
+[10.936022] (-) TimerEvent: {}
+[11.038216] (-) TimerEvent: {}
+[11.140204] (-) TimerEvent: {}
+[11.241303] (-) TimerEvent: {}
+[11.342802] (-) TimerEvent: {}
+[11.443651] (-) TimerEvent: {}
+[11.544927] (-) TimerEvent: {}
+[11.553277] (br2_tracking) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[11.645109] (-) TimerEvent: {}
+[11.746194] (-) TimerEvent: {}
+[11.848009] (-) TimerEvent: {}
+[11.919561] (br2_tracking) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[11.948242] (-) TimerEvent: {}
+[12.048857] (-) TimerEvent: {}
+[12.149293] (-) TimerEvent: {}
+[12.250836] (-) TimerEvent: {}
+[12.353600] (-) TimerEvent: {}
+[12.454403] (-) TimerEvent: {}
+[12.539264] (br2_tracking) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[12.545114] (br2_tracking) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[12.548268] (br2_tracking) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/joanne/bookros2_ws/src/book_ros2/br2_tracking/include\n'}
+[12.548564] (br2_tracking) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[12.552626] (br2_tracking) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[12.553913] (br2_tracking) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[12.556108] (-) TimerEvent: {}
+[12.558897] (br2_tracking) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[12.563807] (br2_tracking) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[12.567492] (br2_tracking) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[12.570127] (br2_tracking) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[12.570672] (br2_tracking) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[12.572215] (br2_tracking) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[12.609315] (br2_tracking) StdoutLine: {'line': b'-- Configuring done\n'}
+[12.656654] (-) TimerEvent: {}
+[12.758689] (-) TimerEvent: {}
+[12.860166] (-) TimerEvent: {}
+[12.961156] (-) TimerEvent: {}
+[13.063052] (-) TimerEvent: {}
+[13.165015] (-) TimerEvent: {}
+[13.266455] (-) TimerEvent: {}
+[13.367941] (-) TimerEvent: {}
+[13.469272] (-) TimerEvent: {}
+[13.578592] (-) TimerEvent: {}
+[13.680255] (-) TimerEvent: {}
+[13.780992] (-) TimerEvent: {}
+[13.882213] (-) TimerEvent: {}
+[13.982927] (-) TimerEvent: {}
+[13.996007] (br2_tracking) StdoutLine: {'line': b'-- Generating done\n'}
+[14.083502] (-) TimerEvent: {}
+[14.190717] (-) TimerEvent: {}
+[14.293400] (-) TimerEvent: {}
+[14.394579] (-) TimerEvent: {}
+[14.495630] (-) TimerEvent: {}
+[14.598122] (-) TimerEvent: {}
+[14.698971] (-) TimerEvent: {}
+[14.805708] (-) TimerEvent: {}
+[14.822812] (br2_tracking) StdoutLine: {'line': b'-- Build files have been written to: /home/joanne/bookros2_ws/build/br2_tracking\n'}
+[14.905727] (-) TimerEvent: {}
+[15.006251] (-) TimerEvent: {}
+[15.108148] (-) TimerEvent: {}
+[15.129228] (br2_tracking) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target br2_tracking\x1b[0m\n'}
+[15.208174] (-) TimerEvent: {}
+[15.309656] (-) TimerEvent: {}
+[15.411211] (-) TimerEvent: {}
+[15.511877] (-) TimerEvent: {}
+[15.613864] (-) TimerEvent: {}
+[15.718485] (-) TimerEvent: {}
+[15.757405] (br2_tracking) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/br2_tracking.dir/src/br2_tracking/ObjectDetector.cpp.o\x1b[0m\n'}
+[15.818668] (-) TimerEvent: {}
+[15.919572] (-) TimerEvent: {}
+[16.020368] (-) TimerEvent: {}
+[16.120933] (-) TimerEvent: {}
+[16.221503] (-) TimerEvent: {}
+[16.321873] (-) TimerEvent: {}
+[16.422296] (-) TimerEvent: {}
+[16.522998] (-) TimerEvent: {}
+[16.624617] (-) TimerEvent: {}
+[16.725581] (-) TimerEvent: {}
+[16.827752] (-) TimerEvent: {}
+[16.929645] (-) TimerEvent: {}
+[17.031303] (-) TimerEvent: {}
+[17.132698] (-) TimerEvent: {}
+[17.233089] (-) TimerEvent: {}
+[17.333615] (-) TimerEvent: {}
+[17.434167] (-) TimerEvent: {}
+[17.534963] (-) TimerEvent: {}
+[17.636788] (-) TimerEvent: {}
+[17.738142] (-) TimerEvent: {}
+[17.838941] (-) TimerEvent: {}
+[17.941583] (-) TimerEvent: {}
+[18.043222] (-) TimerEvent: {}
+[18.143892] (-) TimerEvent: {}
+[18.244336] (-) TimerEvent: {}
+[18.344778] (-) TimerEvent: {}
+[18.445486] (-) TimerEvent: {}
+[18.545928] (-) TimerEvent: {}
+[18.646391] (-) TimerEvent: {}
+[18.747181] (-) TimerEvent: {}
+[18.848852] (-) TimerEvent: {}
+[18.949980] (-) TimerEvent: {}
+[19.050704] (-) TimerEvent: {}
+[19.151884] (-) TimerEvent: {}
+[19.252953] (-) TimerEvent: {}
+[19.353590] (-) TimerEvent: {}
+[19.454324] (-) TimerEvent: {}
+[19.555143] (-) TimerEvent: {}
+[19.656922] (-) TimerEvent: {}
+[19.758873] (-) TimerEvent: {}
+[19.860357] (-) TimerEvent: {}
+[19.960987] (-) TimerEvent: {}
+[20.061743] (-) TimerEvent: {}
+[20.163343] (-) TimerEvent: {}
+[20.264556] (-) TimerEvent: {}
+[20.366156] (-) TimerEvent: {}
+[20.466595] (-) TimerEvent: {}
+[20.567189] (-) TimerEvent: {}
+[20.667980] (-) TimerEvent: {}
+[20.768956] (-) TimerEvent: {}
+[20.871179] (-) TimerEvent: {}
+[20.972807] (-) TimerEvent: {}
+[21.074229] (-) TimerEvent: {}
+[21.175290] (-) TimerEvent: {}
+[21.275745] (-) TimerEvent: {}
+[21.377164] (-) TimerEvent: {}
+[21.478933] (-) TimerEvent: {}
+[21.579975] (-) TimerEvent: {}
+[21.681406] (-) TimerEvent: {}
+[21.781969] (-) TimerEvent: {}
+[21.882380] (-) TimerEvent: {}
+[21.983150] (-) TimerEvent: {}
+[22.085117] (-) TimerEvent: {}
+[22.186444] (-) TimerEvent: {}
+[22.287584] (-) TimerEvent: {}
+[22.388496] (-) TimerEvent: {}
+[22.488858] (-) TimerEvent: {}
+[22.589311] (-) TimerEvent: {}
+[22.689874] (-) TimerEvent: {}
+[22.790399] (-) TimerEvent: {}
+[22.890872] (-) TimerEvent: {}
+[22.991589] (-) TimerEvent: {}
+[23.092632] (-) TimerEvent: {}
+[23.193594] (-) TimerEvent: {}
+[23.295375] (-) TimerEvent: {}
+[23.396077] (-) TimerEvent: {}
+[23.496674] (-) TimerEvent: {}
+[23.597597] (-) TimerEvent: {}
+[23.699151] (-) TimerEvent: {}
+[23.800215] (-) TimerEvent: {}
+[23.901204] (-) TimerEvent: {}
+[24.002366] (-) TimerEvent: {}
+[24.104337] (-) TimerEvent: {}
+[24.206281] (-) TimerEvent: {}
+[24.307439] (-) TimerEvent: {}
+[24.408403] (-) TimerEvent: {}
+[24.510263] (-) TimerEvent: {}
+[24.611143] (-) TimerEvent: {}
+[24.712767] (-) TimerEvent: {}
+[24.813359] (-) TimerEvent: {}
+[24.914234] (-) TimerEvent: {}
+[25.016586] (-) TimerEvent: {}
+[25.117581] (-) TimerEvent: {}
+[25.218510] (-) TimerEvent: {}
+[25.320021] (-) TimerEvent: {}
+[25.420639] (-) TimerEvent: {}
+[25.522141] (-) TimerEvent: {}
+[25.622968] (-) TimerEvent: {}
+[25.723925] (-) TimerEvent: {}
+[25.824863] (-) TimerEvent: {}
+[25.925808] (-) TimerEvent: {}
+[26.027134] (-) TimerEvent: {}
+[26.128703] (-) TimerEvent: {}
+[26.229186] (-) TimerEvent: {}
+[26.329657] (-) TimerEvent: {}
+[26.430165] (-) TimerEvent: {}
+[26.534626] (-) TimerEvent: {}
+[26.636426] (-) TimerEvent: {}
+[26.736960] (-) TimerEvent: {}
+[26.837439] (-) TimerEvent: {}
+[26.938548] (-) TimerEvent: {}
+[27.039430] (-) TimerEvent: {}
+[27.140071] (-) TimerEvent: {}
+[27.240572] (-) TimerEvent: {}
+[27.341412] (-) TimerEvent: {}
+[27.442153] (-) TimerEvent: {}
+[27.543323] (-) TimerEvent: {}
+[27.644152] (-) TimerEvent: {}
+[27.746234] (-) TimerEvent: {}
+[27.848581] (-) TimerEvent: {}
+[27.950407] (-) TimerEvent: {}
+[28.051420] (-) TimerEvent: {}
+[28.152997] (-) TimerEvent: {}
+[28.255883] (-) TimerEvent: {}
+[28.356876] (-) TimerEvent: {}
+[28.457871] (-) TimerEvent: {}
+[28.561357] (-) TimerEvent: {}
+[28.662276] (-) TimerEvent: {}
+[28.765239] (-) TimerEvent: {}
+[28.866912] (-) TimerEvent: {}
+[28.968401] (-) TimerEvent: {}
+[29.070584] (-) TimerEvent: {}
+[29.172053] (-) TimerEvent: {}
+[29.274834] (-) TimerEvent: {}
+[29.376619] (-) TimerEvent: {}
+[29.478694] (-) TimerEvent: {}
+[29.579378] (-) TimerEvent: {}
+[29.681292] (-) TimerEvent: {}
+[29.782512] (-) TimerEvent: {}
+[29.882940] (-) TimerEvent: {}
+[29.983422] (-) TimerEvent: {}
+[30.083964] (-) TimerEvent: {}
+[30.184857] (-) TimerEvent: {}
+[30.286703] (-) TimerEvent: {}
+[30.387099] (-) TimerEvent: {}
+[30.487461] (-) TimerEvent: {}
+[30.587904] (-) TimerEvent: {}
+[30.688684] (-) TimerEvent: {}
+[30.790816] (-) TimerEvent: {}
+[30.893932] (-) TimerEvent: {}
+[30.995446] (-) TimerEvent: {}
+[31.097626] (-) TimerEvent: {}
+[31.198833] (-) TimerEvent: {}
+[31.299781] (-) TimerEvent: {}
+[31.401487] (-) TimerEvent: {}
+[31.504135] (-) TimerEvent: {}
+[31.606650] (-) TimerEvent: {}
+[31.709104] (-) TimerEvent: {}
+[31.811001] (-) TimerEvent: {}
+[31.913077] (-) TimerEvent: {}
+[32.014493] (-) TimerEvent: {}
+[32.115225] (-) TimerEvent: {}
+[32.216924] (-) TimerEvent: {}
+[32.317771] (-) TimerEvent: {}
+[32.419847] (-) TimerEvent: {}
+[32.520921] (-) TimerEvent: {}
+[32.621486] (-) TimerEvent: {}
+[32.722660] (-) TimerEvent: {}
+[32.824494] (-) TimerEvent: {}
+[32.926003] (-) TimerEvent: {}
+[33.026745] (-) TimerEvent: {}
+[33.127926] (-) TimerEvent: {}
+[33.228348] (-) TimerEvent: {}
+[33.329104] (-) TimerEvent: {}
+[33.430176] (-) TimerEvent: {}
+[33.530848] (-) TimerEvent: {}
+[33.632995] (-) TimerEvent: {}
+[33.736466] (-) TimerEvent: {}
+[33.837337] (-) TimerEvent: {}
+[33.938582] (-) TimerEvent: {}
+[34.039952] (-) TimerEvent: {}
+[34.141561] (-) TimerEvent: {}
+[34.244824] (-) TimerEvent: {}
+[34.346240] (-) TimerEvent: {}
+[34.447038] (-) TimerEvent: {}
+[34.547537] (-) TimerEvent: {}
+[34.650222] (-) TimerEvent: {}
+[34.750945] (-) TimerEvent: {}
+[34.853330] (-) TimerEvent: {}
+[34.954939] (-) TimerEvent: {}
+[35.055656] (-) TimerEvent: {}
+[35.156079] (-) TimerEvent: {}
+[35.256911] (-) TimerEvent: {}
+[35.358877] (-) TimerEvent: {}
+[35.460036] (-) TimerEvent: {}
+[35.560582] (-) TimerEvent: {}
+[35.661827] (-) TimerEvent: {}
+[35.762693] (-) TimerEvent: {}
+[35.864995] (-) TimerEvent: {}
+[35.966744] (-) TimerEvent: {}
+[36.068820] (-) TimerEvent: {}
+[36.170489] (-) TimerEvent: {}
+[36.270943] (-) TimerEvent: {}
+[36.371489] (-) TimerEvent: {}
+[36.472687] (-) TimerEvent: {}
+[36.574606] (-) TimerEvent: {}
+[36.676065] (-) TimerEvent: {}
+[36.777695] (-) TimerEvent: {}
+[36.879132] (-) TimerEvent: {}
+[36.982900] (-) TimerEvent: {}
+[37.084898] (-) TimerEvent: {}
+[37.186569] (-) TimerEvent: {}
+[37.287357] (-) TimerEvent: {}
+[37.388277] (-) TimerEvent: {}
+[37.490492] (-) TimerEvent: {}
+[37.592953] (-) TimerEvent: {}
+[37.694167] (-) TimerEvent: {}
+[37.794943] (-) TimerEvent: {}
+[37.896342] (-) TimerEvent: {}
+[37.997494] (-) TimerEvent: {}
+[38.099898] (-) TimerEvent: {}
+[38.201687] (-) TimerEvent: {}
+[38.244531] (br2_tracking) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:20\x1b[m\x1b[K:\n'}
+[38.249697] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/include/br2_tracking/ObjectDetector.hpp:33:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPointCloud2\x1b[m\x1b[K\xe2\x80\x99 in namespace \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[38.250361] (br2_tracking) StderrLine: {'line': b'   33 |   void pointCloudCallback(const sensor_msgs::msg::\x1b[01;31m\x1b[KPointCloud2\x1b[m\x1b[K::SharedPtr msg)\n'}
+[38.250621] (br2_tracking) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[38.250825] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/include/br2_tracking/ObjectDetector.hpp:33:74:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[38.251095] (br2_tracking) StderrLine: {'line': b'   33 |   void pointCloudCallback(const sensor_msgs::msg::PointCloud2::SharedPtr \x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K)\n'}
+[38.251365] (br2_tracking) StderrLine: {'line': b'      |                                                                          \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[38.251669] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/include/br2_tracking/ObjectDetector.hpp:33:73:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[38.252026] (br2_tracking) StderrLine: {'line': b'   33 |   void pointCloudCallback\x1b[34m\x1b[K(\x1b[m\x1b[Kconst sensor_msgs::msg::PointCloud2::SharedPtr\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[Kmsg\x1b[m\x1b[K)\n'}
+[38.252537] (br2_tracking) StderrLine: {'line': b'      |                          \x1b[34m\x1b[K~\x1b[m\x1b[K                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~\x1b[m\x1b[K\n'}
+[38.252800] (br2_tracking) StderrLine: {'line': b'      |                                                                         \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[38.253146] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/include/br2_tracking/ObjectDetector.hpp:33:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[38.253411] (br2_tracking) StderrLine: {'line': b'   33 |   void pointCloudCallback(const sensor_msgs::msg::PointCloud2::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K msg)\n'}
+[38.253625] (br2_tracking) StderrLine: {'line': b'      |                                                                \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[38.253914] (br2_tracking) StderrLine: {'line': b'      |                                                                         \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[38.265566] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/include/br2_tracking/ObjectDetector.hpp:33:74:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[38.265992] (br2_tracking) StderrLine: {'line': b'   33 |   void pointCloudCallback(const sensor_msgs::msg::PointCloud2::SharedPtr \x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K)\n'}
+[38.266282] (br2_tracking) StderrLine: {'line': b'      |                                                                          \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[38.301735] (-) TimerEvent: {}
+[38.337273] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/include/br2_tracking/ObjectDetector.hpp:40:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvisualization_msgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[38.337777] (br2_tracking) StderrLine: {'line': b'   40 |   rclcpp::Publisher<\x1b[01;31m\x1b[Kvisualization_msgs\x1b[m\x1b[K::msg::MarkerArray>::SharedPtr marker_pub_;\n'}
+[38.338030] (br2_tracking) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[38.338562] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/include/br2_tracking/ObjectDetector.hpp:40:57:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[38.338796] (br2_tracking) StderrLine: {'line': b'   40 |   rclcpp::Publisher<visualization_msgs::msg::MarkerArray\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr marker_pub_;\n'}
+[38.339027] (br2_tracking) StderrLine: {'line': b'      |                                                         \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[38.339211] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/include/br2_tracking/ObjectDetector.hpp:40:60:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[38.339388] (br2_tracking) StderrLine: {'line': b'   40 |   rclcpp::Publisher<visualization_msgs::msg::MarkerArray>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K marker_pub_;\n'}
+[38.339558] (br2_tracking) StderrLine: {'line': b'      |                                                            \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[38.339725] (br2_tracking) StderrLine: {'line': b'      |                                                                     \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[38.367630] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/include/br2_tracking/ObjectDetector.hpp:40:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmarker_pub_\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[38.369561] (br2_tracking) StderrLine: {'line': b'   40 |   rclcpp::Publisher<visualization_msgs::msg::MarkerArray>::SharedPtr \x1b[01;31m\x1b[Kmarker_pub_\x1b[m\x1b[K;\n'}
+[38.371020] (br2_tracking) StderrLine: {'line': b'      |                                                                      \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[38.373128] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/include/br2_tracking/ObjectDetector.hpp:41:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDetection3DArray\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kvision_msgs::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KDetection2D\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[38.373440] (br2_tracking) StderrLine: {'line': b'   41 |   rclcpp::Publisher<vision_msgs::msg::\x1b[01;31m\x1b[KDetection3DArray\x1b[m\x1b[K>::SharedPtr detections_pub_;\n'}
+[38.373567] (br2_tracking) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[38.373680] (br2_tracking) StderrLine: {'line': b'      |                                       \x1b[32m\x1b[KDetection2D\x1b[m\x1b[K\n'}
+[38.373779] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/include/br2_tracking/ObjectDetector.hpp:41:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[38.373877] (br2_tracking) StderrLine: {'line': b'   41 |   rclcpp::Publisher<vision_msgs::msg::Detection3DArray\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr detections_pub_;\n'}
+[38.373971] (br2_tracking) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[38.374081] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/include/br2_tracking/ObjectDetector.hpp:41:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[38.374272] (br2_tracking) StderrLine: {'line': b'   41 |   rclcpp::Publisher<vision_msgs::msg::Detection3DArray>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K detections_pub_;\n'}
+[38.374376] (br2_tracking) StderrLine: {'line': b'      |                                                          \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[38.374473] (br2_tracking) StderrLine: {'line': b'      |                                                                   \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[38.374570] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/include/br2_tracking/ObjectDetector.hpp:41:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredeclaration of \xe2\x80\x98\x1b[01m\x1b[Kint br2_tracking::ObjectDetector::SharedPtr\x1b[m\x1b[K\xe2\x80\x99\n'}
+[38.374694] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/include/br2_tracking/ObjectDetector.hpp:40:60:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Kint br2_tracking::ObjectDetector::SharedPtr\x1b[m\x1b[K\xe2\x80\x99\n'}
+[38.374816] (br2_tracking) StderrLine: {'line': b'   40 |   rclcpp::Publisher<visualization_msgs::msg::MarkerArray>::\x1b[01;36m\x1b[KSharedPtr\x1b[m\x1b[K marker_pub_;\n'}
+[38.374913] (br2_tracking) StderrLine: {'line': b'      |                                                            \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[38.401830] (-) TimerEvent: {}
+[38.404172] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/include/br2_tracking/ObjectDetector.hpp:41:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdetections_pub_\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[38.405090] (br2_tracking) StderrLine: {'line': b'   41 |   rclcpp::Publisher<vision_msgs::msg::Detection3DArray>::SharedPtr \x1b[01;31m\x1b[Kdetections_pub_\x1b[m\x1b[K;\n'}
+[38.405703] (br2_tracking) StderrLine: {'line': b'      |                                                                    \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[38.502315] (-) TimerEvent: {}
+[38.603553] (-) TimerEvent: {}
+[38.705452] (-) TimerEvent: {}
+[38.805922] (-) TimerEvent: {}
+[38.906876] (-) TimerEvent: {}
+[39.008594] (-) TimerEvent: {}
+[39.110971] (-) TimerEvent: {}
+[39.211505] (-) TimerEvent: {}
+[39.312142] (-) TimerEvent: {}
+[39.412813] (-) TimerEvent: {}
+[39.519093] (-) TimerEvent: {}
+[39.620043] (-) TimerEvent: {}
+[39.721337] (-) TimerEvent: {}
+[39.826224] (-) TimerEvent: {}
+[39.926646] (-) TimerEvent: {}
+[40.027183] (-) TimerEvent: {}
+[40.128020] (-) TimerEvent: {}
+[40.228787] (-) TimerEvent: {}
+[40.330014] (-) TimerEvent: {}
+[40.432719] (-) TimerEvent: {}
+[40.534320] (-) TimerEvent: {}
+[40.635441] (-) TimerEvent: {}
+[40.736197] (-) TimerEvent: {}
+[40.837223] (-) TimerEvent: {}
+[40.939276] (-) TimerEvent: {}
+[41.040199] (-) TimerEvent: {}
+[41.141633] (-) TimerEvent: {}
+[41.242013] (-) TimerEvent: {}
+[41.342488] (-) TimerEvent: {}
+[41.443411] (-) TimerEvent: {}
+[41.544948] (-) TimerEvent: {}
+[41.645830] (-) TimerEvent: {}
+[41.748056] (-) TimerEvent: {}
+[41.849644] (-) TimerEvent: {}
+[41.950804] (-) TimerEvent: {}
+[42.052961] (-) TimerEvent: {}
+[42.153368] (-) TimerEvent: {}
+[42.254398] (-) TimerEvent: {}
+[42.356521] (-) TimerEvent: {}
+[42.457040] (-) TimerEvent: {}
+[42.557936] (-) TimerEvent: {}
+[42.658961] (-) TimerEvent: {}
+[42.759768] (-) TimerEvent: {}
+[42.860425] (-) TimerEvent: {}
+[42.961113] (-) TimerEvent: {}
+[43.062144] (-) TimerEvent: {}
+[43.162562] (-) TimerEvent: {}
+[43.263359] (-) TimerEvent: {}
+[43.364664] (-) TimerEvent: {}
+[43.465639] (-) TimerEvent: {}
+[43.567909] (-) TimerEvent: {}
+[43.669143] (-) TimerEvent: {}
+[43.772745] (-) TimerEvent: {}
+[43.874170] (-) TimerEvent: {}
+[43.980291] (-) TimerEvent: {}
+[44.083420] (-) TimerEvent: {}
+[44.184728] (-) TimerEvent: {}
+[44.285273] (-) TimerEvent: {}
+[44.385725] (-) TimerEvent: {}
+[44.486431] (-) TimerEvent: {}
+[44.587974] (-) TimerEvent: {}
+[44.688470] (-) TimerEvent: {}
+[44.789491] (-) TimerEvent: {}
+[44.890917] (-) TimerEvent: {}
+[44.991519] (-) TimerEvent: {}
+[45.092069] (-) TimerEvent: {}
+[45.193167] (-) TimerEvent: {}
+[45.295586] (-) TimerEvent: {}
+[45.396819] (-) TimerEvent: {}
+[45.498468] (-) TimerEvent: {}
+[45.598858] (-) TimerEvent: {}
+[45.699444] (-) TimerEvent: {}
+[45.800916] (-) TimerEvent: {}
+[45.901631] (-) TimerEvent: {}
+[46.002829] (-) TimerEvent: {}
+[46.106356] (-) TimerEvent: {}
+[46.207034] (-) TimerEvent: {}
+[46.309555] (-) TimerEvent: {}
+[46.411106] (-) TimerEvent: {}
+[46.512390] (-) TimerEvent: {}
+[46.612829] (-) TimerEvent: {}
+[46.713224] (-) TimerEvent: {}
+[46.814268] (-) TimerEvent: {}
+[46.916456] (-) TimerEvent: {}
+[47.017495] (-) TimerEvent: {}
+[47.120238] (-) TimerEvent: {}
+[47.234257] (-) TimerEvent: {}
+[47.335202] (-) TimerEvent: {}
+[47.436289] (-) TimerEvent: {}
+[47.538578] (-) TimerEvent: {}
+[47.640007] (-) TimerEvent: {}
+[47.740834] (-) TimerEvent: {}
+[47.841852] (-) TimerEvent: {}
+[47.942586] (-) TimerEvent: {}
+[48.043765] (-) TimerEvent: {}
+[48.144602] (-) TimerEvent: {}
+[48.246313] (-) TimerEvent: {}
+[48.348199] (-) TimerEvent: {}
+[48.449108] (-) TimerEvent: {}
+[48.551135] (-) TimerEvent: {}
+[48.658408] (-) TimerEvent: {}
+[48.759278] (-) TimerEvent: {}
+[48.859688] (-) TimerEvent: {}
+[48.964268] (-) TimerEvent: {}
+[49.065573] (-) TimerEvent: {}
+[49.166642] (-) TimerEvent: {}
+[49.268742] (-) TimerEvent: {}
+[49.370095] (-) TimerEvent: {}
+[49.470583] (-) TimerEvent: {}
+[49.571302] (-) TimerEvent: {}
+[49.672568] (-) TimerEvent: {}
+[49.773257] (-) TimerEvent: {}
+[49.874775] (-) TimerEvent: {}
+[49.976043] (-) TimerEvent: {}
+[50.082619] (-) TimerEvent: {}
+[50.184771] (-) TimerEvent: {}
+[50.285595] (-) TimerEvent: {}
+[50.385931] (-) TimerEvent: {}
+[50.512362] (-) TimerEvent: {}
+[50.613611] (-) TimerEvent: {}
+[50.714053] (-) TimerEvent: {}
+[50.814929] (-) TimerEvent: {}
+[50.916383] (-) TimerEvent: {}
+[51.017037] (-) TimerEvent: {}
+[51.117404] (-) TimerEvent: {}
+[51.217795] (-) TimerEvent: {}
+[51.318485] (-) TimerEvent: {}
+[51.420306] (-) TimerEvent: {}
+[51.522344] (-) TimerEvent: {}
+[51.623654] (-) TimerEvent: {}
+[51.726167] (-) TimerEvent: {}
+[51.826560] (-) TimerEvent: {}
+[51.927359] (-) TimerEvent: {}
+[52.080780] (-) TimerEvent: {}
+[52.181475] (-) TimerEvent: {}
+[52.281850] (-) TimerEvent: {}
+[52.382326] (-) TimerEvent: {}
+[52.482654] (-) TimerEvent: {}
+[52.583019] (-) TimerEvent: {}
+[52.683300] (-) TimerEvent: {}
+[52.783794] (-) TimerEvent: {}
+[52.884606] (-) TimerEvent: {}
+[52.987305] (-) TimerEvent: {}
+[53.088381] (-) TimerEvent: {}
+[53.190153] (-) TimerEvent: {}
+[53.292489] (-) TimerEvent: {}
+[53.392884] (-) TimerEvent: {}
+[53.521023] (-) TimerEvent: {}
+[53.621544] (-) TimerEvent: {}
+[53.722079] (-) TimerEvent: {}
+[53.890604] (-) TimerEvent: {}
+[53.991009] (-) TimerEvent: {}
+[54.091501] (-) TimerEvent: {}
+[54.191800] (-) TimerEvent: {}
+[54.292165] (-) TimerEvent: {}
+[54.392497] (-) TimerEvent: {}
+[54.492827] (-) TimerEvent: {}
+[54.593190] (-) TimerEvent: {}
+[54.693544] (-) TimerEvent: {}
+[54.793827] (-) TimerEvent: {}
+[54.894145] (-) TimerEvent: {}
+[54.994425] (-) TimerEvent: {}
+[55.094809] (-) TimerEvent: {}
+[55.195289] (-) TimerEvent: {}
+[55.295814] (-) TimerEvent: {}
+[55.396116] (-) TimerEvent: {}
+[55.496430] (-) TimerEvent: {}
+[55.596883] (-) TimerEvent: {}
+[55.697302] (-) TimerEvent: {}
+[55.797580] (-) TimerEvent: {}
+[55.897904] (-) TimerEvent: {}
+[55.998189] (-) TimerEvent: {}
+[56.098454] (-) TimerEvent: {}
+[56.198851] (-) TimerEvent: {}
+[56.299343] (-) TimerEvent: {}
+[56.399630] (-) TimerEvent: {}
+[56.499898] (-) TimerEvent: {}
+[56.600228] (-) TimerEvent: {}
+[56.700728] (-) TimerEvent: {}
+[56.801103] (-) TimerEvent: {}
+[56.901442] (-) TimerEvent: {}
+[57.001725] (-) TimerEvent: {}
+[79.348382] (-) TimerEvent: {}
+[85.675002] (-) TimerEvent: {}
+[102.810671] (-) TimerEvent: {}
+[107.240828] (-) TimerEvent: {}
+[107.341095] (-) TimerEvent: {}
+[107.441378] (-) TimerEvent: {}
+[107.541663] (-) TimerEvent: {}
+[107.641954] (-) TimerEvent: {}
+[107.742275] (-) TimerEvent: {}
+[107.842575] (-) TimerEvent: {}
+[107.942920] (-) TimerEvent: {}
+[108.043201] (-) TimerEvent: {}
+[108.143494] (-) TimerEvent: {}
+[108.243837] (-) TimerEvent: {}
+[108.344115] (-) TimerEvent: {}
+[108.444373] (-) TimerEvent: {}
+[108.544644] (-) TimerEvent: {}
+[108.644991] (-) TimerEvent: {}
+[108.745709] (-) TimerEvent: {}
+[108.846273] (-) TimerEvent: {}
+[108.946546] (-) TimerEvent: {}
+[109.046815] (-) TimerEvent: {}
+[109.147082] (-) TimerEvent: {}
+[109.247347] (-) TimerEvent: {}
+[109.347607] (-) TimerEvent: {}
+[109.447910] (-) TimerEvent: {}
+[109.548211] (-) TimerEvent: {}
+[109.648479] (-) TimerEvent: {}
+[109.748754] (-) TimerEvent: {}
+[109.849029] (-) TimerEvent: {}
+[109.949297] (-) TimerEvent: {}
+[110.049591] (-) TimerEvent: {}
+[119.746615] (-) TimerEvent: {}
+[120.158293] (-) TimerEvent: {}
+[120.258580] (-) TimerEvent: {}
+[120.358858] (-) TimerEvent: {}
+[120.459243] (-) TimerEvent: {}
+[120.559835] (-) TimerEvent: {}
+[120.660395] (-) TimerEvent: {}
+[120.760944] (-) TimerEvent: {}
+[120.861470] (-) TimerEvent: {}
+[120.962024] (-) TimerEvent: {}
+[121.062597] (-) TimerEvent: {}
+[121.163003] (-) TimerEvent: {}
+[121.263378] (-) TimerEvent: {}
+[121.363653] (-) TimerEvent: {}
+[121.463903] (-) TimerEvent: {}
+[121.564157] (-) TimerEvent: {}
+[121.664424] (-) TimerEvent: {}
+[121.764704] (-) TimerEvent: {}
+[121.864989] (-) TimerEvent: {}
+[121.965246] (-) TimerEvent: {}
+[122.065526] (-) TimerEvent: {}
+[122.165900] (-) TimerEvent: {}
+[122.266407] (-) TimerEvent: {}
+[122.366675] (-) TimerEvent: {}
+[122.467022] (-) TimerEvent: {}
+[122.567446] (-) TimerEvent: {}
+[122.667718] (-) TimerEvent: {}
+[122.768031] (-) TimerEvent: {}
+[122.868427] (-) TimerEvent: {}
+[122.968961] (-) TimerEvent: {}
+[123.069231] (-) TimerEvent: {}
+[123.169526] (-) TimerEvent: {}
+[131.379571] (-) TimerEvent: {}
+[131.608406] (-) TimerEvent: {}
+[131.708750] (-) TimerEvent: {}
+[131.809338] (-) TimerEvent: {}
+[131.909761] (-) TimerEvent: {}
+[132.010137] (-) TimerEvent: {}
+[132.110421] (-) TimerEvent: {}
+[132.210697] (-) TimerEvent: {}
+[132.311047] (-) TimerEvent: {}
+[132.411339] (-) TimerEvent: {}
+[132.511607] (-) TimerEvent: {}
+[132.611875] (-) TimerEvent: {}
+[132.712166] (-) TimerEvent: {}
+[132.812442] (-) TimerEvent: {}
+[132.912710] (-) TimerEvent: {}
+[133.012968] (-) TimerEvent: {}
+[133.113232] (-) TimerEvent: {}
+[133.213504] (-) TimerEvent: {}
+[133.313776] (-) TimerEvent: {}
+[133.414038] (-) TimerEvent: {}
+[133.514308] (-) TimerEvent: {}
+[133.614600] (-) TimerEvent: {}
+[133.714894] (-) TimerEvent: {}
+[133.815169] (-) TimerEvent: {}
+[133.915447] (-) TimerEvent: {}
+[134.015719] (-) TimerEvent: {}
+[134.116024] (-) TimerEvent: {}
+[134.216312] (-) TimerEvent: {}
+[134.316586] (-) TimerEvent: {}
+[134.416863] (-) TimerEvent: {}
+[134.517198] (-) TimerEvent: {}
+[134.617492] (-) TimerEvent: {}
+[137.472496] (-) TimerEvent: {}
+[137.864590] (-) TimerEvent: {}
+[137.964872] (-) TimerEvent: {}
+[138.065195] (-) TimerEvent: {}
+[138.165678] (-) TimerEvent: {}
+[138.266294] (-) TimerEvent: {}
+[138.366598] (-) TimerEvent: {}
+[138.466925] (-) TimerEvent: {}
+[138.567187] (-) TimerEvent: {}
+[138.667537] (-) TimerEvent: {}
+[138.767899] (-) TimerEvent: {}
+[138.868185] (-) TimerEvent: {}
+[138.968483] (-) TimerEvent: {}
+[139.068753] (-) TimerEvent: {}
+[139.169030] (-) TimerEvent: {}
+[139.269320] (-) TimerEvent: {}
+[139.369613] (-) TimerEvent: {}
+[139.469913] (-) TimerEvent: {}
+[139.570166] (-) TimerEvent: {}
+[139.670423] (-) TimerEvent: {}
+[139.770754] (-) TimerEvent: {}
+[139.871162] (-) TimerEvent: {}
+[139.971433] (-) TimerEvent: {}
+[140.071676] (-) TimerEvent: {}
+[140.171943] (-) TimerEvent: {}
+[140.272239] (-) TimerEvent: {}
+[140.372516] (-) TimerEvent: {}
+[140.472799] (-) TimerEvent: {}
+[140.573071] (-) TimerEvent: {}
+[140.673388] (-) TimerEvent: {}
+[140.773821] (-) TimerEvent: {}
+[140.874334] (-) TimerEvent: {}
+[143.146113] (-) TimerEvent: {}
+[143.362339] (-) TimerEvent: {}
+[143.462636] (-) TimerEvent: {}
+[143.562938] (-) TimerEvent: {}
+[143.663320] (-) TimerEvent: {}
+[143.763634] (-) TimerEvent: {}
+[143.863976] (-) TimerEvent: {}
+[143.964242] (-) TimerEvent: {}
+[144.064513] (-) TimerEvent: {}
+[144.164798] (-) TimerEvent: {}
+[144.265083] (-) TimerEvent: {}
+[144.365394] (-) TimerEvent: {}
+[144.465655] (-) TimerEvent: {}
+[144.565917] (-) TimerEvent: {}
+[144.666234] (-) TimerEvent: {}
+[144.766531] (-) TimerEvent: {}
+[144.866819] (-) TimerEvent: {}
+[144.967122] (-) TimerEvent: {}
+[145.067387] (-) TimerEvent: {}
+[145.167651] (-) TimerEvent: {}
+[145.267970] (-) TimerEvent: {}
+[145.368298] (-) TimerEvent: {}
+[145.468601] (-) TimerEvent: {}
+[145.568864] (-) TimerEvent: {}
+[145.669153] (-) TimerEvent: {}
+[145.769431] (-) TimerEvent: {}
+[145.869703] (-) TimerEvent: {}
+[145.969986] (-) TimerEvent: {}
+[146.070270] (-) TimerEvent: {}
+[146.170572] (-) TimerEvent: {}
+[146.270856] (-) TimerEvent: {}
+[146.371158] (-) TimerEvent: {}
+[148.245304] (-) TimerEvent: {}
+[181.210812] (-) TimerEvent: {}
+[181.826633] (-) TimerEvent: {}
+[181.926964] (-) TimerEvent: {}
+[182.027335] (-) TimerEvent: {}
+[182.127606] (-) TimerEvent: {}
+[182.227886] (-) TimerEvent: {}
+[182.328186] (-) TimerEvent: {}
+[182.428492] (-) TimerEvent: {}
+[182.528769] (-) TimerEvent: {}
+[182.629044] (-) TimerEvent: {}
+[182.729321] (-) TimerEvent: {}
+[182.829634] (-) TimerEvent: {}
+[182.929902] (-) TimerEvent: {}
+[183.030176] (-) TimerEvent: {}
+[183.130461] (-) TimerEvent: {}
+[183.230735] (-) TimerEvent: {}
+[183.331011] (-) TimerEvent: {}
+[183.431367] (-) TimerEvent: {}
+[183.531701] (-) TimerEvent: {}
+[183.632121] (-) TimerEvent: {}
+[183.732387] (-) TimerEvent: {}
+[183.832785] (-) TimerEvent: {}
+[183.933332] (-) TimerEvent: {}
+[184.033572] (-) TimerEvent: {}
+[184.133828] (-) TimerEvent: {}
+[184.234114] (-) TimerEvent: {}
+[184.334422] (-) TimerEvent: {}
+[184.434748] (-) TimerEvent: {}
+[184.535113] (-) TimerEvent: {}
+[184.635398] (-) TimerEvent: {}
+[318.221985] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kbr2_tracking::ObjectDetector::ObjectDetector()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[318.539168] (-) TimerEvent: {}
+[318.539391] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:48:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kimage_callback\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kbr2_tracking::ObjectDetector\x1b[m\x1b[K\xe2\x80\x99\n'}
+[318.539574] (br2_tracking) StderrLine: {'line': b'   48 |     this, "input_image", std::bind(&ObjectDetector::\x1b[01;31m\x1b[Kimage_callback\x1b[m\x1b[K, this, _1),\n'}
+[318.539700] (br2_tracking) StderrLine: {'line': b'      |                                                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[318.539798] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:52:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpointcloud_sub_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[318.539909] (br2_tracking) StderrLine: {'line': b'   52 |   \x1b[01;31m\x1b[Kpointcloud_sub_\x1b[m\x1b[K = this->create_subscription<sensor_msgs::msg::PointCloud2>(\n'}
+[318.540004] (br2_tracking) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[318.540096] (br2_tracking) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/client.hpp:32\x1b[m\x1b[K,\n'}
+[318.540189] (br2_tracking) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[318.540280] (br2_tracking) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:39\x1b[m\x1b[K,\n'}
+[318.540370] (br2_tracking) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43\x1b[m\x1b[K,\n'}
+[318.540468] (br2_tracking) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/include/br2_tracking/ObjectDetector.hpp:23\x1b[m\x1b[K,\n'}
+[318.540561] (br2_tracking) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:20\x1b[m\x1b[K:\n'}
+[318.540666] (br2_tracking) StderrLine: {'line': b'/opt/ros/foxy/include/rclcpp/function_traits.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kstruct rclcpp::function_traits::function_traits<std::_Bind<void (br2_tracking::ObjectDetector::*(br2_tracking::ObjectDetector*, std::_Placeholder<1>))(...)> >\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[318.540777] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/subscription_traits.hpp:97:8:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstruct rclcpp::subscription_traits::has_message_type<std::_Bind<void (br2_tracking::ObjectDetector::*(br2_tracking::ObjectDetector*, std::_Placeholder<1>))(...)>, std::allocator<void>, void, void, void, void>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[318.540874] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:204:5:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class CallbackMessageT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr) [with MessageT = sensor_msgs::msg::PointCloud2_<std::allocator<void> >; CallbackT = std::_Bind<void (br2_tracking::ObjectDetector::*(br2_tracking::ObjectDetector*, std::_Placeholder<1>))(...)>; AllocatorT = std::allocator<void>; CallbackMessageT = <missing>; SubscriptionT = <missing>; MessageMemoryStrategyT = <missing>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[318.540980] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:54:61:\x1b[m\x1b[K   required from here\n'}
+[318.541075] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/function_traits.hpp:51:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kdecltype cannot resolve address of overloaded function\n'}
+[318.541185] (br2_tracking) StderrLine: {'line': b'   51 |   using \x1b[01;31m\x1b[Karguments\x1b[m\x1b[K = typename tuple_tail<\n'}
+[318.541282] (br2_tracking) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[318.541378] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/function_traits.hpp:57:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kdecltype cannot resolve address of overloaded function\n'}
+[318.541480] (br2_tracking) StderrLine: {'line': b'   57 |   using \x1b[01;31m\x1b[Kargument_type\x1b[m\x1b[K = typename std::tuple_element<N, arguments>::type;\n'}
+[318.541571] (br2_tracking) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[318.541661] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/function_traits.hpp:59:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kdecltype cannot resolve address of overloaded function\n'}
+[318.541752] (br2_tracking) StderrLine: {'line': b'   59 |   using \x1b[01;31m\x1b[Kreturn_type\x1b[m\x1b[K = typename function_traits<decltype( &FunctionT::operator())>::return_type;\n'}
+[318.541843] (br2_tracking) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[318.541933] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:54:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kbr2_tracking::ObjectDetector::create_subscription<sensor_msgs::msg::PointCloud2>(const char [17], int, std::_Bind_helper<false, void (br2_tracking::ObjectDetector::*)(...), br2_tracking::ObjectDetector*, const std::_Placeholder<1>&>::type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[318.542032] (br2_tracking) StderrLine: {'line': b'   54 |     std::bind(&ObjectDetector::pointCloudCallback, this, _1)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[318.542141] (br2_tracking) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[318.542232] (br2_tracking) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43\x1b[m\x1b[K,\n'}
+[318.542323] (br2_tracking) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/include/br2_tracking/ObjectDetector.hpp:23\x1b[m\x1b[K,\n'}
+[318.542418] (br2_tracking) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:20\x1b[m\x1b[K:\n'}
+[318.542510] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class CallbackMessageT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[318.542609] (br2_tracking) StderrLine: {'line': b'  213 |   \x1b[01;36m\x1b[Kcreate_subscription\x1b[m\x1b[K(\n'}
+[318.542698] (br2_tracking) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[318.542789] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  substitution of deduced template arguments resulted in errors seen above\n'}
+[318.542881] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:70:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmarker_pub_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[318.542973] (br2_tracking) StderrLine: {'line': b'   70 |   \x1b[01;31m\x1b[Kmarker_pub_\x1b[m\x1b[K = this->create_publisher<visualization_msgs::msg::MarkerArray>(\n'}
+[318.543088] (br2_tracking) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[318.543190] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:70:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvisualization_msgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[318.543284] (br2_tracking) StderrLine: {'line': b'   70 |   marker_pub_ = this->create_publisher<\x1b[01;31m\x1b[Kvisualization_msgs\x1b[m\x1b[K::msg::MarkerArray>(\n'}
+[318.543371] (br2_tracking) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[318.543459] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:70:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[318.543549] (br2_tracking) StderrLine: {'line': b'   70 |   marker_pub_ = this->\x1b[01;31m\x1b[Kcreate_publisher<visualization_msgs::msg::MarkerArray>\x1b[m\x1b[K(\n'}
+[318.543639] (br2_tracking) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[318.543729] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:71:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kbr2_tracking::ObjectDetector::create_publisher<<expression error> >(const char [27], int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[318.543850] (br2_tracking) StderrLine: {'line': b'   71 |     "/object_detections/markers", 10\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[318.543943] (br2_tracking) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[318.544034] (br2_tracking) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:1224\x1b[m\x1b[K,\n'}
+[318.544125] (br2_tracking) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43\x1b[m\x1b[K,\n'}
+[318.544216] (br2_tracking) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/include/br2_tracking/ObjectDetector.hpp:23\x1b[m\x1b[K,\n'}
+[318.544306] (br2_tracking) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:20\x1b[m\x1b[K:\n'}
+[318.544397] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:71:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[318.544492] (br2_tracking) StderrLine: {'line': b'   71 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::create_publisher(\n'}
+[318.544594] (br2_tracking) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[318.544690] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:71:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[318.544782] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:71:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[318.544874] (br2_tracking) StderrLine: {'line': b'   71 |     "/object_detections/markers", 10\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[318.544964] (br2_tracking) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[318.545054] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:72:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdetections_pub_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kdetection_pub_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[318.545171] (br2_tracking) StderrLine: {'line': b'   72 |   \x1b[01;31m\x1b[Kdetections_pub_\x1b[m\x1b[K = this->create_publisher<vision_msgs::msg::Detection3DArray>(\n'}
+[318.545263] (br2_tracking) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[318.545352] (br2_tracking) StderrLine: {'line': b'      |   \x1b[32m\x1b[Kdetection_pub_\x1b[m\x1b[K\n'}
+[318.545440] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:72:62:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KDetection3DArray\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kvision_msgs::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KDetection2D\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[318.545540] (br2_tracking) StderrLine: {'line': b'   72 |   detections_pub_ = this->create_publisher<vision_msgs::msg::\x1b[01;31m\x1b[KDetection3DArray\x1b[m\x1b[K>(\n'}
+[318.545631] (br2_tracking) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[318.545723] (br2_tracking) StderrLine: {'line': b'      |                                                              \x1b[32m\x1b[KDetection2D\x1b[m\x1b[K\n'}
+[318.545814] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:73:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kbr2_tracking::ObjectDetector::create_publisher<<expression error> >(const char [19], int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[318.545912] (br2_tracking) StderrLine: {'line': b'   73 |     "/object_detections", 10\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[318.546004] (br2_tracking) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[318.546152] (br2_tracking) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:1224\x1b[m\x1b[K,\n'}
+[318.546257] (br2_tracking) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43\x1b[m\x1b[K,\n'}
+[318.546384] (br2_tracking) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/include/br2_tracking/ObjectDetector.hpp:23\x1b[m\x1b[K,\n'}
+[318.546476] (br2_tracking) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:20\x1b[m\x1b[K:\n'}
+[318.546566] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:71:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[318.546667] (br2_tracking) StderrLine: {'line': b'   71 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::create_publisher(\n'}
+[318.546758] (br2_tracking) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[318.546846] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:71:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[318.546935] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:73:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[318.547030] (br2_tracking) StderrLine: {'line': b'   73 |     "/object_detections", 10\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[318.547118] (br2_tracking) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[318.547206] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:\x1b[m\x1b[K At global scope:\n'}
+[318.547343] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:80:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kvoid br2_tracking::ObjectDetector::image_callback(const ConstSharedPtr&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[318.547436] (br2_tracking) StderrLine: {'line': b'   80 | \x1b[01;31m\x1b[KObjectDetector\x1b[m\x1b[K::image_callback(const sensor_msgs::msg::Image::ConstSharedPtr & msg)\n'}
+[318.547526] (br2_tracking) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[318.547620] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:80:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Kvoid br2_tracking::ObjectDetector::image_callback(const ConstSharedPtr&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[318.547775] (br2_tracking) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:20\x1b[m\x1b[K:\n'}
+[318.547865] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/include/br2_tracking/ObjectDetector.hpp:29:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass br2_tracking::ObjectDetector\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[318.547991] (br2_tracking) StderrLine: {'line': b'   29 | class \x1b[01;36m\x1b[KObjectDetector\x1b[m\x1b[K : public rclcpp::Node\n'}
+[318.548096] (br2_tracking) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[318.548224] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:131:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kvoid br2_tracking::ObjectDetector::pointCloudCallback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[318.548318] (br2_tracking) StderrLine: {'line': b'  131 | \x1b[01;31m\x1b[KObjectDetector\x1b[m\x1b[K::pointCloudCallback(const sensor_msgs::msg::PointCloud2::SharedPtr msg)\n'}
+[318.548408] (br2_tracking) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[318.548497] (br2_tracking) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:20\x1b[m\x1b[K:\n'}
+[318.548586] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/include/br2_tracking/ObjectDetector.hpp:33:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate is: \xe2\x80\x98\x1b[01m\x1b[Kvoid br2_tracking::ObjectDetector::pointCloudCallback(...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[318.548683] (br2_tracking) StderrLine: {'line': b'   33 |   void \x1b[01;36m\x1b[KpointCloudCallback\x1b[m\x1b[K(const sensor_msgs::msg::PointCloud2::SharedPtr msg)\n'}
+[318.548773] (br2_tracking) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[318.548861] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/include/br2_tracking/ObjectDetector.hpp:29:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass br2_tracking::ObjectDetector\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[318.548952] (br2_tracking) StderrLine: {'line': b'   29 | class \x1b[01;36m\x1b[KObjectDetector\x1b[m\x1b[K : public rclcpp::Node\n'}
+[318.549051] (br2_tracking) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[318.639263] (-) TimerEvent: {}
+[318.739579] (-) TimerEvent: {}
+[318.840065] (-) TimerEvent: {}
+[318.940506] (-) TimerEvent: {}
+[319.041199] (-) TimerEvent: {}
+[319.142581] (-) TimerEvent: {}
+[319.242885] (-) TimerEvent: {}
+[319.343160] (-) TimerEvent: {}
+[319.443640] (-) TimerEvent: {}
+[319.544524] (-) TimerEvent: {}
+[319.645054] (-) TimerEvent: {}
+[319.745533] (-) TimerEvent: {}
+[319.845843] (-) TimerEvent: {}
+[319.946258] (-) TimerEvent: {}
+[320.046534] (-) TimerEvent: {}
+[320.146808] (-) TimerEvent: {}
+[320.247152] (-) TimerEvent: {}
+[320.347640] (-) TimerEvent: {}
+[320.448699] (-) TimerEvent: {}
+[320.549702] (-) TimerEvent: {}
+[320.650322] (-) TimerEvent: {}
+[320.751237] (-) TimerEvent: {}
+[320.852742] (-) TimerEvent: {}
+[320.953097] (-) TimerEvent: {}
+[321.053629] (-) TimerEvent: {}
+[321.156340] (-) TimerEvent: {}
+[321.262205] (-) TimerEvent: {}
+[321.366048] (-) TimerEvent: {}
+[321.466478] (-) TimerEvent: {}
+[321.567025] (-) TimerEvent: {}
+[321.668391] (-) TimerEvent: {}
+[321.768799] (-) TimerEvent: {}
+[321.869439] (-) TimerEvent: {}
+[322.031030] (-) TimerEvent: {}
+[322.131590] (-) TimerEvent: {}
+[322.232219] (-) TimerEvent: {}
+[322.334404] (-) TimerEvent: {}
+[322.436192] (-) TimerEvent: {}
+[322.536770] (-) TimerEvent: {}
+[322.637324] (-) TimerEvent: {}
+[322.737848] (-) TimerEvent: {}
+[322.838296] (-) TimerEvent: {}
+[322.939103] (-) TimerEvent: {}
+[323.039865] (-) TimerEvent: {}
+[323.143257] (-) TimerEvent: {}
+[323.246292] (-) TimerEvent: {}
+[323.349358] (-) TimerEvent: {}
+[323.449753] (-) TimerEvent: {}
+[323.550589] (-) TimerEvent: {}
+[323.653824] (-) TimerEvent: {}
+[323.756669] (-) TimerEvent: {}
+[323.857584] (-) TimerEvent: {}
+[323.959724] (-) TimerEvent: {}
+[324.060319] (-) TimerEvent: {}
+[324.160830] (-) TimerEvent: {}
+[324.261516] (-) TimerEvent: {}
+[324.362345] (-) TimerEvent: {}
+[324.464588] (-) TimerEvent: {}
+[324.565185] (-) TimerEvent: {}
+[324.665920] (-) TimerEvent: {}
+[324.768156] (-) TimerEvent: {}
+[324.870120] (-) TimerEvent: {}
+[324.970970] (-) TimerEvent: {}
+[325.071516] (-) TimerEvent: {}
+[325.171916] (-) TimerEvent: {}
+[325.334636] (-) TimerEvent: {}
+[325.435426] (-) TimerEvent: {}
+[325.537904] (-) TimerEvent: {}
+[325.650531] (-) TimerEvent: {}
+[325.751167] (-) TimerEvent: {}
+[325.851758] (-) TimerEvent: {}
+[325.952799] (-) TimerEvent: {}
+[326.057201] (-) TimerEvent: {}
+[326.158592] (-) TimerEvent: {}
+[326.259827] (-) TimerEvent: {}
+[326.360273] (-) TimerEvent: {}
+[326.461382] (-) TimerEvent: {}
+[326.563115] (-) TimerEvent: {}
+[326.664285] (-) TimerEvent: {}
+[326.765655] (-) TimerEvent: {}
+[326.867175] (-) TimerEvent: {}
+[326.968698] (-) TimerEvent: {}
+[327.076074] (-) TimerEvent: {}
+[327.181428] (-) TimerEvent: {}
+[327.282336] (-) TimerEvent: {}
+[327.384080] (-) TimerEvent: {}
+[327.484694] (-) TimerEvent: {}
+[327.586846] (-) TimerEvent: {}
+[327.687622] (-) TimerEvent: {}
+[327.788866] (-) TimerEvent: {}
+[327.890665] (-) TimerEvent: {}
+[327.991821] (-) TimerEvent: {}
+[328.093828] (-) TimerEvent: {}
+[328.195591] (-) TimerEvent: {}
+[328.300243] (-) TimerEvent: {}
+[328.401691] (-) TimerEvent: {}
+[328.502195] (-) TimerEvent: {}
+[328.647342] (-) TimerEvent: {}
+[328.747975] (-) TimerEvent: {}
+[328.848427] (-) TimerEvent: {}
+[328.948815] (-) TimerEvent: {}
+[329.049128] (-) TimerEvent: {}
+[329.149705] (-) TimerEvent: {}
+[329.250335] (-) TimerEvent: {}
+[329.351880] (-) TimerEvent: {}
+[329.457947] (-) TimerEvent: {}
+[329.561154] (-) TimerEvent: {}
+[329.662902] (-) TimerEvent: {}
+[329.763809] (-) TimerEvent: {}
+[329.865399] (-) TimerEvent: {}
+[329.965946] (-) TimerEvent: {}
+[330.078462] (-) TimerEvent: {}
+[330.184109] (-) TimerEvent: {}
+[330.285312] (-) TimerEvent: {}
+[330.385943] (-) TimerEvent: {}
+[330.486527] (-) TimerEvent: {}
+[330.587137] (-) TimerEvent: {}
+[330.687628] (-) TimerEvent: {}
+[330.834646] (-) TimerEvent: {}
+[330.935825] (-) TimerEvent: {}
+[331.037243] (-) TimerEvent: {}
+[331.138040] (-) TimerEvent: {}
+[331.239663] (-) TimerEvent: {}
+[331.340231] (-) TimerEvent: {}
+[331.441038] (-) TimerEvent: {}
+[331.542165] (-) TimerEvent: {}
+[331.643650] (-) TimerEvent: {}
+[331.746020] (-) TimerEvent: {}
+[331.854254] (-) TimerEvent: {}
+[331.970182] (-) TimerEvent: {}
+[332.070650] (-) TimerEvent: {}
+[332.187352] (-) TimerEvent: {}
+[332.288052] (-) TimerEvent: {}
+[332.388542] (-) TimerEvent: {}
+[332.490730] (-) TimerEvent: {}
+[332.591750] (-) TimerEvent: {}
+[332.692911] (-) TimerEvent: {}
+[332.794036] (-) TimerEvent: {}
+[332.895962] (-) TimerEvent: {}
+[332.997450] (-) TimerEvent: {}
+[333.097975] (-) TimerEvent: {}
+[333.198672] (-) TimerEvent: {}
+[333.299567] (-) TimerEvent: {}
+[333.400174] (-) TimerEvent: {}
+[333.500792] (-) TimerEvent: {}
+[333.603247] (-) TimerEvent: {}
+[333.703720] (-) TimerEvent: {}
+[333.804758] (-) TimerEvent: {}
+[333.906432] (-) TimerEvent: {}
+[334.018827] (-) TimerEvent: {}
+[334.120165] (-) TimerEvent: {}
+[334.220805] (-) TimerEvent: {}
+[334.321655] (-) TimerEvent: {}
+[334.422595] (-) TimerEvent: {}
+[334.523144] (-) TimerEvent: {}
+[334.624382] (-) TimerEvent: {}
+[334.725296] (-) TimerEvent: {}
+[334.826249] (-) TimerEvent: {}
+[334.928286] (-) TimerEvent: {}
+[335.029284] (-) TimerEvent: {}
+[335.132301] (-) TimerEvent: {}
+[335.233598] (-) TimerEvent: {}
+[335.334116] (-) TimerEvent: {}
+[335.434556] (-) TimerEvent: {}
+[335.535505] (-) TimerEvent: {}
+[335.636195] (-) TimerEvent: {}
+[335.736579] (-) TimerEvent: {}
+[335.837316] (-) TimerEvent: {}
+[335.942508] (-) TimerEvent: {}
+[336.046673] (-) TimerEvent: {}
+[336.148074] (-) TimerEvent: {}
+[336.248753] (-) TimerEvent: {}
+[336.349370] (-) TimerEvent: {}
+[336.450601] (-) TimerEvent: {}
+[336.551051] (-) TimerEvent: {}
+[336.651740] (-) TimerEvent: {}
+[336.752536] (-) TimerEvent: {}
+[336.853984] (-) TimerEvent: {}
+[336.957109] (-) TimerEvent: {}
+[337.057759] (-) TimerEvent: {}
+[337.161470] (-) TimerEvent: {}
+[337.262375] (-) TimerEvent: {}
+[337.363650] (-) TimerEvent: {}
+[337.395421] (br2_tracking) StderrLine: {'line': b'make[2]: *** [CMakeFiles/br2_tracking.dir/build.make:63: CMakeFiles/br2_tracking.dir/src/br2_tracking/ObjectDetector.cpp.o] Error 1\n'}
+[337.402940] (br2_tracking) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:204: CMakeFiles/br2_tracking.dir/all] Error 2\n'}
+[337.404481] (br2_tracking) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[337.463739] (-) TimerEvent: {}
+[337.564353] (-) TimerEvent: {}
+[337.665827] (-) TimerEvent: {}
+[337.768326] (-) TimerEvent: {}
+[337.794849] (br2_tracking) CommandEnded: {'returncode': 2}
+[337.868833] (-) TimerEvent: {}
+[337.970270] (-) TimerEvent: {}
+[338.076230] (-) TimerEvent: {}
+[338.119255] (br2_tracking) JobEnded: {'identifier': 'br2_tracking', 'rc': 2}
+[338.131876] (-) EventReactorShutdown: {}

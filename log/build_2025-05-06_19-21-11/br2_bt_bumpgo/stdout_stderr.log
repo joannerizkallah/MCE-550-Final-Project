@@ -1,0 +1,31 @@
+[ 11%] Built target br2_forward_bt_node
+[ 22%] Built target gtest_main
+[ 33%] Built target gtest
+[ 44%] Built target bt_forward
+[ 55%] Built target bt_action_test
+[35m[1mScanning dependencies of target br2_is_obstacle_bt_node[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/br2_is_obstacle_bt_node.dir/src/br2_bt_bumpgo/IsObstacle.cpp.o[0m
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_bt_bumpgo/src/br2_bt_bumpgo/IsObstacle.cpp:[m[K In member function ‘[01m[Kvirtual BT::NodeStatus br2_bt_bumpgo::IsObstacle::tick()[m[K’:
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_bt_bumpgo/src/br2_bt_bumpgo/IsObstacle.cpp:62:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kindex_left[m[K’ was not declared in this scope
+   62 |   [01;31m[Kindex_left[m[K = last_scan_->ranges.size()/2 - 0.262 / last_scan_->angle_increment;
+      |   [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_bt_bumpgo/src/br2_bt_bumpgo/IsObstacle.cpp:63:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kindex_right[m[K’ was not declared in this scope
+   63 |   [01;31m[Kindex_right[m[K = last_scan_->ranges.size()/2 + 0.262 / last_scan_->angle_increment;
+      |   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_bt_bumpgo/src/br2_bt_bumpgo/IsObstacle.cpp:65:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+   65 |   for([01;31m[Ki[m[K=index_left; i<last_scan_->ranges.size()/2; i++){
+      |       [01;31m[K^[m[K
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_bt_bumpgo/src/br2_bt_bumpgo/IsObstacle.cpp:74:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+   74 |   for([01;31m[Ki[m[K=last_scan->ranges.size()/2; i<=index_right i++){
+      |       [01;31m[K^[m[K
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_bt_bumpgo/src/br2_bt_bumpgo/IsObstacle.cpp:74:9:[m[K [01;31m[Kerror: [m[K‘[01m[Klast_scan[m[K’ was not declared in this scope; did you mean ‘[01m[Klast_scan_[m[K’?
+   74 |   for(i=[01;31m[Klast_scan[m[K->ranges.size()/2; i<=index_right i++){
+      |         [01;31m[K^~~~~~~~~[m[K
+      |         [32m[Klast_scan_[m[K
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_bt_bumpgo/src/br2_bt_bumpgo/IsObstacle.cpp:74:51:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Ki[m[K’
+   74 |   for(i=last_scan->ranges.size()/2; i<=index_right[01;31m[K [m[K[32m[Ki[m[K++){
+      |                                                   [01;31m[K^[m[K[32m[K~[m[K
+      |                                                   [32m[K;[m[K
+make[2]: *** [CMakeFiles/br2_is_obstacle_bt_node.dir/build.make:63: CMakeFiles/br2_is_obstacle_bt_node.dir/src/br2_bt_bumpgo/IsObstacle.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:237: CMakeFiles/br2_is_obstacle_bt_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

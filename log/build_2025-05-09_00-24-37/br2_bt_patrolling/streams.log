@@ -1,0 +1,20 @@
+[0.065s] Invoking command in '/home/joanne/bookros2_ws/build/br2_bt_patrolling': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joanne/bookros2_ws/install/ros2controlcli:/home/joanne/bookros2_ws/install/launch_pal:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/joanne/bookros2_ws/build/br2_bt_patrolling -- -j8 -l8
+[0.303s] [ 10%] Built target br2_recharge_bt_node
+[0.320s] [ 20%] Built target br2_battery_checker_bt_node
+[0.388s] [ 30%] Built target gtest
+[0.410s] [ 40%] Built target gtest_main
+[0.501s] [ 50%] Built target br2_patrol_bt_node
+[0.550s] [ 60%] Built target br2_track_objects_bt_node
+[0.612s] [35m[1mScanning dependencies of target br2_move_bt_node[0m
+[0.648s] [ 70%] Built target br2_get_waypoint_bt_node
+[0.742s] [ 75%] [32mBuilding CXX object CMakeFiles/br2_move_bt_node.dir/src/br2_bt_patrolling/Move.cpp.o[0m
+[0.795s] [ 85%] Built target bt_action_test
+[0.908s] [ 95%] Built target patrolling_main
+[5.771s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_bt_patrolling/src/br2_bt_patrolling/Move.cpp:[m[K In member function ‘[01m[Kvirtual void br2_bt_patrolling::Move::on_tick()[m[K’:
+[5.771s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_bt_patrolling/src/br2_bt_patrolling/Move.cpp:54:16:[m[K [01;31m[Kerror: [m[Kqualified-id in declaration before ‘[01m[K([m[K’ token
+[5.771s]    54 |   Move::on_tick[01;31m[K([m[K)
+[5.772s]       |                [01;31m[K^[m[K
+[6.737s] make[2]: *** [CMakeFiles/br2_move_bt_node.dir/build.make:63: CMakeFiles/br2_move_bt_node.dir/src/br2_bt_patrolling/Move.cpp.o] Error 1
+[6.737s] make[1]: *** [CMakeFiles/Makefile2:239: CMakeFiles/br2_move_bt_node.dir/all] Error 2
+[6.738s] make: *** [Makefile:141: all] Error 2
+[6.740s] Invoked command in '/home/joanne/bookros2_ws/build/br2_bt_patrolling' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joanne/bookros2_ws/install/ros2controlcli:/home/joanne/bookros2_ws/install/launch_pal:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/joanne/bookros2_ws/build/br2_bt_patrolling -- -j8 -l8

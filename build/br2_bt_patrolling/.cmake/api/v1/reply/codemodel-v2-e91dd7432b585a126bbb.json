@@ -1,0 +1,209 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						10,
+						11
+					]
+				},
+				{
+					"build" : "tests",
+					"childIndexes" : 
+					[
+						2
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tests",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "gtest",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "/opt/ros/foxy/src/gtest_vendor",
+					"targetIndexes" : 
+					[
+						8,
+						9
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "br2_bt_patrolling",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						10,
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "gtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						8,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "br2_battery_checker_bt_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-br2_battery_checker_bt_node-Debug-de6583d098c1f5a7940e.json",
+					"name" : "br2_battery_checker_bt_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "br2_bt_patrolling_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-br2_bt_patrolling_uninstall-Debug-0e6df1a8747d28a95029.json",
+					"name" : "br2_bt_patrolling_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "br2_get_waypoint_bt_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-br2_get_waypoint_bt_node-Debug-61aff4bd210bdc2bb677.json",
+					"name" : "br2_get_waypoint_bt_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "br2_move_bt_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-br2_move_bt_node-Debug-5ec8e9fac16c4b2d5fa8.json",
+					"name" : "br2_move_bt_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "br2_patrol_bt_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-br2_patrol_bt_node-Debug-012d3d5284ed210d73dd.json",
+					"name" : "br2_patrol_bt_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "br2_recharge_bt_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-br2_recharge_bt_node-Debug-ed6aef685845b8faa8ab.json",
+					"name" : "br2_recharge_bt_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "br2_track_objects_bt_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-br2_track_objects_bt_node-Debug-ef54969fef492ffdef31.json",
+					"name" : "br2_track_objects_bt_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "bt_action_test::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-bt_action_test-Debug-c190a98d0c4612709dec.json",
+					"name" : "bt_action_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gtest::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest-Debug-8252a2e0d9a028b04731.json",
+					"name" : "gtest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gtest_main::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_main-Debug-a2a4658ea7f26965a6d9.json",
+					"name" : "gtest_main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "patrolling_main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-patrolling_main-Debug-c7ef8a4f0df1c4e9eb32.json",
+					"name" : "patrolling_main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-485df2eba18232fd9500.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/joanne/bookros2_ws/build/br2_bt_patrolling",
+		"source" : "/home/joanne/bookros2_ws/src/book_ros2/br2_bt_patrolling"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

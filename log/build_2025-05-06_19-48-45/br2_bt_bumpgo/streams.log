@@ -1,0 +1,68 @@
+[0.144s] Invoking command in '/home/joanne/bookros2_ws/build/br2_bt_bumpgo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joanne/bookros2_ws/install/ros2controlcli:/home/joanne/bookros2_ws/install/launch_pal:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/joanne/bookros2_ws/build/br2_bt_bumpgo -- -j8 -l8
+[1.091s] [ 11%] Built target br2_forward_bt_node
+[1.223s] [ 22%] Built target gtest_main
+[1.402s] [ 33%] Built target gtest
+[1.659s] [ 44%] Built target bt_forward
+[1.978s] [ 55%] Built target bt_action_test
+[2.241s] [ 66%] Built target br2_is_obstacle_bt_node
+[2.501s] [ 77%] Built target br2_back_bt_node
+[2.751s] [ 88%] Built target bt_bumpgo
+[2.831s] [35m[1mScanning dependencies of target br2_turn_bt_node[0m
+[3.039s] [ 94%] [32mBuilding CXX object CMakeFiles/br2_turn_bt_node.dir/src/br2_bt_bumpgo/Turn.cpp.o[0m
+[14.608s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[14.616s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[14.619s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[14.622s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[14.624s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[14.630s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[14.634s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[14.637s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[14.640s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[14.642s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[14.644s]                  from [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_bt_bumpgo/include/br2_bt_bumpgo/Turn.hpp:24[m[K,
+[14.645s]                  from [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_bt_bumpgo/src/br2_bt_bumpgo/Turn.cpp:18[m[K:
+[14.647s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_bt_bumpgo/src/br2_bt_bumpgo/Turn.cpp:[m[K In member function ‘[01m[Kvirtual BT::NodeStatus br2_bt_bumpgo::Turn::tick()[m[K’:
+[14.649s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_bt_bumpgo/src/br2_bt_bumpgo/Turn.cpp:55:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::get_logger[m[K’?
+[14.657s]    55 |   RCLCPP_INFO([01;31m[Kget_logger[m[K(), "Direction %d", direction);
+[14.660s]       |               [01;31m[K^~~~~~~~~~[m[K
+[14.661s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/logging.hpp:23[m[K,
+[14.661s]                  from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[14.661s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[14.662s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[14.663s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[14.664s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[14.665s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[14.667s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[14.669s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[14.670s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[14.671s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[14.672s]                  from [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_bt_bumpgo/include/br2_bt_bumpgo/Turn.hpp:24[m[K,
+[14.672s]                  from [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_bt_bumpgo/src/br2_bt_bumpgo/Turn.cpp:18[m[K:
+[14.672s] [01m[K/opt/ros/foxy/include/rclcpp/logger.hpp:80:17:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::get_logger[m[K’ declared here
+[14.673s]    80 |   friend Logger [01;36m[Krclcpp[m[K::get_logger(const std::string & name);
+[14.673s]       |                 [01;36m[K^~~~~~[m[K
+[14.673s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[14.673s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[14.673s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[14.674s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[14.674s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[14.674s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[14.674s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[14.674s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[14.674s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[14.675s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[14.675s]                  from [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_bt_bumpgo/include/br2_bt_bumpgo/Turn.hpp:24[m[K,
+[14.675s]                  from [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_bt_bumpgo/src/br2_bt_bumpgo/Turn.cpp:18[m[K:
+[14.675s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_bt_bumpgo/src/br2_bt_bumpgo/Turn.cpp:55:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[14.675s]    55 |   [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Direction %d", direction);
+[14.675s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[14.676s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_bt_bumpgo/src/br2_bt_bumpgo/Turn.cpp:55:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[14.676s]    55 |   [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Direction %d", direction);
+[14.676s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[14.676s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_bt_bumpgo/src/br2_bt_bumpgo/Turn.cpp:55:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[14.676s]    55 |   [01;31m[KRCLCPP_INFO[m[K(get_logger(), "Direction %d", direction);
+[14.676s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[20.931s] make[2]: *** [CMakeFiles/br2_turn_bt_node.dir/build.make:63: CMakeFiles/br2_turn_bt_node.dir/src/br2_bt_bumpgo/Turn.cpp.o] Error 1
+[20.934s] make[1]: *** [CMakeFiles/Makefile2:156: CMakeFiles/br2_turn_bt_node.dir/all] Error 2
+[20.934s] make: *** [Makefile:141: all] Error 2
+[20.946s] Invoked command in '/home/joanne/bookros2_ws/build/br2_bt_bumpgo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joanne/bookros2_ws/install/ros2controlcli:/home/joanne/bookros2_ws/install/launch_pal:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/joanne/bookros2_ws/build/br2_bt_bumpgo -- -j8 -l8

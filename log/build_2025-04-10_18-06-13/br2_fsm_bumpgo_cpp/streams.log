@@ -1,0 +1,12 @@
+[0.046s] Invoking command in '/home/joanne/bookros2_ws/build/br2_fsm_bumpgo_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joanne/bookros2_ws/install/ros2controlcli:/home/joanne/bookros2_ws/install/launch_pal:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/joanne/bookros2_ws/build/br2_fsm_bumpgo_cpp -- -j8 -l8
+[0.325s] [35m[1mScanning dependencies of target bumpgo[0m
+[0.497s] [ 33%] [32mBuilding CXX object CMakeFiles/bumpgo.dir/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp.o[0m
+[7.984s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp:[m[K In member function ‘[01m[Kfloat br2_fsm_bumpgo_cpp::BumpGoNode::calculate_speed()[m[K’:
+[7.985s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp:166:49:[m[K [01;31m[Kerror: [m[K‘[01m[Klast_scan[m[K’ was not declared in this scope; did you mean ‘[01m[Klast_scan_[m[K’?
+[7.986s]   166 |   float angle = max*last_scan_->angle_increment+[01;31m[Klast_scan[m[K->angle_min;
+[7.987s]       |                                                 [01;31m[K^~~~~~~~~[m[K
+[7.990s]       |                                                 [32m[Klast_scan_[m[K
+[11.549s] make[2]: *** [CMakeFiles/bumpgo.dir/build.make:63: CMakeFiles/bumpgo.dir/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp.o] Interrupt
+[11.549s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/bumpgo.dir/all] Interrupt
+[11.549s] make: *** [Makefile:141: all] Interrupt
+[11.608s] Invoked command in '/home/joanne/bookros2_ws/build/br2_fsm_bumpgo_cpp' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joanne/bookros2_ws/install/ros2controlcli:/home/joanne/bookros2_ws/install/launch_pal:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/joanne/bookros2_ws/build/br2_fsm_bumpgo_cpp -- -j8 -l8

@@ -1,0 +1,44 @@
+[0.091s] Invoking command in '/home/joanne/bookros2_ws/build/br2_fsm_bumpgo_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joanne/bookros2_ws/install/ros2controlcli:/home/joanne/bookros2_ws/install/launch_pal:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/joanne/bookros2_ws/build/br2_fsm_bumpgo_cpp -- -j8 -l8
+[0.321s] [35m[1mScanning dependencies of target bumpgo[0m
+[0.437s] [ 33%] [32mBuilding CXX object CMakeFiles/bumpgo.dir/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp.o[0m
+[7.513s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp:[m[K In member function ‘[01m[Kbool br2_fsm_bumpgo_cpp::BumpGoNode::check_turn_2_forward()[m[K’:
+[7.514s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp:152:30:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator>[m[K’ (operand types are ‘[01m[Krclcpp::Duration[m[K’ and ‘[01m[Kfloat[m[K’)
+[7.516s]   152 |   return [32m[K(now() - state_ts_)[m[K [01;31m[K>[m[K [34m[Kcalculate_time()[m[K;
+[7.517s]       |          [32m[K~~~~~~~~~~~~~~~~~~~[m[K [01;31m[K^[m[K [34m[K~~~~~~~~~~~~~~~~[m[K
+[7.519s]       |                 [32m[K|[m[K                            [34m[K|[m[K
+[7.520s]       |                 [32m[Krclcpp::Duration[m[K             [34m[Kfloat[m[K
+[7.521s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:20[m[K,
+[7.522s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+[7.523s]                  from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:34[m[K,
+[7.523s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[7.523s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[7.524s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[7.524s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[7.524s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[7.524s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[7.525s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[7.525s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[7.525s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[7.526s]                  from [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/include/br2_fsm_bumpgo_cpp/BumpGoNode.hpp:21[m[K,
+[7.526s]                  from [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp:16[m[K:
+[7.526s] [01m[K/opt/ros/foxy/include/rclcpp/duration.hpp:93:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool rclcpp::Duration::operator>(const rclcpp::Duration&) const[m[K’
+[7.526s]    93 |   [01;36m[Koperator[m[K>(const rclcpp::Duration & rhs) const;
+[7.526s]       |   [01;36m[K^~~~~~~~[m[K
+[7.526s] [01m[K/opt/ros/foxy/include/rclcpp/duration.hpp:93:38:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kfloat[m[K’ to ‘[01m[Kconst rclcpp::Duration&[m[K’
+[7.527s]    93 |   operator>([01;36m[Kconst rclcpp::Duration & rhs[m[K) const;
+[7.527s]       |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[7.527s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp:[m[K At global scope:
+[7.527s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp:157:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Krclcpp::Duration br2_fsm_bumpgo_cpp::BumpGoNode::calculate_time()[m[K’
+[7.527s]   157 | [01;31m[KBumpGoNode[m[K::calculate_time()
+[7.528s]       | [01;31m[K^~~~~~~~~~[m[K
+[7.528s] In file included from [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp:16[m[K:
+[7.528s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/include/br2_fsm_bumpgo_cpp/BumpGoNode.hpp:52:9:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kfloat br2_fsm_bumpgo_cpp::BumpGoNode::calculate_time()[m[K’
+[7.528s]    52 |   float [01;36m[Kcalculate_time[m[K();
+[7.528s]       |         [01;36m[K^~~~~~~~~~~~~~[m[K
+[7.529s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/include/br2_fsm_bumpgo_cpp/BumpGoNode.hpp:28:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass br2_fsm_bumpgo_cpp::BumpGoNode[m[K’ defined here
+[7.529s]    28 | class [01;36m[KBumpGoNode[m[K : public rclcpp::Node
+[7.529s]       |       [01;36m[K^~~~~~~~~~[m[K
+[13.026s] make[2]: *** [CMakeFiles/bumpgo.dir/build.make:63: CMakeFiles/bumpgo.dir/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp.o] Error 1
+[13.027s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/bumpgo.dir/all] Error 2
+[13.028s] make: *** [Makefile:141: all] Error 2
+[13.032s] Invoked command in '/home/joanne/bookros2_ws/build/br2_fsm_bumpgo_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joanne/bookros2_ws/install/ros2controlcli:/home/joanne/bookros2_ws/install/launch_pal:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/joanne/bookros2_ws/build/br2_fsm_bumpgo_cpp -- -j8 -l8

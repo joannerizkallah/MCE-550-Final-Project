@@ -1,0 +1,1 @@
+/home/joanne/bookros2_ws/build/controller_manager_msgs/rosidl_cmake/srv/ConfigureStartController_Request.msg

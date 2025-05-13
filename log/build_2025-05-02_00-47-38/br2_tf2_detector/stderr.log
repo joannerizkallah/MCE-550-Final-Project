@@ -1,0 +1,20 @@
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/opt/ros/foxy/include/tf2_ros/buffer_interface.h:35[m[K,
+                 from [01m[K/opt/ros/foxy/include/tf2_geometry_msgs/tf2_geometry_msgs.h:38[m[K,
+                 from [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/ObstacleMonitorNode.cpp:17[m[K:
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/ObstacleMonitorNode.cpp:[m[K In member function ‘[01m[Kvoid br2_tf2_detector::ObstacleMonitorNode::control_cycle()[m[K’:
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/ObstacleMonitorNode.cpp:102:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kdist[m[K’ was not declared in this scope
+  102 |   RCLCPP_INFO(get_logger(), "Distance to obstacle %lf", [01;31m[Kdist[m[K);
+      |                                                         [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/br2_tf2_detector.dir/build.make:76: CMakeFiles/br2_tf2_detector.dir/src/br2_tf2_detector/ObstacleMonitorNode.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/br2_tf2_detector.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

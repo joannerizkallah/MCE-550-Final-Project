@@ -1,0 +1,50 @@
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_vff_avoidance/src/br2_vff_avoidance/AvoidanceNode.cpp:[m[K In member function ‘[01m[Kvoid br2_vff_avoidance::AvoidanceNode::control_cycle()[m[K’:
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_vff_avoidance/src/br2_vff_avoidance/AvoidanceNode.cpp:46:59:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kbr2_vff_avoidance::AvoidanceNode::get_debug_vff(sensor_msgs::msg::LaserScan_<std::allocator<void> >&, br2_vff_avoidance::VFFVectors&)[m[K’
+   46 |     vff_debug_pub_->publish(get_debug_vff(*last_scan_, vff[01;31m[K)[m[K);
+      |                                                           [01;31m[K^[m[K
+In file included from [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_vff_avoidance/src/br2_vff_avoidance/AvoidanceNode.cpp:2[m[K:
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_vff_avoidance/include/br2_vff_avoidance/AvoidanceNode.hpp:50:40:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvisualization_msgs::msg::MarkerArray br2_vff_avoidance::AvoidanceNode::get_debug_vff(const br2_vff_avoidance::VFFVectors&)[m[K’
+   50 |   visualization_msgs::msg::MarkerArray [01;36m[Kget_debug_vff[m[K(const VFFVectors & vff_vectors);
+      |                                        [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_vff_avoidance/include/br2_vff_avoidance/AvoidanceNode.hpp:50:40:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_vff_avoidance/src/br2_vff_avoidance/AvoidanceNode.cpp:[m[K In member function ‘[01m[Kvisualization_msgs::msg::MarkerArray br2_vff_avoidance::AvoidanceNode::get_debug_vff(const br2_vff_avoidance::VFFVectors&)[m[K’:
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_vff_avoidance/src/br2_vff_avoidance/AvoidanceNode.cpp:79:66:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kbr2_vff_avoidance::AvoidanceNode::make_marker(const std::vector<float, std::allocator<float> >&, br2_vff_avoidance::VFFColor, int)[m[K’
+   79 |   array.markers.push_back(make_marker(vff.attractive, BLUE,  id++[01;31m[K)[m[K);
+      |                                                                  [01;31m[K^[m[K
+In file included from [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_vff_avoidance/src/br2_vff_avoidance/AvoidanceNode.cpp:2[m[K:
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_vff_avoidance/include/br2_vff_avoidance/AvoidanceNode.hpp:51:35:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvisualization_msgs::msg::Marker br2_vff_avoidance::AvoidanceNode::make_marker(const std::vector<float, std::allocator<float> >&, br2_vff_avoidance::VFFColor)[m[K’
+   51 |   visualization_msgs::msg::Marker [01;36m[Kmake_marker[m[K(
+      |                                   [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_vff_avoidance/include/br2_vff_avoidance/AvoidanceNode.hpp:51:35:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_vff_avoidance/src/br2_vff_avoidance/AvoidanceNode.cpp:80:66:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kbr2_vff_avoidance::AvoidanceNode::make_marker(const std::vector<float, std::allocator<float> >&, br2_vff_avoidance::VFFColor, int)[m[K’
+   80 |   array.markers.push_back(make_marker(vff.result,     GREEN, id++[01;31m[K)[m[K);
+      |                                                                  [01;31m[K^[m[K
+In file included from [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_vff_avoidance/src/br2_vff_avoidance/AvoidanceNode.cpp:2[m[K:
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_vff_avoidance/include/br2_vff_avoidance/AvoidanceNode.hpp:51:35:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvisualization_msgs::msg::Marker br2_vff_avoidance::AvoidanceNode::make_marker(const std::vector<float, std::allocator<float> >&, br2_vff_avoidance::VFFColor)[m[K’
+   51 |   visualization_msgs::msg::Marker [01;36m[Kmake_marker[m[K(
+      |                                   [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_vff_avoidance/include/br2_vff_avoidance/AvoidanceNode.hpp:51:35:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_vff_avoidance/src/br2_vff_avoidance/AvoidanceNode.cpp:[m[K At global scope:
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_vff_avoidance/src/br2_vff_avoidance/AvoidanceNode.cpp:84:38:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvisualization_msgs::msg::MarkerArray br2_vff_avoidance::AvoidanceNode::get_debug_vff(const LaserScan&, const br2_vff_avoidance::VFFVectors&)[m[K’
+   84 | visualization_msgs::msg::MarkerArray [01;31m[KAvoidanceNode[m[K::get_debug_vff(
+      |                                      [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_vff_avoidance/src/br2_vff_avoidance/AvoidanceNode.cpp:74:38:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvisualization_msgs::msg::MarkerArray br2_vff_avoidance::AvoidanceNode::get_debug_vff(const br2_vff_avoidance::VFFVectors&)[m[K’
+   74 | visualization_msgs::msg::MarkerArray [01;36m[KAvoidanceNode[m[K::get_debug_vff(
+      |                                      [01;36m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_vff_avoidance/src/br2_vff_avoidance/AvoidanceNode.cpp:2[m[K:
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_vff_avoidance/include/br2_vff_avoidance/AvoidanceNode.hpp:39:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass br2_vff_avoidance::AvoidanceNode[m[K’ defined here
+   39 | class [01;36m[KAvoidanceNode[m[K : public rclcpp::Node
+      |       [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_vff_avoidance/src/br2_vff_avoidance/AvoidanceNode.cpp:108:33:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kvisualization_msgs::msg::Marker br2_vff_avoidance::AvoidanceNode::make_marker(const std::vector<float, std::allocator<float> >&, br2_vff_avoidance::VFFColor, int)[m[K’
+  108 | visualization_msgs::msg::Marker [01;31m[KAvoidanceNode[m[K::make_marker(
+      |                                 [01;31m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_vff_avoidance/src/br2_vff_avoidance/AvoidanceNode.cpp:2[m[K:
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_vff_avoidance/include/br2_vff_avoidance/AvoidanceNode.hpp:51:35:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvisualization_msgs::msg::Marker br2_vff_avoidance::AvoidanceNode::make_marker(const std::vector<float, std::allocator<float> >&, br2_vff_avoidance::VFFColor)[m[K’
+   51 |   visualization_msgs::msg::Marker [01;36m[Kmake_marker[m[K(
+      |                                   [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_vff_avoidance/include/br2_vff_avoidance/AvoidanceNode.hpp:39:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass br2_vff_avoidance::AvoidanceNode[m[K’ defined here
+   39 | class [01;36m[KAvoidanceNode[m[K : public rclcpp::Node
+      |       [01;36m[K^~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/br2_vff_avoidance.dir/build.make:63: CMakeFiles/br2_vff_avoidance.dir/src/br2_vff_avoidance/AvoidanceNode.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:148: CMakeFiles/br2_vff_avoidance.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

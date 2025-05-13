@@ -1,0 +1,23 @@
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/ObstacleDetectorNode.cpp:[m[K In constructor ‘[01m[Kbr2_tf2_detector::ObstacleDetectorNode::ObstacleDetectorNode()[m[K’:
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/ObstacleDetectorNode.cpp:39:67:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Ktf2::BufferCore[m[K’ and ‘[01m[Kstd::_MakeUniq<tf2_ros::Buffer>::__single_object[m[K’ {aka ‘[01m[Kstd::unique_ptr<tf2_ros::Buffer, std::default_delete<tf2_ros::Buffer> >[m[K’})
+   39 |   tf_buffer_ = std::make_unique<tf2_ros::Buffer>(this->get_clock()[01;31m[K)[m[K;
+      |                                                                   [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/tf2_ros/buffer.h:43[m[K,
+                 from [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/include/br2_tf2_detector/ObstacleDetectorNode.hpp:21[m[K,
+                 from [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/ObstacleDetectorNode.cpp:17[m[K:
+[01m[K/opt/ros/foxy/include/tf2/buffer_core.h:92:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktf2::BufferCore& tf2::BufferCore::operator=(const tf2::BufferCore&)[m[K’ <deleted>
+   92 | class [01;36m[KBufferCore[m[K : public BufferCoreInterface
+      |       [01;36m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/tf2/buffer_core.h:92:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::_MakeUniq<tf2_ros::Buffer>::__single_object[m[K’ {aka ‘[01m[Kstd::unique_ptr<tf2_ros::Buffer, std::default_delete<tf2_ros::Buffer> >[m[K’} to ‘[01m[Kconst tf2::BufferCore&[m[K’
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/ObstacleDetectorNode.cpp:40:73:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Ktf2_ros::TransformListener[m[K’ and ‘[01m[Kstd::shared_ptr<tf2_ros::TransformListener>[m[K’)
+   40 |   tf_listener_ = std::make_shared<tf2_ros::TransformListener>(tf_buffer_[01;31m[K)[m[K;
+      |                                                                         [01;31m[K^[m[K
+In file included from [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/include/br2_tf2_detector/ObstacleDetectorNode.hpp:22[m[K,
+                 from [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/ObstacleDetectorNode.cpp:17[m[K:
+[01m[K/opt/ros/foxy/include/tf2_ros/transform_listener.h:50:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktf2_ros::TransformListener& tf2_ros::TransformListener::operator=(const tf2_ros::TransformListener&)[m[K’ <deleted>
+   50 | class [01;36m[KTransformListener[m[K
+      |       [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/tf2_ros/transform_listener.h:50:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<tf2_ros::TransformListener>[m[K’ to ‘[01m[Kconst tf2_ros::TransformListener&[m[K’
+make[2]: *** [CMakeFiles/br2_tf2_detector.dir/build.make:63: CMakeFiles/br2_tf2_detector.dir/src/br2_tf2_detector/ObstacleDetectorNode.cpp.o] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/br2_tf2_detector.dir/all] Interrupt
+make: *** [Makefile:141: all] Interrupt

@@ -1,0 +1,111 @@
+[0.079s] Invoking command in '/home/joanne/bookros2_ws/build/forward_command_controller': AMENT_PREFIX_PATH=/home/joanne/bookros2_ws/install/controller_manager:/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joanne/bookros2_ws/install/controller_manager:/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/joanne/bookros2_ws/install/controller_manager/lib:/home/joanne/bookros2_ws/install/controller_interface/lib:/home/joanne/bookros2_ws/install/hardware_interface/lib:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joanne/bookros2_ws/install/controller_manager/lib/python3.8/site-packages:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/joanne/bookros2_ws/src/ThirdParty/ros2_controllers/forward_command_controller -DCMAKE_INSTALL_PREFIX=/home/joanne/bookros2_ws/install/forward_command_controller
+[0.223s] -- The C compiler identification is GNU 9.4.0
+[0.368s] -- The CXX compiler identification is GNU 9.4.0
+[0.383s] -- Check for working C compiler: /usr/bin/cc
+[0.648s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.660s] -- Detecting C compiler ABI info
+[0.831s] -- Detecting C compiler ABI info - done
+[0.854s] -- Detecting C compile features
+[0.855s] -- Detecting C compile features - done
+[0.861s] -- Check for working CXX compiler: /usr/bin/c++
+[1.057s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.060s] -- Detecting CXX compiler ABI info
+[1.323s] -- Detecting CXX compiler ABI info - done
+[1.354s] -- Detecting CXX compile features
+[1.355s] -- Detecting CXX compile features - done
+[1.360s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.412s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.412s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.912s] -- Found controller_interface: 0.7.1 (/home/joanne/bookros2_ws/install/controller_interface/share/controller_interface/cmake)
+[1.995s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.012s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.189s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.265s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.497s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.109s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[4.113s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.115s] -- Looking for pthread.h
+[4.243s] -- Looking for pthread.h - found
+[4.243s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.358s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.358s] -- Looking for pthread_create in pthreads
+[4.442s] -- Looking for pthread_create in pthreads - not found
+[4.443s] -- Looking for pthread_create in pthread
+[4.551s] -- Looking for pthread_create in pthread - found
+[4.554s] -- Found Threads: TRUE  
+[5.148s] -- Found realtime_tools: 2.2.0 (/opt/ros/foxy/share/realtime_tools/cmake)
+[5.317s] -- Found ament_cmake_gmock: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gmock/cmake)
+[5.320s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[5.322s] -- Found controller_manager: 0.7.1 (/home/joanne/bookros2_ws/install/controller_manager/share/controller_manager/cmake)
+[5.467s] -- Found ros2_control_test_assets: 0.7.1 (/home/joanne/bookros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[5.647s] -- Found gmock sources under '/opt/ros/foxy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[5.656s] -- Found ament_cmake_gtest: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[5.675s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[5.952s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.955s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.956s] -- Configured cppcheck include dirs: /home/joanne/bookros2_ws/src/ThirdParty/ros2_controllers/forward_command_controller/include
+[5.956s] -- Configured cppcheck exclude dirs and/or files: 
+[5.958s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.959s] -- Configured cpplint exclude dirs and/or files: 
+[5.961s] -- Added test 'lint_cmake' to check CMake code style
+[5.964s] -- Added test 'uncrustify' to check C / C++ code style
+[5.964s] -- Configured uncrustify additional arguments: 
+[5.966s] -- Added test 'xmllint' to check XML markup files
+[5.979s] -- Configuring done
+[6.138s] -- Generating done
+[6.200s] -- Build files have been written to: /home/joanne/bookros2_ws/build/forward_command_controller
+[6.237s] Invoked command in '/home/joanne/bookros2_ws/build/forward_command_controller' returned '0': AMENT_PREFIX_PATH=/home/joanne/bookros2_ws/install/controller_manager:/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joanne/bookros2_ws/install/controller_manager:/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/joanne/bookros2_ws/install/controller_manager/lib:/home/joanne/bookros2_ws/install/controller_interface/lib:/home/joanne/bookros2_ws/install/hardware_interface/lib:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joanne/bookros2_ws/install/controller_manager/lib/python3.8/site-packages:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/joanne/bookros2_ws/src/ThirdParty/ros2_controllers/forward_command_controller -DCMAKE_INSTALL_PREFIX=/home/joanne/bookros2_ws/install/forward_command_controller
+[6.242s] Invoking command in '/home/joanne/bookros2_ws/build/forward_command_controller': AMENT_PREFIX_PATH=/home/joanne/bookros2_ws/install/controller_manager:/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joanne/bookros2_ws/install/controller_manager:/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/joanne/bookros2_ws/install/controller_manager/lib:/home/joanne/bookros2_ws/install/controller_interface/lib:/home/joanne/bookros2_ws/install/hardware_interface/lib:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joanne/bookros2_ws/install/controller_manager/lib/python3.8/site-packages:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/joanne/bookros2_ws/build/forward_command_controller -- -j8 -l8
+[6.480s] [35m[1mScanning dependencies of target gmock[0m
+[6.569s] [  9%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/foxy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[14.027s] [ 18%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[17.915s] [ 27%] [32m[1mLinking CXX static library libgmock.a[0m
+[18.042s] [ 27%] Built target gmock
+[18.056s] [35m[1mScanning dependencies of target forward_command_controller[0m
+[18.131s] [ 36%] [32mBuilding CXX object CMakeFiles/forward_command_controller.dir/src/forward_command_controller.cpp.o[0m
+[28.416s] [ 45%] [32m[1mLinking CXX shared library libforward_command_controller.so[0m
+[29.131s] [ 45%] Built target forward_command_controller
+[29.151s] [35m[1mScanning dependencies of target gmock_main[0m
+[29.188s] [ 54%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[31.186s] [ 63%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[31.254s] [ 63%] Built target gmock_main
+[31.276s] [35m[1mScanning dependencies of target test_load_forward_command_controller[0m
+[31.406s] [ 72%] [32mBuilding CXX object CMakeFiles/test_load_forward_command_controller.dir/test/test_load_forward_command_controller.cpp.o[0m
+[38.760s] [ 81%] [32m[1mLinking CXX executable test_load_forward_command_controller[0m
+[39.963s] [ 81%] Built target test_load_forward_command_controller
+[39.984s] [35m[1mScanning dependencies of target test_forward_command_controller[0m
+[40.090s] [ 90%] [32mBuilding CXX object CMakeFiles/test_forward_command_controller.dir/test/test_forward_command_controller.cpp.o[0m
+[49.586s] [100%] [32m[1mLinking CXX executable test_forward_command_controller[0m
+[50.974s] [100%] Built target test_forward_command_controller
+[51.005s] Invoked command in '/home/joanne/bookros2_ws/build/forward_command_controller' returned '0': AMENT_PREFIX_PATH=/home/joanne/bookros2_ws/install/controller_manager:/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joanne/bookros2_ws/install/controller_manager:/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/joanne/bookros2_ws/install/controller_manager/lib:/home/joanne/bookros2_ws/install/controller_interface/lib:/home/joanne/bookros2_ws/install/hardware_interface/lib:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joanne/bookros2_ws/install/controller_manager/lib/python3.8/site-packages:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/joanne/bookros2_ws/build/forward_command_controller -- -j8 -l8
+[51.007s] Invoking command in '/home/joanne/bookros2_ws/build/forward_command_controller': AMENT_PREFIX_PATH=/home/joanne/bookros2_ws/install/controller_manager:/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joanne/bookros2_ws/install/controller_manager:/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/joanne/bookros2_ws/install/controller_manager/lib:/home/joanne/bookros2_ws/install/controller_interface/lib:/home/joanne/bookros2_ws/install/hardware_interface/lib:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joanne/bookros2_ws/install/controller_manager/lib/python3.8/site-packages:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/joanne/bookros2_ws/build/forward_command_controller
+[53.092s] -- Install configuration: ""
+[53.092s] -- Installing: /home/joanne/bookros2_ws/install/forward_command_controller/share/forward_command_controller/forward_command_plugin.xml
+[53.093s] -- Installing: /home/joanne/bookros2_ws/install/forward_command_controller/include
+[53.093s] -- Installing: /home/joanne/bookros2_ws/install/forward_command_controller/include/forward_command_controller
+[53.093s] -- Installing: /home/joanne/bookros2_ws/install/forward_command_controller/include/forward_command_controller/forward_command_controller.hpp
+[53.093s] -- Installing: /home/joanne/bookros2_ws/install/forward_command_controller/include/forward_command_controller/visibility_control.h
+[53.093s] -- Installing: /home/joanne/bookros2_ws/install/forward_command_controller/lib/libforward_command_controller.so
+[53.093s] -- Set runtime path of "/home/joanne/bookros2_ws/install/forward_command_controller/lib/libforward_command_controller.so" to ""
+[53.094s] -- Installing: /home/joanne/bookros2_ws/install/forward_command_controller/share/forward_command_controller/environment/library_path.sh
+[53.094s] -- Installing: /home/joanne/bookros2_ws/install/forward_command_controller/share/forward_command_controller/environment/library_path.dsv
+[53.094s] -- Installing: /home/joanne/bookros2_ws/install/forward_command_controller/share/ament_index/resource_index/package_run_dependencies/forward_command_controller
+[53.094s] -- Installing: /home/joanne/bookros2_ws/install/forward_command_controller/share/ament_index/resource_index/parent_prefix_path/forward_command_controller
+[53.094s] -- Installing: /home/joanne/bookros2_ws/install/forward_command_controller/share/forward_command_controller/environment/ament_prefix_path.sh
+[53.094s] -- Installing: /home/joanne/bookros2_ws/install/forward_command_controller/share/forward_command_controller/environment/ament_prefix_path.dsv
+[53.095s] -- Installing: /home/joanne/bookros2_ws/install/forward_command_controller/share/forward_command_controller/environment/path.sh
+[53.095s] -- Installing: /home/joanne/bookros2_ws/install/forward_command_controller/share/forward_command_controller/environment/path.dsv
+[53.095s] -- Installing: /home/joanne/bookros2_ws/install/forward_command_controller/share/forward_command_controller/local_setup.bash
+[53.095s] -- Installing: /home/joanne/bookros2_ws/install/forward_command_controller/share/forward_command_controller/local_setup.sh
+[53.095s] -- Installing: /home/joanne/bookros2_ws/install/forward_command_controller/share/forward_command_controller/local_setup.zsh
+[53.095s] -- Installing: /home/joanne/bookros2_ws/install/forward_command_controller/share/forward_command_controller/local_setup.dsv
+[53.095s] -- Installing: /home/joanne/bookros2_ws/install/forward_command_controller/share/forward_command_controller/package.dsv
+[53.096s] -- Installing: /home/joanne/bookros2_ws/install/forward_command_controller/share/ament_index/resource_index/packages/forward_command_controller
+[53.096s] -- Installing: /home/joanne/bookros2_ws/install/forward_command_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/forward_command_controller
+[53.096s] -- Installing: /home/joanne/bookros2_ws/install/forward_command_controller/share/forward_command_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[53.097s] -- Installing: /home/joanne/bookros2_ws/install/forward_command_controller/share/forward_command_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[53.097s] -- Installing: /home/joanne/bookros2_ws/install/forward_command_controller/share/forward_command_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[53.097s] -- Installing: /home/joanne/bookros2_ws/install/forward_command_controller/share/forward_command_controller/cmake/forward_command_controllerConfig.cmake
+[53.098s] -- Installing: /home/joanne/bookros2_ws/install/forward_command_controller/share/forward_command_controller/cmake/forward_command_controllerConfig-version.cmake
+[53.102s] -- Installing: /home/joanne/bookros2_ws/install/forward_command_controller/share/forward_command_controller/package.xml
+[53.111s] Invoked command in '/home/joanne/bookros2_ws/build/forward_command_controller' returned '0': AMENT_PREFIX_PATH=/home/joanne/bookros2_ws/install/controller_manager:/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joanne/bookros2_ws/install/controller_manager:/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/joanne/bookros2_ws/install/controller_manager/lib:/home/joanne/bookros2_ws/install/controller_interface/lib:/home/joanne/bookros2_ws/install/hardware_interface/lib:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joanne/bookros2_ws/install/controller_manager/lib/python3.8/site-packages:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/joanne/bookros2_ws/build/forward_command_controller

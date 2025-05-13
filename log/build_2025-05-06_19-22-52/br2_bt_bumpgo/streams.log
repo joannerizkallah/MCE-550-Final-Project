@@ -1,0 +1,19 @@
+[0.102s] Invoking command in '/home/joanne/bookros2_ws/build/br2_bt_bumpgo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joanne/bookros2_ws/install/ros2controlcli:/home/joanne/bookros2_ws/install/launch_pal:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/joanne/bookros2_ws/build/br2_bt_bumpgo -- -j8 -l8
+[0.740s] [ 11%] Built target br2_forward_bt_node
+[0.902s] [ 22%] Built target gtest_main
+[1.059s] [ 33%] Built target gtest
+[1.271s] [ 44%] Built target bt_forward
+[1.508s] [ 55%] Built target bt_action_test
+[1.585s] [35m[1mScanning dependencies of target br2_is_obstacle_bt_node[0m
+[1.755s] [ 61%] [32mBuilding CXX object CMakeFiles/br2_is_obstacle_bt_node.dir/src/br2_bt_bumpgo/IsObstacle.cpp.o[0m
+[12.291s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_bt_bumpgo/src/br2_bt_bumpgo/IsObstacle.cpp:[m[K In member function ‘[01m[Kvirtual BT::NodeStatus br2_bt_bumpgo::IsObstacle::tick()[m[K’:
+[12.291s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_bt_bumpgo/src/br2_bt_bumpgo/IsObstacle.cpp:62:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kindex_left[m[K’ was not declared in this scope
+[12.292s]    62 |   [01;31m[Kindex_left[m[K = last_scan_->ranges.size()/2 - 0.262 / last_scan_->angle_increment;
+[12.292s]       |   [01;31m[K^~~~~~~~~~[m[K
+[12.307s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_bt_bumpgo/src/br2_bt_bumpgo/IsObstacle.cpp:63:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kindex_right[m[K’ was not declared in this scope
+[12.308s]    63 |   [01;31m[Kindex_right[m[K = last_scan_->ranges.size()/2 + 0.262 / last_scan_->angle_increment;
+[12.309s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[22.070s] make[2]: *** [CMakeFiles/br2_is_obstacle_bt_node.dir/build.make:63: CMakeFiles/br2_is_obstacle_bt_node.dir/src/br2_bt_bumpgo/IsObstacle.cpp.o] Error 1
+[22.070s] make[1]: *** [CMakeFiles/Makefile2:237: CMakeFiles/br2_is_obstacle_bt_node.dir/all] Error 2
+[22.071s] make: *** [Makefile:141: all] Error 2
+[22.086s] Invoked command in '/home/joanne/bookros2_ws/build/br2_bt_bumpgo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joanne/bookros2_ws/install/ros2controlcli:/home/joanne/bookros2_ws/install/launch_pal:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/joanne/bookros2_ws/build/br2_bt_bumpgo -- -j8 -l8

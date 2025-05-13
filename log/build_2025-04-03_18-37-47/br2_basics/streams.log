@@ -1,0 +1,26 @@
+[0.014s] Invoking command in '/home/joanne/bookros2_ws/build/br2_basics': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joanne/bookros2_ws/install/ros2controlcli:/home/joanne/bookros2_ws/install/launch_pal:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/joanne/bookros2_ws/build/br2_basics -- -j8 -l8
+[0.080s] [35m[1mScanning dependencies of target param_reader[0m
+[0.107s] [ 14%] Built target logger
+[0.111s] [ 28%] Built target publisher
+[0.118s] [ 71%] Built target executors
+[0.118s] [ 71%] Built target publisher_class
+[0.118s] [ 71%] Built target logger_class
+[0.121s] [ 85%] Built target subscriber_class
+[0.132s] [ 92%] [32mBuilding CXX object CMakeFiles/param_reader.dir/src/param_reader.cpp.o[0m
+[1.462s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_basics/src/param_reader.cpp:[m[K In constructor ‘[01m[KLocalizationNode::LocalizationNode()[m[K’:
+[1.462s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_basics/src/param_reader.cpp:28:46:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KLocalizationNode::declare_parameter<int>(const char [17])[m[K’
+[1.462s]    28 |     declare_parameter<int>("number_particles"[01;31m[K)[m[K;
+[1.462s]       |                                              [01;31m[K^[m[K
+[1.463s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1224[m[K,
+[1.463s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[1.463s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[1.463s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[1.463s]                  from [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_basics/src/param_reader.cpp:19[m[K:
+[1.463s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = int; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’
+[1.463s]   157 | [01;36m[KNode[m[K::declare_parameter(
+[1.463s]       | [01;36m[K^~~~[m[K
+[1.463s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[1.884s] make[2]: *** [CMakeFiles/param_reader.dir/build.make:63: CMakeFiles/param_reader.dir/src/param_reader.cpp.o] Error 1
+[1.884s] make[1]: *** [CMakeFiles/Makefile2:279: CMakeFiles/param_reader.dir/all] Error 2
+[1.884s] make: *** [Makefile:141: all] Error 2
+[1.887s] Invoked command in '/home/joanne/bookros2_ws/build/br2_basics' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joanne/bookros2_ws/install/ros2controlcli:/home/joanne/bookros2_ws/install/launch_pal:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/joanne/bookros2_ws/build/br2_basics -- -j8 -l8

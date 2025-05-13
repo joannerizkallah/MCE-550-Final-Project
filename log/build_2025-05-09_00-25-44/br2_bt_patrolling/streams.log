@@ -1,0 +1,49 @@
+[0.013s] Invoking command in '/home/joanne/bookros2_ws/build/br2_bt_patrolling': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joanne/bookros2_ws/install/ros2controlcli:/home/joanne/bookros2_ws/install/launch_pal:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/joanne/bookros2_ws/build/br2_bt_patrolling -- -j8 -l8
+[0.073s] [35m[1mScanning dependencies of target br2_move_bt_node[0m
+[0.091s] [ 10%] Built target gtest
+[0.098s] [ 20%] Built target br2_recharge_bt_node
+[0.111s] [ 30%] Built target patrolling_main
+[0.111s] [ 40%] Built target br2_battery_checker_bt_node
+[0.115s] [ 50%] Built target br2_track_objects_bt_node
+[0.119s] [ 60%] Built target br2_patrol_bt_node
+[0.129s] [ 70%] Built target br2_get_waypoint_bt_node
+[0.129s] [ 80%] Built target gtest_main
+[0.136s] [ 85%] [32mBuilding CXX object CMakeFiles/br2_move_bt_node.dir/src/br2_bt_patrolling/Move.cpp.o[0m
+[0.171s] [ 95%] Built target bt_action_test
+[2.295s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_bt_patrolling/src/br2_bt_patrolling/Move.cpp:136:1:[m[K [01;31m[Kerror: [m[K‘[01m[KMove[m[K’ has not been declared
+[2.295s]   136 | [01;31m[KMove[m[K::on_success()
+[2.295s]       | [01;31m[K^~~~[m[K
+[2.296s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[2.297s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[2.297s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[2.297s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[2.297s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[2.297s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[2.297s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[2.297s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[2.297s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[2.297s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.297s]                  from [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_bt_patrolling/include/br2_bt_patrolling/ctrl_support/BTActionNode.hpp:22[m[K,
+[2.297s]                  from [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_bt_patrolling/include/br2_bt_patrolling/Move.hpp:23[m[K,
+[2.297s]                  from [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_bt_patrolling/src/br2_bt_patrolling/Move.cpp:18[m[K:
+[2.297s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_bt_patrolling/src/br2_bt_patrolling/Move.cpp:[m[K In function ‘[01m[KBT::NodeStatus on_success()[m[K’:
+[2.297s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_bt_patrolling/src/br2_bt_patrolling/Move.cpp:138:15:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmode_t[m[K’?
+[2.298s]   138 |   RCLCPP_INFO([01;31m[Knode_[m[K->get_logger(), "Navigation Succeeded");
+[2.298s]       |               [01;31m[K^~~~~[m[K
+[2.298s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_bt_patrolling/src/br2_bt_patrolling/Move.cpp:138:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.298s]   138 |   [01;31m[KRCLCPP_INFO[m[K(node_->get_logger(), "Navigation Succeeded");
+[2.298s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[2.298s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_bt_patrolling/src/br2_bt_patrolling/Move.cpp:138:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.298s]   138 |   [01;31m[KRCLCPP_INFO[m[K(node_->get_logger(), "Navigation Succeeded");
+[2.298s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[2.298s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_bt_patrolling/src/br2_bt_patrolling/Move.cpp:138:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.298s]   138 |   [01;31m[KRCLCPP_INFO[m[K(node_->get_logger(), "Navigation Succeeded");
+[2.298s]       |   [01;31m[K^~~~~~~~~~~[m[K
+[2.298s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_bt_patrolling/src/br2_bt_patrolling/Move.cpp:[m[K At global scope:
+[2.298s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_bt_patrolling/src/br2_bt_patrolling/Move.cpp:142:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[2.298s]   142 | [01;31m[K}[m[K  // namespace br2_bt_patrolling
+[2.298s]       | [01;31m[K^[m[K
+[3.273s] make[2]: *** [CMakeFiles/br2_move_bt_node.dir/build.make:63: CMakeFiles/br2_move_bt_node.dir/src/br2_bt_patrolling/Move.cpp.o] Error 1
+[3.274s] make[1]: *** [CMakeFiles/Makefile2:239: CMakeFiles/br2_move_bt_node.dir/all] Error 2
+[3.274s] make: *** [Makefile:141: all] Error 2
+[3.276s] Invoked command in '/home/joanne/bookros2_ws/build/br2_bt_patrolling' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joanne/bookros2_ws/install/ros2controlcli:/home/joanne/bookros2_ws/install/launch_pal:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/joanne/bookros2_ws/build/br2_bt_patrolling -- -j8 -l8

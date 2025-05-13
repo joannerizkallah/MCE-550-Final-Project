@@ -1,0 +1,15 @@
+[0.089s] Invoking command in '/home/joanne/bookros2_ws/build/br2_fsm_bumpgo_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joanne/bookros2_ws/install/ros2controlcli:/home/joanne/bookros2_ws/install/launch_pal:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/joanne/bookros2_ws/build/br2_fsm_bumpgo_cpp -- -j8 -l8
+[0.349s] [35m[1mScanning dependencies of target bumpgo[0m
+[0.489s] [ 33%] [32mBuilding CXX object CMakeFiles/bumpgo.dir/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp.o[0m
+[7.104s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp:[m[K In member function ‘[01m[Kbool br2_fsm_bumpgo_cpp::BumpGoNode::check_forward_2_back()[m[K’:
+[7.104s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp:109:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct sensor_msgs::msg::LaserScan_<std::allocator<void> >[m[K’ has no member named ‘[01m[Krange[m[K’; did you mean ‘[01m[Kranges[m[K’?
+[7.104s]   109 |   size_t right = last_scan_->[01;31m[Krange[m[K[ranges.size()-1];
+[7.104s]       |                              [01;31m[K^~~~~[m[K
+[7.104s]       |                              [32m[Kranges[m[K
+[7.111s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp:109:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kranges[m[K’ was not declared in this scope
+[7.113s]   109 |   size_t right = last_scan_->range[[01;31m[Kranges[m[K.size()-1];
+[7.114s]       |                                    [01;31m[K^~~~~~[m[K
+[12.661s] make[2]: *** [CMakeFiles/bumpgo.dir/build.make:63: CMakeFiles/bumpgo.dir/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp.o] Error 1
+[12.662s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/bumpgo.dir/all] Error 2
+[12.662s] make: *** [Makefile:141: all] Error 2
+[12.674s] Invoked command in '/home/joanne/bookros2_ws/build/br2_fsm_bumpgo_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joanne/bookros2_ws/install/ros2controlcli:/home/joanne/bookros2_ws/install/launch_pal:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/joanne/bookros2_ws/build/br2_fsm_bumpgo_cpp -- -j8 -l8

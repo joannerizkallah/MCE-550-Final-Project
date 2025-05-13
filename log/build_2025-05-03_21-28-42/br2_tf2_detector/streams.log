@@ -1,0 +1,28 @@
+[0.098s] Invoking command in '/home/joanne/bookros2_ws/build/br2_tf2_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joanne/bookros2_ws/install/ros2controlcli:/home/joanne/bookros2_ws/install/launch_pal:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/joanne/bookros2_ws/build/br2_tf2_detector -- -j8 -l8
+[0.509s] [35m[1mScanning dependencies of target br2_tf2_detector[0m
+[0.680s] [ 11%] [32mBuilding CXX object CMakeFiles/br2_tf2_detector.dir/src/br2_tf2_detector/ObstacleDetectorNode.cpp.o[0m
+[11.640s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/ObstacleDetectorNode.cpp:[m[K In constructor ‘[01m[Kbr2_tf2_detector::ObstacleDetectorNode::ObstacleDetectorNode()[m[K’:
+[11.640s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/ObstacleDetectorNode.cpp:32:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ktf2_ros::TransformListener::TransformListener(std::unique_ptr<tf2_ros::Buffer>&)[m[K’
+[11.640s]    32 | tf_listener_(tf_buffer_[01;31m[K)[m[K
+[11.640s]       |                        [01;31m[K^[m[K
+[11.640s] In file included from [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/include/br2_tf2_detector/ObstacleDetectorNode.hpp:22[m[K,
+[11.640s]                  from [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/ObstacleDetectorNode.cpp:17[m[K:
+[11.641s] [01m[K/opt/ros/foxy/include/tf2_ros/transform_listener.h:58:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class NodeT, class AllocatorT> tf2_ros::TransformListener::TransformListener(tf2::BufferCore&, NodeT&&, bool, const rclcpp::QoS&, const rclcpp::QoS&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&)[m[K’
+[11.641s]    58 |   [01;36m[KTransformListener[m[K(
+[11.641s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[11.641s] [01m[K/opt/ros/foxy/include/tf2_ros/transform_listener.h:58:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[11.641s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/ObstacleDetectorNode.cpp:32:24:[m[K [01;36m[Knote: [m[K  candidate expects 6 arguments, 1 provided
+[11.641s]    32 | tf_listener_(tf_buffer_[01;36m[K)[m[K
+[11.641s]       |                        [01;36m[K^[m[K
+[11.641s] In file included from [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/include/br2_tf2_detector/ObstacleDetectorNode.hpp:22[m[K,
+[11.642s]                  from [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/ObstacleDetectorNode.cpp:17[m[K:
+[11.642s] [01m[K/opt/ros/foxy/include/tf2_ros/transform_listener.h:55:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktf2_ros::TransformListener::TransformListener(tf2::BufferCore&, bool)[m[K’
+[11.642s]    55 |   explicit [01;36m[KTransformListener[m[K(tf2::BufferCore & buffer, bool spin_thread = true);
+[11.642s]       |            [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[11.642s] [01m[K/opt/ros/foxy/include/tf2_ros/transform_listener.h:55:48:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::unique_ptr<tf2_ros::Buffer>[m[K’ to ‘[01m[Ktf2::BufferCore&[m[K’
+[11.644s]    55 |   explicit TransformListener([01;36m[Ktf2::BufferCore & buffer[m[K, bool spin_thread = true);
+[11.646s]       |                              [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[22.109s] make[2]: *** [CMakeFiles/br2_tf2_detector.dir/build.make:63: CMakeFiles/br2_tf2_detector.dir/src/br2_tf2_detector/ObstacleDetectorNode.cpp.o] Error 1
+[22.110s] make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/br2_tf2_detector.dir/all] Error 2
+[22.149s] make: *** [Makefile:141: all] Error 2
+[22.151s] Invoked command in '/home/joanne/bookros2_ws/build/br2_tf2_detector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joanne/bookros2_ws/install/ros2controlcli:/home/joanne/bookros2_ws/install/launch_pal:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/joanne/bookros2_ws/build/br2_tf2_detector -- -j8 -l8

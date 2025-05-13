@@ -1,0 +1,122 @@
+[0.085s] Invoking command in '/home/joanne/bookros2_ws/build/diff_drive_controller': AMENT_PREFIX_PATH=/home/joanne/bookros2_ws/install/controller_manager:/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joanne/bookros2_ws/install/controller_manager:/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/joanne/bookros2_ws/install/controller_manager/lib:/home/joanne/bookros2_ws/install/controller_interface/lib:/home/joanne/bookros2_ws/install/hardware_interface/lib:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joanne/bookros2_ws/install/controller_manager/lib/python3.8/site-packages:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/joanne/bookros2_ws/src/ThirdParty/ros2_controllers/diff_drive_controller -DCMAKE_INSTALL_PREFIX=/home/joanne/bookros2_ws/install/diff_drive_controller
+[0.247s] -- The C compiler identification is GNU 9.4.0
+[0.405s] -- The CXX compiler identification is GNU 9.4.0
+[0.416s] -- Check for working C compiler: /usr/bin/cc
+[0.582s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.584s] -- Detecting C compiler ABI info
+[0.768s] -- Detecting C compiler ABI info - done
+[0.799s] -- Detecting C compile features
+[0.800s] -- Detecting C compile features - done
+[0.814s] -- Check for working CXX compiler: /usr/bin/c++
+[0.997s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.005s] -- Detecting CXX compiler ABI info
+[1.246s] -- Detecting CXX compiler ABI info - done
+[1.277s] -- Detecting CXX compile features
+[1.279s] -- Detecting CXX compile features - done
+[1.286s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.339s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.340s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.936s] -- Found controller_interface: 0.7.1 (/home/joanne/bookros2_ws/install/controller_interface/share/controller_interface/cmake)
+[2.013s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.031s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.217s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.300s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.507s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.705s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.710s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.711s] -- Looking for pthread.h
+[3.853s] -- Looking for pthread.h - found
+[3.853s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.986s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.987s] -- Looking for pthread_create in pthreads
+[4.078s] -- Looking for pthread_create in pthreads - not found
+[4.078s] -- Looking for pthread_create in pthread
+[4.203s] -- Looking for pthread_create in pthread - found
+[4.205s] -- Found Threads: TRUE  
+[4.908s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[5.128s] -- Found realtime_tools: 2.2.0 (/opt/ros/foxy/share/realtime_tools/cmake)
+[5.241s] -- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+[5.267s] -- Found tf2_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_msgs/cmake)
+[5.894s] -- Found ament_cmake_gmock: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gmock/cmake)
+[5.898s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[5.900s] -- Found controller_manager: 0.7.1 (/home/joanne/bookros2_ws/install/controller_manager/share/controller_manager/cmake)
+[6.229s] -- Found gmock sources under '/opt/ros/foxy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[6.241s] -- Found ament_cmake_gtest: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[6.247s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[6.678s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.707s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.708s] -- Configured cppcheck include dirs: /home/joanne/bookros2_ws/src/ThirdParty/ros2_controllers/diff_drive_controller/include
+[6.708s] -- Configured cppcheck exclude dirs and/or files: 
+[6.711s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[6.711s] -- Configured cpplint exclude dirs and/or files: 
+[6.713s] -- Added test 'lint_cmake' to check CMake code style
+[6.719s] -- Added test 'uncrustify' to check C / C++ code style
+[6.719s] -- Configured uncrustify additional arguments: 
+[6.719s] -- Added test 'xmllint' to check XML markup files
+[6.731s] -- Configuring done
+[6.994s] -- Generating done
+[7.111s] -- Build files have been written to: /home/joanne/bookros2_ws/build/diff_drive_controller
+[7.154s] Invoked command in '/home/joanne/bookros2_ws/build/diff_drive_controller' returned '0': AMENT_PREFIX_PATH=/home/joanne/bookros2_ws/install/controller_manager:/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joanne/bookros2_ws/install/controller_manager:/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/joanne/bookros2_ws/install/controller_manager/lib:/home/joanne/bookros2_ws/install/controller_interface/lib:/home/joanne/bookros2_ws/install/hardware_interface/lib:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joanne/bookros2_ws/install/controller_manager/lib/python3.8/site-packages:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/joanne/bookros2_ws/src/ThirdParty/ros2_controllers/diff_drive_controller -DCMAKE_INSTALL_PREFIX=/home/joanne/bookros2_ws/install/diff_drive_controller
+[7.155s] Invoking command in '/home/joanne/bookros2_ws/build/diff_drive_controller': AMENT_PREFIX_PATH=/home/joanne/bookros2_ws/install/controller_manager:/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joanne/bookros2_ws/install/controller_manager:/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/joanne/bookros2_ws/install/controller_manager/lib:/home/joanne/bookros2_ws/install/controller_interface/lib:/home/joanne/bookros2_ws/install/hardware_interface/lib:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joanne/bookros2_ws/install/controller_manager/lib/python3.8/site-packages:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/joanne/bookros2_ws/build/diff_drive_controller -- -j8 -l8
+[8.746s] [35m[1mScanning dependencies of target gmock[0m
+[8.746s] [  6%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/foxy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[14.056s] [ 13%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[17.779s] [ 20%] [32m[1mLinking CXX static library libgmock.a[0m
+[17.918s] [ 20%] Built target gmock
+[17.940s] [35m[1mScanning dependencies of target diff_drive_controller[0m
+[18.065s] [ 26%] [32mBuilding CXX object CMakeFiles/diff_drive_controller.dir/src/diff_drive_controller.cpp.o[0m
+[35.342s] [ 33%] [32mBuilding CXX object CMakeFiles/diff_drive_controller.dir/src/speed_limiter.cpp.o[0m
+[35.913s] [ 40%] [32mBuilding CXX object CMakeFiles/diff_drive_controller.dir/src/odometry.cpp.o[0m
+[37.018s] [ 46%] [32m[1mLinking CXX shared library libdiff_drive_controller.so[0m
+[38.527s] [ 46%] Built target diff_drive_controller
+[38.556s] [35m[1mScanning dependencies of target gmock_main[0m
+[38.597s] [ 53%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[40.526s] [ 60%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[40.602s] [ 60%] Built target gmock_main
+[40.623s] [35m[1mScanning dependencies of target test_accumulator[0m
+[40.664s] [ 66%] [32mBuilding CXX object CMakeFiles/test_accumulator.dir/test/test_accumulator.cpp.o[0m
+[42.810s] [ 73%] [32m[1mLinking CXX executable test_accumulator[0m
+[43.175s] [ 73%] Built target test_accumulator
+[43.198s] [35m[1mScanning dependencies of target test_diff_drive_controller[0m
+[43.317s] [ 80%] [32mBuilding CXX object CMakeFiles/test_diff_drive_controller.dir/test/test_diff_drive_controller.cpp.o[0m
+[54.747s] [ 86%] [32m[1mLinking CXX executable test_diff_drive_controller[0m
+[56.463s] [ 86%] Built target test_diff_drive_controller
+[56.485s] [35m[1mScanning dependencies of target test_load_diff_drive_controller[0m
+[56.612s] [ 93%] [32mBuilding CXX object CMakeFiles/test_load_diff_drive_controller.dir/test/test_load_diff_drive_controller.cpp.o[0m
+[63.243s] [100%] [32m[1mLinking CXX executable test_load_diff_drive_controller[0m
+[64.683s] [100%] Built target test_load_diff_drive_controller
+[64.718s] Invoked command in '/home/joanne/bookros2_ws/build/diff_drive_controller' returned '0': AMENT_PREFIX_PATH=/home/joanne/bookros2_ws/install/controller_manager:/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joanne/bookros2_ws/install/controller_manager:/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/joanne/bookros2_ws/install/controller_manager/lib:/home/joanne/bookros2_ws/install/controller_interface/lib:/home/joanne/bookros2_ws/install/hardware_interface/lib:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joanne/bookros2_ws/install/controller_manager/lib/python3.8/site-packages:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/joanne/bookros2_ws/build/diff_drive_controller -- -j8 -l8
+[64.719s] Invoking command in '/home/joanne/bookros2_ws/build/diff_drive_controller': AMENT_PREFIX_PATH=/home/joanne/bookros2_ws/install/controller_manager:/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joanne/bookros2_ws/install/controller_manager:/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/joanne/bookros2_ws/install/controller_manager/lib:/home/joanne/bookros2_ws/install/controller_interface/lib:/home/joanne/bookros2_ws/install/hardware_interface/lib:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joanne/bookros2_ws/install/controller_manager/lib/python3.8/site-packages:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/joanne/bookros2_ws/build/diff_drive_controller
+[66.535s] -- Install configuration: ""
+[66.535s] -- Installing: /home/joanne/bookros2_ws/install/diff_drive_controller/share/diff_drive_controller/diff_drive_plugin.xml
+[66.535s] -- Installing: /home/joanne/bookros2_ws/install/diff_drive_controller/include
+[66.535s] -- Installing: /home/joanne/bookros2_ws/install/diff_drive_controller/include/diff_drive_controller
+[66.535s] -- Installing: /home/joanne/bookros2_ws/install/diff_drive_controller/include/diff_drive_controller/rolling_mean_accumulator.hpp
+[66.536s] -- Installing: /home/joanne/bookros2_ws/install/diff_drive_controller/include/diff_drive_controller/visibility_control.h
+[66.536s] -- Installing: /home/joanne/bookros2_ws/install/diff_drive_controller/include/diff_drive_controller/diff_drive_controller.hpp
+[66.536s] -- Installing: /home/joanne/bookros2_ws/install/diff_drive_controller/include/diff_drive_controller/speed_limiter.hpp
+[66.536s] -- Installing: /home/joanne/bookros2_ws/install/diff_drive_controller/include/diff_drive_controller/odometry.hpp
+[66.536s] -- Installing: /home/joanne/bookros2_ws/install/diff_drive_controller/lib/libdiff_drive_controller.so
+[66.536s] -- Set runtime path of "/home/joanne/bookros2_ws/install/diff_drive_controller/lib/libdiff_drive_controller.so" to ""
+[66.537s] -- Installing: /home/joanne/bookros2_ws/install/diff_drive_controller/share/diff_drive_controller/environment/library_path.sh
+[66.537s] -- Installing: /home/joanne/bookros2_ws/install/diff_drive_controller/share/diff_drive_controller/environment/library_path.dsv
+[66.537s] -- Installing: /home/joanne/bookros2_ws/install/diff_drive_controller/share/ament_index/resource_index/package_run_dependencies/diff_drive_controller
+[66.537s] -- Installing: /home/joanne/bookros2_ws/install/diff_drive_controller/share/ament_index/resource_index/parent_prefix_path/diff_drive_controller
+[66.537s] -- Installing: /home/joanne/bookros2_ws/install/diff_drive_controller/share/diff_drive_controller/environment/ament_prefix_path.sh
+[66.537s] -- Installing: /home/joanne/bookros2_ws/install/diff_drive_controller/share/diff_drive_controller/environment/ament_prefix_path.dsv
+[66.538s] -- Installing: /home/joanne/bookros2_ws/install/diff_drive_controller/share/diff_drive_controller/environment/path.sh
+[66.538s] -- Installing: /home/joanne/bookros2_ws/install/diff_drive_controller/share/diff_drive_controller/environment/path.dsv
+[66.538s] -- Installing: /home/joanne/bookros2_ws/install/diff_drive_controller/share/diff_drive_controller/local_setup.bash
+[66.538s] -- Installing: /home/joanne/bookros2_ws/install/diff_drive_controller/share/diff_drive_controller/local_setup.sh
+[66.538s] -- Installing: /home/joanne/bookros2_ws/install/diff_drive_controller/share/diff_drive_controller/local_setup.zsh
+[66.538s] -- Installing: /home/joanne/bookros2_ws/install/diff_drive_controller/share/diff_drive_controller/local_setup.dsv
+[66.539s] -- Installing: /home/joanne/bookros2_ws/install/diff_drive_controller/share/diff_drive_controller/package.dsv
+[66.539s] -- Installing: /home/joanne/bookros2_ws/install/diff_drive_controller/share/ament_index/resource_index/packages/diff_drive_controller
+[66.539s] -- Installing: /home/joanne/bookros2_ws/install/diff_drive_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/diff_drive_controller
+[66.539s] -- Installing: /home/joanne/bookros2_ws/install/diff_drive_controller/share/diff_drive_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[66.539s] -- Installing: /home/joanne/bookros2_ws/install/diff_drive_controller/share/diff_drive_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[66.539s] -- Installing: /home/joanne/bookros2_ws/install/diff_drive_controller/share/diff_drive_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[66.540s] -- Installing: /home/joanne/bookros2_ws/install/diff_drive_controller/share/diff_drive_controller/cmake/diff_drive_controllerConfig.cmake
+[66.540s] -- Installing: /home/joanne/bookros2_ws/install/diff_drive_controller/share/diff_drive_controller/cmake/diff_drive_controllerConfig-version.cmake
+[66.540s] -- Installing: /home/joanne/bookros2_ws/install/diff_drive_controller/share/diff_drive_controller/package.xml
+[66.553s] Invoked command in '/home/joanne/bookros2_ws/build/diff_drive_controller' returned '0': AMENT_PREFIX_PATH=/home/joanne/bookros2_ws/install/controller_manager:/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joanne/bookros2_ws/install/controller_manager:/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/joanne/bookros2_ws/install/controller_manager/lib:/home/joanne/bookros2_ws/install/controller_interface/lib:/home/joanne/bookros2_ws/install/hardware_interface/lib:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joanne/bookros2_ws/install/controller_manager/lib/python3.8/site-packages:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/joanne/bookros2_ws/build/diff_drive_controller

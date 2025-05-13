@@ -1,0 +1,23 @@
+[0.033s] Invoking command in '/home/joanne/bookros2_ws/build/br2_bt_patrolling': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/joanne/bookros2_ws/build/br2_bt_patrolling -- -j8 -l8
+[0.275s] [ 10%] Built target br2_recharge_bt_node
+[0.345s] [ 20%] Built target gtest
+[0.425s] [ 30%] Built target gtest_main
+[0.539s] [ 40%] Built target br2_patrol_bt_node
+[0.646s] [ 50%] Built target br2_track_objects_bt_node
+[0.763s] [ 60%] Built target br2_get_waypoint_bt_node
+[0.901s] [ 70%] Built target bt_action_test
+[0.943s] [35m[1mScanning dependencies of target br2_move_bt_node[0m
+[1.041s] [ 75%] [32mBuilding CXX object CMakeFiles/br2_move_bt_node.dir/src/br2_bt_patrolling/Move.cpp.o[0m
+[9.097s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_bt_patrolling/src/br2_bt_patrolling/Move.cpp:[m[K In member function ‘[01m[Kvirtual void br2_bt_patrolling::Move::on_tick()[m[K’:
+[9.097s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_bt_patrolling/src/br2_bt_patrolling/Move.cpp:50:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::cout[m[K’?
+[9.097s]    50 |   [01;31m[Kcout[m[K << "Enter coefficients a, b and c: ";
+[9.097s]       |   [01;31m[K^~~~[m[K
+[9.097s]       |   [32m[Kstd::cout[m[K
+[9.098s] In file included from [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_bt_patrolling/src/br2_bt_patrolling/Move.cpp:16[m[K:
+[9.098s] [01m[K/usr/include/c++/9/iostream:61:18:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::cout[m[K’ declared here
+[9.098s]    61 |   extern ostream [01;36m[Kcout[m[K;  /// Linked to standard output
+[9.098s]       |                  [01;36m[K^~~~[m[K
+[12.744s] make[2]: *** [CMakeFiles/br2_move_bt_node.dir/build.make:63: CMakeFiles/br2_move_bt_node.dir/src/br2_bt_patrolling/Move.cpp.o] Error 1
+[12.745s] make[1]: *** [CMakeFiles/Makefile2:239: CMakeFiles/br2_move_bt_node.dir/all] Error 2
+[12.745s] make: *** [Makefile:141: all] Error 2
+[12.766s] Invoked command in '/home/joanne/bookros2_ws/build/br2_bt_patrolling' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/joanne/bookros2_ws/build/br2_bt_patrolling -- -j8 -l8

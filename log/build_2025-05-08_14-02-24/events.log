@@ -1,0 +1,581 @@
+[0.000000] (-) TimerEvent: {}
+[0.000625] (-) JobUnselected: {'identifier': 'br2_basics'}
+[0.000975] (-) JobUnselected: {'identifier': 'br2_bt_bumpgo'}
+[0.003142] (-) JobUnselected: {'identifier': 'br2_bt_patrolling'}
+[0.003227] (-) JobUnselected: {'identifier': 'br2_fsm_bumpgo_cpp'}
+[0.003256] (-) JobUnselected: {'identifier': 'br2_fsm_bumpgo_py'}
+[0.003420] (-) JobUnselected: {'identifier': 'br2_navigation'}
+[0.003469] (-) JobUnselected: {'identifier': 'br2_tf2_detector'}
+[0.003548] (-) JobUnselected: {'identifier': 'br2_tiago'}
+[0.003606] (-) JobUnselected: {'identifier': 'br2_tracking_msgs'}
+[0.003647] (-) JobUnselected: {'identifier': 'br2_vff_avoidance'}
+[0.003698] (-) JobUnselected: {'identifier': 'controller_interface'}
+[0.005940] (-) JobUnselected: {'identifier': 'controller_manager'}
+[0.006057] (-) JobUnselected: {'identifier': 'controller_manager_msgs'}
+[0.006099] (-) JobUnselected: {'identifier': 'diff_drive_controller'}
+[0.006137] (-) JobUnselected: {'identifier': 'effort_controllers'}
+[0.006168] (-) JobUnselected: {'identifier': 'force_torque_sensor_broadcaster'}
+[0.006203] (-) JobUnselected: {'identifier': 'forward_command_controller'}
+[0.006240] (-) JobUnselected: {'identifier': 'gazebo_ros2_control'}
+[0.006273] (-) JobUnselected: {'identifier': 'gazebo_ros2_control_demos'}
+[0.006322] (-) JobUnselected: {'identifier': 'gripper_controllers'}
+[0.006361] (-) JobUnselected: {'identifier': 'groot'}
+[0.006399] (-) JobUnselected: {'identifier': 'hardware_interface'}
+[0.006483] (-) JobUnselected: {'identifier': 'hey5_description'}
+[0.007014] (-) JobUnselected: {'identifier': 'imu_sensor_broadcaster'}
+[0.007162] (-) JobUnselected: {'identifier': 'joint_state_broadcaster'}
+[0.007243] (-) JobUnselected: {'identifier': 'joint_state_controller'}
+[0.007316] (-) JobUnselected: {'identifier': 'joint_trajectory_controller'}
+[0.007405] (-) JobUnselected: {'identifier': 'launch_pal'}
+[0.007757] (-) JobUnselected: {'identifier': 'pal_gazebo_worlds'}
+[0.007811] (-) JobUnselected: {'identifier': 'pal_gripper'}
+[0.007896] (-) JobUnselected: {'identifier': 'pal_gripper_controller_configuration'}
+[0.008051] (-) JobUnselected: {'identifier': 'pal_gripper_description'}
+[0.008183] (-) JobUnselected: {'identifier': 'pmb2_2dnav'}
+[0.008207] (-) JobUnselected: {'identifier': 'pmb2_bringup'}
+[0.008259] (-) JobUnselected: {'identifier': 'pmb2_controller_configuration'}
+[0.008285] (-) JobUnselected: {'identifier': 'pmb2_description'}
+[0.008307] (-) JobUnselected: {'identifier': 'pmb2_maps'}
+[0.008330] (-) JobUnselected: {'identifier': 'pmb2_navigation'}
+[0.008468] (-) JobUnselected: {'identifier': 'pmb2_robot'}
+[0.008499] (-) JobUnselected: {'identifier': 'position_controllers'}
+[0.008545] (-) JobUnselected: {'identifier': 'ros2_control'}
+[0.008676] (-) JobUnselected: {'identifier': 'ros2_control_test_assets'}
+[0.008723] (-) JobUnselected: {'identifier': 'ros2_controllers'}
+[0.009108] (-) JobUnselected: {'identifier': 'ros2controlcli'}
+[0.009168] (-) JobUnselected: {'identifier': 'tiago_2dnav_gazebo'}
+[0.009243] (-) JobUnselected: {'identifier': 'tiago_bringup'}
+[0.009397] (-) JobUnselected: {'identifier': 'tiago_controller_configuration'}
+[0.009424] (-) JobUnselected: {'identifier': 'tiago_description'}
+[0.009453] (-) JobUnselected: {'identifier': 'tiago_description_calibration'}
+[0.009483] (-) JobUnselected: {'identifier': 'tiago_gazebo'}
+[0.009580] (-) JobUnselected: {'identifier': 'tiago_robot'}
+[0.009606] (-) JobUnselected: {'identifier': 'tiago_simulation'}
+[0.009630] (-) JobUnselected: {'identifier': 'transmission_interface'}
+[0.009672] (-) JobUnselected: {'identifier': 'twist_mux'}
+[0.009698] (-) JobUnselected: {'identifier': 'urdf_test'}
+[0.009802] (-) JobUnselected: {'identifier': 'velocity_controllers'}
+[0.009831] (br2_tracking) JobQueued: {'identifier': 'br2_tracking', 'dependencies': OrderedDict([('br2_tracking_msgs', '/home/joanne/bookros2_ws/install/br2_tracking_msgs')])}
+[0.009869] (br2_tracking) JobStarted: {'identifier': 'br2_tracking'}
+[0.033135] (br2_tracking) JobProgress: {'identifier': 'br2_tracking', 'progress': 'cmake'}
+[0.034819] (br2_tracking) JobProgress: {'identifier': 'br2_tracking', 'progress': 'build'}
+[0.037081] (br2_tracking) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/joanne/bookros2_ws/build/br2_tracking', '--', '-j8', '-l8'], 'cwd': '/home/joanne/bookros2_ws/build/br2_tracking', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'joanne'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '3944'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/joanne/bookros2_ws/install/br2_tracking_msgs/lib:/home/joanne/bookros2_ws/install/velocity_controllers/lib:/home/joanne/bookros2_ws/install/position_controllers/lib:/home/joanne/bookros2_ws/install/joint_trajectory_controller/lib:/home/joanne/bookros2_ws/install/joint_state_controller/lib:/home/joanne/bookros2_ws/install/joint_state_broadcaster/lib:/home/joanne/bookros2_ws/install/imu_sensor_broadcaster/lib:/home/joanne/bookros2_ws/install/gripper_controllers/lib:/home/joanne/bookros2_ws/install/gazebo_ros2_control/lib:/home/joanne/bookros2_ws/install/effort_controllers/lib:/home/joanne/bookros2_ws/install/forward_command_controller/lib:/home/joanne/bookros2_ws/install/force_torque_sensor_broadcaster/lib:/home/joanne/bookros2_ws/install/diff_drive_controller/lib:/home/joanne/bookros2_ws/install/controller_manager/lib:/home/joanne/bookros2_ws/install/controller_interface/lib:/home/joanne/bookros2_ws/install/hardware_interface/lib:/home/joanne/bookros2_ws/install/groot/lib:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib:/home/joanne/bookros2_ws/install/br2_vff_avoidance/lib:/home/joanne/bookros2_ws/install/br2_tracking/lib:/home/joanne/bookros2_ws/install/br2_tf2_detector/lib:/home/joanne/bookros2_ws/install/br2_bt_patrolling/lib:/home/joanne/bookros2_ws/install/br2_bt_bumpgo/lib:/home/joanne/nav2_ws/install/smac_planner/lib:/home/joanne/nav2_ws/install/nav2_controller/lib:/home/joanne/nav2_ws/install/dwb_plugins/lib:/home/joanne/nav2_ws/install/dwb_critics/lib:/home/joanne/nav2_ws/install/dwb_core/lib:/home/joanne/nav2_ws/install/nav_2d_utils/lib:/home/joanne/nav2_ws/install/dwb_msgs/lib:/home/joanne/nav2_ws/install/nav_2d_msgs/lib:/home/joanne/nav2_ws/install/nav2_waypoint_follower/lib:/home/joanne/nav2_ws/install/nav2_regulated_pure_pursuit_controller/lib:/home/joanne/nav2_ws/install/nav2_recoveries/lib:/home/joanne/nav2_ws/install/nav2_planner/lib:/home/joanne/nav2_ws/install/nav2_navfn_planner/lib:/home/joanne/nav2_ws/install/costmap_queue/lib:/home/joanne/nav2_ws/install/nav2_costmap_2d/lib:/home/joanne/nav2_ws/install/nav2_voxel_grid/lib:/home/joanne/nav2_ws/install/nav2_rviz_plugins/lib:/home/joanne/nav2_ws/install/nav2_map_server/lib:/home/joanne/nav2_ws/install/nav2_lifecycle_manager/lib:/home/joanne/nav2_ws/install/nav2_bt_navigator/lib:/home/joanne/nav2_ws/install/nav2_behavior_tree/lib:/home/joanne/nav2_ws/install/nav2_amcl/lib:/home/joanne/nav2_ws/install/nav2_util/lib:/home/joanne/nav2_ws/install/nav2_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/joanne'), ('OLDPWD', '/home/joanne'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '3683'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/joanne/bookros2_ws/install:/home/joanne/nav2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'joanne'), ('JOURNAL_STREAM', '8:62302'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'joanne'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/joanne-ThinkPad-E15:@/tmp/.ICE-unix/4048,unix/joanne-ThinkPad-E15:/tmp/.ICE-unix/4048'), ('INVOCATION_ID', 'caf7ec3ac0b94efea9c0c0457552a0f2'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f8676089_71f1_434e_b334_b4c40aeb8668'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.120'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/joanne/bookros2_ws/install/gazebo_ros2_control_demos:/home/joanne/bookros2_ws/install/ros2_controllers:/home/joanne/bookros2_ws/install/velocity_controllers:/home/joanne/bookros2_ws/install/urdf_test:/home/joanne/bookros2_ws/install/tiago_simulation:/home/joanne/bookros2_ws/install/tiago_robot:/home/joanne/bookros2_ws/install/tiago_2dnav_gazebo:/home/joanne/bookros2_ws/install/tiago_gazebo:/home/joanne/bookros2_ws/install/tiago_bringup:/home/joanne/bookros2_ws/install/pmb2_robot:/home/joanne/bookros2_ws/install/pmb2_bringup:/home/joanne/bookros2_ws/install/twist_mux:/home/joanne/bookros2_ws/install/transmission_interface:/home/joanne/bookros2_ws/install/tiago_description:/home/joanne/bookros2_ws/install/tiago_description_calibration:/home/joanne/bookros2_ws/install/tiago_controller_configuration:/home/joanne/bookros2_ws/install/ros2_control:/home/joanne/bookros2_ws/install/ros2controlcli:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/pal_gripper:/home/joanne/bookros2_ws/install/pal_gripper_controller_configuration:/home/joanne/bookros2_ws/install/position_controllers:/home/joanne/bookros2_ws/install/pmb2_navigation:/home/joanne/bookros2_ws/install/pmb2_2dnav:/home/joanne/bookros2_ws/install/pmb2_maps:/home/joanne/bookros2_ws/install/pmb2_description:/home/joanne/bookros2_ws/install/pmb2_controller_configuration:/home/joanne/bookros2_ws/install/pal_gripper_description:/home/joanne/bookros2_ws/install/pal_gazebo_worlds:/home/joanne/bookros2_ws/install/launch_pal:/home/joanne/bookros2_ws/install/joint_trajectory_controller:/home/joanne/bookros2_ws/install/joint_state_controller:/home/joanne/bookros2_ws/install/joint_state_broadcaster:/home/joanne/bookros2_ws/install/imu_sensor_broadcaster:/home/joanne/bookros2_ws/install/hey5_description:/home/joanne/bookros2_ws/install/gripper_controllers:/home/joanne/bookros2_ws/install/gazebo_ros2_control:/home/joanne/bookros2_ws/install/effort_controllers:/home/joanne/bookros2_ws/install/forward_command_controller:/home/joanne/bookros2_ws/install/force_torque_sensor_broadcaster:/home/joanne/bookros2_ws/install/diff_drive_controller:/home/joanne/bookros2_ws/install/controller_manager:/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/groot:/home/joanne/bookros2_ws/install/controller_manager_msgs:/home/joanne/bookros2_ws/install/br2_vff_avoidance:/home/joanne/bookros2_ws/install/br2_tracking:/home/joanne/bookros2_ws/install/br2_tracking_msgs:/home/joanne/bookros2_ws/install/br2_tiago:/home/joanne/bookros2_ws/install/br2_tf2_detector:/home/joanne/bookros2_ws/install/br2_navigation:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_py:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_cpp:/home/joanne/bookros2_ws/install/br2_bt_patrolling:/home/joanne/bookros2_ws/install/br2_bt_bumpgo:/home/joanne/bookros2_ws/install/br2_basics:/home/joanne/nav2_ws/install/nav2_system_tests:/home/joanne/nav2_ws/install/nav2_bringup:/home/joanne/nav2_ws/install/navigation2:/home/joanne/nav2_ws/install/smac_planner:/home/joanne/nav2_ws/install/nav2_dwb_controller:/home/joanne/nav2_ws/install/nav2_controller:/home/joanne/nav2_ws/install/dwb_plugins:/home/joanne/nav2_ws/install/dwb_critics:/home/joanne/nav2_ws/install/dwb_core:/home/joanne/nav2_ws/install/nav_2d_utils:/home/joanne/nav2_ws/install/dwb_msgs:/home/joanne/nav2_ws/install/nav_2d_msgs:/home/joanne/nav2_ws/install/nav2_waypoint_follower:/home/joanne/nav2_ws/install/nav2_regulated_pure_pursuit_controller:/home/joanne/nav2_ws/install/nav2_recoveries:/home/joanne/nav2_ws/install/nav2_planner:/home/joanne/nav2_ws/install/nav2_navfn_planner:/home/joanne/nav2_ws/install/nav2_core:/home/joanne/nav2_ws/install/costmap_queue:/home/joanne/nav2_ws/install/nav2_costmap_2d:/home/joanne/nav2_ws/install/nav2_voxel_grid:/home/joanne/nav2_ws/install/nav2_rviz_plugins:/home/joanne/nav2_ws/install/nav2_map_server:/home/joanne/nav2_ws/install/nav2_lifecycle_manager:/home/joanne/nav2_ws/install/nav2_bt_navigator:/home/joanne/nav2_ws/install/nav2_behavior_tree:/home/joanne/nav2_ws/install/nav2_amcl:/home/joanne/nav2_ws/install/nav2_util:/home/joanne/nav2_ws/install/nav2_msgs:/home/joanne/nav2_ws/install/nav2_gazebo_spawner:/home/joanne/nav2_ws/install/nav2_common:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/joanne/bookros2_ws/build/br2_tracking'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/joanne/bookros2_ws/install/br2_tracking_msgs/lib/python3.8/site-packages:/home/joanne/bookros2_ws/install/urdf_test/lib/python3.8/site-packages:/home/joanne/bookros2_ws/install/tiago_description/lib/python3.8/site-packages:/home/joanne/bookros2_ws/build/ros2controlcli:/home/joanne/bookros2_ws/install/ros2controlcli/lib/python3.8/site-packages:/home/joanne/bookros2_ws/install/pmb2_description/lib/python3.8/site-packages:/home/joanne/bookros2_ws/build/launch_pal:/home/joanne/bookros2_ws/install/launch_pal/lib/python3.8/site-packages:/home/joanne/bookros2_ws/install/controller_manager/lib/python3.8/site-packages:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:/home/joanne/bookros2_ws/build/br2_fsm_bumpgo_py:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_py/lib/python3.8/site-packages:/home/joanne/nav2_ws/install/dwb_msgs/lib/python3.8/site-packages:/home/joanne/nav2_ws/install/nav_2d_msgs/lib/python3.8/site-packages:/home/joanne/nav2_ws/install/nav2_msgs/lib/python3.8/site-packages:/home/joanne/nav2_ws/build/nav2_gazebo_spawner:/home/joanne/nav2_ws/install/nav2_gazebo_spawner/lib/python3.8/site-packages:/home/joanne/nav2_ws/install/nav2_common/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/joanne/bookros2_ws/install/br2_tracking_msgs:/home/joanne/bookros2_ws/install/gazebo_ros2_control_demos:/home/joanne/bookros2_ws/install/ros2_controllers:/home/joanne/bookros2_ws/install/velocity_controllers:/home/joanne/bookros2_ws/install/urdf_test:/home/joanne/bookros2_ws/install/tiago_simulation:/home/joanne/bookros2_ws/install/tiago_robot:/home/joanne/bookros2_ws/install/tiago_2dnav_gazebo:/home/joanne/bookros2_ws/install/tiago_gazebo:/home/joanne/bookros2_ws/install/tiago_bringup:/home/joanne/bookros2_ws/install/pmb2_robot:/home/joanne/bookros2_ws/install/pmb2_bringup:/home/joanne/bookros2_ws/install/twist_mux:/home/joanne/bookros2_ws/install/transmission_interface:/home/joanne/bookros2_ws/install/tiago_description:/home/joanne/bookros2_ws/install/tiago_description_calibration:/home/joanne/bookros2_ws/install/tiago_controller_configuration:/home/joanne/bookros2_ws/install/ros2_control:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/pal_gripper:/home/joanne/bookros2_ws/install/pal_gripper_controller_configuration:/home/joanne/bookros2_ws/install/position_controllers:/home/joanne/bookros2_ws/install/pmb2_navigation:/home/joanne/bookros2_ws/install/pmb2_2dnav:/home/joanne/bookros2_ws/install/pmb2_maps:/home/joanne/bookros2_ws/install/pmb2_description:/home/joanne/bookros2_ws/install/pmb2_controller_configuration:/home/joanne/bookros2_ws/install/pal_gripper_description:/home/joanne/bookros2_ws/install/pal_gazebo_worlds:/home/joanne/bookros2_ws/install/joint_trajectory_controller:/home/joanne/bookros2_ws/install/joint_state_controller:/home/joanne/bookros2_ws/install/joint_state_broadcaster:/home/joanne/bookros2_ws/install/imu_sensor_broadcaster:/home/joanne/bookros2_ws/install/hey5_description:/home/joanne/bookros2_ws/install/gripper_controllers:/home/joanne/bookros2_ws/install/gazebo_ros2_control:/home/joanne/bookros2_ws/install/effort_controllers:/home/joanne/bookros2_ws/install/forward_command_controller:/home/joanne/bookros2_ws/install/force_torque_sensor_broadcaster:/home/joanne/bookros2_ws/install/diff_drive_controller:/home/joanne/bookros2_ws/install/controller_manager:/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/groot:/home/joanne/bookros2_ws/install/controller_manager_msgs:/home/joanne/bookros2_ws/install/br2_vff_avoidance:/home/joanne/bookros2_ws/install/br2_tracking:/home/joanne/bookros2_ws/install/br2_tiago:/home/joanne/bookros2_ws/install/br2_tf2_detector:/home/joanne/bookros2_ws/install/br2_navigation:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_cpp:/home/joanne/bookros2_ws/install/br2_bt_patrolling:/home/joanne/bookros2_ws/install/br2_bt_bumpgo:/home/joanne/bookros2_ws/install/br2_basics:/home/joanne/nav2_ws/install/nav2_system_tests:/home/joanne/nav2_ws/install/nav2_bringup:/home/joanne/nav2_ws/install/navigation2:/home/joanne/nav2_ws/install/smac_planner:/home/joanne/nav2_ws/install/nav2_dwb_controller:/home/joanne/nav2_ws/install/nav2_controller:/home/joanne/nav2_ws/install/dwb_plugins:/home/joanne/nav2_ws/install/dwb_critics:/home/joanne/nav2_ws/install/dwb_core:/home/joanne/nav2_ws/install/nav_2d_utils:/home/joanne/nav2_ws/install/dwb_msgs:/home/joanne/nav2_ws/install/nav_2d_msgs:/home/joanne/nav2_ws/install/nav2_waypoint_follower:/home/joanne/nav2_ws/install/nav2_regulated_pure_pursuit_controller:/home/joanne/nav2_ws/install/nav2_recoveries:/home/joanne/nav2_ws/install/nav2_planner:/home/joanne/nav2_ws/install/nav2_navfn_planner:/home/joanne/nav2_ws/install/nav2_core:/home/joanne/nav2_ws/install/costmap_queue:/home/joanne/nav2_ws/install/nav2_costmap_2d:/home/joanne/nav2_ws/install/nav2_voxel_grid:/home/joanne/nav2_ws/install/nav2_rviz_plugins:/home/joanne/nav2_ws/install/nav2_map_server:/home/joanne/nav2_ws/install/nav2_lifecycle_manager:/home/joanne/nav2_ws/install/nav2_bt_navigator:/home/joanne/nav2_ws/install/nav2_behavior_tree:/home/joanne/nav2_ws/install/nav2_amcl:/home/joanne/nav2_ws/install/nav2_util:/home/joanne/nav2_ws/install/nav2_msgs:/home/joanne/nav2_ws/install/nav2_common:/home/joanne/bookros2_ws/install/ros2controlcli:/home/joanne/bookros2_ws/install/launch_pal:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_py:/home/joanne/nav2_ws/install/nav2_gazebo_spawner:/opt/ros/foxy')]), 'shell': False}
+[0.099445] (-) TimerEvent: {}
+[0.134226] (br2_tracking) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target br2_tracking\x1b[0m\n'}
+[0.145756] (br2_tracking) StdoutLine: {'line': b'[ 28%] Built target gtest_main\n'}
+[0.146071] (br2_tracking) StdoutLine: {'line': b'[ 28%] Built target gtest\n'}
+[0.199541] (-) TimerEvent: {}
+[0.232323] (br2_tracking) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/br2_tracking.dir/src/br2_tracking/ObjectDetector.cpp.o\x1b[0m\n'}
+[0.299627] (-) TimerEvent: {}
+[0.399956] (-) TimerEvent: {}
+[0.501157] (-) TimerEvent: {}
+[0.602228] (-) TimerEvent: {}
+[0.703254] (-) TimerEvent: {}
+[0.804167] (-) TimerEvent: {}
+[0.904915] (-) TimerEvent: {}
+[1.005890] (-) TimerEvent: {}
+[1.106801] (-) TimerEvent: {}
+[1.207385] (-) TimerEvent: {}
+[1.307738] (-) TimerEvent: {}
+[1.408390] (-) TimerEvent: {}
+[1.508793] (-) TimerEvent: {}
+[1.609144] (-) TimerEvent: {}
+[1.709419] (-) TimerEvent: {}
+[1.809733] (-) TimerEvent: {}
+[1.910075] (-) TimerEvent: {}
+[2.010395] (-) TimerEvent: {}
+[2.110825] (-) TimerEvent: {}
+[2.211074] (-) TimerEvent: {}
+[2.311365] (-) TimerEvent: {}
+[2.411666] (-) TimerEvent: {}
+[2.511945] (-) TimerEvent: {}
+[2.612410] (-) TimerEvent: {}
+[2.712749] (-) TimerEvent: {}
+[2.813045] (-) TimerEvent: {}
+[2.913375] (-) TimerEvent: {}
+[3.013700] (-) TimerEvent: {}
+[3.114100] (-) TimerEvent: {}
+[3.214437] (-) TimerEvent: {}
+[3.314777] (-) TimerEvent: {}
+[3.415120] (-) TimerEvent: {}
+[3.515428] (-) TimerEvent: {}
+[3.615683] (-) TimerEvent: {}
+[3.716026] (-) TimerEvent: {}
+[3.816333] (-) TimerEvent: {}
+[3.916687] (-) TimerEvent: {}
+[4.017097] (-) TimerEvent: {}
+[4.117950] (-) TimerEvent: {}
+[4.219004] (-) TimerEvent: {}
+[4.319886] (-) TimerEvent: {}
+[4.420928] (-) TimerEvent: {}
+[4.521873] (-) TimerEvent: {}
+[4.622377] (-) TimerEvent: {}
+[4.722751] (-) TimerEvent: {}
+[4.823162] (-) TimerEvent: {}
+[4.923482] (-) TimerEvent: {}
+[5.023795] (-) TimerEvent: {}
+[5.124148] (-) TimerEvent: {}
+[5.224444] (-) TimerEvent: {}
+[5.324772] (-) TimerEvent: {}
+[5.425064] (-) TimerEvent: {}
+[5.525374] (-) TimerEvent: {}
+[5.625686] (-) TimerEvent: {}
+[5.725956] (-) TimerEvent: {}
+[5.826283] (-) TimerEvent: {}
+[5.926595] (-) TimerEvent: {}
+[6.026922] (-) TimerEvent: {}
+[6.127250] (-) TimerEvent: {}
+[6.227565] (-) TimerEvent: {}
+[6.327856] (-) TimerEvent: {}
+[6.428156] (-) TimerEvent: {}
+[6.528559] (-) TimerEvent: {}
+[6.628881] (-) TimerEvent: {}
+[6.729204] (-) TimerEvent: {}
+[6.829528] (-) TimerEvent: {}
+[6.929831] (-) TimerEvent: {}
+[7.030182] (-) TimerEvent: {}
+[7.130507] (-) TimerEvent: {}
+[7.230956] (-) TimerEvent: {}
+[7.331293] (-) TimerEvent: {}
+[7.431615] (-) TimerEvent: {}
+[7.531947] (-) TimerEvent: {}
+[7.632242] (-) TimerEvent: {}
+[7.732571] (-) TimerEvent: {}
+[7.832872] (-) TimerEvent: {}
+[7.933197] (-) TimerEvent: {}
+[8.033593] (-) TimerEvent: {}
+[8.133920] (-) TimerEvent: {}
+[8.234244] (-) TimerEvent: {}
+[8.334583] (-) TimerEvent: {}
+[8.434905] (-) TimerEvent: {}
+[8.535252] (-) TimerEvent: {}
+[8.635563] (-) TimerEvent: {}
+[8.735886] (-) TimerEvent: {}
+[8.836361] (-) TimerEvent: {}
+[8.936765] (-) TimerEvent: {}
+[9.037140] (-) TimerEvent: {}
+[9.137498] (-) TimerEvent: {}
+[9.237857] (-) TimerEvent: {}
+[9.338133] (-) TimerEvent: {}
+[9.438454] (-) TimerEvent: {}
+[9.521541] (br2_tracking) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:1224\x1b[m\x1b[K,\n'}
+[9.522113] (br2_tracking) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43\x1b[m\x1b[K,\n'}
+[9.522773] (br2_tracking) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/include/br2_tracking/ObjectDetector.hpp:35\x1b[m\x1b[K,\n'}
+[9.522849] (br2_tracking) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:20\x1b[m\x1b[K:\n'}
+[9.522916] (br2_tracking) StderrLine: {'line': b'/opt/ros/foxy/include/rclcpp/node_impl.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = std::vector<float>; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.522986] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:59:53:\x1b[m\x1b[K   required from here\n'}
+[9.523050] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:169:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::get<std::vector<float, std::allocator<float> > >() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.523112] (br2_tracking) StderrLine: {'line': b'  169 |     ).get<ParameterT>(\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[9.523172] (br2_tracking) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[9.523232] (br2_tracking) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:26\x1b[m\x1b[K,\n'}
+[9.523292] (br2_tracking) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_parameters_interface.hpp:28\x1b[m\x1b[K,\n'}
+[9.523352] (br2_tracking) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:51\x1b[m\x1b[K,\n'}
+[9.523412] (br2_tracking) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43\x1b[m\x1b[K,\n'}
+[9.523472] (br2_tracking) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/include/br2_tracking/ObjectDetector.hpp:35\x1b[m\x1b[K,\n'}
+[9.523533] (br2_tracking) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:20\x1b[m\x1b[K:\n'}
+[9.523592] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:148:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_BOOL), const bool&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.523656] (br2_tracking) StderrLine: {'line': b'  148 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[9.523716] (br2_tracking) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[9.523775] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:148:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.523836] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:159:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_INTEGER), const long int&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.523901] (br2_tracking) StderrLine: {'line': b'  159 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[9.523960] (br2_tracking) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[9.524018] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:159:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.524084] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:170:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_DOUBLE), const double&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.524145] (br2_tracking) StderrLine: {'line': b'  170 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[9.524204] (br2_tracking) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[9.524264] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:170:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.524328] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:181:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_STRING), const std::__cxx11::basic_string<char>&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.524392] (br2_tracking) StderrLine: {'line': b'  181 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[9.524451] (br2_tracking) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[9.524511] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:181:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.524575] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:193:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_BYTE_ARRAY), const std::vector<unsigned char>&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.524646] (br2_tracking) StderrLine: {'line': b'  193 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[9.524705] (br2_tracking) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[9.524764] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:193:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.524823] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:205:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_BOOL_ARRAY), const std::vector<bool>&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.524885] (br2_tracking) StderrLine: {'line': b'  205 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[9.524943] (br2_tracking) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[9.525002] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:205:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.525063] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:217:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_INTEGER_ARRAY), const std::vector<long int, std::allocator<long int> >&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.525125] (br2_tracking) StderrLine: {'line': b'  217 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[9.525186] (br2_tracking) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[9.525249] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:217:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.525310] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:229:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_DOUBLE_ARRAY), const std::vector<double, std::allocator<double> >&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.525371] (br2_tracking) StderrLine: {'line': b'  229 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[9.525430] (br2_tracking) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[9.525489] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:229:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.525548] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:241:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_STRING_ARRAY), const std::vector<std::__cxx11::basic_string<char> >&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.525612] (br2_tracking) StderrLine: {'line': b'  241 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[9.525686] (br2_tracking) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[9.525746] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:241:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.525805] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:254:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class type> constexpr typename std::enable_if<std::is_same<T, bool>::value, const bool&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.525869] (br2_tracking) StderrLine: {'line': b'  254 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[9.525928] (br2_tracking) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[9.525988] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:254:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.526047] (br2_tracking) StderrLine: {'line': b'/opt/ros/foxy/include/rclcpp/parameter_value.hpp: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class type> constexpr typename std::enable_if<std::is_same<T, bool>::value, const bool&>::type rclcpp::ParameterValue::get() const [with type = std::vector<float>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.526116] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:169:23:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = std::vector<float>; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.526180] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:59:53:\x1b[m\x1b[K   required from here\n'}
+[9.526327] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:254:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, const bool&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.526428] (br2_tracking) StderrLine: {'line': b'/opt/ros/foxy/include/rclcpp/node_impl.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = std::vector<float>; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.526502] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:59:53:\x1b[m\x1b[K   required from here\n'}
+[9.526564] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:263:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class type> constexpr typename std::enable_if<(std::is_integral<_Tp>::value && (! std::is_same<T, bool>::value)), const long int&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.526631] (br2_tracking) StderrLine: {'line': b'  263 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[9.526691] (br2_tracking) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[9.526751] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:263:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.526812] (br2_tracking) StderrLine: {'line': b'/opt/ros/foxy/include/rclcpp/parameter_value.hpp: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class type> constexpr typename std::enable_if<(std::is_integral<_Tp>::value && (! std::is_same<T, bool>::value)), const long int&>::type rclcpp::ParameterValue::get() const [with type = std::vector<float>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.526928] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:169:23:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = std::vector<float>; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.527013] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:59:53:\x1b[m\x1b[K   required from here\n'}
+[9.527083] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:263:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, const long int&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.527150] (br2_tracking) StderrLine: {'line': b'/opt/ros/foxy/include/rclcpp/node_impl.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = std::vector<float>; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.527214] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:59:53:\x1b[m\x1b[K   required from here\n'}
+[9.527275] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:271:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class type> constexpr typename std::enable_if<std::is_floating_point<_Tp>::value, const double&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.527337] (br2_tracking) StderrLine: {'line': b'  271 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[9.527404] (br2_tracking) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[9.527464] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:271:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.527528] (br2_tracking) StderrLine: {'line': b'/opt/ros/foxy/include/rclcpp/parameter_value.hpp: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class type> constexpr typename std::enable_if<std::is_floating_point<_Tp>::value, const double&>::type rclcpp::ParameterValue::get() const [with type = std::vector<float>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.527591] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:169:23:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = std::vector<float>; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.527656] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:59:53:\x1b[m\x1b[K   required from here\n'}
+[9.527715] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:271:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, const double&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.527789] (br2_tracking) StderrLine: {'line': b'/opt/ros/foxy/include/rclcpp/node_impl.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = std::vector<float>; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.527878] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:59:53:\x1b[m\x1b[K   required from here\n'}
+[9.527942] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:279:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, std::__cxx11::basic_string<char> >::value, const std::__cxx11::basic_string<char>&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.528005] (br2_tracking) StderrLine: {'line': b'  279 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[9.528065] (br2_tracking) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[9.528124] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:279:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.528185] (br2_tracking) StderrLine: {'line': b'/opt/ros/foxy/include/rclcpp/parameter_value.hpp: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, std::__cxx11::basic_string<char> >::value, const std::__cxx11::basic_string<char>&>::type rclcpp::ParameterValue::get() const [with type = std::vector<float>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.528248] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:169:23:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = std::vector<float>; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.528314] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:59:53:\x1b[m\x1b[K   required from here\n'}
+[9.528374] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:279:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, const std::__cxx11::basic_string<char>&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.528434] (br2_tracking) StderrLine: {'line': b'/opt/ros/foxy/include/rclcpp/node_impl.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = std::vector<float>; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.528496] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:59:53:\x1b[m\x1b[K   required from here\n'}
+[9.528555] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:289:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<unsigned char>&>::value, const std::vector<unsigned char>&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.528621] (br2_tracking) StderrLine: {'line': b'  289 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[9.528681] (br2_tracking) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[9.528740] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:289:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.528800] (br2_tracking) StderrLine: {'line': b'/opt/ros/foxy/include/rclcpp/parameter_value.hpp: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<unsigned char>&>::value, const std::vector<unsigned char>&>::type rclcpp::ParameterValue::get() const [with type = std::vector<float>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.528862] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:169:23:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = std::vector<float>; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.528925] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:59:53:\x1b[m\x1b[K   required from here\n'}
+[9.528988] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:289:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, const std::vector<unsigned char>&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.529053] (br2_tracking) StderrLine: {'line': b'/opt/ros/foxy/include/rclcpp/node_impl.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = std::vector<float>; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.529116] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:59:53:\x1b[m\x1b[K   required from here\n'}
+[9.529178] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:299:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<bool>&>::value, const std::vector<bool>&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.529240] (br2_tracking) StderrLine: {'line': b'  299 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[9.529299] (br2_tracking) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[9.529358] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:299:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.529416] (br2_tracking) StderrLine: {'line': b'/opt/ros/foxy/include/rclcpp/parameter_value.hpp: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<bool>&>::value, const std::vector<bool>&>::type rclcpp::ParameterValue::get() const [with type = std::vector<float>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.529477] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:169:23:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = std::vector<float>; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.529551] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:59:53:\x1b[m\x1b[K   required from here\n'}
+[9.529612] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:299:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, const std::vector<bool>&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.529685] (br2_tracking) StderrLine: {'line': b'/opt/ros/foxy/include/rclcpp/node_impl.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = std::vector<float>; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.529749] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:59:53:\x1b[m\x1b[K   required from here\n'}
+[9.529813] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:309:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<long int, std::allocator<long int> >&>::value, const std::vector<long int, std::allocator<long int> >&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.529876] (br2_tracking) StderrLine: {'line': b'  309 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[9.529934] (br2_tracking) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[9.529991] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:309:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.530050] (br2_tracking) StderrLine: {'line': b'/opt/ros/foxy/include/rclcpp/parameter_value.hpp: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<long int, std::allocator<long int> >&>::value, const std::vector<long int, std::allocator<long int> >&>::type rclcpp::ParameterValue::get() const [with type = std::vector<float>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.530116] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:169:23:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = std::vector<float>; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.530184] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:59:53:\x1b[m\x1b[K   required from here\n'}
+[9.530248] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:309:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, const std::vector<long int, std::allocator<long int> >&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.530309] (br2_tracking) StderrLine: {'line': b'/opt/ros/foxy/include/rclcpp/node_impl.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = std::vector<float>; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.530372] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:59:53:\x1b[m\x1b[K   required from here\n'}
+[9.530431] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:319:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<double, std::allocator<double> >&>::value, const std::vector<double, std::allocator<double> >&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.530493] (br2_tracking) StderrLine: {'line': b'  319 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[9.530552] (br2_tracking) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[9.530610] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:319:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.530668] (br2_tracking) StderrLine: {'line': b'/opt/ros/foxy/include/rclcpp/parameter_value.hpp: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<double, std::allocator<double> >&>::value, const std::vector<double, std::allocator<double> >&>::type rclcpp::ParameterValue::get() const [with type = std::vector<float>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.530730] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:169:23:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = std::vector<float>; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.530794] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:59:53:\x1b[m\x1b[K   required from here\n'}
+[9.530858] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:319:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, const std::vector<double, std::allocator<double> >&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.530924] (br2_tracking) StderrLine: {'line': b'/opt/ros/foxy/include/rclcpp/node_impl.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = std::vector<float>; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.530988] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:59:53:\x1b[m\x1b[K   required from here\n'}
+[9.531048] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:329:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<std::__cxx11::basic_string<char> >&>::value, const std::vector<std::__cxx11::basic_string<char> >&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.531111] (br2_tracking) StderrLine: {'line': b'  329 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[9.531170] (br2_tracking) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[9.531228] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:329:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.531287] (br2_tracking) StderrLine: {'line': b'/opt/ros/foxy/include/rclcpp/parameter_value.hpp: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<std::__cxx11::basic_string<char> >&>::value, const std::vector<std::__cxx11::basic_string<char> >&>::type rclcpp::ParameterValue::get() const [with type = std::vector<float>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.531352] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:169:23:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = std::vector<float>; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.531421] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:59:53:\x1b[m\x1b[K   required from here\n'}
+[9.531480] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:329:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, const std::vector<std::__cxx11::basic_string<char> >&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.538588] (-) TimerEvent: {}
+[9.550612] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid br2_tracking::ObjectDetector::pointCloudCallback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::ConstSharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[9.550865] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:135:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KfromROSMsg(const ConstSharedPtr&, pcl::PointCloud<pcl::PointXYZ>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.550958] (br2_tracking) StderrLine: {'line': b'  135 |     pcl::fromROSMsg(msg, *cloud\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[9.551022] (br2_tracking) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[9.551085] (br2_tracking) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/include/br2_tracking/ObjectDetector.hpp:46\x1b[m\x1b[K,\n'}
+[9.551147] (br2_tracking) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:20\x1b[m\x1b[K:\n'}
+[9.551206] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/pcl_conversions/pcl_conversions.h:566:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class T> void pcl::fromROSMsg(const PointCloud2&, pcl::PointCloud<PointT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.551279] (br2_tracking) StderrLine: {'line': b'  566 |   void \x1b[01;36m\x1b[KfromROSMsg\x1b[m\x1b[K(const sensor_msgs::msg::PointCloud2 &cloud, pcl::PointCloud<T> &pcl_cloud)\n'}
+[9.551386] (br2_tracking) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.551456] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/pcl_conversions/pcl_conversions.h:566:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[9.551522] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:135:21:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  cannot convert \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 (type \xe2\x80\x98\x1b[01m\x1b[Kconst ConstSharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<const sensor_msgs::msg::PointCloud2_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99}) to type \xe2\x80\x98\x1b[01m\x1b[Kconst PointCloud2&\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst sensor_msgs::msg::PointCloud2_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[9.551594] (br2_tracking) StderrLine: {'line': b'  135 |     pcl::fromROSMsg(\x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K, *cloud);\n'}
+[9.551656] (br2_tracking) StderrLine: {'line': b'      |                     \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[9.554180] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:166:12:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcompute3DCentroid\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kpcl\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.554357] (br2_tracking) StderrLine: {'line': b'  166 |       pcl::\x1b[01;31m\x1b[Kcompute3DCentroid\x1b[m\x1b[K(*cluster_cloud, centroid);\n'}
+[9.554431] (br2_tracking) StderrLine: {'line': b'      |            \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.556074] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:219:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__alloc_traits<std::allocator<vision_msgs::msg::ObjectHypothesisWithPose_<std::allocator<void> > >, vision_msgs::msg::ObjectHypothesisWithPose_<std::allocator<void> > >::value_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct vision_msgs::msg::ObjectHypothesisWithPose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Khypothesis\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.556271] (br2_tracking) StderrLine: {'line': b'  219 |       detection3d.results[0].\x1b[01;31m\x1b[Khypothesis\x1b[m\x1b[K.score = calculateConfidenceScore(cluster_cloud);\n'}
+[9.556345] (br2_tracking) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.556419] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:220:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K__gnu_cxx::__alloc_traits<std::allocator<vision_msgs::msg::ObjectHypothesisWithPose_<std::allocator<void> > >, vision_msgs::msg::ObjectHypothesisWithPose_<std::allocator<void> > >::value_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct vision_msgs::msg::ObjectHypothesisWithPose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Khypothesis\x1b[m\x1b[K\xe2\x80\x99\n'}
+[9.556497] (br2_tracking) StderrLine: {'line': b'  220 |       detection3d.results[0].\x1b[01;31m\x1b[Khypothesis\x1b[m\x1b[K.class_id = "object";  // Or classify the object type\n'}
+[9.556560] (br2_tracking) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.638708] (-) TimerEvent: {}
+[9.739013] (-) TimerEvent: {}
+[9.839496] (-) TimerEvent: {}
+[9.939855] (-) TimerEvent: {}
+[10.040103] (-) TimerEvent: {}
+[10.140391] (-) TimerEvent: {}
+[10.196589] (br2_tracking) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_parameters_interface.hpp:28\x1b[m\x1b[K,\n'}
+[10.197682] (br2_tracking) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:51\x1b[m\x1b[K,\n'}
+[10.198337] (br2_tracking) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43\x1b[m\x1b[K,\n'}
+[10.198426] (br2_tracking) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/include/br2_tracking/ObjectDetector.hpp:35\x1b[m\x1b[K,\n'}
+[10.198496] (br2_tracking) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:20\x1b[m\x1b[K:\n'}
+[10.198561] (br2_tracking) StderrLine: {'line': b'/opt/ros/foxy/include/rclcpp/parameter.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kauto rclcpp::detail::get_value_helper(const rclcpp::Parameter*) [with T = std::vector<float>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.198626] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:273:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kdecltype(auto) rclcpp::Parameter::get_value() const [with T = std::vector<float>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.198695] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:234:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kbool rclcpp::Node::get_parameter(const string&, ParameterT&) const [with ParameterT = std::vector<float>; std::string = std::__cxx11::basic_string<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.198760] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:62:49:\x1b[m\x1b[K   required from here\n'}
+[10.198824] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:239:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::ParameterValue::get<std::vector<float, std::allocator<float> > >() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.198887] (br2_tracking) StderrLine: {'line': b'  239 |   return parameter->get_parameter_value().get<T>(\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[10.198949] (br2_tracking) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[10.199011] (br2_tracking) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:26\x1b[m\x1b[K,\n'}
+[10.199085] (br2_tracking) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_parameters_interface.hpp:28\x1b[m\x1b[K,\n'}
+[10.199153] (br2_tracking) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:51\x1b[m\x1b[K,\n'}
+[10.199215] (br2_tracking) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43\x1b[m\x1b[K,\n'}
+[10.199277] (br2_tracking) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/include/br2_tracking/ObjectDetector.hpp:35\x1b[m\x1b[K,\n'}
+[10.199339] (br2_tracking) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:20\x1b[m\x1b[K:\n'}
+[10.199402] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:148:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_BOOL), const bool&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.199467] (br2_tracking) StderrLine: {'line': b'  148 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[10.199527] (br2_tracking) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[10.199589] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:148:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[10.199651] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:159:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_INTEGER), const long int&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.199722] (br2_tracking) StderrLine: {'line': b'  159 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[10.199784] (br2_tracking) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[10.199845] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:159:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[10.199906] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:170:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_DOUBLE), const double&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.199970] (br2_tracking) StderrLine: {'line': b'  170 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[10.200035] (br2_tracking) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[10.200096] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:170:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[10.200157] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:181:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_STRING), const std::__cxx11::basic_string<char>&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.200227] (br2_tracking) StderrLine: {'line': b'  181 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[10.200287] (br2_tracking) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[10.200347] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:181:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[10.200408] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:193:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_BYTE_ARRAY), const std::vector<unsigned char>&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.200476] (br2_tracking) StderrLine: {'line': b'  193 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[10.200537] (br2_tracking) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[10.200597] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:193:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[10.200659] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:205:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_BOOL_ARRAY), const std::vector<bool>&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.200723] (br2_tracking) StderrLine: {'line': b'  205 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[10.200785] (br2_tracking) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[10.200846] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:205:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[10.200907] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:217:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_INTEGER_ARRAY), const std::vector<long int, std::allocator<long int> >&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.200976] (br2_tracking) StderrLine: {'line': b'  217 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[10.201037] (br2_tracking) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[10.201097] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:217:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[10.201157] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:229:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_DOUBLE_ARRAY), const std::vector<double, std::allocator<double> >&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.201221] (br2_tracking) StderrLine: {'line': b'  229 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[10.201282] (br2_tracking) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[10.201342] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:229:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[10.201403] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:241:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_STRING_ARRAY), const std::vector<std::__cxx11::basic_string<char> >&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.201468] (br2_tracking) StderrLine: {'line': b'  241 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[10.201528] (br2_tracking) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[10.201589] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:241:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[10.201755] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:254:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class type> constexpr typename std::enable_if<std::is_same<T, bool>::value, const bool&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.201849] (br2_tracking) StderrLine: {'line': b'  254 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[10.201916] (br2_tracking) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[10.201979] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:254:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[10.202041] (br2_tracking) StderrLine: {'line': b'/opt/ros/foxy/include/rclcpp/parameter_value.hpp: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class type> constexpr typename std::enable_if<std::is_same<T, bool>::value, const bool&>::type rclcpp::ParameterValue::get() const [with type = std::vector<float>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.202122] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:239:50:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kauto rclcpp::detail::get_value_helper(const rclcpp::Parameter*) [with T = std::vector<float>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.202238] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:273:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kdecltype(auto) rclcpp::Parameter::get_value() const [with T = std::vector<float>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.202306] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:234:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kbool rclcpp::Node::get_parameter(const string&, ParameterT&) const [with ParameterT = std::vector<float>; std::string = std::__cxx11::basic_string<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.202372] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:62:49:\x1b[m\x1b[K   required from here\n'}
+[10.202435] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:254:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, const bool&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.202497] (br2_tracking) StderrLine: {'line': b'/opt/ros/foxy/include/rclcpp/parameter.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kauto rclcpp::detail::get_value_helper(const rclcpp::Parameter*) [with T = std::vector<float>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.202560] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:273:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kdecltype(auto) rclcpp::Parameter::get_value() const [with T = std::vector<float>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.202623] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:234:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kbool rclcpp::Node::get_parameter(const string&, ParameterT&) const [with ParameterT = std::vector<float>; std::string = std::__cxx11::basic_string<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.202686] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:62:49:\x1b[m\x1b[K   required from here\n'}
+[10.202754] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:263:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class type> constexpr typename std::enable_if<(std::is_integral<_Tp>::value && (! std::is_same<T, bool>::value)), const long int&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.202826] (br2_tracking) StderrLine: {'line': b'  263 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[10.202892] (br2_tracking) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[10.202991] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:263:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[10.203091] (br2_tracking) StderrLine: {'line': b'/opt/ros/foxy/include/rclcpp/parameter_value.hpp: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class type> constexpr typename std::enable_if<(std::is_integral<_Tp>::value && (! std::is_same<T, bool>::value)), const long int&>::type rclcpp::ParameterValue::get() const [with type = std::vector<float>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.203160] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:239:50:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kauto rclcpp::detail::get_value_helper(const rclcpp::Parameter*) [with T = std::vector<float>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.203224] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:273:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kdecltype(auto) rclcpp::Parameter::get_value() const [with T = std::vector<float>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.203287] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:234:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kbool rclcpp::Node::get_parameter(const string&, ParameterT&) const [with ParameterT = std::vector<float>; std::string = std::__cxx11::basic_string<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.203351] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:62:49:\x1b[m\x1b[K   required from here\n'}
+[10.203442] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:263:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, const long int&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.203548] (br2_tracking) StderrLine: {'line': b'/opt/ros/foxy/include/rclcpp/parameter.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kauto rclcpp::detail::get_value_helper(const rclcpp::Parameter*) [with T = std::vector<float>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.203654] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:273:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kdecltype(auto) rclcpp::Parameter::get_value() const [with T = std::vector<float>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.203773] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:234:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kbool rclcpp::Node::get_parameter(const string&, ParameterT&) const [with ParameterT = std::vector<float>; std::string = std::__cxx11::basic_string<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.203897] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:62:49:\x1b[m\x1b[K   required from here\n'}
+[10.204018] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:271:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class type> constexpr typename std::enable_if<std::is_floating_point<_Tp>::value, const double&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.204139] (br2_tracking) StderrLine: {'line': b'  271 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[10.204255] (br2_tracking) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[10.204369] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:271:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[10.204492] (br2_tracking) StderrLine: {'line': b'/opt/ros/foxy/include/rclcpp/parameter_value.hpp: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class type> constexpr typename std::enable_if<std::is_floating_point<_Tp>::value, const double&>::type rclcpp::ParameterValue::get() const [with type = std::vector<float>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.204570] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:239:50:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kauto rclcpp::detail::get_value_helper(const rclcpp::Parameter*) [with T = std::vector<float>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.204641] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:273:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kdecltype(auto) rclcpp::Parameter::get_value() const [with T = std::vector<float>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.204742] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:234:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kbool rclcpp::Node::get_parameter(const string&, ParameterT&) const [with ParameterT = std::vector<float>; std::string = std::__cxx11::basic_string<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.204818] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:62:49:\x1b[m\x1b[K   required from here\n'}
+[10.204881] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:271:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, const double&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.204944] (br2_tracking) StderrLine: {'line': b'/opt/ros/foxy/include/rclcpp/parameter.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kauto rclcpp::detail::get_value_helper(const rclcpp::Parameter*) [with T = std::vector<float>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.205006] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:273:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kdecltype(auto) rclcpp::Parameter::get_value() const [with T = std::vector<float>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.205069] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:234:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kbool rclcpp::Node::get_parameter(const string&, ParameterT&) const [with ParameterT = std::vector<float>; std::string = std::__cxx11::basic_string<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.205132] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:62:49:\x1b[m\x1b[K   required from here\n'}
+[10.205194] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:279:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, std::__cxx11::basic_string<char> >::value, const std::__cxx11::basic_string<char>&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.205260] (br2_tracking) StderrLine: {'line': b'  279 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[10.205321] (br2_tracking) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[10.205382] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:279:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[10.205445] (br2_tracking) StderrLine: {'line': b'/opt/ros/foxy/include/rclcpp/parameter_value.hpp: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, std::__cxx11::basic_string<char> >::value, const std::__cxx11::basic_string<char>&>::type rclcpp::ParameterValue::get() const [with type = std::vector<float>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.205514] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:239:50:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kauto rclcpp::detail::get_value_helper(const rclcpp::Parameter*) [with T = std::vector<float>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.205576] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:273:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kdecltype(auto) rclcpp::Parameter::get_value() const [with T = std::vector<float>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.205648] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:234:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kbool rclcpp::Node::get_parameter(const string&, ParameterT&) const [with ParameterT = std::vector<float>; std::string = std::__cxx11::basic_string<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.205723] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:62:49:\x1b[m\x1b[K   required from here\n'}
+[10.205790] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:279:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, const std::__cxx11::basic_string<char>&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.205853] (br2_tracking) StderrLine: {'line': b'/opt/ros/foxy/include/rclcpp/parameter.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kauto rclcpp::detail::get_value_helper(const rclcpp::Parameter*) [with T = std::vector<float>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.205916] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:273:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kdecltype(auto) rclcpp::Parameter::get_value() const [with T = std::vector<float>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.205977] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:234:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kbool rclcpp::Node::get_parameter(const string&, ParameterT&) const [with ParameterT = std::vector<float>; std::string = std::__cxx11::basic_string<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.206044] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:62:49:\x1b[m\x1b[K   required from here\n'}
+[10.206106] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:289:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<unsigned char>&>::value, const std::vector<unsigned char>&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.206178] (br2_tracking) StderrLine: {'line': b'  289 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[10.206240] (br2_tracking) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[10.206302] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:289:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[10.206363] (br2_tracking) StderrLine: {'line': b'/opt/ros/foxy/include/rclcpp/parameter_value.hpp: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<unsigned char>&>::value, const std::vector<unsigned char>&>::type rclcpp::ParameterValue::get() const [with type = std::vector<float>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.206432] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:239:50:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kauto rclcpp::detail::get_value_helper(const rclcpp::Parameter*) [with T = std::vector<float>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.206495] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:273:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kdecltype(auto) rclcpp::Parameter::get_value() const [with T = std::vector<float>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.206558] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:234:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kbool rclcpp::Node::get_parameter(const string&, ParameterT&) const [with ParameterT = std::vector<float>; std::string = std::__cxx11::basic_string<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.206621] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:62:49:\x1b[m\x1b[K   required from here\n'}
+[10.206683] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:289:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, const std::vector<unsigned char>&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.206744] (br2_tracking) StderrLine: {'line': b'/opt/ros/foxy/include/rclcpp/parameter.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kauto rclcpp::detail::get_value_helper(const rclcpp::Parameter*) [with T = std::vector<float>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.206807] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:273:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kdecltype(auto) rclcpp::Parameter::get_value() const [with T = std::vector<float>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.206868] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:234:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kbool rclcpp::Node::get_parameter(const string&, ParameterT&) const [with ParameterT = std::vector<float>; std::string = std::__cxx11::basic_string<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.206929] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:62:49:\x1b[m\x1b[K   required from here\n'}
+[10.206990] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:299:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<bool>&>::value, const std::vector<bool>&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.207058] (br2_tracking) StderrLine: {'line': b'  299 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[10.207119] (br2_tracking) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[10.207184] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:299:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[10.207249] (br2_tracking) StderrLine: {'line': b'/opt/ros/foxy/include/rclcpp/parameter_value.hpp: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<bool>&>::value, const std::vector<bool>&>::type rclcpp::ParameterValue::get() const [with type = std::vector<float>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.207313] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:239:50:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kauto rclcpp::detail::get_value_helper(const rclcpp::Parameter*) [with T = std::vector<float>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.207375] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:273:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kdecltype(auto) rclcpp::Parameter::get_value() const [with T = std::vector<float>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.207442] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:234:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kbool rclcpp::Node::get_parameter(const string&, ParameterT&) const [with ParameterT = std::vector<float>; std::string = std::__cxx11::basic_string<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.207508] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:62:49:\x1b[m\x1b[K   required from here\n'}
+[10.207570] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:299:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, const std::vector<bool>&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.207632] (br2_tracking) StderrLine: {'line': b'/opt/ros/foxy/include/rclcpp/parameter.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kauto rclcpp::detail::get_value_helper(const rclcpp::Parameter*) [with T = std::vector<float>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.207694] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:273:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kdecltype(auto) rclcpp::Parameter::get_value() const [with T = std::vector<float>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.207755] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:234:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kbool rclcpp::Node::get_parameter(const string&, ParameterT&) const [with ParameterT = std::vector<float>; std::string = std::__cxx11::basic_string<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.207817] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:62:49:\x1b[m\x1b[K   required from here\n'}
+[10.207878] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:309:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<long int, std::allocator<long int> >&>::value, const std::vector<long int, std::allocator<long int> >&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.207944] (br2_tracking) StderrLine: {'line': b'  309 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[10.208006] (br2_tracking) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[10.208067] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:309:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[10.208129] (br2_tracking) StderrLine: {'line': b'/opt/ros/foxy/include/rclcpp/parameter_value.hpp: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<long int, std::allocator<long int> >&>::value, const std::vector<long int, std::allocator<long int> >&>::type rclcpp::ParameterValue::get() const [with type = std::vector<float>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.208198] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:239:50:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kauto rclcpp::detail::get_value_helper(const rclcpp::Parameter*) [with T = std::vector<float>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.208260] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:273:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kdecltype(auto) rclcpp::Parameter::get_value() const [with T = std::vector<float>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.208327] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:234:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kbool rclcpp::Node::get_parameter(const string&, ParameterT&) const [with ParameterT = std::vector<float>; std::string = std::__cxx11::basic_string<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.208389] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:62:49:\x1b[m\x1b[K   required from here\n'}
+[10.208450] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:309:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, const std::vector<long int, std::allocator<long int> >&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.208517] (br2_tracking) StderrLine: {'line': b'/opt/ros/foxy/include/rclcpp/parameter.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kauto rclcpp::detail::get_value_helper(const rclcpp::Parameter*) [with T = std::vector<float>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.208582] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:273:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kdecltype(auto) rclcpp::Parameter::get_value() const [with T = std::vector<float>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.208643] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:234:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kbool rclcpp::Node::get_parameter(const string&, ParameterT&) const [with ParameterT = std::vector<float>; std::string = std::__cxx11::basic_string<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.208705] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:62:49:\x1b[m\x1b[K   required from here\n'}
+[10.208771] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:319:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<double, std::allocator<double> >&>::value, const std::vector<double, std::allocator<double> >&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.208836] (br2_tracking) StderrLine: {'line': b'  319 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[10.208897] (br2_tracking) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[10.208957] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:319:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[10.209018] (br2_tracking) StderrLine: {'line': b'/opt/ros/foxy/include/rclcpp/parameter_value.hpp: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<double, std::allocator<double> >&>::value, const std::vector<double, std::allocator<double> >&>::type rclcpp::ParameterValue::get() const [with type = std::vector<float>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.209082] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:239:50:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kauto rclcpp::detail::get_value_helper(const rclcpp::Parameter*) [with T = std::vector<float>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.209143] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:273:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kdecltype(auto) rclcpp::Parameter::get_value() const [with T = std::vector<float>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.209206] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:234:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kbool rclcpp::Node::get_parameter(const string&, ParameterT&) const [with ParameterT = std::vector<float>; std::string = std::__cxx11::basic_string<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.209271] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:62:49:\x1b[m\x1b[K   required from here\n'}
+[10.209404] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:319:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, const std::vector<double, std::allocator<double> >&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.209497] (br2_tracking) StderrLine: {'line': b'/opt/ros/foxy/include/rclcpp/parameter.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kauto rclcpp::detail::get_value_helper(const rclcpp::Parameter*) [with T = std::vector<float>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.209564] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:273:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kdecltype(auto) rclcpp::Parameter::get_value() const [with T = std::vector<float>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.209642] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:234:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kbool rclcpp::Node::get_parameter(const string&, ParameterT&) const [with ParameterT = std::vector<float>; std::string = std::__cxx11::basic_string<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.209738] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:62:49:\x1b[m\x1b[K   required from here\n'}
+[10.209816] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:329:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<std::__cxx11::basic_string<char> >&>::value, const std::vector<std::__cxx11::basic_string<char> >&>::type rclcpp::ParameterValue::get() const\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.209899] (br2_tracking) StderrLine: {'line': b'  329 |   \x1b[01;36m\x1b[Kget\x1b[m\x1b[K() const\n'}
+[10.210008] (br2_tracking) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[10.210130] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:329:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[10.210213] (br2_tracking) StderrLine: {'line': b'/opt/ros/foxy/include/rclcpp/parameter_value.hpp: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<std::__cxx11::basic_string<char> >&>::value, const std::vector<std::__cxx11::basic_string<char> >&>::type rclcpp::ParameterValue::get() const [with type = std::vector<float>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.210287] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:239:50:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kauto rclcpp::detail::get_value_helper(const rclcpp::Parameter*) [with T = std::vector<float>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.210351] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter.hpp:273:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kdecltype(auto) rclcpp::Parameter::get_value() const [with T = std::vector<float>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.210419] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:234:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kbool rclcpp::Node::get_parameter(const string&, ParameterT&) const [with ParameterT = std::vector<float>; std::string = std::__cxx11::basic_string<char>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.210487] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:62:49:\x1b[m\x1b[K   required from here\n'}
+[10.210554] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:329:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, const std::vector<std::__cxx11::basic_string<char> >&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[10.210618] (br2_tracking) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:1224\x1b[m\x1b[K,\n'}
+[10.210680] (br2_tracking) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/image_transport/image_transport.hpp:43\x1b[m\x1b[K,\n'}
+[10.210743] (br2_tracking) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/include/br2_tracking/ObjectDetector.hpp:35\x1b[m\x1b[K,\n'}
+[10.210805] (br2_tracking) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:20\x1b[m\x1b[K:\n'}
+[10.210865] (br2_tracking) StderrLine: {'line': b'/opt/ros/foxy/include/rclcpp/node_impl.hpp: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kbool rclcpp::Node::get_parameter(const string&, ParameterT&) const [with ParameterT = std::vector<float>; std::string = std::__cxx11::basic_string<char>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.210927] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:62:49:\x1b[m\x1b[K   required from here\n'}
+[10.210989] (br2_tracking) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:234:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid use of void expression\n'}
+[10.211050] (br2_tracking) StderrLine: {'line': b'  234 |     parameter = \x1b[01;31m\x1b[Kstatic_cast<ParameterT>(parameter_variant.get_value<ParameterT>())\x1b[m\x1b[K;\n'}
+[10.211112] (br2_tracking) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.240473] (-) TimerEvent: {}
+[10.340720] (-) TimerEvent: {}
+[10.441042] (-) TimerEvent: {}
+[10.541373] (-) TimerEvent: {}
+[10.641666] (-) TimerEvent: {}
+[10.741913] (-) TimerEvent: {}
+[10.842197] (-) TimerEvent: {}
+[10.942505] (-) TimerEvent: {}
+[11.042802] (-) TimerEvent: {}
+[11.143126] (-) TimerEvent: {}
+[11.243465] (-) TimerEvent: {}
+[11.343748] (-) TimerEvent: {}
+[11.444028] (-) TimerEvent: {}
+[11.544326] (-) TimerEvent: {}
+[11.644648] (-) TimerEvent: {}
+[11.744953] (-) TimerEvent: {}
+[11.845283] (-) TimerEvent: {}
+[11.945584] (-) TimerEvent: {}
+[12.045858] (-) TimerEvent: {}
+[12.146177] (-) TimerEvent: {}
+[12.246519] (-) TimerEvent: {}
+[12.346880] (-) TimerEvent: {}
+[12.447193] (-) TimerEvent: {}
+[12.547556] (-) TimerEvent: {}
+[12.647902] (-) TimerEvent: {}
+[12.748217] (-) TimerEvent: {}
+[12.848517] (-) TimerEvent: {}
+[12.948830] (-) TimerEvent: {}
+[13.049151] (-) TimerEvent: {}
+[13.149456] (-) TimerEvent: {}
+[13.249768] (-) TimerEvent: {}
+[13.350097] (-) TimerEvent: {}
+[13.450404] (-) TimerEvent: {}
+[13.550730] (-) TimerEvent: {}
+[13.651076] (-) TimerEvent: {}
+[13.751520] (-) TimerEvent: {}
+[13.851808] (-) TimerEvent: {}
+[13.952096] (-) TimerEvent: {}
+[14.052421] (-) TimerEvent: {}
+[14.152701] (-) TimerEvent: {}
+[14.253050] (-) TimerEvent: {}
+[14.353303] (-) TimerEvent: {}
+[14.453579] (-) TimerEvent: {}
+[14.553853] (-) TimerEvent: {}
+[14.654163] (-) TimerEvent: {}
+[14.754456] (-) TimerEvent: {}
+[14.854783] (-) TimerEvent: {}
+[14.955137] (-) TimerEvent: {}
+[15.055444] (-) TimerEvent: {}
+[15.155776] (-) TimerEvent: {}
+[15.256200] (-) TimerEvent: {}
+[15.356602] (-) TimerEvent: {}
+[15.456932] (-) TimerEvent: {}
+[15.557225] (-) TimerEvent: {}
+[15.657544] (-) TimerEvent: {}
+[15.757859] (-) TimerEvent: {}
+[15.858200] (-) TimerEvent: {}
+[15.958542] (-) TimerEvent: {}
+[16.058898] (-) TimerEvent: {}
+[16.159196] (-) TimerEvent: {}
+[16.259508] (-) TimerEvent: {}
+[16.355728] (br2_tracking) StderrLine: {'line': b'make[2]: *** [CMakeFiles/br2_tracking.dir/build.make:63: CMakeFiles/br2_tracking.dir/src/br2_tracking/ObjectDetector.cpp.o] Error 1\n'}
+[16.356020] (br2_tracking) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:204: CMakeFiles/br2_tracking.dir/all] Error 2\n'}
+[16.356205] (br2_tracking) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[16.358549] (br2_tracking) CommandEnded: {'returncode': 2}
+[16.359971] (-) TimerEvent: {}
+[16.375929] (br2_tracking) JobEnded: {'identifier': 'br2_tracking', 'rc': 2}
+[16.390754] (-) EventReactorShutdown: {}

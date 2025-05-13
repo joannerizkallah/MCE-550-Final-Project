@@ -1,0 +1,25 @@
+In file included from [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp:16[m[K:
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/include/br2_fsm_bumpgo_cpp/BumpGoNode.hpp:57:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   57 |   [01;31m[Kconst[m[K rclcpp::Duration TURNING_TIME {2s};
+      |   [01;31m[K^~~~~[m[K
+      |        [32m[K;[m[K
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp:273:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kfloat br2_fsm_bumpgo_cpp::BumpGoNode::calculate_speed()[m[K’
+  273 | [01;31m[KBumpGoNode[m[K::calculate_speed()
+      | [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp:16[m[K:
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/include/br2_fsm_bumpgo_cpp/BumpGoNode.hpp:56:9:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kfloat br2_fsm_bumpgo_cpp::BumpGoNode::calculate_speed() const[m[K’
+   56 |   float [01;36m[Kcalculate_speed[m[K()
+      |         [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/include/br2_fsm_bumpgo_cpp/BumpGoNode.hpp:28:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass br2_fsm_bumpgo_cpp::BumpGoNode[m[K’ defined here
+   28 | class [01;36m[KBumpGoNode[m[K : public rclcpp::Node
+      |       [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/src/bumpgo_main.cpp:17[m[K:
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/include/br2_fsm_bumpgo_cpp/BumpGoNode.hpp:57:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   57 |   [01;31m[Kconst[m[K rclcpp::Duration TURNING_TIME {2s};
+      |   [01;31m[K^~~~~[m[K
+      |        [32m[K;[m[K
+make[2]: *** [CMakeFiles/bumpgo.dir/build.make:76: CMakeFiles/bumpgo.dir/src/bumpgo_main.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/bumpgo.dir/build.make:63: CMakeFiles/bumpgo.dir/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/bumpgo.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

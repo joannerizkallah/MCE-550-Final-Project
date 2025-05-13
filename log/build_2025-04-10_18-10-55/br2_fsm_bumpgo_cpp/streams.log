@@ -1,0 +1,21 @@
+[0.067s] Invoking command in '/home/joanne/bookros2_ws/build/br2_fsm_bumpgo_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joanne/bookros2_ws/install/ros2controlcli:/home/joanne/bookros2_ws/install/launch_pal:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/joanne/bookros2_ws/build/br2_fsm_bumpgo_cpp -- -j8 -l8
+[0.309s] [35m[1mScanning dependencies of target bumpgo[0m
+[0.454s] [ 33%] [32mBuilding CXX object CMakeFiles/bumpgo.dir/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp.o[0m
+[7.445s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp:[m[K In member function ‘[01m[Kbool br2_fsm_bumpgo_cpp::BumpGoNode::check_turn_2_forward()[m[K’:
+[7.447s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp:152:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kcalculate_time[m[K’ was not declared in this scope; did you mean ‘[01m[Kcalculate_speed[m[K’?
+[7.449s]   152 |   return (now() - state_ts_) > [01;31m[Kcalculate_time[m[K();
+[7.450s]       |                                [01;31m[K^~~~~~~~~~~~~~[m[K
+[7.451s]       |                                [32m[Kcalculate_speed[m[K
+[7.452s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp:[m[K At global scope:
+[7.453s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp:157:1:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kfloat br2_fsm_bumpgo_cpp::BumpGoNode::calculate_time()[m[K’
+[7.454s]   157 | [01;31m[KBumpGoNode[m[K::calculate_time()
+[7.454s]       | [01;31m[K^~~~~~~~~~[m[K
+[7.455s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp:157:1:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kfloat br2_fsm_bumpgo_cpp::BumpGoNode::calculate_time()[m[K’
+[7.455s] In file included from [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp:16[m[K:
+[7.455s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_fsm_bumpgo_cpp/include/br2_fsm_bumpgo_cpp/BumpGoNode.hpp:28:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass br2_fsm_bumpgo_cpp::BumpGoNode[m[K’ defined here
+[7.456s]    28 | class [01;36m[KBumpGoNode[m[K : public rclcpp::Node
+[7.456s]       |       [01;36m[K^~~~~~~~~~[m[K
+[12.941s] make[2]: *** [CMakeFiles/bumpgo.dir/build.make:63: CMakeFiles/bumpgo.dir/src/br2_fsm_bumpgo_cpp/BumpGoNode.cpp.o] Error 1
+[12.941s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/bumpgo.dir/all] Error 2
+[12.941s] make: *** [Makefile:141: all] Error 2
+[12.951s] Invoked command in '/home/joanne/bookros2_ws/build/br2_fsm_bumpgo_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joanne/bookros2_ws/install/ros2controlcli:/home/joanne/bookros2_ws/install/launch_pal:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/joanne/bookros2_ws/build/br2_fsm_bumpgo_cpp -- -j8 -l8

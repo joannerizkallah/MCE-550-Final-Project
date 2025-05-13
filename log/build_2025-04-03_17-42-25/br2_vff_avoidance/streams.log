@@ -1,0 +1,66 @@
+[0.101s] Invoking command in '/home/joanne/bookros2_ws/build/br2_vff_avoidance': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/joanne/bookros2_ws/src/book_ros2/br2_vff_avoidance -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/joanne/bookros2_ws/install/br2_vff_avoidance
+[1.197s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.197s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.197s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.197s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.313s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.336s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.979s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.313s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.334s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.080s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[3.701s] -- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)
+[4.340s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[4.820s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.873s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.876s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.877s] -- Configured cppcheck include dirs: /home/joanne/bookros2_ws/src/book_ros2/br2_vff_avoidance/include
+[4.879s] -- Configured cppcheck exclude dirs and/or files: 
+[4.881s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.882s] -- Configured cpplint exclude dirs and/or files: 
+[4.883s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.886s] -- Added test 'lint_cmake' to check CMake code style
+[4.887s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[4.895s] -- Added test 'uncrustify' to check C / C++ code style
+[4.895s] -- Configured uncrustify additional arguments: 
+[4.896s] -- Added test 'xmllint' to check XML markup files
+[4.931s] -- Configuring done
+[5.067s] -- Generating done
+[5.121s] -- Build files have been written to: /home/joanne/bookros2_ws/build/br2_vff_avoidance
+[5.152s] Invoked command in '/home/joanne/bookros2_ws/build/br2_vff_avoidance' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/joanne/bookros2_ws/src/book_ros2/br2_vff_avoidance -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/joanne/bookros2_ws/install/br2_vff_avoidance
+[5.153s] Invoking command in '/home/joanne/bookros2_ws/build/br2_vff_avoidance': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/joanne/bookros2_ws/build/br2_vff_avoidance -- -j8 -l8
+[5.527s] [ 20%] Built target gtest
+[5.541s] [ 30%] [32mBuilding CXX object CMakeFiles/br2_vff_avoidance.dir/src/br2_vff_avoidance/AvoidanceNode.cpp.o[0m
+[5.553s] [ 50%] Built target gtest_main
+[29.217s] [ 60%] [32m[1mLinking CXX shared library libbr2_vff_avoidance.so[0m
+[30.517s] [ 60%] Built target br2_vff_avoidance
+[30.621s] [ 70%] [32mBuilding CXX object CMakeFiles/avoidance_vff.dir/src/avoidance_vff_main.cpp.o[0m
+[36.035s] [ 80%] [32m[1mLinking CXX executable avoidance_vff[0m
+[36.382s] [ 80%] Built target avoidance_vff
+[36.434s] [ 90%] [32mBuilding CXX object tests/CMakeFiles/vff_test.dir/vff_test.cpp.o[0m
+[53.587s] [100%] [32m[1mLinking CXX executable vff_test[0m
+[54.347s] [100%] Built target vff_test
+[54.360s] Invoked command in '/home/joanne/bookros2_ws/build/br2_vff_avoidance' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/joanne/bookros2_ws/build/br2_vff_avoidance -- -j8 -l8
+[54.365s] Invoking command in '/home/joanne/bookros2_ws/build/br2_vff_avoidance': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/joanne/bookros2_ws/build/br2_vff_avoidance
+[54.376s] -- Install configuration: "Debug"
+[54.376s] -- Execute custom install script
+[54.377s] -- Symlinking: /home/joanne/bookros2_ws/install/br2_vff_avoidance/lib/libbr2_vff_avoidance.so
+[54.388s] -- Symlinking: /home/joanne/bookros2_ws/install/br2_vff_avoidance/lib/br2_vff_avoidance/avoidance_vff
+[54.399s] -- Symlinking: /home/joanne/bookros2_ws/install/br2_vff_avoidance/share/br2_vff_avoidance/launch/avoidance_vff.launch.py
+[54.410s] -- Symlinking: /home/joanne/bookros2_ws/install/br2_vff_avoidance/share/ament_index/resource_index/package_run_dependencies/br2_vff_avoidance
+[54.422s] -- Symlinking: /home/joanne/bookros2_ws/install/br2_vff_avoidance/share/ament_index/resource_index/parent_prefix_path/br2_vff_avoidance
+[54.434s] -- Symlinking: /home/joanne/bookros2_ws/install/br2_vff_avoidance/share/br2_vff_avoidance/environment/ament_prefix_path.sh
+[54.445s] -- Symlinking: /home/joanne/bookros2_ws/install/br2_vff_avoidance/share/br2_vff_avoidance/environment/ament_prefix_path.dsv
+[54.456s] -- Symlinking: /home/joanne/bookros2_ws/install/br2_vff_avoidance/share/br2_vff_avoidance/environment/path.sh
+[54.469s] -- Symlinking: /home/joanne/bookros2_ws/install/br2_vff_avoidance/share/br2_vff_avoidance/environment/path.dsv
+[54.480s] -- Symlinking: /home/joanne/bookros2_ws/install/br2_vff_avoidance/share/br2_vff_avoidance/local_setup.bash
+[54.492s] -- Symlinking: /home/joanne/bookros2_ws/install/br2_vff_avoidance/share/br2_vff_avoidance/local_setup.sh
+[54.503s] -- Symlinking: /home/joanne/bookros2_ws/install/br2_vff_avoidance/share/br2_vff_avoidance/local_setup.zsh
+[54.513s] -- Symlinking: /home/joanne/bookros2_ws/install/br2_vff_avoidance/share/br2_vff_avoidance/local_setup.dsv
+[54.524s] -- Symlinking: /home/joanne/bookros2_ws/install/br2_vff_avoidance/share/br2_vff_avoidance/package.dsv
+[54.535s] -- Symlinking: /home/joanne/bookros2_ws/install/br2_vff_avoidance/share/ament_index/resource_index/packages/br2_vff_avoidance
+[54.546s] -- Symlinking: /home/joanne/bookros2_ws/install/br2_vff_avoidance/share/br2_vff_avoidance/cmake/ament_cmake_export_dependencies-extras.cmake
+[54.557s] -- Symlinking: /home/joanne/bookros2_ws/install/br2_vff_avoidance/share/br2_vff_avoidance/cmake/br2_vff_avoidanceConfig.cmake
+[54.571s] -- Symlinking: /home/joanne/bookros2_ws/install/br2_vff_avoidance/share/br2_vff_avoidance/cmake/br2_vff_avoidanceConfig-version.cmake
+[54.583s] -- Symlinking: /home/joanne/bookros2_ws/install/br2_vff_avoidance/share/br2_vff_avoidance/package.xml
+[54.598s] Invoked command in '/home/joanne/bookros2_ws/build/br2_vff_avoidance' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/joanne/bookros2_ws/build/br2_vff_avoidance

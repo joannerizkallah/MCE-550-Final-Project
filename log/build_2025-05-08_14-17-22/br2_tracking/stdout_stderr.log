@@ -1,0 +1,29 @@
+[35m[1mScanning dependencies of target br2_tracking[0m
+[ 14%] Built target gtest
+[ 28%] Built target gtest_main
+[ 35%] [32mBuilding CXX object CMakeFiles/br2_tracking.dir/src/br2_tracking/ObjectDetector.cpp.o[0m
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:[m[K In member function ‘[01m[Kvoid br2_tracking::ObjectDetector::pointCloudCallback(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:135:31:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KfromROSMsg(const ConstSharedPtr&, pcl::PointCloud<pcl::PointXYZ>::Ptr&)[m[K’
+  135 |     pcl::fromROSMsg(msg, cloud[01;31m[K)[m[K;
+      |                               [01;31m[K^[m[K
+In file included from [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/include/br2_tracking/ObjectDetector.hpp:46[m[K,
+                 from [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:20[m[K:
+[01m[K/opt/ros/foxy/include/pcl_conversions/pcl_conversions.h:566:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> void pcl::fromROSMsg(const PointCloud2&, pcl::PointCloud<PointT>&)[m[K’
+  566 |   void [01;36m[KfromROSMsg[m[K(const sensor_msgs::msg::PointCloud2 &cloud, pcl::PointCloud<T> &pcl_cloud)
+      |        [01;36m[K^~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/pcl_conversions/pcl_conversions.h:566:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:135:31:[m[K [01;36m[Knote: [m[K  ‘[01m[Kpcl::PointCloud<pcl::PointXYZ>::Ptr[m[K’ {aka ‘[01m[Kboost::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >[m[K’} is not derived from ‘[01m[Kpcl::PointCloud<PointT>[m[K’
+  135 |     pcl::fromROSMsg(msg, cloud[01;36m[K)[m[K;
+      |                               [01;36m[K^[m[K
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:166:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kcompute3DCentroid[m[K’ is not a member of ‘[01m[Kpcl[m[K’
+  166 |       pcl::[01;31m[Kcompute3DCentroid[m[K(*cluster_cloud, centroid);
+      |            [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:219:30:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<vision_msgs::msg::ObjectHypothesisWithPose_<std::allocator<void> > >, vision_msgs::msg::ObjectHypothesisWithPose_<std::allocator<void> > >::value_type[m[K’ {aka ‘[01m[Kstruct vision_msgs::msg::ObjectHypothesisWithPose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Khypothesis[m[K’
+  219 |       detection3d.results[0].[01;31m[Khypothesis[m[K.score = calculateConfidenceScore(cluster_cloud);
+      |                              [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tracking/src/br2_tracking/ObjectDetector.cpp:220:30:[m[K [01;31m[Kerror: [m[K‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<vision_msgs::msg::ObjectHypothesisWithPose_<std::allocator<void> > >, vision_msgs::msg::ObjectHypothesisWithPose_<std::allocator<void> > >::value_type[m[K’ {aka ‘[01m[Kstruct vision_msgs::msg::ObjectHypothesisWithPose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Khypothesis[m[K’
+  220 |       detection3d.results[0].[01;31m[Khypothesis[m[K.class_id = "object";  // Or classify the object type
+      |                              [01;31m[K^~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/br2_tracking.dir/build.make:63: CMakeFiles/br2_tracking.dir/src/br2_tracking/ObjectDetector.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:204: CMakeFiles/br2_tracking.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

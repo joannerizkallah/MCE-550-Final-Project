@@ -1,0 +1,72 @@
+[0.109s] Invoking command in '/home/joanne/bookros2_ws/build/transmission_interface': AMENT_PREFIX_PATH=/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/opt/ros/foxy LD_LIBRARY_PATH=/home/joanne/bookros2_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/joanne/bookros2_ws/src/ThirdParty/ros2_control/transmission_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/joanne/bookros2_ws/install/transmission_interface
+[0.696s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.697s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.083s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.120s] -- Found hardware_interface: 0.7.1 (/home/joanne/bookros2_ws/install/hardware_interface/share/hardware_interface/cmake)
+[1.264s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.277s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.874s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.784s] -- Found ament_cmake_gmock: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gmock/cmake)
+[3.791s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[4.081s] -- Found gmock sources under '/opt/ros/foxy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[4.085s] -- Found ament_cmake_gtest: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[4.087s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.215s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.240s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.253s] -- Configured cppcheck include dirs: /home/joanne/bookros2_ws/src/ThirdParty/ros2_control/transmission_interface/include;/home/joanne/bookros2_ws/src/ThirdParty/ros2_control/transmission_interface/hardware_interface
+[4.253s] -- Configured cppcheck exclude dirs and/or files: 
+[4.268s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.269s] -- Configured cpplint exclude dirs and/or files: 
+[4.276s] -- Added test 'lint_cmake' to check CMake code style
+[4.286s] -- Added test 'uncrustify' to check C / C++ code style
+[4.286s] -- Configured uncrustify additional arguments: 
+[4.296s] -- Added test 'xmllint' to check XML markup files
+[4.342s] -- Configuring done
+[4.931s] -- Generating done
+[5.185s] -- Build files have been written to: /home/joanne/bookros2_ws/build/transmission_interface
+[5.260s] Invoked command in '/home/joanne/bookros2_ws/build/transmission_interface' returned '0': AMENT_PREFIX_PATH=/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/opt/ros/foxy LD_LIBRARY_PATH=/home/joanne/bookros2_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/joanne/bookros2_ws/src/ThirdParty/ros2_control/transmission_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/joanne/bookros2_ws/install/transmission_interface
+[5.263s] Invoking command in '/home/joanne/bookros2_ws/build/transmission_interface': AMENT_PREFIX_PATH=/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/opt/ros/foxy LD_LIBRARY_PATH=/home/joanne/bookros2_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/joanne/bookros2_ws/build/transmission_interface -- -j8 -l8
+[5.717s] [ 20%] Built target gmock
+[5.717s] [ 26%] [32m[1mLinking CXX shared library libtransmission_parser.so[0m
+[5.943s] [ 40%] Built target gmock_main
+[6.164s] [ 46%] [32m[1mLinking CXX executable test_differential_transmission[0m
+[6.760s] [ 53%] Built target transmission_parser
+[7.017s] [ 60%] [32m[1mLinking CXX executable test_four_bar_linkage_transmission[0m
+[7.909s] [ 66%] Built target test_differential_transmission
+[8.082s] [ 73%] [32m[1mLinking CXX executable test_transmission_parser[0m
+[8.242s] [ 80%] Built target test_four_bar_linkage_transmission
+[8.367s] [ 86%] [32m[1mLinking CXX executable test_simple_transmission[0m
+[8.784s] [ 93%] Built target test_transmission_parser
+[9.036s] [100%] Built target test_simple_transmission
+[9.081s] Invoked command in '/home/joanne/bookros2_ws/build/transmission_interface' returned '0': AMENT_PREFIX_PATH=/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/opt/ros/foxy LD_LIBRARY_PATH=/home/joanne/bookros2_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/joanne/bookros2_ws/build/transmission_interface -- -j8 -l8
+[9.087s] Invoking command in '/home/joanne/bookros2_ws/build/transmission_interface': AMENT_PREFIX_PATH=/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/opt/ros/foxy LD_LIBRARY_PATH=/home/joanne/bookros2_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/joanne/bookros2_ws/build/transmission_interface
+[9.109s] -- Install configuration: ""
+[9.109s] -- Execute custom install script
+[9.110s] -- Symlinking: /home/joanne/bookros2_ws/install/transmission_interface/include/transmission_interface/accessor.hpp
+[9.124s] -- Symlinking: /home/joanne/bookros2_ws/install/transmission_interface/include/transmission_interface/differential_transmission.hpp
+[9.138s] -- Symlinking: /home/joanne/bookros2_ws/install/transmission_interface/include/transmission_interface/exception.hpp
+[9.153s] -- Symlinking: /home/joanne/bookros2_ws/install/transmission_interface/include/transmission_interface/four_bar_linkage_transmission.hpp
+[9.166s] -- Symlinking: /home/joanne/bookros2_ws/install/transmission_interface/include/transmission_interface/handle.hpp
+[9.180s] -- Symlinking: /home/joanne/bookros2_ws/install/transmission_interface/include/transmission_interface/simple_transmission.hpp
+[9.193s] -- Symlinking: /home/joanne/bookros2_ws/install/transmission_interface/include/transmission_interface/transmission.hpp
+[9.223s] -- Symlinking: /home/joanne/bookros2_ws/install/transmission_interface/include/transmission_interface/transmission_info.hpp
+[9.241s] -- Symlinking: /home/joanne/bookros2_ws/install/transmission_interface/include/transmission_interface/transmission_parser.hpp
+[9.260s] -- Symlinking: /home/joanne/bookros2_ws/install/transmission_interface/include/transmission_interface/visibility_control.h
+[9.281s] -- Symlinking: /home/joanne/bookros2_ws/install/transmission_interface/share/ament_index/resource_index/package_run_dependencies/transmission_interface
+[9.297s] -- Symlinking: /home/joanne/bookros2_ws/install/transmission_interface/share/ament_index/resource_index/parent_prefix_path/transmission_interface
+[9.328s] -- Symlinking: /home/joanne/bookros2_ws/install/transmission_interface/share/transmission_interface/environment/ament_prefix_path.sh
+[9.345s] -- Symlinking: /home/joanne/bookros2_ws/install/transmission_interface/share/transmission_interface/environment/ament_prefix_path.dsv
+[9.360s] -- Symlinking: /home/joanne/bookros2_ws/install/transmission_interface/share/transmission_interface/environment/path.sh
+[9.374s] -- Symlinking: /home/joanne/bookros2_ws/install/transmission_interface/share/transmission_interface/environment/path.dsv
+[9.389s] -- Symlinking: /home/joanne/bookros2_ws/install/transmission_interface/share/transmission_interface/local_setup.bash
+[9.415s] -- Symlinking: /home/joanne/bookros2_ws/install/transmission_interface/share/transmission_interface/local_setup.sh
+[9.429s] -- Symlinking: /home/joanne/bookros2_ws/install/transmission_interface/share/transmission_interface/local_setup.zsh
+[9.444s] -- Symlinking: /home/joanne/bookros2_ws/install/transmission_interface/share/transmission_interface/local_setup.dsv
+[9.460s] -- Symlinking: /home/joanne/bookros2_ws/install/transmission_interface/share/transmission_interface/package.dsv
+[9.479s] -- Symlinking: /home/joanne/bookros2_ws/install/transmission_interface/share/ament_index/resource_index/packages/transmission_interface
+[9.498s] -- Symlinking: /home/joanne/bookros2_ws/install/transmission_interface/share/transmission_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.517s] -- Symlinking: /home/joanne/bookros2_ws/install/transmission_interface/share/transmission_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.538s] -- Symlinking: /home/joanne/bookros2_ws/install/transmission_interface/share/transmission_interface/cmake/transmission_interfaceConfig.cmake
+[9.557s] -- Symlinking: /home/joanne/bookros2_ws/install/transmission_interface/share/transmission_interface/cmake/transmission_interfaceConfig-version.cmake
+[9.577s] -- Symlinking: /home/joanne/bookros2_ws/install/transmission_interface/share/transmission_interface/package.xml
+[9.612s] Invoked command in '/home/joanne/bookros2_ws/build/transmission_interface' returned '0': AMENT_PREFIX_PATH=/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/opt/ros/foxy LD_LIBRARY_PATH=/home/joanne/bookros2_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/joanne/bookros2_ws/build/transmission_interface

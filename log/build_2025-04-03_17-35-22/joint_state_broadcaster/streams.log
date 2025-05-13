@@ -1,0 +1,111 @@
+[0.086s] Invoking command in '/home/joanne/bookros2_ws/build/joint_state_broadcaster': AMENT_PREFIX_PATH=/home/joanne/bookros2_ws/install/controller_manager:/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joanne/bookros2_ws/install/controller_manager:/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/joanne/bookros2_ws/install/controller_manager/lib:/home/joanne/bookros2_ws/install/controller_interface/lib:/home/joanne/bookros2_ws/install/hardware_interface/lib:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joanne/bookros2_ws/install/controller_manager/lib/python3.8/site-packages:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/joanne/bookros2_ws/src/ThirdParty/ros2_controllers/joint_state_broadcaster -DCMAKE_INSTALL_PREFIX=/home/joanne/bookros2_ws/install/joint_state_broadcaster
+[0.259s] -- The C compiler identification is GNU 9.4.0
+[0.407s] -- The CXX compiler identification is GNU 9.4.0
+[0.419s] -- Check for working C compiler: /usr/bin/cc
+[0.664s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.664s] -- Detecting C compiler ABI info
+[0.795s] -- Detecting C compiler ABI info - done
+[0.826s] -- Detecting C compile features
+[0.827s] -- Detecting C compile features - done
+[0.832s] -- Check for working CXX compiler: /usr/bin/c++
+[1.054s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.058s] -- Detecting CXX compiler ABI info
+[1.315s] -- Detecting CXX compiler ABI info - done
+[1.340s] -- Detecting CXX compile features
+[1.341s] -- Detecting CXX compile features - done
+[1.346s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.401s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.401s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.004s] -- Found control_msgs: 2.5.1 (/opt/ros/foxy/share/control_msgs/cmake)
+[2.084s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.102s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.298s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.382s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.574s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.787s] -- Found controller_interface: 0.7.1 (/home/joanne/bookros2_ws/install/controller_interface/share/controller_interface/cmake)
+[3.991s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.995s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.997s] -- Looking for pthread.h
+[4.133s] -- Looking for pthread.h - found
+[4.133s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.257s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.257s] -- Looking for pthread_create in pthreads
+[4.355s] -- Looking for pthread_create in pthreads - not found
+[4.355s] -- Looking for pthread_create in pthread
+[4.465s] -- Looking for pthread_create in pthread - found
+[4.467s] -- Found Threads: TRUE  
+[5.173s] -- Found ament_cmake_gmock: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gmock/cmake)
+[5.177s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[5.179s] -- Found controller_manager: 0.7.1 (/home/joanne/bookros2_ws/install/controller_manager/share/controller_manager/cmake)
+[5.332s] -- Found ros2_control_test_assets: 0.7.1 (/home/joanne/bookros2_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[5.559s] -- Found gmock sources under '/opt/ros/foxy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[5.570s] -- Found ament_cmake_gtest: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[5.572s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[5.844s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.848s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.849s] -- Configured cppcheck include dirs: /home/joanne/bookros2_ws/src/ThirdParty/ros2_controllers/joint_state_broadcaster/include
+[5.849s] -- Configured cppcheck exclude dirs and/or files: 
+[5.851s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.852s] -- Configured cpplint exclude dirs and/or files: 
+[5.853s] -- Added test 'lint_cmake' to check CMake code style
+[5.856s] -- Added test 'uncrustify' to check C / C++ code style
+[5.856s] -- Configured uncrustify additional arguments: 
+[5.857s] -- Added test 'xmllint' to check XML markup files
+[5.869s] -- Configuring done
+[6.006s] -- Generating done
+[6.069s] -- Build files have been written to: /home/joanne/bookros2_ws/build/joint_state_broadcaster
+[6.104s] Invoked command in '/home/joanne/bookros2_ws/build/joint_state_broadcaster' returned '0': AMENT_PREFIX_PATH=/home/joanne/bookros2_ws/install/controller_manager:/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joanne/bookros2_ws/install/controller_manager:/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/joanne/bookros2_ws/install/controller_manager/lib:/home/joanne/bookros2_ws/install/controller_interface/lib:/home/joanne/bookros2_ws/install/hardware_interface/lib:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joanne/bookros2_ws/install/controller_manager/lib/python3.8/site-packages:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/joanne/bookros2_ws/src/ThirdParty/ros2_controllers/joint_state_broadcaster -DCMAKE_INSTALL_PREFIX=/home/joanne/bookros2_ws/install/joint_state_broadcaster
+[6.114s] Invoking command in '/home/joanne/bookros2_ws/build/joint_state_broadcaster': AMENT_PREFIX_PATH=/home/joanne/bookros2_ws/install/controller_manager:/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joanne/bookros2_ws/install/controller_manager:/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/joanne/bookros2_ws/install/controller_manager/lib:/home/joanne/bookros2_ws/install/controller_interface/lib:/home/joanne/bookros2_ws/install/hardware_interface/lib:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joanne/bookros2_ws/install/controller_manager/lib/python3.8/site-packages:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/joanne/bookros2_ws/build/joint_state_broadcaster -- -j8 -l8
+[6.190s] [35m[1mScanning dependencies of target gmock[0m
+[6.248s] [  9%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/foxy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[13.607s] [ 18%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[17.288s] [ 27%] [32m[1mLinking CXX static library libgmock.a[0m
+[17.423s] [ 27%] Built target gmock
+[17.444s] [35m[1mScanning dependencies of target joint_state_broadcaster[0m
+[17.546s] [ 36%] [32mBuilding CXX object CMakeFiles/joint_state_broadcaster.dir/src/joint_state_broadcaster.cpp.o[0m
+[25.732s] [ 45%] [32m[1mLinking CXX shared library libjoint_state_broadcaster.so[0m
+[26.330s] [ 45%] Built target joint_state_broadcaster
+[26.351s] [35m[1mScanning dependencies of target gmock_main[0m
+[26.387s] [ 54%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[28.381s] [ 63%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[28.454s] [ 63%] Built target gmock_main
+[28.484s] [35m[1mScanning dependencies of target test_load_joint_state_broadcaster[0m
+[28.644s] [ 72%] [32mBuilding CXX object CMakeFiles/test_load_joint_state_broadcaster.dir/test/test_load_joint_state_broadcaster.cpp.o[0m
+[35.857s] [ 81%] [32m[1mLinking CXX executable test_load_joint_state_broadcaster[0m
+[37.618s] [ 81%] Built target test_load_joint_state_broadcaster
+[37.644s] [35m[1mScanning dependencies of target test_joint_state_broadcaster[0m
+[37.769s] [ 90%] [32mBuilding CXX object CMakeFiles/test_joint_state_broadcaster.dir/test/test_joint_state_broadcaster.cpp.o[0m
+[56.652s] [100%] [32m[1mLinking CXX executable test_joint_state_broadcaster[0m
+[58.291s] [100%] Built target test_joint_state_broadcaster
+[58.330s] Invoked command in '/home/joanne/bookros2_ws/build/joint_state_broadcaster' returned '0': AMENT_PREFIX_PATH=/home/joanne/bookros2_ws/install/controller_manager:/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joanne/bookros2_ws/install/controller_manager:/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/joanne/bookros2_ws/install/controller_manager/lib:/home/joanne/bookros2_ws/install/controller_interface/lib:/home/joanne/bookros2_ws/install/hardware_interface/lib:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joanne/bookros2_ws/install/controller_manager/lib/python3.8/site-packages:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/joanne/bookros2_ws/build/joint_state_broadcaster -- -j8 -l8
+[58.331s] Invoking command in '/home/joanne/bookros2_ws/build/joint_state_broadcaster': AMENT_PREFIX_PATH=/home/joanne/bookros2_ws/install/controller_manager:/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joanne/bookros2_ws/install/controller_manager:/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/joanne/bookros2_ws/install/controller_manager/lib:/home/joanne/bookros2_ws/install/controller_interface/lib:/home/joanne/bookros2_ws/install/hardware_interface/lib:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joanne/bookros2_ws/install/controller_manager/lib/python3.8/site-packages:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/joanne/bookros2_ws/build/joint_state_broadcaster
+[59.639s] -- Install configuration: ""
+[59.639s] -- Installing: /home/joanne/bookros2_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/joint_state_plugin.xml
+[59.639s] -- Installing: /home/joanne/bookros2_ws/install/joint_state_broadcaster/include
+[59.639s] -- Installing: /home/joanne/bookros2_ws/install/joint_state_broadcaster/include/joint_state_broadcaster
+[59.640s] -- Installing: /home/joanne/bookros2_ws/install/joint_state_broadcaster/include/joint_state_broadcaster/visibility_control.h
+[59.640s] -- Installing: /home/joanne/bookros2_ws/install/joint_state_broadcaster/include/joint_state_broadcaster/joint_state_broadcaster.hpp
+[59.640s] -- Installing: /home/joanne/bookros2_ws/install/joint_state_broadcaster/lib/libjoint_state_broadcaster.so
+[59.640s] -- Set runtime path of "/home/joanne/bookros2_ws/install/joint_state_broadcaster/lib/libjoint_state_broadcaster.so" to ""
+[59.640s] -- Installing: /home/joanne/bookros2_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/environment/library_path.sh
+[59.640s] -- Installing: /home/joanne/bookros2_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/environment/library_path.dsv
+[59.640s] -- Installing: /home/joanne/bookros2_ws/install/joint_state_broadcaster/share/ament_index/resource_index/package_run_dependencies/joint_state_broadcaster
+[59.641s] -- Installing: /home/joanne/bookros2_ws/install/joint_state_broadcaster/share/ament_index/resource_index/parent_prefix_path/joint_state_broadcaster
+[59.641s] -- Installing: /home/joanne/bookros2_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/environment/ament_prefix_path.sh
+[59.641s] -- Installing: /home/joanne/bookros2_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/environment/ament_prefix_path.dsv
+[59.641s] -- Installing: /home/joanne/bookros2_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/environment/path.sh
+[59.641s] -- Installing: /home/joanne/bookros2_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/environment/path.dsv
+[59.641s] -- Installing: /home/joanne/bookros2_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/local_setup.bash
+[59.641s] -- Installing: /home/joanne/bookros2_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/local_setup.sh
+[59.642s] -- Installing: /home/joanne/bookros2_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/local_setup.zsh
+[59.642s] -- Installing: /home/joanne/bookros2_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/local_setup.dsv
+[59.642s] -- Installing: /home/joanne/bookros2_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/package.dsv
+[59.642s] -- Installing: /home/joanne/bookros2_ws/install/joint_state_broadcaster/share/ament_index/resource_index/packages/joint_state_broadcaster
+[59.642s] -- Installing: /home/joanne/bookros2_ws/install/joint_state_broadcaster/share/ament_index/resource_index/controller_interface__pluginlib__plugin/joint_state_broadcaster
+[59.642s] -- Installing: /home/joanne/bookros2_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/cmake/ament_cmake_export_dependencies-extras.cmake
+[59.643s] -- Installing: /home/joanne/bookros2_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/cmake/ament_cmake_export_include_directories-extras.cmake
+[59.643s] -- Installing: /home/joanne/bookros2_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/cmake/ament_cmake_export_libraries-extras.cmake
+[59.643s] -- Installing: /home/joanne/bookros2_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/cmake/joint_state_broadcasterConfig.cmake
+[59.643s] -- Installing: /home/joanne/bookros2_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/cmake/joint_state_broadcasterConfig-version.cmake
+[59.643s] -- Installing: /home/joanne/bookros2_ws/install/joint_state_broadcaster/share/joint_state_broadcaster/package.xml
+[59.685s] Invoked command in '/home/joanne/bookros2_ws/build/joint_state_broadcaster' returned '0': AMENT_PREFIX_PATH=/home/joanne/bookros2_ws/install/controller_manager:/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joanne/bookros2_ws/install/controller_manager:/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/joanne/bookros2_ws/install/controller_manager/lib:/home/joanne/bookros2_ws/install/controller_interface/lib:/home/joanne/bookros2_ws/install/hardware_interface/lib:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joanne/bookros2_ws/install/controller_manager/lib/python3.8/site-packages:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/joanne/bookros2_ws/build/joint_state_broadcaster

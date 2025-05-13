@@ -1,0 +1,123 @@
+[0.050s] Invoking command in '/home/joanne/bookros2_ws/build/br2_basics': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/joanne/bookros2_ws/src/book_ros2/br2_basics -DCMAKE_INSTALL_PREFIX=/home/joanne/bookros2_ws/install/br2_basics
+[0.992s] -- The C compiler identification is GNU 9.4.0
+[0.993s] -- The CXX compiler identification is GNU 9.4.0
+[0.993s] -- Check for working C compiler: /usr/bin/cc
+[0.993s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.994s] -- Detecting C compiler ABI info
+[0.994s] -- Detecting C compiler ABI info - done
+[0.994s] -- Detecting C compile features
+[0.994s] -- Detecting C compile features - done
+[0.994s] -- Check for working CXX compiler: /usr/bin/c++
+[0.994s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.994s] -- Detecting CXX compiler ABI info
+[0.994s] -- Detecting CXX compiler ABI info - done
+[0.995s] -- Detecting CXX compile features
+[0.995s] -- Detecting CXX compile features - done
+[0.995s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.995s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.995s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.173s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.291s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.306s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.420s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.467s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.577s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.663s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.665s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.666s] -- Looking for pthread.h
+[1.793s] -- Looking for pthread.h - found
+[1.793s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.882s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.884s] -- Looking for pthread_create in pthreads
+[1.986s] -- Looking for pthread_create in pthreads - not found
+[1.986s] -- Looking for pthread_create in pthread
+[2.105s] -- Looking for pthread_create in pthread - found
+[2.106s] -- Found Threads: TRUE  
+[2.612s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.838s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.851s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.852s] -- Configured cppcheck include dirs: 
+[2.852s] -- Configured cppcheck exclude dirs and/or files: 
+[2.854s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.854s] -- Configured cpplint exclude dirs and/or files: 
+[2.856s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.860s] -- Added test 'lint_cmake' to check CMake code style
+[2.861s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.863s] -- Added test 'uncrustify' to check C / C++ code style
+[2.863s] -- Configured uncrustify additional arguments: 
+[2.864s] -- Added test 'xmllint' to check XML markup files
+[2.877s] -- Configuring done
+[2.977s] -- Generating done
+[3.017s] -- Build files have been written to: /home/joanne/bookros2_ws/build/br2_basics
+[3.052s] Invoked command in '/home/joanne/bookros2_ws/build/br2_basics' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/joanne/bookros2_ws/src/book_ros2/br2_basics -DCMAKE_INSTALL_PREFIX=/home/joanne/bookros2_ws/install/br2_basics
+[3.053s] Invoking command in '/home/joanne/bookros2_ws/build/br2_basics': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/joanne/bookros2_ws/build/br2_basics -- -j8 -l8
+[5.898s] [35m[1mScanning dependencies of target publisher[0m
+[5.899s] [35m[1mScanning dependencies of target executors[0m
+[5.899s] [35m[1mScanning dependencies of target logger[0m
+[5.899s] [35m[1mScanning dependencies of target subscriber_class[0m
+[5.899s] [35m[1mScanning dependencies of target publisher_class[0m
+[5.899s] [35m[1mScanning dependencies of target logger_class[0m
+[5.899s] [35m[1mScanning dependencies of target param_reader[0m
+[5.899s] [  7%] [32mBuilding CXX object CMakeFiles/logger.dir/src/logger.cpp.o[0m
+[5.900s] [ 14%] [32mBuilding CXX object CMakeFiles/subscriber_class.dir/src/subscriber_class.cpp.o[0m
+[5.900s] [ 21%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
+[5.900s] [ 28%] [32mBuilding CXX object CMakeFiles/publisher_class.dir/src/publisher_class.cpp.o[0m
+[5.900s] [ 35%] [32mBuilding CXX object CMakeFiles/logger_class.dir/src/logger_class.cpp.o[0m
+[5.900s] [ 42%] [32mBuilding CXX object CMakeFiles/executors.dir/src/executors.cpp.o[0m
+[5.901s] [ 50%] [32mBuilding CXX object CMakeFiles/param_reader.dir/src/param_reader.cpp.o[0m
+[19.314s] [ 57%] [32m[1mLinking CXX executable param_reader[0m
+[20.313s] [ 64%] [32m[1mLinking CXX executable logger[0m
+[20.695s] [ 64%] Built target param_reader
+[20.695s] [ 71%] [32m[1mLinking CXX executable logger_class[0m
+[21.043s] [ 71%] Built target logger
+[21.873s] [ 71%] Built target logger_class
+[26.616s] [ 78%] [32m[1mLinking CXX executable publisher[0m
+[27.194s] [ 85%] [32m[1mLinking CXX executable publisher_class[0m
+[27.868s] [ 85%] Built target publisher
+[28.151s] [ 85%] Built target publisher_class
+[35.601s] [ 92%] [32m[1mLinking CXX executable subscriber_class[0m
+[35.981s] [100%] [32m[1mLinking CXX executable executors[0m
+[36.122s] [100%] Built target subscriber_class
+[36.547s] [100%] Built target executors
+[36.584s] Invoked command in '/home/joanne/bookros2_ws/build/br2_basics' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/joanne/bookros2_ws/build/br2_basics -- -j8 -l8
+[36.635s] Invoking command in '/home/joanne/bookros2_ws/build/br2_basics': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/joanne/bookros2_ws/build/br2_basics
+[36.638s] -- Install configuration: ""
+[36.638s] -- Installing: /home/joanne/bookros2_ws/install/br2_basics/lib/br2_basics/publisher
+[36.639s] -- Set runtime path of "/home/joanne/bookros2_ws/install/br2_basics/lib/br2_basics/publisher" to ""
+[36.639s] -- Installing: /home/joanne/bookros2_ws/install/br2_basics/lib/br2_basics/publisher_class
+[36.640s] -- Set runtime path of "/home/joanne/bookros2_ws/install/br2_basics/lib/br2_basics/publisher_class" to ""
+[36.640s] -- Installing: /home/joanne/bookros2_ws/install/br2_basics/lib/br2_basics/subscriber_class
+[36.640s] -- Set runtime path of "/home/joanne/bookros2_ws/install/br2_basics/lib/br2_basics/subscriber_class" to ""
+[36.641s] -- Installing: /home/joanne/bookros2_ws/install/br2_basics/lib/br2_basics/executors
+[36.641s] -- Set runtime path of "/home/joanne/bookros2_ws/install/br2_basics/lib/br2_basics/executors" to ""
+[36.641s] -- Installing: /home/joanne/bookros2_ws/install/br2_basics/lib/br2_basics/logger
+[36.641s] -- Set runtime path of "/home/joanne/bookros2_ws/install/br2_basics/lib/br2_basics/logger" to ""
+[36.641s] -- Installing: /home/joanne/bookros2_ws/install/br2_basics/lib/br2_basics/logger_class
+[36.642s] -- Set runtime path of "/home/joanne/bookros2_ws/install/br2_basics/lib/br2_basics/logger_class" to ""
+[36.643s] -- Installing: /home/joanne/bookros2_ws/install/br2_basics/lib/br2_basics/param_reader
+[36.643s] -- Set runtime path of "/home/joanne/bookros2_ws/install/br2_basics/lib/br2_basics/param_reader" to ""
+[36.643s] -- Installing: /home/joanne/bookros2_ws/install/br2_basics/share/br2_basics/launch
+[36.644s] -- Installing: /home/joanne/bookros2_ws/install/br2_basics/share/br2_basics/launch/pub_sub_v1_launch.py
+[36.644s] -- Installing: /home/joanne/bookros2_ws/install/br2_basics/share/br2_basics/launch/includer_launch.py
+[36.644s] -- Installing: /home/joanne/bookros2_ws/install/br2_basics/share/br2_basics/launch/param_node_v1_launch.py
+[36.644s] -- Installing: /home/joanne/bookros2_ws/install/br2_basics/share/br2_basics/launch/pub_sub_v2_launch.py
+[36.644s] -- Installing: /home/joanne/bookros2_ws/install/br2_basics/share/br2_basics/launch/param_node_v2_launch.py
+[36.644s] -- Installing: /home/joanne/bookros2_ws/install/br2_basics/share/br2_basics/config
+[36.645s] -- Installing: /home/joanne/bookros2_ws/install/br2_basics/share/br2_basics/config/params.yaml
+[36.645s] -- Installing: /home/joanne/bookros2_ws/install/br2_basics/share/ament_index/resource_index/package_run_dependencies/br2_basics
+[36.645s] -- Installing: /home/joanne/bookros2_ws/install/br2_basics/share/ament_index/resource_index/parent_prefix_path/br2_basics
+[36.645s] -- Installing: /home/joanne/bookros2_ws/install/br2_basics/share/br2_basics/environment/ament_prefix_path.sh
+[36.646s] -- Installing: /home/joanne/bookros2_ws/install/br2_basics/share/br2_basics/environment/ament_prefix_path.dsv
+[36.646s] -- Installing: /home/joanne/bookros2_ws/install/br2_basics/share/br2_basics/environment/path.sh
+[36.646s] -- Installing: /home/joanne/bookros2_ws/install/br2_basics/share/br2_basics/environment/path.dsv
+[36.646s] -- Installing: /home/joanne/bookros2_ws/install/br2_basics/share/br2_basics/local_setup.bash
+[36.646s] -- Installing: /home/joanne/bookros2_ws/install/br2_basics/share/br2_basics/local_setup.sh
+[36.646s] -- Installing: /home/joanne/bookros2_ws/install/br2_basics/share/br2_basics/local_setup.zsh
+[36.647s] -- Installing: /home/joanne/bookros2_ws/install/br2_basics/share/br2_basics/local_setup.dsv
+[36.647s] -- Installing: /home/joanne/bookros2_ws/install/br2_basics/share/br2_basics/package.dsv
+[36.647s] -- Installing: /home/joanne/bookros2_ws/install/br2_basics/share/ament_index/resource_index/packages/br2_basics
+[36.647s] -- Installing: /home/joanne/bookros2_ws/install/br2_basics/share/br2_basics/cmake/ament_cmake_export_dependencies-extras.cmake
+[36.647s] -- Installing: /home/joanne/bookros2_ws/install/br2_basics/share/br2_basics/cmake/br2_basicsConfig.cmake
+[36.647s] -- Installing: /home/joanne/bookros2_ws/install/br2_basics/share/br2_basics/cmake/br2_basicsConfig-version.cmake
+[36.647s] -- Installing: /home/joanne/bookros2_ws/install/br2_basics/share/br2_basics/package.xml
+[36.737s] Invoked command in '/home/joanne/bookros2_ws/build/br2_basics' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/joanne/bookros2_ws/build/br2_basics

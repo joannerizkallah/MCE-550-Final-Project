@@ -1,0 +1,85 @@
+[0.154s] Invoking command in '/home/joanne/bookros2_ws/build/br2_tracking': AMENT_PREFIX_PATH=/home/joanne/bookros2_ws/install/br2_tracking_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joanne/bookros2_ws/install/br2_tracking_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/joanne/bookros2_ws/install/br2_tracking_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joanne/bookros2_ws/install/br2_tracking_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/joanne/bookros2_ws/src/book_ros2/br2_tracking -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/joanne/bookros2_ws/install/br2_tracking
+[1.055s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.056s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.507s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.536s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.674s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.706s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.159s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.469s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.473s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.434s] -- Found rclcpp_lifecycle: 2.4.3 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)
+[3.661s] -- Found br2_tracking_msgs: 0.0.0 (/home/joanne/bookros2_ws/install/br2_tracking_msgs/share/br2_tracking_msgs/cmake)
+[3.767s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[4.474s] -- Found vision_msgs: 2.0.0 (/opt/ros/foxy/share/vision_msgs/cmake)
+[5.052s] -- Found control_msgs: 2.5.1 (/opt/ros/foxy/share/control_msgs/cmake)
+[7.238s] -- Found image_transport: 2.4.0 (/opt/ros/foxy/share/image_transport/cmake)
+[7.438s] -- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+[8.151s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[8.665s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[8.906s] -- Added test 'copyright' to check source files copyright and LICENSE
+[8.909s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.910s] -- Configured cppcheck include dirs: /home/joanne/bookros2_ws/src/book_ros2/br2_tracking/include
+[8.910s] -- Configured cppcheck exclude dirs and/or files: 
+[8.912s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[8.912s] -- Configured cpplint exclude dirs and/or files: 
+[8.913s] -- Added test 'flake8' to check Python code syntax and style conventions
+[8.923s] -- Added test 'lint_cmake' to check CMake code style
+[8.923s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[8.925s] -- Added test 'uncrustify' to check C / C++ code style
+[8.925s] -- Configured uncrustify additional arguments: 
+[8.926s] -- Added test 'xmllint' to check XML markup files
+[8.959s] -- Configuring done
+[9.630s] -- Generating done
+[10.022s] -- Build files have been written to: /home/joanne/bookros2_ws/build/br2_tracking
+[10.129s] Invoked command in '/home/joanne/bookros2_ws/build/br2_tracking' returned '0': AMENT_PREFIX_PATH=/home/joanne/bookros2_ws/install/br2_tracking_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joanne/bookros2_ws/install/br2_tracking_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/joanne/bookros2_ws/install/br2_tracking_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joanne/bookros2_ws/install/br2_tracking_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/joanne/bookros2_ws/src/book_ros2/br2_tracking -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/joanne/bookros2_ws/install/br2_tracking
+[10.132s] Invoking command in '/home/joanne/bookros2_ws/build/br2_tracking': AMENT_PREFIX_PATH=/home/joanne/bookros2_ws/install/br2_tracking_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joanne/bookros2_ws/install/br2_tracking_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/joanne/bookros2_ws/install/br2_tracking_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joanne/bookros2_ws/install/br2_tracking_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/joanne/bookros2_ws/build/br2_tracking -- -j8 -l8
+[10.721s] [ 14%] Built target gtest
+[10.726s] [ 21%] [32mBuilding CXX object CMakeFiles/br2_tracking.dir/src/br2_tracking/HeadController.cpp.o[0m
+[10.726s] [ 35%] Built target gtest_main
+[10.727s] [ 42%] [32mBuilding CXX object CMakeFiles/br2_tracking.dir/src/br2_tracking/ObjectDetector.cpp.o[0m
+[10.727s] [ 50%] [32mBuilding CXX object CMakeFiles/br2_tracking.dir/src/br2_tracking/PIDController.cpp.o[0m
+[33.886s] [ 57%] [32m[1mLinking CXX shared library libbr2_tracking.so[0m
+[35.774s] [ 57%] Built target br2_tracking
+[35.853s] [ 64%] [32mBuilding CXX object CMakeFiles/object_detector.dir/src/object_detector_main.cpp.o[0m
+[41.168s] [ 71%] [32m[1mLinking CXX executable object_detector[0m
+[42.931s] [ 71%] Built target object_detector
+[42.992s] [ 78%] [32mBuilding CXX object tests/CMakeFiles/pid_test.dir/pid_test.cpp.o[0m
+[46.397s] [ 85%] [32m[1mLinking CXX executable pid_test[0m
+[48.392s] [ 85%] Built target pid_test
+[48.463s] [ 92%] [32mBuilding CXX object CMakeFiles/object_tracker.dir/src/object_tracker_main.cpp.o[0m
+[56.749s] [100%] [32m[1mLinking CXX executable object_tracker[0m
+[57.532s] [100%] Built target object_tracker
+[57.542s] Invoked command in '/home/joanne/bookros2_ws/build/br2_tracking' returned '0': AMENT_PREFIX_PATH=/home/joanne/bookros2_ws/install/br2_tracking_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joanne/bookros2_ws/install/br2_tracking_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/joanne/bookros2_ws/install/br2_tracking_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joanne/bookros2_ws/install/br2_tracking_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/joanne/bookros2_ws/build/br2_tracking -- -j8 -l8
+[57.544s] Invoking command in '/home/joanne/bookros2_ws/build/br2_tracking': AMENT_PREFIX_PATH=/home/joanne/bookros2_ws/install/br2_tracking_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joanne/bookros2_ws/install/br2_tracking_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/joanne/bookros2_ws/install/br2_tracking_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joanne/bookros2_ws/install/br2_tracking_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/joanne/bookros2_ws/build/br2_tracking
+[57.553s] -- Install configuration: "Debug"
+[57.554s] -- Execute custom install script
+[57.554s] -- Symlinking: /home/joanne/bookros2_ws/install/br2_tracking/lib/libbr2_tracking.so
+[57.563s] -- Symlinking: /home/joanne/bookros2_ws/install/br2_tracking/lib/br2_tracking/object_detector
+[57.571s] -- Symlinking: /home/joanne/bookros2_ws/install/br2_tracking/lib/br2_tracking/object_tracker
+[57.580s] -- Symlinking: /home/joanne/bookros2_ws/install/br2_tracking/include/include/br2_tracking/HeadController.hpp
+[57.588s] -- Symlinking: /home/joanne/bookros2_ws/install/br2_tracking/include/include/br2_tracking/ObjectDetector.hpp
+[57.596s] -- Symlinking: /home/joanne/bookros2_ws/install/br2_tracking/include/include/br2_tracking/PIDController.hpp
+[57.605s] -- Symlinking: /home/joanne/bookros2_ws/install/br2_tracking/share/br2_tracking/launch/tracking.launch.py
+[57.614s] -- Symlinking: /home/joanne/bookros2_ws/install/br2_tracking/share/br2_tracking/config/detector.yaml
+[57.623s] -- Symlinking: /home/joanne/bookros2_ws/install/br2_tracking/share/br2_tracking/environment/library_path.sh
+[57.631s] -- Symlinking: /home/joanne/bookros2_ws/install/br2_tracking/share/br2_tracking/environment/library_path.dsv
+[57.640s] -- Symlinking: /home/joanne/bookros2_ws/install/br2_tracking/share/ament_index/resource_index/package_run_dependencies/br2_tracking
+[57.649s] -- Symlinking: /home/joanne/bookros2_ws/install/br2_tracking/share/ament_index/resource_index/parent_prefix_path/br2_tracking
+[57.657s] -- Symlinking: /home/joanne/bookros2_ws/install/br2_tracking/share/br2_tracking/environment/ament_prefix_path.sh
+[57.666s] -- Symlinking: /home/joanne/bookros2_ws/install/br2_tracking/share/br2_tracking/environment/ament_prefix_path.dsv
+[57.674s] -- Symlinking: /home/joanne/bookros2_ws/install/br2_tracking/share/br2_tracking/environment/path.sh
+[57.683s] -- Symlinking: /home/joanne/bookros2_ws/install/br2_tracking/share/br2_tracking/environment/path.dsv
+[57.692s] -- Symlinking: /home/joanne/bookros2_ws/install/br2_tracking/share/br2_tracking/local_setup.bash
+[57.701s] -- Symlinking: /home/joanne/bookros2_ws/install/br2_tracking/share/br2_tracking/local_setup.sh
+[57.710s] -- Symlinking: /home/joanne/bookros2_ws/install/br2_tracking/share/br2_tracking/local_setup.zsh
+[57.718s] -- Symlinking: /home/joanne/bookros2_ws/install/br2_tracking/share/br2_tracking/local_setup.dsv
+[57.728s] -- Symlinking: /home/joanne/bookros2_ws/install/br2_tracking/share/br2_tracking/package.dsv
+[57.736s] -- Symlinking: /home/joanne/bookros2_ws/install/br2_tracking/share/ament_index/resource_index/packages/br2_tracking
+[57.744s] -- Symlinking: /home/joanne/bookros2_ws/install/br2_tracking/share/br2_tracking/cmake/ament_cmake_export_include_directories-extras.cmake
+[57.752s] -- Symlinking: /home/joanne/bookros2_ws/install/br2_tracking/share/br2_tracking/cmake/ament_cmake_export_libraries-extras.cmake
+[57.760s] -- Symlinking: /home/joanne/bookros2_ws/install/br2_tracking/share/br2_tracking/cmake/ament_cmake_export_dependencies-extras.cmake
+[57.768s] -- Symlinking: /home/joanne/bookros2_ws/install/br2_tracking/share/br2_tracking/cmake/br2_trackingConfig.cmake
+[57.776s] -- Symlinking: /home/joanne/bookros2_ws/install/br2_tracking/share/br2_tracking/cmake/br2_trackingConfig-version.cmake
+[57.784s] -- Symlinking: /home/joanne/bookros2_ws/install/br2_tracking/share/br2_tracking/package.xml
+[57.795s] Invoked command in '/home/joanne/bookros2_ws/build/br2_tracking' returned '0': AMENT_PREFIX_PATH=/home/joanne/bookros2_ws/install/br2_tracking_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/joanne/bookros2_ws/install/br2_tracking_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/joanne/bookros2_ws/install/br2_tracking_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/joanne/bookros2_ws/install/br2_tracking_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/joanne/bookros2_ws/build/br2_tracking

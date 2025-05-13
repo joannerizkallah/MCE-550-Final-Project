@@ -1,0 +1,32 @@
+In file included from [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/ObstacleDetectorNode.cpp:17[m[K:
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/include/br2_tf2_detector/ObstacleDetectorNode.hpp:38:28:[m[K [01;31m[Kerror: [m[K‘[01m[KTransformBroadcaster[m[K’ is not a member of ‘[01m[Ktf2_ros[m[K’; did you mean ‘[01m[KStaticTransformBroadcaster[m[K’?
+   38 |   std::shared_ptr<tf2_ros::[01;31m[KTransformBroadcaster[m[K> tf_broadcaster_;
+      |                            [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+      |                            [32m[KStaticTransformBroadcaster[m[K
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/include/br2_tf2_detector/ObstacleDetectorNode.hpp:38:48:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   38 |   std::shared_ptr<tf2_ros::TransformBroadcaster[01;31m[K>[m[K tf_broadcaster_;
+      |                                                [01;31m[K^[m[K
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/ObstacleDetectorNode.cpp:[m[K In constructor ‘[01m[Kbr2_tf2_detector::ObstacleDetectorNode::ObstacleDetectorNode()[m[K’:
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/ObstacleDetectorNode.cpp:38:47:[m[K [01;31m[Kerror: [m[K‘[01m[KTransformBroadcaster[m[K’ is not a member of ‘[01m[Ktf2_ros[m[K’; did you mean ‘[01m[KStaticTransformBroadcaster[m[K’?
+   38 |   tf_broadcaster_ = std::make_shared<tf2_ros::[01;31m[KTransformBroadcaster[m[K>(*this);
+      |                                               [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+      |                                               [32m[KStaticTransformBroadcaster[m[K
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/ObstacleDetectorNode.cpp:38:74:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >(br2_tf2_detector::ObstacleDetectorNode&)[m[K’
+   38 |   tf_broadcaster_ = std::make_shared<tf2_ros::TransformBroadcaster>(*this[01;31m[K)[m[K;
+      |                                                                          [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+                 from [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/ObstacleDetectorNode.cpp:15[m[K:
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+  714 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:714:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/ObstacleDetectorNode.cpp:38:74:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   38 |   tf_broadcaster_ = std::make_shared<tf2_ros::TransformBroadcaster>(*this[01;31m[K)[m[K;
+      |                                                                          [01;31m[K^[m[K
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/ObstacleDetectorNode.cpp:[m[K In member function ‘[01m[Kvoid br2_tf2_detector::ObstacleDetectorNode::scan_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr)[m[K’:
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/ObstacleDetectorNode.cpp:53:20:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+   53 |     tf_broadcaster_[01;31m[K->[m[KsendTransform(detection_tf);
+      |                    [01;31m[K^~[m[K
+make[2]: *** [CMakeFiles/br2_tf2_detector.dir/build.make:63: CMakeFiles/br2_tf2_detector.dir/src/br2_tf2_detector/ObstacleDetectorNode.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/br2_tf2_detector.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

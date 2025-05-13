@@ -1,0 +1,72 @@
+-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_lifecycle: 2.4.3 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)
+-- Found rclcpp_action: 2.4.3 (/opt/ros/foxy/share/rclcpp_action/cmake)
+-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+-- Found nav2_msgs: 0.4.7 (/opt/ros/foxy/share/nav2_msgs/cmake)
+-- Found ament_index_cpp: 1.1.0 (/opt/ros/foxy/share/ament_index_cpp/cmake)
+-- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+-- Found tf2_geometry_msgs: 0.13.14 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.3.7") 
+-- ZeroMQ found.
+-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/joanne/bookros2_ws/src/book_ros2/br2_bt_patrolling/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/joanne/bookros2_ws/build/br2_bt_patrolling
+[35m[1mScanning dependencies of target br2_recharge_bt_node[0m
+[35m[1mScanning dependencies of target patrolling_main[0m
+[35m[1mScanning dependencies of target br2_battery_checker_bt_node[0m
+[35m[1mScanning dependencies of target br2_track_objects_bt_node[0m
+[35m[1mScanning dependencies of target br2_patrol_bt_node[0m
+[35m[1mScanning dependencies of target br2_move_bt_node[0m
+[35m[1mScanning dependencies of target br2_get_waypoint_bt_node[0m
+[  5%] [32mBuilding CXX object CMakeFiles/br2_recharge_bt_node.dir/src/br2_bt_patrolling/Recharge.cpp.o[0m
+[ 15%] Built target gtest
+[ 20%] [32mBuilding CXX object CMakeFiles/patrolling_main.dir/src/patrolling_main.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/br2_track_objects_bt_node.dir/src/br2_bt_patrolling/TrackObjects.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/br2_get_waypoint_bt_node.dir/src/br2_bt_patrolling/GetWaypoint.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/br2_patrol_bt_node.dir/src/br2_bt_patrolling/Patrol.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/br2_battery_checker_bt_node.dir/src/br2_bt_patrolling/BatteryChecker.cpp.o[0m
+[ 50%] Built target gtest_main
+[ 55%] [32mBuilding CXX object CMakeFiles/br2_move_bt_node.dir/src/br2_bt_patrolling/Move.cpp.o[0m
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_bt_patrolling/src/br2_bt_patrolling/Move.cpp:25:10:[m[K [01;31m[Kfatal error: [m[Ktf2_geometry_msgs/tf2_geometry_msgs.hpp: No such file or directory
+   25 | #include [01;31m[K"tf2_geometry_msgs/tf2_geometry_msgs.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/br2_move_bt_node.dir/build.make:63: CMakeFiles/br2_move_bt_node.dir/src/br2_bt_patrolling/Move.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:239: CMakeFiles/br2_move_bt_node.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[ 60%] [32m[1mLinking CXX shared library libbr2_recharge_bt_node.so[0m
+[ 60%] Built target br2_recharge_bt_node
+[ 65%] [32m[1mLinking CXX executable patrolling_main[0m
+[ 65%] Built target patrolling_main
+[ 70%] [32m[1mLinking CXX shared library libbr2_get_waypoint_bt_node.so[0m
+[ 70%] Built target br2_get_waypoint_bt_node
+[ 75%] [32m[1mLinking CXX shared library libbr2_track_objects_bt_node.so[0m
+[ 75%] Built target br2_track_objects_bt_node
+[ 80%] [32m[1mLinking CXX shared library libbr2_patrol_bt_node.so[0m
+[ 80%] Built target br2_patrol_bt_node
+[ 85%] [32m[1mLinking CXX shared library libbr2_battery_checker_bt_node.so[0m
+[ 85%] Built target br2_battery_checker_bt_node
+make: *** [Makefile:141: all] Error 2

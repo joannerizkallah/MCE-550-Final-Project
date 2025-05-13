@@ -1,0 +1,187 @@
+[0.000000] (-) TimerEvent: {}
+[0.000364] (-) JobUnselected: {'identifier': 'br2_basics'}
+[0.000559] (-) JobUnselected: {'identifier': 'br2_bt_bumpgo'}
+[0.000607] (-) JobUnselected: {'identifier': 'br2_bt_patrolling'}
+[0.000627] (-) JobUnselected: {'identifier': 'br2_fsm_bumpgo_cpp'}
+[0.000645] (-) JobUnselected: {'identifier': 'br2_fsm_bumpgo_py'}
+[0.000661] (-) JobUnselected: {'identifier': 'br2_navigation'}
+[0.000678] (-) JobUnselected: {'identifier': 'br2_tf2_detector'}
+[0.000693] (-) JobUnselected: {'identifier': 'br2_tiago'}
+[0.000709] (-) JobUnselected: {'identifier': 'br2_tracking'}
+[0.000725] (-) JobUnselected: {'identifier': 'br2_tracking_msgs'}
+[0.000741] (-) JobUnselected: {'identifier': 'controller_interface'}
+[0.000756] (-) JobUnselected: {'identifier': 'controller_manager'}
+[0.000772] (-) JobUnselected: {'identifier': 'controller_manager_msgs'}
+[0.000787] (-) JobUnselected: {'identifier': 'diff_drive_controller'}
+[0.000802] (-) JobUnselected: {'identifier': 'effort_controllers'}
+[0.000818] (-) JobUnselected: {'identifier': 'force_torque_sensor_broadcaster'}
+[0.000833] (-) JobUnselected: {'identifier': 'forward_command_controller'}
+[0.000849] (-) JobUnselected: {'identifier': 'gazebo_ros2_control'}
+[0.000864] (-) JobUnselected: {'identifier': 'gazebo_ros2_control_demos'}
+[0.000882] (-) JobUnselected: {'identifier': 'gripper_controllers'}
+[0.000898] (-) JobUnselected: {'identifier': 'groot'}
+[0.000914] (-) JobUnselected: {'identifier': 'hardware_interface'}
+[0.000929] (-) JobUnselected: {'identifier': 'hey5_description'}
+[0.000944] (-) JobUnselected: {'identifier': 'imu_sensor_broadcaster'}
+[0.000960] (-) JobUnselected: {'identifier': 'joint_state_broadcaster'}
+[0.000975] (-) JobUnselected: {'identifier': 'joint_state_controller'}
+[0.000990] (-) JobUnselected: {'identifier': 'joint_trajectory_controller'}
+[0.001006] (-) JobUnselected: {'identifier': 'launch_pal'}
+[0.001021] (-) JobUnselected: {'identifier': 'pal_gazebo_worlds'}
+[0.001036] (-) JobUnselected: {'identifier': 'pal_gripper'}
+[0.001052] (-) JobUnselected: {'identifier': 'pal_gripper_controller_configuration'}
+[0.001067] (-) JobUnselected: {'identifier': 'pal_gripper_description'}
+[0.001083] (-) JobUnselected: {'identifier': 'pmb2_2dnav'}
+[0.001098] (-) JobUnselected: {'identifier': 'pmb2_bringup'}
+[0.001113] (-) JobUnselected: {'identifier': 'pmb2_controller_configuration'}
+[0.001129] (-) JobUnselected: {'identifier': 'pmb2_description'}
+[0.001144] (-) JobUnselected: {'identifier': 'pmb2_maps'}
+[0.001159] (-) JobUnselected: {'identifier': 'pmb2_navigation'}
+[0.001174] (-) JobUnselected: {'identifier': 'pmb2_robot'}
+[0.001190] (-) JobUnselected: {'identifier': 'position_controllers'}
+[0.001205] (-) JobUnselected: {'identifier': 'ros2_control'}
+[0.001220] (-) JobUnselected: {'identifier': 'ros2_control_test_assets'}
+[0.001236] (-) JobUnselected: {'identifier': 'ros2_controllers'}
+[0.001251] (-) JobUnselected: {'identifier': 'ros2controlcli'}
+[0.001266] (-) JobUnselected: {'identifier': 'tiago_2dnav_gazebo'}
+[0.001281] (-) JobUnselected: {'identifier': 'tiago_bringup'}
+[0.001296] (-) JobUnselected: {'identifier': 'tiago_controller_configuration'}
+[0.001312] (-) JobUnselected: {'identifier': 'tiago_description'}
+[0.001327] (-) JobUnselected: {'identifier': 'tiago_description_calibration'}
+[0.001342] (-) JobUnselected: {'identifier': 'tiago_gazebo'}
+[0.001357] (-) JobUnselected: {'identifier': 'tiago_robot'}
+[0.001373] (-) JobUnselected: {'identifier': 'tiago_simulation'}
+[0.001388] (-) JobUnselected: {'identifier': 'transmission_interface'}
+[0.001403] (-) JobUnselected: {'identifier': 'twist_mux'}
+[0.001419] (-) JobUnselected: {'identifier': 'urdf_test'}
+[0.001434] (-) JobUnselected: {'identifier': 'velocity_controllers'}
+[0.001452] (br2_vff_avoidance) JobQueued: {'identifier': 'br2_vff_avoidance', 'dependencies': OrderedDict()}
+[0.001471] (br2_vff_avoidance) JobStarted: {'identifier': 'br2_vff_avoidance'}
+[0.014793] (br2_vff_avoidance) JobProgress: {'identifier': 'br2_vff_avoidance', 'progress': 'cmake'}
+[0.016171] (br2_vff_avoidance) JobProgress: {'identifier': 'br2_vff_avoidance', 'progress': 'build'}
+[0.016833] (br2_vff_avoidance) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/joanne/bookros2_ws/build/br2_vff_avoidance', '--', '-j8', '-l8'], 'cwd': '/home/joanne/bookros2_ws/build/br2_vff_avoidance', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'joanne'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '2048'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/joanne/bookros2_ws/install/velocity_controllers/lib:/home/joanne/bookros2_ws/install/position_controllers/lib:/home/joanne/bookros2_ws/install/joint_trajectory_controller/lib:/home/joanne/bookros2_ws/install/joint_state_controller/lib:/home/joanne/bookros2_ws/install/joint_state_broadcaster/lib:/home/joanne/bookros2_ws/install/imu_sensor_broadcaster/lib:/home/joanne/bookros2_ws/install/gripper_controllers/lib:/home/joanne/bookros2_ws/install/gazebo_ros2_control/lib:/home/joanne/bookros2_ws/install/effort_controllers/lib:/home/joanne/bookros2_ws/install/forward_command_controller/lib:/home/joanne/bookros2_ws/install/force_torque_sensor_broadcaster/lib:/home/joanne/bookros2_ws/install/diff_drive_controller/lib:/home/joanne/bookros2_ws/install/controller_manager/lib:/home/joanne/bookros2_ws/install/controller_interface/lib:/home/joanne/bookros2_ws/install/hardware_interface/lib:/home/joanne/bookros2_ws/install/groot/lib:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib:/home/joanne/bookros2_ws/install/br2_vff_avoidance/lib:/home/joanne/bookros2_ws/install/br2_tracking/lib:/home/joanne/bookros2_ws/install/br2_tracking_msgs/lib:/home/joanne/bookros2_ws/install/br2_tf2_detector/lib:/home/joanne/bookros2_ws/install/br2_bt_patrolling/lib:/home/joanne/bookros2_ws/install/br2_bt_bumpgo/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/joanne'), ('OLDPWD', '/home/joanne'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1787'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/joanne/bookros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'joanne'), ('JOURNAL_STREAM', '8:53958'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'joanne'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/joanne-ThinkPad-E15:@/tmp/.ICE-unix/2152,unix/joanne-ThinkPad-E15:/tmp/.ICE-unix/2152'), ('INVOCATION_ID', 'ae1847f401344693851cf85690d22bc0'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/94187aac_3624_4a99_9076_39811d3a3027'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/joanne/bookros2_ws/install/gazebo_ros2_control_demos:/home/joanne/bookros2_ws/install/ros2_controllers:/home/joanne/bookros2_ws/install/velocity_controllers:/home/joanne/bookros2_ws/install/urdf_test:/home/joanne/bookros2_ws/install/tiago_simulation:/home/joanne/bookros2_ws/install/tiago_robot:/home/joanne/bookros2_ws/install/tiago_2dnav_gazebo:/home/joanne/bookros2_ws/install/tiago_gazebo:/home/joanne/bookros2_ws/install/tiago_bringup:/home/joanne/bookros2_ws/install/pmb2_robot:/home/joanne/bookros2_ws/install/pmb2_bringup:/home/joanne/bookros2_ws/install/twist_mux:/home/joanne/bookros2_ws/install/transmission_interface:/home/joanne/bookros2_ws/install/tiago_description:/home/joanne/bookros2_ws/install/tiago_description_calibration:/home/joanne/bookros2_ws/install/tiago_controller_configuration:/home/joanne/bookros2_ws/install/ros2_control:/home/joanne/bookros2_ws/install/ros2controlcli:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/pal_gripper:/home/joanne/bookros2_ws/install/pal_gripper_controller_configuration:/home/joanne/bookros2_ws/install/position_controllers:/home/joanne/bookros2_ws/install/pmb2_navigation:/home/joanne/bookros2_ws/install/pmb2_2dnav:/home/joanne/bookros2_ws/install/pmb2_maps:/home/joanne/bookros2_ws/install/pmb2_description:/home/joanne/bookros2_ws/install/pmb2_controller_configuration:/home/joanne/bookros2_ws/install/pal_gripper_description:/home/joanne/bookros2_ws/install/pal_gazebo_worlds:/home/joanne/bookros2_ws/install/launch_pal:/home/joanne/bookros2_ws/install/joint_trajectory_controller:/home/joanne/bookros2_ws/install/joint_state_controller:/home/joanne/bookros2_ws/install/joint_state_broadcaster:/home/joanne/bookros2_ws/install/imu_sensor_broadcaster:/home/joanne/bookros2_ws/install/hey5_description:/home/joanne/bookros2_ws/install/gripper_controllers:/home/joanne/bookros2_ws/install/gazebo_ros2_control:/home/joanne/bookros2_ws/install/effort_controllers:/home/joanne/bookros2_ws/install/forward_command_controller:/home/joanne/bookros2_ws/install/force_torque_sensor_broadcaster:/home/joanne/bookros2_ws/install/diff_drive_controller:/home/joanne/bookros2_ws/install/controller_manager:/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/groot:/home/joanne/bookros2_ws/install/controller_manager_msgs:/home/joanne/bookros2_ws/install/br2_vff_avoidance:/home/joanne/bookros2_ws/install/br2_tracking:/home/joanne/bookros2_ws/install/br2_tracking_msgs:/home/joanne/bookros2_ws/install/br2_tiago:/home/joanne/bookros2_ws/install/br2_tf2_detector:/home/joanne/bookros2_ws/install/br2_navigation:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_py:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_cpp:/home/joanne/bookros2_ws/install/br2_bt_patrolling:/home/joanne/bookros2_ws/install/br2_bt_bumpgo:/home/joanne/bookros2_ws/install/br2_basics:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/joanne/bookros2_ws/build/br2_vff_avoidance'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/joanne/bookros2_ws/install/urdf_test/lib/python3.8/site-packages:/home/joanne/bookros2_ws/install/tiago_description/lib/python3.8/site-packages:/home/joanne/bookros2_ws/build/ros2controlcli:/home/joanne/bookros2_ws/install/ros2controlcli/lib/python3.8/site-packages:/home/joanne/bookros2_ws/install/pmb2_description/lib/python3.8/site-packages:/home/joanne/bookros2_ws/build/launch_pal:/home/joanne/bookros2_ws/install/launch_pal/lib/python3.8/site-packages:/home/joanne/bookros2_ws/install/controller_manager/lib/python3.8/site-packages:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:/home/joanne/bookros2_ws/install/br2_tracking_msgs/lib/python3.8/site-packages:/home/joanne/bookros2_ws/build/br2_fsm_bumpgo_py:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_py/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/joanne/bookros2_ws/install/gazebo_ros2_control_demos:/home/joanne/bookros2_ws/install/ros2_controllers:/home/joanne/bookros2_ws/install/velocity_controllers:/home/joanne/bookros2_ws/install/urdf_test:/home/joanne/bookros2_ws/install/tiago_simulation:/home/joanne/bookros2_ws/install/tiago_robot:/home/joanne/bookros2_ws/install/tiago_2dnav_gazebo:/home/joanne/bookros2_ws/install/tiago_gazebo:/home/joanne/bookros2_ws/install/tiago_bringup:/home/joanne/bookros2_ws/install/pmb2_robot:/home/joanne/bookros2_ws/install/pmb2_bringup:/home/joanne/bookros2_ws/install/twist_mux:/home/joanne/bookros2_ws/install/transmission_interface:/home/joanne/bookros2_ws/install/tiago_description:/home/joanne/bookros2_ws/install/tiago_description_calibration:/home/joanne/bookros2_ws/install/tiago_controller_configuration:/home/joanne/bookros2_ws/install/ros2_control:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/pal_gripper:/home/joanne/bookros2_ws/install/pal_gripper_controller_configuration:/home/joanne/bookros2_ws/install/position_controllers:/home/joanne/bookros2_ws/install/pmb2_navigation:/home/joanne/bookros2_ws/install/pmb2_2dnav:/home/joanne/bookros2_ws/install/pmb2_maps:/home/joanne/bookros2_ws/install/pmb2_description:/home/joanne/bookros2_ws/install/pmb2_controller_configuration:/home/joanne/bookros2_ws/install/pal_gripper_description:/home/joanne/bookros2_ws/install/pal_gazebo_worlds:/home/joanne/bookros2_ws/install/joint_trajectory_controller:/home/joanne/bookros2_ws/install/joint_state_controller:/home/joanne/bookros2_ws/install/joint_state_broadcaster:/home/joanne/bookros2_ws/install/imu_sensor_broadcaster:/home/joanne/bookros2_ws/install/hey5_description:/home/joanne/bookros2_ws/install/gripper_controllers:/home/joanne/bookros2_ws/install/gazebo_ros2_control:/home/joanne/bookros2_ws/install/effort_controllers:/home/joanne/bookros2_ws/install/forward_command_controller:/home/joanne/bookros2_ws/install/force_torque_sensor_broadcaster:/home/joanne/bookros2_ws/install/diff_drive_controller:/home/joanne/bookros2_ws/install/controller_manager:/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/groot:/home/joanne/bookros2_ws/install/controller_manager_msgs:/home/joanne/bookros2_ws/install/br2_vff_avoidance:/home/joanne/bookros2_ws/install/br2_tracking:/home/joanne/bookros2_ws/install/br2_tracking_msgs:/home/joanne/bookros2_ws/install/br2_tiago:/home/joanne/bookros2_ws/install/br2_tf2_detector:/home/joanne/bookros2_ws/install/br2_navigation:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_cpp:/home/joanne/bookros2_ws/install/br2_bt_patrolling:/home/joanne/bookros2_ws/install/br2_bt_bumpgo:/home/joanne/bookros2_ws/install/br2_basics:/home/joanne/bookros2_ws/install/ros2controlcli:/home/joanne/bookros2_ws/install/launch_pal:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy')]), 'shell': False}
+[0.080286] (br2_vff_avoidance) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.099795] (-) TimerEvent: {}
+[0.112487] (br2_vff_avoidance) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.199892] (-) TimerEvent: {}
+[0.267756] (br2_vff_avoidance) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.287780] (br2_vff_avoidance) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.299951] (-) TimerEvent: {}
+[0.337642] (br2_vff_avoidance) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.342542] (br2_vff_avoidance) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.400062] (-) TimerEvent: {}
+[0.468166] (br2_vff_avoidance) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500171] (-) TimerEvent: {}
+[0.522694] (br2_vff_avoidance) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.527021] (br2_vff_avoidance) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.600297] (-) TimerEvent: {}
+[0.661421] (br2_vff_avoidance) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[0.700403] (-) TimerEvent: {}
+[0.767143] (br2_vff_avoidance) StdoutLine: {'line': b'-- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)\n'}
+[0.800509] (-) TimerEvent: {}
+[0.836929] (br2_vff_avoidance) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.900618] (-) TimerEvent: {}
+[0.901423] (br2_vff_avoidance) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[0.913774] (br2_vff_avoidance) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.914767] (br2_vff_avoidance) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.914992] (br2_vff_avoidance) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/joanne/bookros2_ws/src/book_ros2/br2_vff_avoidance/include\n'}
+[0.915047] (br2_vff_avoidance) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.915823] (br2_vff_avoidance) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.915877] (br2_vff_avoidance) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.916338] (br2_vff_avoidance) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.916857] (br2_vff_avoidance) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.917329] (br2_vff_avoidance) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[0.918112] (br2_vff_avoidance) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.918164] (br2_vff_avoidance) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.918612] (br2_vff_avoidance) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.923265] (br2_vff_avoidance) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.951066] (br2_vff_avoidance) StdoutLine: {'line': b'-- Generating done\n'}
+[0.960185] (br2_vff_avoidance) StdoutLine: {'line': b'-- Build files have been written to: /home/joanne/bookros2_ws/build/br2_vff_avoidance\n'}
+[1.000742] (-) TimerEvent: {}
+[1.001072] (br2_vff_avoidance) StdoutLine: {'line': b'[ 40%] Built target gtest_main\n'}
+[1.001286] (br2_vff_avoidance) StdoutLine: {'line': b'[ 40%] Built target gtest\n'}
+[1.005279] (br2_vff_avoidance) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target br2_vff_avoidance\x1b[0m\n'}
+[1.037361] (br2_vff_avoidance) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/br2_vff_avoidance.dir/src/br2_vff_avoidance/AvoidanceNode.cpp.o\x1b[0m\n'}
+[1.100876] (-) TimerEvent: {}
+[1.201184] (-) TimerEvent: {}
+[1.301453] (-) TimerEvent: {}
+[1.401774] (-) TimerEvent: {}
+[1.502093] (-) TimerEvent: {}
+[1.602426] (-) TimerEvent: {}
+[1.702762] (-) TimerEvent: {}
+[1.803091] (-) TimerEvent: {}
+[1.903415] (-) TimerEvent: {}
+[2.003754] (-) TimerEvent: {}
+[2.104074] (-) TimerEvent: {}
+[2.204426] (-) TimerEvent: {}
+[2.304755] (-) TimerEvent: {}
+[2.405076] (-) TimerEvent: {}
+[2.472666] (br2_vff_avoidance) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_vff_avoidance/src/br2_vff_avoidance/AvoidanceNode.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid br2_vff_avoidance::AvoidanceNode::control_cycle()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.472878] (br2_vff_avoidance) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_vff_avoidance/src/br2_vff_avoidance/AvoidanceNode.cpp:46:59:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kbr2_vff_avoidance::AvoidanceNode::get_debug_vff(sensor_msgs::msg::LaserScan_<std::allocator<void> >&, br2_vff_avoidance::VFFVectors&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.472955] (br2_vff_avoidance) StderrLine: {'line': b'   46 |     vff_debug_pub_->publish(get_debug_vff(*last_scan_, vff\x1b[01;31m\x1b[K)\x1b[m\x1b[K);\n'}
+[2.473020] (br2_vff_avoidance) StderrLine: {'line': b'      |                                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.473083] (br2_vff_avoidance) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_vff_avoidance/src/br2_vff_avoidance/AvoidanceNode.cpp:2\x1b[m\x1b[K:\n'}
+[2.473144] (br2_vff_avoidance) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_vff_avoidance/include/br2_vff_avoidance/AvoidanceNode.hpp:50:40:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvisualization_msgs::msg::MarkerArray br2_vff_avoidance::AvoidanceNode::get_debug_vff(const br2_vff_avoidance::VFFVectors&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.473205] (br2_vff_avoidance) StderrLine: {'line': b'   50 |   visualization_msgs::msg::MarkerArray \x1b[01;36m\x1b[Kget_debug_vff\x1b[m\x1b[K(const VFFVectors & vff_vectors);\n'}
+[2.473269] (br2_vff_avoidance) StderrLine: {'line': b'      |                                        \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.473327] (br2_vff_avoidance) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_vff_avoidance/include/br2_vff_avoidance/AvoidanceNode.hpp:50:40:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 2 provided\n'}
+[2.474057] (br2_vff_avoidance) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_vff_avoidance/src/br2_vff_avoidance/AvoidanceNode.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvisualization_msgs::msg::MarkerArray br2_vff_avoidance::AvoidanceNode::get_debug_vff(const br2_vff_avoidance::VFFVectors&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.474308] (br2_vff_avoidance) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_vff_avoidance/src/br2_vff_avoidance/AvoidanceNode.cpp:79:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kbr2_vff_avoidance::AvoidanceNode::make_marker(const std::vector<float, std::allocator<float> >&, br2_vff_avoidance::VFFColor, int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.474398] (br2_vff_avoidance) StderrLine: {'line': b'   79 |   array.markers.push_back(make_marker(vff.attractive, BLUE,  id++\x1b[01;31m\x1b[K)\x1b[m\x1b[K);\n'}
+[2.474469] (br2_vff_avoidance) StderrLine: {'line': b'      |                                                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.474531] (br2_vff_avoidance) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_vff_avoidance/src/br2_vff_avoidance/AvoidanceNode.cpp:2\x1b[m\x1b[K:\n'}
+[2.474605] (br2_vff_avoidance) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_vff_avoidance/include/br2_vff_avoidance/AvoidanceNode.hpp:51:35:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvisualization_msgs::msg::Marker br2_vff_avoidance::AvoidanceNode::make_marker(const std::vector<float, std::allocator<float> >&, br2_vff_avoidance::VFFColor)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.474671] (br2_vff_avoidance) StderrLine: {'line': b'   51 |   visualization_msgs::msg::Marker \x1b[01;36m\x1b[Kmake_marker\x1b[m\x1b[K(\n'}
+[2.474730] (br2_vff_avoidance) StderrLine: {'line': b'      |                                   \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.474788] (br2_vff_avoidance) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_vff_avoidance/include/br2_vff_avoidance/AvoidanceNode.hpp:51:35:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 3 provided\n'}
+[2.474851] (br2_vff_avoidance) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_vff_avoidance/src/br2_vff_avoidance/AvoidanceNode.cpp:80:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kbr2_vff_avoidance::AvoidanceNode::make_marker(const std::vector<float, std::allocator<float> >&, br2_vff_avoidance::VFFColor, int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.474915] (br2_vff_avoidance) StderrLine: {'line': b'   80 |   array.markers.push_back(make_marker(vff.result,     GREEN, id++\x1b[01;31m\x1b[K)\x1b[m\x1b[K);\n'}
+[2.474973] (br2_vff_avoidance) StderrLine: {'line': b'      |                                                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.475030] (br2_vff_avoidance) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_vff_avoidance/src/br2_vff_avoidance/AvoidanceNode.cpp:2\x1b[m\x1b[K:\n'}
+[2.475088] (br2_vff_avoidance) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_vff_avoidance/include/br2_vff_avoidance/AvoidanceNode.hpp:51:35:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kvisualization_msgs::msg::Marker br2_vff_avoidance::AvoidanceNode::make_marker(const std::vector<float, std::allocator<float> >&, br2_vff_avoidance::VFFColor)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.475150] (br2_vff_avoidance) StderrLine: {'line': b'   51 |   visualization_msgs::msg::Marker \x1b[01;36m\x1b[Kmake_marker\x1b[m\x1b[K(\n'}
+[2.475212] (br2_vff_avoidance) StderrLine: {'line': b'      |                                   \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.475270] (br2_vff_avoidance) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_vff_avoidance/include/br2_vff_avoidance/AvoidanceNode.hpp:51:35:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 3 provided\n'}
+[2.475329] (br2_vff_avoidance) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_vff_avoidance/src/br2_vff_avoidance/AvoidanceNode.cpp:\x1b[m\x1b[K At global scope:\n'}
+[2.475387] (br2_vff_avoidance) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_vff_avoidance/src/br2_vff_avoidance/AvoidanceNode.cpp:84:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kvisualization_msgs::msg::MarkerArray br2_vff_avoidance::AvoidanceNode::get_debug_vff(const LaserScan&, const br2_vff_avoidance::VFFVectors&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.475452] (br2_vff_avoidance) StderrLine: {'line': b'   84 | visualization_msgs::msg::MarkerArray \x1b[01;31m\x1b[KAvoidanceNode\x1b[m\x1b[K::get_debug_vff(\n'}
+[2.475511] (br2_vff_avoidance) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.475569] (br2_vff_avoidance) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_vff_avoidance/src/br2_vff_avoidance/AvoidanceNode.cpp:74:38:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate is: \xe2\x80\x98\x1b[01m\x1b[Kvisualization_msgs::msg::MarkerArray br2_vff_avoidance::AvoidanceNode::get_debug_vff(const br2_vff_avoidance::VFFVectors&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.475632] (br2_vff_avoidance) StderrLine: {'line': b'   74 | visualization_msgs::msg::MarkerArray \x1b[01;36m\x1b[KAvoidanceNode\x1b[m\x1b[K::get_debug_vff(\n'}
+[2.475691] (br2_vff_avoidance) StderrLine: {'line': b'      |                                      \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.475748] (br2_vff_avoidance) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_vff_avoidance/src/br2_vff_avoidance/AvoidanceNode.cpp:2\x1b[m\x1b[K:\n'}
+[2.475806] (br2_vff_avoidance) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_vff_avoidance/include/br2_vff_avoidance/AvoidanceNode.hpp:39:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass br2_vff_avoidance::AvoidanceNode\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[2.475864] (br2_vff_avoidance) StderrLine: {'line': b'   39 | class \x1b[01;36m\x1b[KAvoidanceNode\x1b[m\x1b[K : public rclcpp::Node\n'}
+[2.475920] (br2_vff_avoidance) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.475977] (br2_vff_avoidance) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_vff_avoidance/src/br2_vff_avoidance/AvoidanceNode.cpp:108:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kvisualization_msgs::msg::Marker br2_vff_avoidance::AvoidanceNode::make_marker(const std::vector<float, std::allocator<float> >&, br2_vff_avoidance::VFFColor, int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.476043] (br2_vff_avoidance) StderrLine: {'line': b'  108 | visualization_msgs::msg::Marker \x1b[01;31m\x1b[KAvoidanceNode\x1b[m\x1b[K::make_marker(\n'}
+[2.476101] (br2_vff_avoidance) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.476158] (br2_vff_avoidance) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_vff_avoidance/src/br2_vff_avoidance/AvoidanceNode.cpp:2\x1b[m\x1b[K:\n'}
+[2.476215] (br2_vff_avoidance) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_vff_avoidance/include/br2_vff_avoidance/AvoidanceNode.hpp:51:35:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate is: \xe2\x80\x98\x1b[01m\x1b[Kvisualization_msgs::msg::Marker br2_vff_avoidance::AvoidanceNode::make_marker(const std::vector<float, std::allocator<float> >&, br2_vff_avoidance::VFFColor)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.476277] (br2_vff_avoidance) StderrLine: {'line': b'   51 |   visualization_msgs::msg::Marker \x1b[01;36m\x1b[Kmake_marker\x1b[m\x1b[K(\n'}
+[2.476334] (br2_vff_avoidance) StderrLine: {'line': b'      |                                   \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.476392] (br2_vff_avoidance) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_vff_avoidance/include/br2_vff_avoidance/AvoidanceNode.hpp:39:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass br2_vff_avoidance::AvoidanceNode\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[2.476450] (br2_vff_avoidance) StderrLine: {'line': b'   39 | class \x1b[01;36m\x1b[KAvoidanceNode\x1b[m\x1b[K : public rclcpp::Node\n'}
+[2.476506] (br2_vff_avoidance) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.505218] (-) TimerEvent: {}
+[2.605522] (-) TimerEvent: {}
+[2.705853] (-) TimerEvent: {}
+[2.806331] (-) TimerEvent: {}
+[2.906674] (-) TimerEvent: {}
+[3.006997] (-) TimerEvent: {}
+[3.107319] (-) TimerEvent: {}
+[3.207648] (-) TimerEvent: {}
+[3.307980] (-) TimerEvent: {}
+[3.408303] (-) TimerEvent: {}
+[3.508634] (-) TimerEvent: {}
+[3.608985] (-) TimerEvent: {}
+[3.709300] (-) TimerEvent: {}
+[3.809608] (-) TimerEvent: {}
+[3.909940] (-) TimerEvent: {}
+[4.003046] (br2_vff_avoidance) StderrLine: {'line': b'make[2]: *** [CMakeFiles/br2_vff_avoidance.dir/build.make:63: CMakeFiles/br2_vff_avoidance.dir/src/br2_vff_avoidance/AvoidanceNode.cpp.o] Error 1\n'}
+[4.003294] (br2_vff_avoidance) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:148: CMakeFiles/br2_vff_avoidance.dir/all] Error 2\n'}
+[4.003514] (br2_vff_avoidance) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[4.005717] (br2_vff_avoidance) CommandEnded: {'returncode': 2}
+[4.010046] (-) TimerEvent: {}
+[4.029445] (br2_vff_avoidance) JobEnded: {'identifier': 'br2_vff_avoidance', 'rc': 2}
+[4.040121] (-) EventReactorShutdown: {}

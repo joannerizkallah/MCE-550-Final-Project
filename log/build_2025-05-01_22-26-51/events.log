@@ -1,0 +1,428 @@
+[0.000000] (-) TimerEvent: {}
+[0.000857] (-) JobUnselected: {'identifier': 'br2_basics'}
+[0.000949] (-) JobUnselected: {'identifier': 'br2_bt_bumpgo'}
+[0.000992] (-) JobUnselected: {'identifier': 'br2_bt_patrolling'}
+[0.001024] (-) JobUnselected: {'identifier': 'br2_fsm_bumpgo_cpp'}
+[0.001053] (-) JobUnselected: {'identifier': 'br2_fsm_bumpgo_py'}
+[0.001081] (-) JobUnselected: {'identifier': 'br2_navigation'}
+[0.001109] (-) JobUnselected: {'identifier': 'br2_tiago'}
+[0.001136] (-) JobUnselected: {'identifier': 'br2_tracking'}
+[0.001214] (-) JobUnselected: {'identifier': 'br2_tracking_msgs'}
+[0.001254] (-) JobUnselected: {'identifier': 'br2_vff_avoidance'}
+[0.001282] (-) JobUnselected: {'identifier': 'controller_interface'}
+[0.001307] (-) JobUnselected: {'identifier': 'controller_manager'}
+[0.001332] (-) JobUnselected: {'identifier': 'controller_manager_msgs'}
+[0.001361] (-) JobUnselected: {'identifier': 'diff_drive_controller'}
+[0.001395] (-) JobUnselected: {'identifier': 'effort_controllers'}
+[0.001430] (-) JobUnselected: {'identifier': 'force_torque_sensor_broadcaster'}
+[0.001470] (-) JobUnselected: {'identifier': 'forward_command_controller'}
+[0.001508] (-) JobUnselected: {'identifier': 'gazebo_ros2_control'}
+[0.001541] (-) JobUnselected: {'identifier': 'gazebo_ros2_control_demos'}
+[0.001584] (-) JobUnselected: {'identifier': 'gripper_controllers'}
+[0.001619] (-) JobUnselected: {'identifier': 'groot'}
+[0.001652] (-) JobUnselected: {'identifier': 'hardware_interface'}
+[0.001685] (-) JobUnselected: {'identifier': 'hey5_description'}
+[0.001718] (-) JobUnselected: {'identifier': 'imu_sensor_broadcaster'}
+[0.001751] (-) JobUnselected: {'identifier': 'joint_state_broadcaster'}
+[0.001786] (-) JobUnselected: {'identifier': 'joint_state_controller'}
+[0.001822] (-) JobUnselected: {'identifier': 'joint_trajectory_controller'}
+[0.001850] (-) JobUnselected: {'identifier': 'launch_pal'}
+[0.001875] (-) JobUnselected: {'identifier': 'pal_gazebo_worlds'}
+[0.001902] (-) JobUnselected: {'identifier': 'pal_gripper'}
+[0.001928] (-) JobUnselected: {'identifier': 'pal_gripper_controller_configuration'}
+[0.001954] (-) JobUnselected: {'identifier': 'pal_gripper_description'}
+[0.001979] (-) JobUnselected: {'identifier': 'pmb2_2dnav'}
+[0.002004] (-) JobUnselected: {'identifier': 'pmb2_bringup'}
+[0.002038] (-) JobUnselected: {'identifier': 'pmb2_controller_configuration'}
+[0.002088] (-) JobUnselected: {'identifier': 'pmb2_description'}
+[0.002357] (-) JobUnselected: {'identifier': 'pmb2_maps'}
+[0.002388] (-) JobUnselected: {'identifier': 'pmb2_navigation'}
+[0.002423] (-) JobUnselected: {'identifier': 'pmb2_robot'}
+[0.002464] (-) JobUnselected: {'identifier': 'position_controllers'}
+[0.002493] (-) JobUnselected: {'identifier': 'ros2_control'}
+[0.002530] (-) JobUnselected: {'identifier': 'ros2_control_test_assets'}
+[0.002625] (-) JobUnselected: {'identifier': 'ros2_controllers'}
+[0.002658] (-) JobUnselected: {'identifier': 'ros2controlcli'}
+[0.002684] (-) JobUnselected: {'identifier': 'tiago_2dnav_gazebo'}
+[0.002710] (-) JobUnselected: {'identifier': 'tiago_bringup'}
+[0.002738] (-) JobUnselected: {'identifier': 'tiago_controller_configuration'}
+[0.002764] (-) JobUnselected: {'identifier': 'tiago_description'}
+[0.002791] (-) JobUnselected: {'identifier': 'tiago_description_calibration'}
+[0.002816] (-) JobUnselected: {'identifier': 'tiago_gazebo'}
+[0.002843] (-) JobUnselected: {'identifier': 'tiago_robot'}
+[0.002868] (-) JobUnselected: {'identifier': 'tiago_simulation'}
+[0.002895] (-) JobUnselected: {'identifier': 'transmission_interface'}
+[0.002927] (-) JobUnselected: {'identifier': 'twist_mux'}
+[0.002959] (-) JobUnselected: {'identifier': 'urdf_test'}
+[0.002986] (-) JobUnselected: {'identifier': 'velocity_controllers'}
+[0.003018] (br2_tf2_detector) JobQueued: {'identifier': 'br2_tf2_detector', 'dependencies': OrderedDict()}
+[0.003053] (br2_tf2_detector) JobStarted: {'identifier': 'br2_tf2_detector'}
+[0.095767] (br2_tf2_detector) JobProgress: {'identifier': 'br2_tf2_detector', 'progress': 'cmake'}
+[0.098934] (-) TimerEvent: {}
+[0.112998] (br2_tf2_detector) JobProgress: {'identifier': 'br2_tf2_detector', 'progress': 'build'}
+[0.114292] (br2_tf2_detector) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/joanne/bookros2_ws/build/br2_tf2_detector', '--', '-j8', '-l8'], 'cwd': '/home/joanne/bookros2_ws/build/br2_tf2_detector', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'joanne'), ('LC_TIME', 'en_US.UTF-8'), ('SSH_AGENT_PID', '1836'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/joanne/bookros2_ws/install/velocity_controllers/lib:/home/joanne/bookros2_ws/install/position_controllers/lib:/home/joanne/bookros2_ws/install/joint_trajectory_controller/lib:/home/joanne/bookros2_ws/install/joint_state_controller/lib:/home/joanne/bookros2_ws/install/joint_state_broadcaster/lib:/home/joanne/bookros2_ws/install/imu_sensor_broadcaster/lib:/home/joanne/bookros2_ws/install/gripper_controllers/lib:/home/joanne/bookros2_ws/install/gazebo_ros2_control/lib:/home/joanne/bookros2_ws/install/effort_controllers/lib:/home/joanne/bookros2_ws/install/forward_command_controller/lib:/home/joanne/bookros2_ws/install/force_torque_sensor_broadcaster/lib:/home/joanne/bookros2_ws/install/diff_drive_controller/lib:/home/joanne/bookros2_ws/install/controller_manager/lib:/home/joanne/bookros2_ws/install/controller_interface/lib:/home/joanne/bookros2_ws/install/hardware_interface/lib:/home/joanne/bookros2_ws/install/groot/lib:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib:/home/joanne/bookros2_ws/install/br2_vff_avoidance/lib:/home/joanne/bookros2_ws/install/br2_tracking/lib:/home/joanne/bookros2_ws/install/br2_tracking_msgs/lib:/home/joanne/bookros2_ws/install/br2_tf2_detector/lib:/home/joanne/bookros2_ws/install/br2_bt_patrolling/lib:/home/joanne/bookros2_ws/install/br2_bt_bumpgo/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/joanne'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1625'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a6a4d15eabc1d7837ee582e56813ac46'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/joanne/bookros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'joanne'), ('JOURNAL_STREAM', '8:50326'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'joanne'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/joanne-ThinkPad-E15:@/tmp/.ICE-unix/1918,unix/joanne-ThinkPad-E15:/tmp/.ICE-unix/1918'), ('INVOCATION_ID', 'fc06dce9fe264def8f06660c678db0eb'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b269f015_6cdb_41d8_afc6_40bfce0555aa'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.121'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/joanne/bookros2_ws/install/gazebo_ros2_control_demos:/home/joanne/bookros2_ws/install/ros2_controllers:/home/joanne/bookros2_ws/install/velocity_controllers:/home/joanne/bookros2_ws/install/urdf_test:/home/joanne/bookros2_ws/install/tiago_simulation:/home/joanne/bookros2_ws/install/tiago_robot:/home/joanne/bookros2_ws/install/tiago_2dnav_gazebo:/home/joanne/bookros2_ws/install/tiago_gazebo:/home/joanne/bookros2_ws/install/tiago_bringup:/home/joanne/bookros2_ws/install/pmb2_robot:/home/joanne/bookros2_ws/install/pmb2_bringup:/home/joanne/bookros2_ws/install/twist_mux:/home/joanne/bookros2_ws/install/transmission_interface:/home/joanne/bookros2_ws/install/tiago_description:/home/joanne/bookros2_ws/install/tiago_description_calibration:/home/joanne/bookros2_ws/install/tiago_controller_configuration:/home/joanne/bookros2_ws/install/ros2_control:/home/joanne/bookros2_ws/install/ros2controlcli:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/pal_gripper:/home/joanne/bookros2_ws/install/pal_gripper_controller_configuration:/home/joanne/bookros2_ws/install/position_controllers:/home/joanne/bookros2_ws/install/pmb2_navigation:/home/joanne/bookros2_ws/install/pmb2_2dnav:/home/joanne/bookros2_ws/install/pmb2_maps:/home/joanne/bookros2_ws/install/pmb2_description:/home/joanne/bookros2_ws/install/pmb2_controller_configuration:/home/joanne/bookros2_ws/install/pal_gripper_description:/home/joanne/bookros2_ws/install/pal_gazebo_worlds:/home/joanne/bookros2_ws/install/launch_pal:/home/joanne/bookros2_ws/install/joint_trajectory_controller:/home/joanne/bookros2_ws/install/joint_state_controller:/home/joanne/bookros2_ws/install/joint_state_broadcaster:/home/joanne/bookros2_ws/install/imu_sensor_broadcaster:/home/joanne/bookros2_ws/install/hey5_description:/home/joanne/bookros2_ws/install/gripper_controllers:/home/joanne/bookros2_ws/install/gazebo_ros2_control:/home/joanne/bookros2_ws/install/effort_controllers:/home/joanne/bookros2_ws/install/forward_command_controller:/home/joanne/bookros2_ws/install/force_torque_sensor_broadcaster:/home/joanne/bookros2_ws/install/diff_drive_controller:/home/joanne/bookros2_ws/install/controller_manager:/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/groot:/home/joanne/bookros2_ws/install/controller_manager_msgs:/home/joanne/bookros2_ws/install/br2_vff_avoidance:/home/joanne/bookros2_ws/install/br2_tracking:/home/joanne/bookros2_ws/install/br2_tracking_msgs:/home/joanne/bookros2_ws/install/br2_tiago:/home/joanne/bookros2_ws/install/br2_tf2_detector:/home/joanne/bookros2_ws/install/br2_navigation:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_py:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_cpp:/home/joanne/bookros2_ws/install/br2_bt_patrolling:/home/joanne/bookros2_ws/install/br2_bt_bumpgo:/home/joanne/bookros2_ws/install/br2_basics:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/joanne/bookros2_ws/build/br2_tf2_detector'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=a6a4d15eabc1d7837ee582e56813ac46'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/joanne/bookros2_ws/install/urdf_test/lib/python3.8/site-packages:/home/joanne/bookros2_ws/install/tiago_description/lib/python3.8/site-packages:/home/joanne/bookros2_ws/build/ros2controlcli:/home/joanne/bookros2_ws/install/ros2controlcli/lib/python3.8/site-packages:/home/joanne/bookros2_ws/install/pmb2_description/lib/python3.8/site-packages:/home/joanne/bookros2_ws/build/launch_pal:/home/joanne/bookros2_ws/install/launch_pal/lib/python3.8/site-packages:/home/joanne/bookros2_ws/install/controller_manager/lib/python3.8/site-packages:/home/joanne/bookros2_ws/install/controller_manager_msgs/lib/python3.8/site-packages:/home/joanne/bookros2_ws/install/br2_tracking_msgs/lib/python3.8/site-packages:/home/joanne/bookros2_ws/build/br2_fsm_bumpgo_py:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_py/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/joanne/bookros2_ws/install/gazebo_ros2_control_demos:/home/joanne/bookros2_ws/install/ros2_controllers:/home/joanne/bookros2_ws/install/velocity_controllers:/home/joanne/bookros2_ws/install/urdf_test:/home/joanne/bookros2_ws/install/tiago_simulation:/home/joanne/bookros2_ws/install/tiago_robot:/home/joanne/bookros2_ws/install/tiago_2dnav_gazebo:/home/joanne/bookros2_ws/install/tiago_gazebo:/home/joanne/bookros2_ws/install/tiago_bringup:/home/joanne/bookros2_ws/install/pmb2_robot:/home/joanne/bookros2_ws/install/pmb2_bringup:/home/joanne/bookros2_ws/install/twist_mux:/home/joanne/bookros2_ws/install/transmission_interface:/home/joanne/bookros2_ws/install/tiago_description:/home/joanne/bookros2_ws/install/tiago_description_calibration:/home/joanne/bookros2_ws/install/tiago_controller_configuration:/home/joanne/bookros2_ws/install/ros2_control:/home/joanne/bookros2_ws/install/ros2_control_test_assets:/home/joanne/bookros2_ws/install/pal_gripper:/home/joanne/bookros2_ws/install/pal_gripper_controller_configuration:/home/joanne/bookros2_ws/install/position_controllers:/home/joanne/bookros2_ws/install/pmb2_navigation:/home/joanne/bookros2_ws/install/pmb2_2dnav:/home/joanne/bookros2_ws/install/pmb2_maps:/home/joanne/bookros2_ws/install/pmb2_description:/home/joanne/bookros2_ws/install/pmb2_controller_configuration:/home/joanne/bookros2_ws/install/pal_gripper_description:/home/joanne/bookros2_ws/install/pal_gazebo_worlds:/home/joanne/bookros2_ws/install/joint_trajectory_controller:/home/joanne/bookros2_ws/install/joint_state_controller:/home/joanne/bookros2_ws/install/joint_state_broadcaster:/home/joanne/bookros2_ws/install/imu_sensor_broadcaster:/home/joanne/bookros2_ws/install/hey5_description:/home/joanne/bookros2_ws/install/gripper_controllers:/home/joanne/bookros2_ws/install/gazebo_ros2_control:/home/joanne/bookros2_ws/install/effort_controllers:/home/joanne/bookros2_ws/install/forward_command_controller:/home/joanne/bookros2_ws/install/force_torque_sensor_broadcaster:/home/joanne/bookros2_ws/install/diff_drive_controller:/home/joanne/bookros2_ws/install/controller_manager:/home/joanne/bookros2_ws/install/controller_interface:/home/joanne/bookros2_ws/install/hardware_interface:/home/joanne/bookros2_ws/install/groot:/home/joanne/bookros2_ws/install/controller_manager_msgs:/home/joanne/bookros2_ws/install/br2_vff_avoidance:/home/joanne/bookros2_ws/install/br2_tracking:/home/joanne/bookros2_ws/install/br2_tracking_msgs:/home/joanne/bookros2_ws/install/br2_tiago:/home/joanne/bookros2_ws/install/br2_tf2_detector:/home/joanne/bookros2_ws/install/br2_navigation:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_cpp:/home/joanne/bookros2_ws/install/br2_bt_patrolling:/home/joanne/bookros2_ws/install/br2_bt_bumpgo:/home/joanne/bookros2_ws/install/br2_basics:/home/joanne/bookros2_ws/install/ros2controlcli:/home/joanne/bookros2_ws/install/launch_pal:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy')]), 'shell': False}
+[0.199458] (-) TimerEvent: {}
+[0.300941] (-) TimerEvent: {}
+[0.401678] (-) TimerEvent: {}
+[0.472773] (br2_tf2_detector) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.502112] (-) TimerEvent: {}
+[0.603503] (-) TimerEvent: {}
+[0.705264] (-) TimerEvent: {}
+[0.805664] (br2_tf2_detector) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.806091] (-) TimerEvent: {}
+[0.906774] (-) TimerEvent: {}
+[1.008120] (-) TimerEvent: {}
+[1.109539] (-) TimerEvent: {}
+[1.211552] (-) TimerEvent: {}
+[1.311953] (-) TimerEvent: {}
+[1.413224] (-) TimerEvent: {}
+[1.514016] (-) TimerEvent: {}
+[1.615308] (-) TimerEvent: {}
+[1.717012] (-) TimerEvent: {}
+[1.818294] (-) TimerEvent: {}
+[1.919394] (-) TimerEvent: {}
+[2.020174] (-) TimerEvent: {}
+[2.121373] (-) TimerEvent: {}
+[2.222256] (-) TimerEvent: {}
+[2.323154] (-) TimerEvent: {}
+[2.333562] (br2_tf2_detector) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.416135] (br2_tf2_detector) StdoutLine: {'line': b'-- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[2.423646] (-) TimerEvent: {}
+[2.526771] (-) TimerEvent: {}
+[2.629524] (-) TimerEvent: {}
+[2.703503] (br2_tf2_detector) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.729734] (br2_tf2_detector) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[2.730432] (-) TimerEvent: {}
+[2.831170] (-) TimerEvent: {}
+[2.932430] (-) TimerEvent: {}
+[3.033337] (-) TimerEvent: {}
+[3.134392] (-) TimerEvent: {}
+[3.235291] (-) TimerEvent: {}
+[3.336104] (-) TimerEvent: {}
+[3.438032] (-) TimerEvent: {}
+[3.483552] (br2_tf2_detector) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.538346] (-) TimerEvent: {}
+[3.640255] (-) TimerEvent: {}
+[3.742563] (-) TimerEvent: {}
+[3.843986] (-) TimerEvent: {}
+[3.867592] (br2_tf2_detector) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[3.896636] (br2_tf2_detector) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.944426] (-) TimerEvent: {}
+[4.045127] (-) TimerEvent: {}
+[4.146813] (-) TimerEvent: {}
+[4.247850] (-) TimerEvent: {}
+[4.349549] (-) TimerEvent: {}
+[4.452664] (-) TimerEvent: {}
+[4.553584] (-) TimerEvent: {}
+[4.655365] (-) TimerEvent: {}
+[4.756551] (-) TimerEvent: {}
+[4.793999] (br2_tf2_detector) StdoutLine: {'line': b'-- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)\n'}
+[4.856802] (-) TimerEvent: {}
+[4.957886] (-) TimerEvent: {}
+[5.059945] (-) TimerEvent: {}
+[5.162440] (-) TimerEvent: {}
+[5.263880] (-) TimerEvent: {}
+[5.365415] (-) TimerEvent: {}
+[5.467120] (-) TimerEvent: {}
+[5.568143] (-) TimerEvent: {}
+[5.670858] (-) TimerEvent: {}
+[5.772718] (-) TimerEvent: {}
+[5.874488] (-) TimerEvent: {}
+[5.975974] (-) TimerEvent: {}
+[6.077117] (-) TimerEvent: {}
+[6.178756] (-) TimerEvent: {}
+[6.280613] (-) TimerEvent: {}
+[6.382690] (-) TimerEvent: {}
+[6.484386] (-) TimerEvent: {}
+[6.585297] (-) TimerEvent: {}
+[6.686740] (-) TimerEvent: {}
+[6.788764] (-) TimerEvent: {}
+[6.890527] (-) TimerEvent: {}
+[6.991985] (-) TimerEvent: {}
+[7.015866] (br2_tf2_detector) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[7.092362] (-) TimerEvent: {}
+[7.193560] (-) TimerEvent: {}
+[7.295359] (-) TimerEvent: {}
+[7.396943] (-) TimerEvent: {}
+[7.476331] (br2_tf2_detector) StdoutLine: {'line': b'-- Found visualization_msgs: 2.0.5 (/opt/ros/foxy/share/visualization_msgs/cmake)\n'}
+[7.497379] (-) TimerEvent: {}
+[7.599088] (-) TimerEvent: {}
+[7.700863] (-) TimerEvent: {}
+[7.801816] (-) TimerEvent: {}
+[7.903392] (-) TimerEvent: {}
+[7.975549] (br2_tf2_detector) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[8.003646] (-) TimerEvent: {}
+[8.104331] (-) TimerEvent: {}
+[8.205154] (-) TimerEvent: {}
+[8.306430] (-) TimerEvent: {}
+[8.408035] (-) TimerEvent: {}
+[8.510357] (-) TimerEvent: {}
+[8.566042] (br2_tf2_detector) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[8.572592] (br2_tf2_detector) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[8.574093] (br2_tf2_detector) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/include\n'}
+[8.574844] (br2_tf2_detector) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[8.579094] (br2_tf2_detector) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[8.583819] (br2_tf2_detector) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[8.587205] (br2_tf2_detector) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[8.590227] (br2_tf2_detector) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[8.593078] (br2_tf2_detector) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[8.599926] (br2_tf2_detector) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[8.601047] (br2_tf2_detector) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[8.604982] (br2_tf2_detector) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[8.610608] (-) TimerEvent: {}
+[8.631073] (br2_tf2_detector) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.710902] (-) TimerEvent: {}
+[8.812041] (-) TimerEvent: {}
+[8.831907] (br2_tf2_detector) StdoutLine: {'line': b'-- Generating done\n'}
+[8.903551] (br2_tf2_detector) StdoutLine: {'line': b'-- Build files have been written to: /home/joanne/bookros2_ws/build/br2_tf2_detector\n'}
+[8.912165] (-) TimerEvent: {}
+[9.012906] (-) TimerEvent: {}
+[9.113689] (-) TimerEvent: {}
+[9.140870] (br2_tf2_detector) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target br2_tf2_detector\x1b[0m\n'}
+[9.213953] (-) TimerEvent: {}
+[9.315243] (-) TimerEvent: {}
+[9.321100] (br2_tf2_detector) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/br2_tf2_detector.dir/src/br2_tf2_detector/Said.cpp.o\x1b[0m\n'}
+[9.415592] (-) TimerEvent: {}
+[9.516980] (-) TimerEvent: {}
+[9.618629] (-) TimerEvent: {}
+[9.719746] (-) TimerEvent: {}
+[9.821531] (-) TimerEvent: {}
+[9.923780] (-) TimerEvent: {}
+[10.024640] (-) TimerEvent: {}
+[10.125646] (-) TimerEvent: {}
+[10.226963] (-) TimerEvent: {}
+[10.328616] (-) TimerEvent: {}
+[10.430096] (-) TimerEvent: {}
+[10.531804] (-) TimerEvent: {}
+[10.632913] (-) TimerEvent: {}
+[10.734524] (-) TimerEvent: {}
+[10.835353] (-) TimerEvent: {}
+[10.941686] (-) TimerEvent: {}
+[11.043410] (-) TimerEvent: {}
+[11.145579] (-) TimerEvent: {}
+[11.247394] (-) TimerEvent: {}
+[11.349241] (-) TimerEvent: {}
+[11.450652] (-) TimerEvent: {}
+[11.552138] (-) TimerEvent: {}
+[11.653426] (-) TimerEvent: {}
+[11.754901] (-) TimerEvent: {}
+[11.856405] (-) TimerEvent: {}
+[11.958040] (-) TimerEvent: {}
+[12.059824] (-) TimerEvent: {}
+[12.161168] (-) TimerEvent: {}
+[12.263088] (-) TimerEvent: {}
+[12.363916] (-) TimerEvent: {}
+[12.464793] (-) TimerEvent: {}
+[12.566234] (-) TimerEvent: {}
+[12.669325] (-) TimerEvent: {}
+[12.770537] (-) TimerEvent: {}
+[12.871453] (-) TimerEvent: {}
+[12.972866] (-) TimerEvent: {}
+[13.074939] (-) TimerEvent: {}
+[13.177274] (-) TimerEvent: {}
+[13.278406] (-) TimerEvent: {}
+[13.380248] (-) TimerEvent: {}
+[13.481447] (-) TimerEvent: {}
+[13.583186] (-) TimerEvent: {}
+[13.684796] (-) TimerEvent: {}
+[13.786094] (-) TimerEvent: {}
+[13.887733] (-) TimerEvent: {}
+[13.989777] (-) TimerEvent: {}
+[14.091541] (-) TimerEvent: {}
+[14.193787] (-) TimerEvent: {}
+[14.295267] (-) TimerEvent: {}
+[14.396661] (-) TimerEvent: {}
+[14.497696] (-) TimerEvent: {}
+[14.600266] (-) TimerEvent: {}
+[14.701097] (-) TimerEvent: {}
+[14.801755] (-) TimerEvent: {}
+[14.902848] (-) TimerEvent: {}
+[15.004817] (-) TimerEvent: {}
+[15.105883] (-) TimerEvent: {}
+[15.207152] (-) TimerEvent: {}
+[15.308682] (-) TimerEvent: {}
+[15.409904] (-) TimerEvent: {}
+[15.511520] (-) TimerEvent: {}
+[15.613842] (-) TimerEvent: {}
+[15.718071] (-) TimerEvent: {}
+[15.818863] (-) TimerEvent: {}
+[15.920499] (-) TimerEvent: {}
+[16.021912] (-) TimerEvent: {}
+[16.124157] (-) TimerEvent: {}
+[16.226317] (-) TimerEvent: {}
+[16.327082] (-) TimerEvent: {}
+[16.428483] (-) TimerEvent: {}
+[16.530248] (-) TimerEvent: {}
+[16.631555] (-) TimerEvent: {}
+[16.732913] (-) TimerEvent: {}
+[16.834968] (-) TimerEvent: {}
+[16.938802] (-) TimerEvent: {}
+[17.040641] (-) TimerEvent: {}
+[17.143263] (-) TimerEvent: {}
+[17.245803] (-) TimerEvent: {}
+[17.347401] (-) TimerEvent: {}
+[17.448482] (-) TimerEvent: {}
+[17.549581] (-) TimerEvent: {}
+[17.650783] (-) TimerEvent: {}
+[17.751608] (-) TimerEvent: {}
+[17.853102] (-) TimerEvent: {}
+[17.954139] (-) TimerEvent: {}
+[18.055721] (-) TimerEvent: {}
+[18.156465] (-) TimerEvent: {}
+[18.257309] (-) TimerEvent: {}
+[18.359017] (-) TimerEvent: {}
+[18.460386] (-) TimerEvent: {}
+[18.561947] (-) TimerEvent: {}
+[18.663113] (-) TimerEvent: {}
+[18.764029] (-) TimerEvent: {}
+[18.865210] (-) TimerEvent: {}
+[18.966667] (-) TimerEvent: {}
+[19.068087] (-) TimerEvent: {}
+[19.170055] (-) TimerEvent: {}
+[19.272010] (-) TimerEvent: {}
+[19.374330] (-) TimerEvent: {}
+[19.475295] (-) TimerEvent: {}
+[19.577500] (-) TimerEvent: {}
+[19.679102] (-) TimerEvent: {}
+[19.780571] (-) TimerEvent: {}
+[19.881316] (-) TimerEvent: {}
+[19.982256] (-) TimerEvent: {}
+[20.083306] (-) TimerEvent: {}
+[20.184954] (-) TimerEvent: {}
+[20.286017] (-) TimerEvent: {}
+[20.388055] (-) TimerEvent: {}
+[20.489998] (-) TimerEvent: {}
+[20.591136] (-) TimerEvent: {}
+[20.692710] (-) TimerEvent: {}
+[20.794663] (-) TimerEvent: {}
+[20.895985] (-) TimerEvent: {}
+[20.996941] (-) TimerEvent: {}
+[21.097652] (-) TimerEvent: {}
+[21.198700] (-) TimerEvent: {}
+[21.300491] (-) TimerEvent: {}
+[21.401603] (-) TimerEvent: {}
+[21.503035] (-) TimerEvent: {}
+[21.604308] (-) TimerEvent: {}
+[21.705603] (-) TimerEvent: {}
+[21.806507] (-) TimerEvent: {}
+[21.908712] (-) TimerEvent: {}
+[22.009968] (-) TimerEvent: {}
+[22.111805] (-) TimerEvent: {}
+[22.212941] (-) TimerEvent: {}
+[22.314852] (-) TimerEvent: {}
+[22.337110] (br2_tf2_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/Said.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kbr2_tf2_detector::Said::Said()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[22.338058] (br2_tf2_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/Said.cpp:37:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Publisher<visualization_msgs::msg::Marker_<std::allocator<void> > >::SharedPtr\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Publisher<visualization_msgs::msg::Marker_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Node>\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[22.339057] (br2_tf2_detector) StderrLine: {'line': b'   37 |   marker_pub_ = rclcpp::Node::make_shared("said"\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[22.340077] (br2_tf2_detector) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[22.340506] (br2_tf2_detector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[22.340771] (br2_tf2_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/thread:39\x1b[m\x1b[K,\n'}
+[22.340981] (br2_tf2_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/tf2/time.h:37\x1b[m\x1b[K,\n'}
+[22.341185] (br2_tf2_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/tf2/transform_datatypes.h:38\x1b[m\x1b[K,\n'}
+[22.341389] (br2_tf2_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/Said.cpp:15\x1b[m\x1b[K:\n'}
+[22.341584] (br2_tf2_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:309:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Tp>&) [with _Tp = rclcpp::Publisher<visualization_msgs::msg::Marker_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[22.341805] (br2_tf2_detector) StderrLine: {'line': b'  309 |       shared_ptr& \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const shared_ptr&) noexcept = default;\n'}
+[22.341992] (br2_tf2_detector) StderrLine: {'line': b'      |                   \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[22.342178] (br2_tf2_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:309:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Node>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::shared_ptr<rclcpp::Publisher<visualization_msgs::msg::Marker_<std::allocator<void> > > >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[22.342400] (br2_tf2_detector) StderrLine: {'line': b'  309 |       shared_ptr& operator=(\x1b[01;36m\x1b[Kconst shared_ptr&\x1b[m\x1b[K) noexcept = default;\n'}
+[22.342679] (br2_tf2_detector) StderrLine: {'line': b'      |                             \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.343505] (br2_tf2_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:313:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<const std::shared_ptr<_Yp>&> std::shared_ptr<_Tp>::operator=(const std::shared_ptr<_Yp>&) [with _Yp = _Yp; _Tp = rclcpp::Publisher<visualization_msgs::msg::Marker_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[22.345876] (br2_tf2_detector) StderrLine: {'line': b'  313 |  \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const shared_ptr<_Yp>& __r) noexcept\n'}
+[22.347377] (br2_tf2_detector) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[22.356869] (br2_tf2_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:313:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[22.357640] (br2_tf2_detector) StderrLine: {'line': b'/usr/include/c++/9/bits/shared_ptr.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = const std::shared_ptr<rclcpp::Node>&; _Tp = rclcpp::Publisher<visualization_msgs::msg::Marker_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[22.357886] (br2_tf2_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:313:2:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Publisher<visualization_msgs::msg::Marker_<std::allocator<void> > > >::_Assignable<const std::shared_ptr<_Tp>&> std::shared_ptr<rclcpp::Publisher<visualization_msgs::msg::Marker_<std::allocator<void> > > >::operator=<_Yp>(const std::shared_ptr<_Tp>&) [with _Yp = rclcpp::Node]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[22.358121] (br2_tf2_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/Said.cpp:37:49:\x1b[m\x1b[K   required from here\n'}
+[22.358360] (br2_tf2_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:111:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Publisher<visualization_msgs::msg::Marker_<std::allocator<void> > > >&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[22.358554] (br2_tf2_detector) StderrLine: {'line': b'  111 |  using \x1b[01;31m\x1b[K_Assignable\x1b[m\x1b[K = typename enable_if<\n'}
+[22.358770] (br2_tf2_detector) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.359005] (br2_tf2_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:324:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::auto_ptr<_Up> > std::shared_ptr<_Tp>::operator=(std::auto_ptr<_Up>&&) [with _Yp = _Yp; _Tp = rclcpp::Publisher<visualization_msgs::msg::Marker_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[22.359378] (br2_tf2_detector) StderrLine: {'line': b'  324 |  \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(auto_ptr<_Yp>&& __r)\n'}
+[22.361233] (br2_tf2_detector) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[22.362338] (br2_tf2_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:324:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[22.363763] (br2_tf2_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/Said.cpp:37:49:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Node>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::auto_ptr<_Up>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[22.368461] (br2_tf2_detector) StderrLine: {'line': b'   37 |   marker_pub_ = rclcpp::Node::make_shared("said"\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[22.368924] (br2_tf2_detector) StderrLine: {'line': b'      |                                                 \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[22.369534] (br2_tf2_detector) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/memory:81\x1b[m\x1b[K,\n'}
+[22.379252] (br2_tf2_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/thread:39\x1b[m\x1b[K,\n'}
+[22.380909] (br2_tf2_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/tf2/time.h:37\x1b[m\x1b[K,\n'}
+[22.382476] (br2_tf2_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/tf2/transform_datatypes.h:38\x1b[m\x1b[K,\n'}
+[22.383898] (br2_tf2_detector) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/Said.cpp:15\x1b[m\x1b[K:\n'}
+[22.384861] (br2_tf2_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:333:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>& std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Tp>&&) [with _Tp = rclcpp::Publisher<visualization_msgs::msg::Marker_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[22.385246] (br2_tf2_detector) StderrLine: {'line': b'  333 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(shared_ptr&& __r) noexcept\n'}
+[22.385472] (br2_tf2_detector) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[22.385701] (br2_tf2_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:333:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Node>\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Publisher<visualization_msgs::msg::Marker_<std::allocator<void> > > >&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[22.385919] (br2_tf2_detector) StderrLine: {'line': b'  333 |       operator=(\x1b[01;36m\x1b[Kshared_ptr&& __r\x1b[m\x1b[K) noexcept\n'}
+[22.386118] (br2_tf2_detector) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[22.386295] (br2_tf2_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:341:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<_Tp>::_Assignable<std::shared_ptr<_Yp> > std::shared_ptr<_Tp>::operator=(std::shared_ptr<_Yp>&&) [with _Yp = _Yp; _Tp = rclcpp::Publisher<visualization_msgs::msg::Marker_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[22.386512] (br2_tf2_detector) StderrLine: {'line': b'  341 |  \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(shared_ptr<_Yp>&& __r) noexcept\n'}
+[22.386690] (br2_tf2_detector) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[22.386884] (br2_tf2_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:341:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[22.387114] (br2_tf2_detector) StderrLine: {'line': b'/usr/include/c++/9/bits/shared_ptr.h: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> template<class _Arg> using _Assignable = typename std::enable_if<std::is_assignable<std::__shared_ptr<_Tp>&, _Arg>::value, std::shared_ptr<_Tp>&>::type [with _Arg = std::shared_ptr<rclcpp::Node>; _Tp = rclcpp::Publisher<visualization_msgs::msg::Marker_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[22.387387] (br2_tf2_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:341:2:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp> std::shared_ptr<rclcpp::Publisher<visualization_msgs::msg::Marker_<std::allocator<void> > > >::_Assignable<std::shared_ptr<_Tp> > std::shared_ptr<rclcpp::Publisher<visualization_msgs::msg::Marker_<std::allocator<void> > > >::operator=<_Yp>(std::shared_ptr<_Tp>&&) [with _Yp = rclcpp::Node]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[22.387642] (br2_tf2_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/Said.cpp:37:49:\x1b[m\x1b[K   required from here\n'}
+[22.388071] (br2_tf2_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:111:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, std::shared_ptr<rclcpp::Publisher<visualization_msgs::msg::Marker_<std::allocator<void> > > >&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[22.393222] (br2_tf2_detector) StderrLine: {'line': b'  111 |  using \x1b[01;31m\x1b[K_Assignable\x1b[m\x1b[K = typename enable_if<\n'}
+[22.393872] (br2_tf2_detector) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.394369] (br2_tf2_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:349:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Yp, class _Del> std::shared_ptr<_Tp>::_Assignable<std::unique_ptr<_Up, _Ep> > std::shared_ptr<_Tp>::operator=(std::unique_ptr<_Up, _Ep>&&) [with _Yp = _Yp; _Del = _Del; _Tp = rclcpp::Publisher<visualization_msgs::msg::Marker_<std::allocator<void> > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[22.395075] (br2_tf2_detector) StderrLine: {'line': b'  349 |  \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(unique_ptr<_Yp, _Del>&& __r)\n'}
+[22.399430] (br2_tf2_detector) StderrLine: {'line': b'      |  \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[22.401067] (br2_tf2_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/bits/shared_ptr.h:349:2:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[22.406514] (br2_tf2_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/Said.cpp:37:49:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Node>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::unique_ptr<_Tp, _Dp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[22.407811] (br2_tf2_detector) StderrLine: {'line': b'   37 |   marker_pub_ = rclcpp::Node::make_shared("said"\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[22.414726] (br2_tf2_detector) StderrLine: {'line': b'      |                                                 \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[22.416195] (-) TimerEvent: {}
+[22.446941] (br2_tf2_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/Said.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid br2_tf2_detector::Said::control_cycle()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[22.447344] (br2_tf2_detector) StderrLine: {'line': b'\x1b[01m\x1b[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/Said.cpp:47:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KRCLCPP\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[22.447652] (br2_tf2_detector) StderrLine: {'line': b'   47 |         \x1b[01;31m\x1b[KRCLCPP\x1b[m\x1b[K.INFO(get_logger(), "HI TESTINGG");\n'}
+[22.447857] (br2_tf2_detector) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[22.516850] (-) TimerEvent: {}
+[22.618351] (-) TimerEvent: {}
+[22.720258] (-) TimerEvent: {}
+[22.822839] (-) TimerEvent: {}
+[22.924148] (-) TimerEvent: {}
+[23.026476] (-) TimerEvent: {}
+[23.128482] (-) TimerEvent: {}
+[23.230267] (-) TimerEvent: {}
+[23.332102] (-) TimerEvent: {}
+[23.435136] (-) TimerEvent: {}
+[23.538410] (-) TimerEvent: {}
+[23.639664] (-) TimerEvent: {}
+[23.741173] (-) TimerEvent: {}
+[23.842303] (-) TimerEvent: {}
+[23.944494] (-) TimerEvent: {}
+[24.045645] (-) TimerEvent: {}
+[24.147187] (-) TimerEvent: {}
+[24.250160] (-) TimerEvent: {}
+[24.352872] (-) TimerEvent: {}
+[24.454153] (-) TimerEvent: {}
+[24.555810] (-) TimerEvent: {}
+[24.658327] (-) TimerEvent: {}
+[24.759010] (-) TimerEvent: {}
+[24.860366] (-) TimerEvent: {}
+[24.961923] (-) TimerEvent: {}
+[25.062840] (-) TimerEvent: {}
+[25.164392] (-) TimerEvent: {}
+[25.265782] (-) TimerEvent: {}
+[25.366570] (-) TimerEvent: {}
+[25.468261] (-) TimerEvent: {}
+[25.569275] (-) TimerEvent: {}
+[25.669984] (-) TimerEvent: {}
+[25.771261] (-) TimerEvent: {}
+[25.872494] (-) TimerEvent: {}
+[25.975895] (-) TimerEvent: {}
+[26.077636] (-) TimerEvent: {}
+[26.178169] (-) TimerEvent: {}
+[26.279171] (-) TimerEvent: {}
+[26.381325] (-) TimerEvent: {}
+[26.483188] (-) TimerEvent: {}
+[26.584051] (-) TimerEvent: {}
+[26.685103] (-) TimerEvent: {}
+[26.786320] (-) TimerEvent: {}
+[26.858296] (br2_tf2_detector) StderrLine: {'line': b'make[2]: *** [CMakeFiles/br2_tf2_detector.dir/build.make:102: CMakeFiles/br2_tf2_detector.dir/src/br2_tf2_detector/Said.cpp.o] Error 1\n'}
+[26.862450] (br2_tf2_detector) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/br2_tf2_detector.dir/all] Error 2\n'}
+[26.864698] (br2_tf2_detector) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[26.874710] (br2_tf2_detector) CommandEnded: {'returncode': 2}
+[26.886538] (-) TimerEvent: {}
+[26.993197] (-) TimerEvent: {}
+[27.041993] (br2_tf2_detector) JobEnded: {'identifier': 'br2_tf2_detector', 'rc': 2}
+[27.055318] (-) EventReactorShutdown: {}

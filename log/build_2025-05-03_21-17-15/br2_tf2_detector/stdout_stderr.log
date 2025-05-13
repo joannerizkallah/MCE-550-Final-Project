@@ -1,0 +1,22 @@
+[35m[1mScanning dependencies of target br2_tf2_detector[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/br2_tf2_detector.dir/src/br2_tf2_detector/ObstacleDetectorNode.cpp.o[0m
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/ObstacleDetectorNode.cpp:[m[K In member function ‘[01m[Kvoid br2_tf2_detector::ObstacleDetectorNode::scan_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::UniquePtr)[m[K’:
+[01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/ObstacleDetectorNode.cpp:64:69:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ktf2::BufferCore::lookupTransform(const string&, const char [18], rclcpp::Time&)[m[K’
+   64 |           reference_frames[idx], "detected_obstacle", transform_time[01;31m[K)[m[K;
+      |                                                                     [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/tf2_ros/buffer.h:43[m[K,
+                 from [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/include/br2_tf2_detector/ObstacleDetectorNode.hpp:21[m[K,
+                 from [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/ObstacleDetectorNode.cpp:17[m[K:
+[01m[K/opt/ros/foxy/include/tf2/buffer_core.h:136:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvirtual geometry_msgs::msg::TransformStamped tf2::BufferCore::lookupTransform(const string&, const string&, const TimePoint&) const[m[K’
+  136 |     [01;36m[KlookupTransform[m[K(const std::string& target_frame, const std::string& source_frame,
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/tf2/buffer_core.h:137:24:[m[K [01;36m[Knote: [m[K  no known conversion for argument 3 from ‘[01m[Krclcpp::Time[m[K’ to ‘[01m[Kconst TimePoint&[m[K’ {aka ‘[01m[Kconst std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >&[m[K’}
+  137 |       [01;36m[Kconst TimePoint& time[m[K) const override;
+      |       [01;36m[K~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/opt/ros/foxy/include/tf2/buffer_core.h:153:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvirtual geometry_msgs::msg::TransformStamped tf2::BufferCore::lookupTransform(const string&, const TimePoint&, const string&, const TimePoint&, const string&) const[m[K’
+  153 |     [01;36m[KlookupTransform[m[K(const std::string& target_frame, const TimePoint& target_time,
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/tf2/buffer_core.h:153:5:[m[K [01;36m[Knote: [m[K  candidate expects 5 arguments, 3 provided
+make[2]: *** [CMakeFiles/br2_tf2_detector.dir/build.make:63: CMakeFiles/br2_tf2_detector.dir/src/br2_tf2_detector/ObstacleDetectorNode.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/br2_tf2_detector.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

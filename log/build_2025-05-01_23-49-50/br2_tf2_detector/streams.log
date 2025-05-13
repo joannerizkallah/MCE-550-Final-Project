@@ -1,0 +1,24 @@
+[0.145s] Invoking command in '/home/joanne/bookros2_ws/build/br2_tf2_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joanne/bookros2_ws/install/ros2controlcli:/home/joanne/bookros2_ws/install/launch_pal:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/joanne/bookros2_ws/build/br2_tf2_detector -- -j8 -l8
+[0.728s] [35m[1mScanning dependencies of target br2_tf2_detector[0m
+[0.993s] [ 11%] [32mBuilding CXX object CMakeFiles/br2_tf2_detector.dir/src/br2_tf2_detector/Said.cpp.o[0m
+[13.375s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/Said.cpp:[m[K In constructor ‘[01m[Kbr2_tf2_detector::Said::Said()[m[K’:
+[13.379s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/Said.cpp:36:3:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[Kbr2_tf2_detector::Said[m[K’ does not have any field named ‘[01m[Kfirst_transform[m[K’
+[13.380s]    36 |   [01;31m[Kfirst_transform[m[K(true)
+[13.385s]       |   [01;31m[K^~~~~~~~~~~~~~~[m[K
+[13.489s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/Said.cpp:[m[K In member function ‘[01m[Kvoid br2_tf2_detector::Said::control_cycle()[m[K’:
+[13.489s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/Said.cpp:64:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kfirst_transform_[m[K’ was not declared in this scope
+[13.489s]    64 | if ([01;31m[Kfirst_transform_[m[K) {
+[13.489s]       |     [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[13.510s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/Said.cpp:65:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kprev_transform_[m[K’ was not declared in this scope
+[13.511s]    65 |   [01;31m[Kprev_transform_[m[K = current_tf;
+[13.512s]       |   [01;31m[K^~~~~~~~~~~~~~~[m[K
+[13.535s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/Said.cpp:72:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kprev_transform_[m[K’ was not declared in this scope
+[13.536s]    72 | tf2::Transform movement = [01;31m[Kprev_transform_[m[K.inverse() * current_tf;
+[13.536s]       |                           [01;31m[K^~~~~~~~~~~~~~~[m[K
+[13.582s] [01m[K/home/joanne/bookros2_ws/src/book_ros2/br2_tf2_detector/src/br2_tf2_detector/Said.cpp:127:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kmarker_pub_[m[K’ was not declared in this scope
+[13.583s]   127 | [01;31m[Kmarker_pub_[m[K->publish(movement_arrow);
+[13.584s]       | [01;31m[K^~~~~~~~~~~[m[K
+[18.395s] make[2]: *** [CMakeFiles/br2_tf2_detector.dir/build.make:102: CMakeFiles/br2_tf2_detector.dir/src/br2_tf2_detector/Said.cpp.o] Error 1
+[18.396s] make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/br2_tf2_detector.dir/all] Error 2
+[18.396s] make: *** [Makefile:141: all] Error 2
+[18.397s] Invoked command in '/home/joanne/bookros2_ws/build/br2_tf2_detector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/joanne/bookros2_ws/install/ros2controlcli:/home/joanne/bookros2_ws/install/launch_pal:/home/joanne/bookros2_ws/install/br2_fsm_bumpgo_py:/opt/ros/foxy /usr/bin/cmake --build /home/joanne/bookros2_ws/build/br2_tf2_detector -- -j8 -l8
